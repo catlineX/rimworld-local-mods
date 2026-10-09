@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "gamePath": "F:/SteamLibrary/steamapps/common/RimWorld",
+  "gameConfigPath": "C:/Users/XueWen/AppData/LocalLow/Ludeon Studios/RimWorld by Ludeon Studios/Config",
+  "backupRoot": "D:/learn/openCode/content/game-data/rimworld/backups",
+  "releaseRoot": "D:/learn/openCode/content/game-data/rimworld/releases",
+  "compiler": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe",
+  "skillPath": "D:/learn/openCode/content/skills/rimworld-mod-workflow",
+  "skillSourceDir": "tools/skills/rimworld-mod-workflow",
+  "remoteStatus": "awaiting-user-repository-url"
+}

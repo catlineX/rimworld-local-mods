@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+  <name>Custom Infestations (Continued) - 简体中文补丁</name>
+  <author>Local translation patch</author>
+  <packageId>local.xuewen.custominfestations.continued.zhcn</packageId>
+  <modVersion>1.0.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Custom Infestations (Continued) 的简体中文界面补丁。</description>
+  <loadAfter>
+    <li>local.custominfestations.continued</li>
+    <li>imranfish.xmlextensions</li>
+  </loadAfter>
+</ModMetaData>

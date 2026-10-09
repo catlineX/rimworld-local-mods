@@ -1,0 +1,6 @@
+interface:
+  display_name: "RimWorld 模组制作与发布"
+  short_description: "管理本地模组制作、修改、中文汉化、备份部署和 Git 版本发布流程"
+  default_prompt: "使用 $rimworld-mod-workflow 完成当前模组修改，备份、验证并同步到已配置的 Git 仓库。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- Nine-tail: 30-day shearing interval -> 3 days, 10x frequency. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Yokai_NineTail"]/comps/li[contains(@Class,"CompProperties_Shearable")]/shearIntervalDays</xpath>
+    <value>
+      <shearIntervalDays>3</shearIntervalDays>
+    </value>
+  </Operation>
+
+  <!-- Yuki Shizuku / 月牙精灵: 5000 points -> 100 points, 50x progress. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Yokai_YukiShizuku"]/comps/li[contains(@Class,"YokaiCompProperties_SpawnThing")]/dropThingAndNeedPoint/needPoint</xpath>
+    <value>
+      <needPoint>100</needPoint>
+    </value>
+  </Operation>
+
+  <!-- Tusk spirit: 135000 points -> 2700 points, 50x production. The DefName is misspelled as Yokai_TuskSprit in the original mod. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Yokai_TuskSprit"]/comps/li[contains(@Class,"YokaiCompProperties_SpawnThing")]/dropThingAndNeedPoint/needPoint</xpath>
+    <value>
+      <needPoint>2700</needPoint>
+    </value>
+  </Operation>
+
+  <!-- Hiirokabe / 日绯色壁: 15-day shearing interval -> 1.5 days, 10x frequency. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Yokai_HihiiroKabe"]/comps/li[contains(@Class,"CompProperties_Shearable")]/shearIntervalDays</xpath>
+    <value>
+      <shearIntervalDays>1.5</shearIntervalDays>
+    </value>
+  </Operation>
+</Patch>

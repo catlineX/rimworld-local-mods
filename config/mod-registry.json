@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "mods": [
+    {
+      "name": "AnimalFilthControl",
+      "packageId": "local.xuewen.animalfilthcontrol",
+      "sourceDir": "AnimalFilthControl",
+      "installDir": "AnimalFilthControl",
+      "kind": "CSharp-StatPart",
+      "assembly": "AnimalFilthControl.dll",
+      "sourceFiles": ["Source/AnimalFilthControl.cs"],
+      "settingsFiles": ["Mod_AnimalFilthControl_AnimalFilthControlMod.xml"],
+      "dependencies": [],
+      "publishLicense": "unassigned"
+    },
+    {
+      "name": "YokaiVillage_AnimalProductSpeed",
+      "packageId": "local.xuewen.yokaivillage.animalproductspeed",
+      "sourceDir": "YokaiVillage_AnimalProductSpeed",
+      "installDir": "YokaiVillage_AnimalProductSpeed",
+      "kind": "XML-patch",
+      "sourceFiles": [],
+      "settingsFiles": [],
+      "dependencies": ["YokaiMura.1.32"],
+      "publishLicense": "unassigned"
+    },
+    {
+      "name": "CustomInfestationsContinued_ChineseSimplified",
+      "packageId": "local.xuewen.custominfestations.continued.zhcn",
+      "sourceDir": "CustomInfestationsContinued_ChineseSimplified",
+      "installDir": "CustomInfestationsContinued_ChineseSimplified",
+      "kind": "Chinese-translation-patch",
+      "sourceFiles": [],
+      "settingsFiles": [],
+      "dependencies": ["local.custominfestations.continued", "imranfish.xmlextensions"],
+      "publishLicense": "unassigned"
+    }
+  ]
+}

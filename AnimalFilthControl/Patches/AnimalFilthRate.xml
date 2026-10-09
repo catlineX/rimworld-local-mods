@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/StatDef[defName="FilthRate"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/StatDef[defName="FilthRate"]/parts</xpath>
+      <value><li Class="XueWen.AnimalFilthControl.StatPart_AnimalFilthScale" /></value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/StatDef[defName="FilthRate"]</xpath>
+      <value><parts><li Class="XueWen.AnimalFilthControl.StatPart_AnimalFilthScale" /></parts></value>
+    </nomatch>
+  </Operation>
+</Patch>

@@ -1,0 +1,21 @@
+# Never version game state, credentials, or local backups.
+backups/
+releases/
+logs/
+bin/
+obj/
+*.rws
+*.rws.*
+*.log
+*.dmp
+*.pdb
+*.zip
+*.bak
+*.tmp
+*.user
+*.local.json
+.env
+.env.*
+**/node_modules/
+**/__pycache__/
+# Assemblies contains our distributable DLL and remains tracked.

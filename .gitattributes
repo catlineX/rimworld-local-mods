@@ -1,0 +1,7 @@
+* text=auto
+*.xml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.cs text eol=lf
+*.ps1 text eol=crlf
+*.dll binary

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="XueWen.AnimalFilthControl.FilthSettings">
+		<animalFilthMultiplier>0.0500000007</animalFilthMultiplier>
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>动物污物系数调整</name>
+  <author>XueWen local mod</author>
+  <packageId>local.xuewen.animalfilthcontrol</packageId>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <modVersion>1.0.0</modVersion>
+  <description>在模组设置中调整所有动物的污物产生速率。默认10%，可设置0%至200%。包含使用原版FilthRate属性的模组动物。不改变人类污物、血迹、动物产物或已有污物。不需要Harmony。</description>
+</ModMetaData>
