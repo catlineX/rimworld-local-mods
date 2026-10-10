@@ -111,7 +111,7 @@ switch ($Action) {
         foreach ($entry in (Selected-Mods)) {
             if (-not $entry.assembly) { Write-Host "XML-only, no compile: $($entry.name)"; continue }
             $source=Scoped-Path $repoRoot $entry.sourceDir
-            [void](Backup-Targets ($entry.name+'-before-build') @($source))
+            Write-Host "Git-managed build (no file backup): $($entry.name)"
             $managed=Join-Path $workspace.gamePath 'RimWorldWin64_Data/Managed'
             $output=Scoped-Path $source ('Assemblies/'+$entry.assembly)
             $compileArgs=@('/nologo','/noconfig','/target:library','/optimize+','/nostdlib',('/out:'+$output))
@@ -139,7 +139,7 @@ switch ($Action) {
         $target=Scoped-Path (Join-Path $workspace.gamePath 'Mods') $entry.installDir
         if ($DryRun) { Write-Host "DRY RUN deploy $source -> $target (source files only; no deletion)"; break }
         Check-GameStopped
-        [void](Backup-Targets ($entry.name+'-before-deploy') @($source,$target))
+        Write-Host "Git-managed deployment (no file backup): $($entry.name)"
         if (-not (Test-Path -LiteralPath $target)) { [void](New-Item -ItemType Directory -Path $target) }
         foreach ($file in (Get-ChildItem -LiteralPath $source -Recurse -File)) {
             $relative=$file.FullName.Substring($source.Length+1)
@@ -161,7 +161,7 @@ switch ($Action) {
         if ($version -notmatch '^[0-9]+\.[0-9]+\.[0-9]+([-.][A-Za-z0-9]+)*$') { throw 'Unsafe or invalid modVersion.' }
         $zip=Join-Path $workspace.releaseRoot ($entry.name+'-v'+$version+'.zip')
         if ($DryRun) { Write-Host "DRY RUN package: $zip"; break }
-        [void](Backup-Targets ($entry.name+'-before-package') @($source,$zip))
+        Write-Host "Git-managed package (no file backup): $($entry.name)"
         if (-not (Test-Path -LiteralPath $workspace.releaseRoot)) {[void](New-Item -ItemType Directory -Path $workspace.releaseRoot -Force)}
         $stage=Join-Path (Join-Path $repoRoot '..\work') ('package-'+$entry.name+'-'+[Guid]::NewGuid().ToString('N'))
         [void](New-Item -ItemType Directory -Path $stage -Force)
@@ -204,7 +204,7 @@ switch ($Action) {
         if ($target -ne $allowed) { throw 'Skill deployment target does not match the explicitly configured skill directory.' }
         if (-not (Test-Path -LiteralPath (Join-Path $source 'SKILL.md'))) { throw 'Versioned skill source is missing.' }
         if ($DryRun) { Write-Host "DRY RUN skill deploy $source -> $target"; break }
-        [void](Backup-Targets 'rimworld-mod-workflow-before-skill-deploy' @($source,$target))
+        Write-Host 'Git-managed skill synchronization (no file backup).'
         if (-not (Test-Path -LiteralPath $target)) { [void](New-Item -ItemType Directory -Path $target) }
         foreach ($file in (Get-ChildItem -LiteralPath $source -Recurse -File)) {
             $relative=$file.FullName.Substring($source.Length+1)

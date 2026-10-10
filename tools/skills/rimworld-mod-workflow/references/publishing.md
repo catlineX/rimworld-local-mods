@@ -14,7 +14,7 @@
 
 ## 验证与提交
 
-先 `Validate`；C# 模组执行 `Build`。检查全部 changed files 与 backup 清单。真实游戏验证包括启动日志、XPath匹配、菜单中文、参数持久化和实际功能，按风险检查已有存档读入；操作存档仍遵守独立备份规则。
+先 `Validate`；C# 模组执行 `Build`。检查本次 changed files 和 Git 回退依据；本地模组不建立独立备份。真实游戏验证包括启动日志、XPath匹配、菜单中文、参数持久化和实际功能，按风险检查已有存档读入；操作存档仍遵守独立备份规则。
 
 只暂存本次明确路径。提交消息建议 `feat(AnimalFilthControl): ...`、`fix(YokaiVillage_AnimalProductSpeed): ...`、`i18n(CustomInfestations): ...`。提交说明不带token、存档内容或个人日志。
 
@@ -30,4 +30,4 @@ GitHub Release 可使用已登录 `gh` 或已连接 GitHub工具；若没有现�
 
 ## 回退
 
-回退修改也先备份。用 `git restore --source=<明确提交> -- <明确文件>` 恢复工作文件，重新验证和部署；禁止 `reset --hard`、整仓删除或无范围checkout。需要撤销已推送更改时用 `git revert` 形成新提交，不强推旧历史。
+本地模组回退不另建备份。先确认当前需保留的改动已提交或以限定路径保存在 Git 中，再用 `git restore --source=<明确提交> -- <明确文件>` 恢复工作文件，重新验证和部署；禁止 `reset --hard`、整仓删除或无范围checkout。需要撤销已推送更改时用 `git revert` 形成新提交，不强推旧历史。涉及存档、游戏配置或凭据时，仍按对应备份规则处理。
