@@ -25,3 +25,5 @@
 技能入口：`D:/learn/openCode/content/skills/rimworld-mod-workflow/SKILL.md`，可用 `$rimworld-mod-workflow` 调用。OpenCode读取全局技能目录；Codex通过 `.agents/skills/rimworld-mod-workflow` 的目录联接发现。
 
 发布许可尚未指定。提交源码和私有备份同步不等于对外公开发行；公开发行前须确定许可，汉化包只包含自写补丁，不能把上游模组一起发布。
+
+GitHub CLI 已通过官方校验安装到 D 盘，调用入口为 `D:/learn/openCode/content/commands/github.ps1`。OAuth认证配置保存在仓库之外，包装器自动沿用本机已有Git代理。用户已要求公开源码仓库，公开源码仓库不自动授予开源许可，也不等同于创建Release或上传Workshop。

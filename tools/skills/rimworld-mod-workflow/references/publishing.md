@@ -8,6 +8,10 @@
 
 身份沿用仓库或全局 Git 配置，不能从目录名编造用户邮箱。Git凭据助手或SSH的认证沿用已有设置；本工具不生成或保存token。
 
+本机已安装官方 GitHub CLI。使用 `config/workspace.json` 中的 `githubCliWrapper` 调用，包装器设置独立的 D 盘 `GH_CONFIG_DIR` 并沿用现有 Git 代理。不要直接假定系统 PATH 中有 gh。执行 `auth status` 和 `api user --jq .login` 核实账户；用户授权创建仓库时才执行 `repo create <账户>/<名称> --public --source <源码仓库> --remote origin --push`。
+
+首次 OAuth 设备授权由用户在 GitHub 官方页面完成；不要提取浏览器会话或token。认证目录不在模组仓库中，不提交 hosts.yml。Git推送需要gh凭据助手时，仅为该仓库配置调用上述包装器的helper，沿用其认证目录；配置前备份 `.git/config`，不覆盖其他仓库的认证配置。
+
 ## 验证与提交
 
 先 `Validate`；C# 模组执行 `Build`。检查全部 changed files 与 backup 清单。真实游戏验证包括启动日志、XPath匹配、菜单中文、参数持久化和实际功能，按风险检查已有存档读入；操作存档仍遵守独立备份规则。

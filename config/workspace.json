@@ -7,5 +7,8 @@
   "compiler": "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe",
   "skillPath": "D:/learn/openCode/content/skills/rimworld-mod-workflow",
   "skillSourceDir": "tools/skills/rimworld-mod-workflow",
-  "remoteStatus": "awaiting-user-repository-url"
+  "githubCliWrapper": "D:/learn/openCode/content/commands/github.ps1",
+  "remoteStatus": "awaiting-github-cli-device-authorization",
+  "requestedRepositoryName": "rimworld-local-mods",
+  "requestedRepositoryVisibility": "public"
 }
