@@ -25,7 +25,7 @@ namespace Local.XueWen.ChipInspirationFilter
                     throw new InvalidOperationException("Unsupported Polarisbloc chip implementation: Inspire(Pawn) not found.");
 
                 harmony.Patch(target, transpiler: new HarmonyMethod(typeof(ChipFilter), "Transpiler"));
-                Log.Message("[ChipInspirationFilter] 已启用：仅过滤灵感型战术芯片产生的射击灵感；自然灵感不变。");
+                Log.Message("[ChipInspirationFilter] v1.1.0 已启用：灵感型战术芯片只允许工作狂热和创造灵感；自然灵感不变。");
             }
             catch (Exception exception)
             {
@@ -38,7 +38,8 @@ namespace Local.XueWen.ChipInspirationFilter
     public static class ChipFilter
     {
         public const string ChipDefName = "PolarisCombatChip_Inspiration";
-        public const string BlockedInspiration = "Frenzy_Shoot";
+        public const string WorkInspiration = "Frenzy_Work";
+        public const string CreativeInspiration = "Inspired_Creativity";
 
         // Inject only into the chip's private Inspire method, not a global worker.
         public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
@@ -67,7 +68,9 @@ namespace Local.XueWen.ChipInspirationFilter
 
         public static bool ShouldExclude(string sourceHediffDefName, string inspirationDefName)
         {
-            return sourceHediffDefName == ChipDefName && inspirationDefName == BlockedInspiration;
+            return sourceHediffDefName == ChipDefName
+                && inspirationDefName != WorkInspiration
+                && inspirationDefName != CreativeInspiration;
         }
 
         public static List<InspirationDef> FilterCandidates(List<InspirationDef> candidates, HediffComp source)
@@ -79,7 +82,7 @@ namespace Local.XueWen.ChipInspirationFilter
             // Never mutate DefDatabase's shared list: natural and other sources keep it.
             List<InspirationDef> filtered = new List<InspirationDef>(candidates.Count);
             foreach (InspirationDef candidate in candidates)
-                if (candidate == null || !ShouldExclude(sourceName, candidate.defName))
+                if (candidate != null && !ShouldExclude(sourceName, candidate.defName))
                     filtered.Add(candidate);
             return filtered;
         }
