@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>战术芯片灵感过滤 / Chip Inspiration Filter</name>
+  <author>Local mod for XueWen</author>
+  <packageId>local.xuewen.chipinspirationfilter</packageId>
+  <modVersion>1.0.0</modVersion>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <modDependencies>
+    <li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li>
+    <li><packageId>vanya.polarisbloc.corelab.tmp</packageId><displayName>Polarisbloc - Core LAB tmp port</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/3225348593</steamWorkshopUrl></li>
+  </modDependencies>
+  <loadAfter><li>brrainz.harmony</li><li>vanya.polarisbloc.corelab.tmp</li></loadAfter>
+  <description>仅过滤天轴灵感型战术芯片（PolarisCombatChip_Inspiration）生成的射击灵感（Frenzy_Shoot）。保留原来的触发间隔、资格检查、随机权重和其他灵感。自然心情、灵能及其他模组产生的灵感不受影响。不修改殖民者技能、特性或已有灵感；无新增存档数据。需在天轴核心模组之后加载。</description>
+</ModMetaData>

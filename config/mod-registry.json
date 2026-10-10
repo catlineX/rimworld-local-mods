@@ -2,6 +2,20 @@
   "schemaVersion": 1,
   "mods": [
     {
+      "name": "ChipInspirationFilter",
+      "packageId": "local.xuewen.chipinspirationfilter",
+      "sourceDir": "ChipInspirationFilter",
+      "installDir": "ChipInspirationFilter",
+      "kind": "CSharp-Harmony-scoped-transpiler",
+      "assembly": "ChipInspirationFilter.dll",
+      "sourceFiles": ["Source/ChipInspirationFilter.cs"],
+      "additionalReferences": ["F:/SteamLibrary/steamapps/workshop/content/294100/2009463077/Current/Assemblies/0Harmony.dll"],
+      "settingsFiles": [],
+      "dependencies": ["brrainz.harmony", "vanya.polarisbloc.corelab.tmp"],
+      "buildEntry": "tools/mod-workflow.ps1 -Action Build -Mod ChipInspirationFilter",
+      "publishLicense": "unassigned"
+    },
+    {
       "name": "AnimalFilthControl",
       "packageId": "local.xuewen.animalfilthcontrol",
       "sourceDir": "AnimalFilthControl",

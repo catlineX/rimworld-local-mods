@@ -118,6 +118,13 @@ switch ($Action) {
             foreach ($name in @('mscorlib','System','System.Core','netstandard','Assembly-CSharp','UnityEngine.CoreModule','UnityEngine.IMGUIModule')) {
                 $compileArgs+=('/reference:'+(Join-Path $managed ($name+'.dll')))
             }
+            foreach ($reference in @($entry.additionalReferences)) {
+                if (-not $reference) { continue }
+                if (-not [IO.Path]::IsPathRooted($reference) -or -not (Test-Path -LiteralPath $reference -PathType Leaf)) {
+                    throw "Missing or non-absolute additional assembly reference: $reference"
+                }
+                $compileArgs+=('/reference:'+$reference)
+            }
             foreach ($file in @($entry.sourceFiles)) { $compileArgs+=(Scoped-Path $source $file) }
             if ($DryRun) { Write-Host "DRY RUN compile: $($entry.name)"; continue }
             & $workspace.compiler @compileArgs
