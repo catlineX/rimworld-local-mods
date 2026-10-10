@@ -1,5 +1,7 @@
 # RimWorld 本地模组仓库
 
+公开远端：[catlineX/rimworld-local-mods](https://github.com/catlineX/rimworld-local-mods)，默认分支 `main`。
+
 本目录是自建模组、独立补丁、汉化和可复现工程配置的唯一源码入口。游戏 `Mods` 中的同名目录为部署副本。
 
 | 模组 | 用途 |

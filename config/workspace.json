@@ -8,7 +8,9 @@
   "skillPath": "D:/learn/openCode/content/skills/rimworld-mod-workflow",
   "skillSourceDir": "tools/skills/rimworld-mod-workflow",
   "githubCliWrapper": "D:/learn/openCode/content/commands/github.ps1",
-  "remoteStatus": "awaiting-github-cli-device-authorization",
+  "remoteStatus": "connected",
+  "remoteUrl": "https://github.com/catlineX/rimworld-local-mods.git",
+  "githubAccount": "catlineX",
   "requestedRepositoryName": "rimworld-local-mods",
   "requestedRepositoryVisibility": "public"
 }
