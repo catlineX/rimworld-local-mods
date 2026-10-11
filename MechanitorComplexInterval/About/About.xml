@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>机械师遗迹间隔调整 / Mechanitor Complex Interval</name>
+  <author>Local patch for XueWen</author>
+  <packageId>local.xuewen.mechanitorcomplexinterval</packageId>
+  <modVersion>1.0.0</modVersion>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <modDependencies>
+    <li><packageId>ludeon.rimworld.biotech</packageId><displayName>Biotech</displayName></li>
+  </modDependencies>
+  <loadAfter><li>ludeon.rimworld.biotech</li></loadAfter>
+  <description>仅调整已有机械师或机械控制中枢时的机械师遗迹任务平均触发间隔：由约240游戏日改为约10游戏日。无机械师时的60日基础间隔、两次任务最少间隔60日、现有任务阻挡、其他资格与威胁条件均保持原样。10日是符合条件后随机检查的平均间隔，不是每10日固定生成任务。本模组不立即生成任务，不修改存档。</description>
+</ModMetaData>

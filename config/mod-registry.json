@@ -2,6 +2,18 @@
   "schemaVersion": 1,
   "mods": [
     {
+      "name": "MechanitorComplexInterval",
+      "packageId": "local.xuewen.mechanitorcomplexinterval",
+      "sourceDir": "MechanitorComplexInterval",
+      "installDir": "MechanitorComplexInterval",
+      "kind": "XML-patch",
+      "sourceFiles": [],
+      "settingsFiles": [],
+      "dependencies": ["ludeon.rimworld.biotech"],
+      "buildEntry": "tools/mod-workflow.ps1 -Action Validate -Mod MechanitorComplexInterval",
+      "publishLicense": "unassigned"
+    },
+    {
       "name": "ChipInspirationFilter",
       "packageId": "local.xuewen.chipinspirationfilter",
       "sourceDir": "ChipInspirationFilter",

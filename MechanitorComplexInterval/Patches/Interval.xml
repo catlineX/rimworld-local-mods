@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Keep mtbDays=60 and minSpacingDays=60 untouched. 60 * (1/6) ~= 10 days. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef/comps/li[@Class="StorytellerCompProperties_MechanitorComplexQuest"]/existingMechanitorOrMechlinkMTBFactor</xpath>
+    <value><existingMechanitorOrMechlinkMTBFactor>0.16666667</existingMechanitorOrMechlinkMTBFactor></value>
+  </Operation>
+</Patch>
