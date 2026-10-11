@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GNStorylineMoodDazzled.label>迷惘</GNStorylineMoodDazzled.label>
+  <GNStorylineMoodHungry.label>渴求</GNStorylineMoodHungry.label>
+  <GNStorylineMoodCurious.label>好奇</GNStorylineMoodCurious.label>
+  <GNStorylineMoodEnnui.label>虚无倦怠</GNStorylineMoodEnnui.label>
+  <GNStorylineMoodEnlightened.label>顿悟</GNStorylineMoodEnlightened.label>
+  <GNGenericMoodVeryUnhappy.label>非常不满</GNGenericMoodVeryUnhappy.label>
+  <GNGenericMoodUnhappy.label>不满</GNGenericMoodUnhappy.label>
+  <GNGenericMoodNeutral.label>平常</GNGenericMoodNeutral.label>
+  <GNGenericMoodHappy.label>愉快</GNGenericMoodHappy.label>
+  <GNGenericMoodVeryHappy.label>非常愉快</GNGenericMoodVeryHappy.label>
+  <GNGenericMoodExited.label>兴奋</GNGenericMoodExited.label>
+  <GNGenericMoodInventive.label>富有创意</GNGenericMoodInventive.label>
+  <GNGenericMoodSerene.label>安宁</GNGenericMoodSerene.label>
+  <GNGenericMoodContemplative.label>沉思</GNGenericMoodContemplative.label>
+  <GNGenericMoodInspired.label>灵感涌现</GNGenericMoodInspired.label>
+  <GNGenericMoodVeryInspired.label>灵感迸发</GNGenericMoodVeryInspired.label>
+  <GNGenericMoodIntrospective.label>自省</GNGenericMoodIntrospective.label>
+  <GNGenericMoodIncisive.label>思维敏锐</GNGenericMoodIncisive.label>
+  <GNGenericMoodSad.label>悲伤</GNGenericMoodSad.label>
+  <GNGenericMoodCalm.label>平静</GNGenericMoodCalm.label>
+  <GNGenericMoodTired.label>疲倦</GNGenericMoodTired.label>
+  <GNGenericMoodBored.label>无聊</GNGenericMoodBored.label>
+  <GNGenericMoodTranscendent.label>超越自我</GNGenericMoodTranscendent.label>
+</LanguageData>

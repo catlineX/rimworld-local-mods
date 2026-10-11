@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GNWorkType_TalkWithHub.labelShort>与冬寂交谈</GNWorkType_TalkWithHub.labelShort>
+  <GNWorkType_TalkWithHub.pawnLabel>交谈者</GNWorkType_TalkWithHub.pawnLabel>
+  <GNWorkType_TalkWithHub.gerundLabel>与冬寂交谈</GNWorkType_TalkWithHub.gerundLabel>
+  <GNWorkType_TalkWithHub.description>与冬寂讨论某个话题。</GNWorkType_TalkWithHub.description>
+  <GNWorkType_TalkWithHub.verb>交谈</GNWorkType_TalkWithHub.verb>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>GlitterNet 简体中文补全与校正</name>
+  <author>Local translation for XueWen</author>
+  <packageId>local.xuewen.glitternet.zhcnfix</packageId>
+  <modVersion>1.0.0</modVersion>
+  <supportedVersions><li>1.6</li></supportedVersions>
+  <modDependencies><li><packageId>K.GlitterNet</packageId><displayName>GlitterNet</displayName></li><li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName></li></modDependencies>
+  <loadAfter><li>K.GlitterNet</li></loadAfter>
+  <description>补全 GlitterNet 的网络总览、心情、工作、地点和系统唤醒任务简体中文，并校正算力、效率偏移、并行终端上限及温度设置的误译。语言文件加局部开发按钮文字补丁，不改玩法、数值或存档。请放在 GlitterNet 及其他 GlitterNet 汉化之后。人工核对当前1.6有效原文，保留格式占位符及任务语法。</description>
+</ModMetaData>

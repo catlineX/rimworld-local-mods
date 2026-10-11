@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Local.GlitterNetChineseFix.Debug.ResetLabel>调试：重置系统唤醒</Local.GlitterNetChineseFix.Debug.ResetLabel>
+  <Local.GlitterNetChineseFix.Debug.ResetDesc>重置系统唤醒的状态。</Local.GlitterNetChineseFix.Debug.ResetDesc>
+  <Local.GlitterNetChineseFix.Debug.QuestLabel>调试：生成随机任务</Local.GlitterNetChineseFix.Debug.QuestLabel>
+  <Local.GlitterNetChineseFix.Debug.QuestDesc>生成一个随机的苏醒中枢任务。</Local.GlitterNetChineseFix.Debug.QuestDesc>
+  <Local.GlitterNetChineseFix.Debug.MoodLabel>调试：恢复默认心情</Local.GlitterNetChineseFix.Debug.MoodLabel>
+  <Local.GlitterNetChineseFix.Debug.MoodDesc>强制将此中枢的心情恢复为默认状态。</Local.GlitterNetChineseFix.Debug.MoodDesc>
+  <Local.GlitterNetChineseFix.Debug.AddTrustLabel>调试：增加5点信任</Local.GlitterNetChineseFix.Debug.AddTrustLabel>
+  <Local.GlitterNetChineseFix.Debug.AddTrustDesc>使此中枢的信任增加5点。</Local.GlitterNetChineseFix.Debug.AddTrustDesc>
+  <Local.GlitterNetChineseFix.Debug.RemoveTrustLabel>调试：减少5点信任</Local.GlitterNetChineseFix.Debug.RemoveTrustLabel>
+  <Local.GlitterNetChineseFix.Debug.RemoveTrustDesc>使此中枢的信任减少5点。</Local.GlitterNetChineseFix.Debug.RemoveTrustDesc>
+  <Local.GlitterNetChineseFix.Debug.LogLabel>调试：输出任务日志</Local.GlitterNetChineseFix.Debug.LogLabel>
+  <Local.GlitterNetChineseFix.Debug.LogDesc>输出任务日志。</Local.GlitterNetChineseFix.Debug.LogDesc>
+</LanguageData>
+

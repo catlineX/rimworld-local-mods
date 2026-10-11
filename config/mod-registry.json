@@ -2,6 +2,19 @@
   "schemaVersion": 1,
   "mods": [
     {
+      "name": "GlitterNet_ChineseFix",
+      "packageId": "local.xuewen.glitternet.zhcnfix",
+      "sourceDir": "GlitterNet_ChineseFix",
+      "installDir": "GlitterNet_ChineseFix",
+      "kind": "Chinese-translation-with-scoped-debug-label-patch",
+      "assembly": "GlitterNetChineseFix.dll",
+      "sourceFiles": ["Source/DebugLabels.cs"],
+      "additionalReferences": ["F:/SteamLibrary/steamapps/workshop/content/294100/2009463077/Current/Assemblies/0Harmony.dll"],
+      "settingsFiles": [],
+      "dependencies": ["K.GlitterNet", "brrainz.harmony"],
+      "publishLicense": "unassigned"
+    },
+    {
       "name": "MechanitorComplexInterval",
       "packageId": "local.xuewen.mechanitorcomplexinterval",
       "sourceDir": "MechanitorComplexInterval",

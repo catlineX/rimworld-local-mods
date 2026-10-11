@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GNSpecializedOverdriveProcessor.description>闪耀网络专用处理器，以更高的算力用量换取更高的网络效率。每个网络中只有一台此类处理器生效。</GNSpecializedOverdriveProcessor.description>
+  <GNSpecializedOverheadProcessor.description>闪耀网络专用优化处理器，用于增加网络的可用算力。每个网络中只有一台此类处理器生效。</GNSpecializedOverheadProcessor.description>
+  <GNBasicPowerIntegrator.description>基础闪耀网络发电终端，可提高相连发电设备的输出，或降低相连用电设备的耗电量。没有专用并行处理器时，每座建筑最多同时连接两个终端。</GNBasicPowerIntegrator.description>
+  <GNImprovedPowerIntegrator.description>改进闪耀网络发电终端，提供更强的电力优化效果。没有专用并行处理器时，每座建筑最多同时连接两个终端。</GNImprovedPowerIntegrator.description>
+  <GNAdvancedPowerIntegrator.description>先进闪耀网络发电终端，提供最高的电力优化效果，也需要最多算力。没有专用并行处理器时，每座建筑最多同时连接两个终端。</GNAdvancedPowerIntegrator.description>
+</LanguageData>

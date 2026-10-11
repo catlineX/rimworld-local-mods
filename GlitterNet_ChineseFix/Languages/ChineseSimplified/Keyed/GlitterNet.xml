@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GlitterNet.Disconnected>未连接到正常运行的闪耀网络中枢。</GlitterNet.Disconnected>
+  <GlitterNet.Malfunctioning>网络故障。请查看闪耀网络中枢了解详情。</GlitterNet.Malfunctioning>
+  <GlitterNet.Functioning>已连接到闪耀网络中枢。效率：{0}%</GlitterNet.Functioning>
+  <GlitterNet.MultipleHubs>连接的中枢过多。每个网络只能连接一个中枢。当前中枢数量：{0}</GlitterNet.MultipleHubs>
+  <GlitterNet.ProcessingPower>算力：{0} PetaFLOPS</GlitterNet.ProcessingPower>
+  <GlitterNet.TotalProcessingPower>总算力：{0} PetaFLOPS</GlitterNet.TotalProcessingPower>
+  <GlitterNet.ProcessingUsage>算力用量：{0} PetaFLOPS</GlitterNet.ProcessingUsage>
+  <GlitterNet.ConnectedTo>当前连接到：{0}</GlitterNet.ConnectedTo>
+  <GlitterNet.TotalProcessingUsage>总算力用量：{0} PetaFLOPS</GlitterNet.TotalProcessingUsage>
+  <GlitterNet.HubFunctioning>系统正常运行。当前效率：{0}%</GlitterNet.HubFunctioning>
+  <GlitterNet.MalfunctioningPower>闪耀网络设备故障：未供电。</GlitterNet.MalfunctioningPower>
+  <GlitterNet.MalfunctioningBroken>闪耀网络设备故障：损坏。</GlitterNet.MalfunctioningBroken>
+  <GlitterNet.MalfunctioningTemp>闪耀网络设备故障：过热。最高工作温度：{0}</GlitterNet.MalfunctioningTemp>
+  <GlitterNet.ConnectedDevices>已连接 {0} 台闪耀网络设备。</GlitterNet.ConnectedDevices>
+  <GlitterNet.ConnectToNext>连接到下一个建筑</GlitterNet.ConnectToNext>
+  <GlitterNet.ConnectToNextDesc>将此终端连接到下一个可用建筑。</GlitterNet.ConnectToNextDesc>
+  <GlitterNet.MaxSimultaneousProcessor>并行处理器使每座建筑可同时连接的终端数量上限增加 {0}。</GlitterNet.MaxSimultaneousProcessor>
+  <GlitterNet.EfficiencyProcessor>效能处理器使网络效率上限提高 {0}。</GlitterNet.EfficiencyProcessor>
+  <GlitterNet.OverdriveProcessor>超频处理器使网络效率提高 {0}，同时使算力用量增加 {1}。</GlitterNet.OverdriveProcessor>
+  <GlitterNet.ProcessingPowerProcessor>优化处理器使网络算力提高 {0}。</GlitterNet.ProcessingPowerProcessor>
+  <GlitterNet.IntegratorsReport>闪耀网络终端</GlitterNet.IntegratorsReport>
+  <GlitterNet.AwokenStatus>已苏醒！</GlitterNet.AwokenStatus>
+  <GlitterNet.CurrentMood>当前心情：{0}</GlitterNet.CurrentMood>
+  <GlitterNet.AwokenHubName>冬寂</GlitterNet.AwokenHubName>
+  <GlitterNet.NetworkWindowGizmoLabel>打开网络总览</GlitterNet.NetworkWindowGizmoLabel>
+  <GlitterNet.NetworkWindowGizmoDesc>打开此设备所属网络的总览窗口。</GlitterNet.NetworkWindowGizmoDesc>
+  <GlitterNet.DesignatorDeconstructCable>拆除闪耀网络电缆</GlitterNet.DesignatorDeconstructCable>
+  <GlitterNet.DesignatorDeconstructCableDesc>指定区域内需要拆除的闪耀网络电缆。</GlitterNet.DesignatorDeconstructCableDesc>
+  <GlitterNet.BasicProcessors>基础处理器</GlitterNet.BasicProcessors>
+  <GlitterNet.ImprovedProcessors>改进处理器</GlitterNet.ImprovedProcessors>
+  <GlitterNet.AdvancedProcessors>先进处理器</GlitterNet.AdvancedProcessors>
+  <GlitterNet.SpecializedProcessors>专用处理器</GlitterNet.SpecializedProcessors>
+  <GlitterNet.WorkspeedIntegrators>工程终端</GlitterNet.WorkspeedIntegrators>
+  <GlitterNet.ResearchIntegrators>科研终端</GlitterNet.ResearchIntegrators>
+  <GlitterNet.PowerIntegrators>发电终端</GlitterNet.PowerIntegrators>
+  <GlitterNet.BedIntegrators>睡眠辅助终端</GlitterNet.BedIntegrators>
+  <GlitterNet.MedicalIntegrators>医疗终端</GlitterNet.MedicalIntegrators>
+  <GlitterNet.CyberNetProsthetics>赛博网络义体</GlitterNet.CyberNetProsthetics>
+  <GlitterNet.CyberNetAccessPoints>赛博网络接入点</GlitterNet.CyberNetAccessPoints>
+  <GlitterNet.CyberNetPacketRouters>赛博网络数据包路由器</GlitterNet.CyberNetPacketRouters>
+  <GlitterNet.TotalDevices>设备总数</GlitterNet.TotalDevices>
+  <GlitterNet.EnableSystemWake_title>启用系统唤醒</GlitterNet.EnableSystemWake_title>
+  <GlitterNet.EnableSystemWake_desc>“系统唤醒”是闪耀网络的一条剧情线。希望游戏中出现这条剧情线时，请启用此设置。可在游戏过程中随时更改。</GlitterNet.EnableSystemWake_desc>
+  <GlitterNet.EnableThermalManagement_title>启用热量管理</GlitterNet.EnableThermalManagement_title>
+  <GlitterNet.EnableThermalManagement_desc>启用后，闪耀网络中枢、普通处理器和专用处理器会产生热量，并受到最高工作温度限制。建议搭配提供更先进温控设备的模组。可在游戏过程中随时更改。</GlitterNet.EnableThermalManagement_desc>
+  <GlitterNet.ShutoffTemperature_title>停机温度</GlitterNet.ShutoffTemperature_title>
+  <GlitterNet.ShutoffTemperature_desc>启用热量管理后，设备达到此温度时停机。单位为摄氏度。</GlitterNet.ShutoffTemperature_desc>
+  <GlitterNet.HeatProductionMultiplier_title>产热比例</GlitterNet.HeatProductionMultiplier_title>
+  <GlitterNet.HeatProductionMultiplier_desc>启用热量管理后，设备产热量按此百分比缩放。</GlitterNet.HeatProductionMultiplier_desc>
+  <GlitterNet.Interface.WindowHeaderLeft>闪耀网络</GlitterNet.Interface.WindowHeaderLeft>
+  <GlitterNet.Interface.WindowHeaderRight>当前网络效率：{0}</GlitterNet.Interface.WindowHeaderRight>
+  <GlitterNet.Interface.NetworkSummaryHeader>网络概况</GlitterNet.Interface.NetworkSummaryHeader>
+  <GlitterNet.Interface.NetworkSummaryStats>网络属性</GlitterNet.Interface.NetworkSummaryStats>
+  <GlitterNet.Interface.NetworkSummaryMaxEfficiency>效率上限：{0}</GlitterNet.Interface.NetworkSummaryMaxEfficiency>
+  <GlitterNet.Interface.NetworkSummaryEfficienyOffset>效率偏移：{0}</GlitterNet.Interface.NetworkSummaryEfficienyOffset>
+  <GlitterNet.Interface.NetworkSummaryProcessingPowerFactor>算力系数：{0}</GlitterNet.Interface.NetworkSummaryProcessingPowerFactor>
+  <GlitterNet.Interface.NetworkSummaryProcessingUsageFactor>算力用量系数：{0}</GlitterNet.Interface.NetworkSummaryProcessingUsageFactor>
+  <GlitterNet.Interface.NetworkSummaryMaxIntegratorsPerBuilding>每座建筑的终端数量上限：{0}</GlitterNet.Interface.NetworkSummaryMaxIntegratorsPerBuilding>
+  <GlitterNet.Interface.NetworySummaryProcessing>算力概况</GlitterNet.Interface.NetworySummaryProcessing>
+  <GlitterNet.Interface.NetworkSummaryProduced>算力供给：{0} PetaFLOPS</GlitterNet.Interface.NetworkSummaryProduced>
+  <GlitterNet.Interface.NetworkSummaryConsumed>算力消耗：{0} PetaFLOPS</GlitterNet.Interface.NetworkSummaryConsumed>
+  <GlitterNet.Interface.DevicesSummaryHeader>设备概况</GlitterNet.Interface.DevicesSummaryHeader>
+  <GlitterNet.Interface.DevicesSummaryNoDevices>没有连接的设备</GlitterNet.Interface.DevicesSummaryNoDevices>
+  <GlitterNet.Interface.DevicesSummaryCable>闪耀网络电缆：{0}{1}</GlitterNet.Interface.DevicesSummaryCable>
+  <GlitterNet.Interface.DevicesSummaryMeters>米</GlitterNet.Interface.DevicesSummaryMeters>
+  <GlitterNet.Interface.DevicesSummaryKilometers>千米</GlitterNet.Interface.DevicesSummaryKilometers>
+  <GlitterNet.Interface.AwokenHubSummaryHeader>冬寂状态</GlitterNet.Interface.AwokenHubSummaryHeader>
+  <GlitterNet.Interface.AwokenHubSummaryMood>当前心情：{0}</GlitterNet.Interface.AwokenHubSummaryMood>
+  <GlitterNet.Interface.AwokenHubSummaryMaxEfficiencyOffset>效率上限偏移：{0}</GlitterNet.Interface.AwokenHubSummaryMaxEfficiencyOffset>
+  <GlitterNet.Interface.AwokenHubSummaryQuest>任务概况</GlitterNet.Interface.AwokenHubSummaryQuest>
+  <GlitterNet.Interface.AwokenHubSummaryTrust>当前信任度：{0}</GlitterNet.Interface.AwokenHubSummaryTrust>
+  <GlitterNet.Interface.AwokenHubSummaryQuestOffered>已提出的任务：{0}</GlitterNet.Interface.AwokenHubSummaryQuestOffered>
+  <GlitterNet.Interface.AwokenHubSummaryQuestAccepted>已接受的任务：{0}</GlitterNet.Interface.AwokenHubSummaryQuestAccepted>
+  <GlitterNet.Interface.AwokenHubSummaryQuestExpired>已过期的任务：{0}</GlitterNet.Interface.AwokenHubSummaryQuestExpired>
+  <GlitterNet.Interface.AwokenHubSummaryQuestFailed>已失败的任务：{0}</GlitterNet.Interface.AwokenHubSummaryQuestFailed>
+  <GlitterNet.Interface.AwokenHubSummaryQuestSucceeded>已完成的任务：{0}</GlitterNet.Interface.AwokenHubSummaryQuestSucceeded>
+  <GlitterNet.Events.MessageNoResearcher>没有意识清醒且具备研究能力的研究员。</GlitterNet.Events.MessageNoResearcher>
+  <GlitterNet.Events.VisitResearchSite>访问{0}</GlitterNet.Events.VisitResearchSite>
+</LanguageData>
