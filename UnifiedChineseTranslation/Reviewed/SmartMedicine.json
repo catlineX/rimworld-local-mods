@@ -1,0 +1,93 @@
+{
+  "directory": "SmartMedicine",
+  "packageId": "memegoddess.smartmedicine",
+  "name": "Smart Medicine - Continued",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "SmartMedicineStabilize.verb",
+      "kind": "DefInjected",
+      "defType": "WorkGiverDef",
+      "text": "稳定伤势"
+    },
+    {
+      "key": "SmartMedicineStabilize.gerund",
+      "kind": "DefInjected",
+      "defType": "WorkGiverDef",
+      "text": "稳定伤势"
+    },
+    {
+      "key": "TD.Encumbered",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "超载"
+    },
+    {
+      "key": "TD.SettingGlobalSurgeryUnlimited",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "新游戏的默认医疗设置勾选“手术使用最佳药物”"
+    },
+    {
+      "key": "TD.SettingGlobalSurgeryUnlimitedDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "此设置不影响进行中的游戏。新殖民者的默认值与其他医疗默认设置一起，可从健康面板访问。"
+    },
+    {
+      "key": "TD.DefaultSurgeryUnlimited",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "手术使用可用的最佳药物"
+    },
+    {
+      "key": "TD.PawnSettingSurgeryUnlimited",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "手术使用最佳药物"
+    },
+    {
+      "key": "TD.DefaultCare",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "默认医疗照料"
+    },
+    {
+      "key": "TD.RemoveTempTendDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "移除此对象（用于已经不再使用却仍未消失的情况）。"
+    },
+    {
+      "key": "TD.StockAnythingWithoutDev",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "不启用开发者模式也显示“储备任意物品”按钮"
+    },
+    {
+      "key": "TD.NiceHealthTab.Optimize",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "健康面板底层优化"
+    },
+    {
+      "key": "TD.NiceHealthTab.OptimizeDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "优化内容：\n- 缓存静态健康状况标签，避免每帧重新翻译。"
+    },
+    {
+      "key": "TempSleepSpot.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "临时治疗点"
+    },
+    {
+      "key": "TempSleepSpot.description",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "由智能医疗自动创建，用于野外治疗。不再使用时自动移除。"
+    }
+  ]
+}
+

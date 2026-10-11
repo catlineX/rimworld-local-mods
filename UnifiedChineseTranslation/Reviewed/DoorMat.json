@@ -1,0 +1,57 @@
+{
+  "directory": "DoorMat",
+  "packageId": "dracoix.doormat.r12a",
+  "name": "Door Mat",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "LT_DoorMatLeather.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "门垫"
+    },
+    {
+      "key": "LT_DoorMatCheckerLeather.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "格纹门垫"
+    },
+    {
+      "key": "LT_DoorMatBigLeather.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "大型门垫"
+    },
+    {
+      "key": "LT_DoorMatBigCheckerLeather.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "大型格纹门垫"
+    },
+    {
+      "key": "LT_DoorMatOrange.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "门垫（橙色）"
+    },
+    {
+      "key": "LT_DoorMatTeal.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "门垫（蓝绿色）"
+    },
+    {
+      "key": "LT_DoorMatBigOrange.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "大型门垫（橙色）"
+    },
+    {
+      "key": "LT_DoorMatBigTeal.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "大型门垫（蓝绿色）"
+    }
+  ]
+}
+

@@ -1,0 +1,99 @@
+{
+  "directory": "QualityBuilder",
+  "packageId": "hatti.qualitybuilder",
+  "name": "QualityBuilder Unofficial 1.6",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "QualityBuilder.SelectedSettingsHint",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "点击切换默认设置与当前地图专用设置。"
+    },
+    {
+      "key": "QualityBuilder.MinSkill",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "品质建造要求建造技能达到{0}（最佳建造者：{1}）"
+    },
+    {
+      "key": "QualityBuilder.MinSkillDiff",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许比最佳建造者技能低最多{0}级的角色参与"
+    },
+    {
+      "key": "QualityBuilder.UseMapSettings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "使用此地图的专用设置（关闭则使用默认设置）"
+    },
+    {
+      "key": "QualityBuilder.MaxRebuildAttempts",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "重建失败{0}次后放弃（∞表示永不放弃）"
+    },
+    {
+      "key": "QualityBuilder.RebuildGaveUp",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "品质建造在重建{1}次后放弃了{0}（最后品质：{2}），建筑已保留。可在模组设置中更改次数上限。"
+    },
+    {
+      "key": "QualityBuilder.ExcludeMechs",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "机械体不参与高技能品质建造"
+    },
+    {
+      "key": "QualityBuilder.ExcludeMechsTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "机械体不计入最佳建造技能统计，也不能主动接受品质建造工作。手动强制命令仍然有效。适合希望殖民者通过品质建造提升技能的情况。"
+    },
+    {
+      "key": "QualityBuilder.DefaultSettingsActive",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "默认设置正在使用"
+    },
+    {
+      "key": "QualityBuilder.DefaultSettingsInactive",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "默认设置未在使用"
+    },
+    {
+      "key": "QualityBuilder.DefaultSettingsActiveNote",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "此地图正在使用下方默认设置。在“当前地图”页面勾选“使用此地图的专用设置”，可为该地图独立设置。"
+    },
+    {
+      "key": "QualityBuilder.DefaultSettingsInactiveNote",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "此地图使用自己的设置，默认设置页的修改不会影响它。取消勾选“使用此地图的专用设置”可恢复使用默认设置。"
+    },
+    {
+      "key": "QualityBuilder.DefaultSettingsNoMapNote",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "尚未加载殖民地，因此目前只有默认设置。加载后可为任意地图启用独立设置。"
+    },
+    {
+      "key": "QualityBuilder.GizmoOnBlueprintsOnly",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "仅在蓝图／施工框架上显示品质按钮"
+    },
+    {
+      "key": "QualityBuilder.GizmoOnBlueprintsOnlyTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "隐藏完工建筑上的品质建造开关及右键品质菜单，恢复原有行为。蓝图和施工框架不受影响；现有指定和重建循环继续有效。"
+    }
+  ]
+}
+

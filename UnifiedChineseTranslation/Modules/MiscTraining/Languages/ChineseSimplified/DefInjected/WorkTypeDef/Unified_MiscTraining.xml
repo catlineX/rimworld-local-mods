@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MiscTraining_CombatTraining.labelShort>训练</MiscTraining_CombatTraining.labelShort>
+  <MiscTraining_CombatTraining.pawnLabel>战斗训练者</MiscTraining_CombatTraining.pawnLabel>
+  <MiscTraining_CombatTraining.gerundLabel>战斗训练</MiscTraining_CombatTraining.gerundLabel>
+  <MiscTraining_CombatTraining.description>进行近战或射击训练，训练类型取决于使用者持有的武器。</MiscTraining_CombatTraining.description>
+  <MiscTraining_CombatTraining.verb>战斗训练</MiscTraining_CombatTraining.verb>
+</LanguageData>

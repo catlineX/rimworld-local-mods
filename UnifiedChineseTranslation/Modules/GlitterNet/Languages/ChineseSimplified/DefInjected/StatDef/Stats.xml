@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GlitterNetNetworkMaxEfficiencyOffset.label>网络效率上限偏移</GlitterNetNetworkMaxEfficiencyOffset.label>
+  <GlitterNetNetworkMaxEfficiencyOffset.description>此值调整网络效率上限。</GlitterNetNetworkMaxEfficiencyOffset.description>
+  <GlitterNetNetworkEfficiencyOffset.label>网络效率偏移</GlitterNetNetworkEfficiencyOffset.label>
+  <GlitterNetNetworkEfficiencyOffset.description>此值调整网络效率。</GlitterNetNetworkEfficiencyOffset.description>
+  <GlitterNetNetworkMaxSimultaneousOffset.label>单建筑终端数量上限增量</GlitterNetNetworkMaxSimultaneousOffset.label>
+  <GlitterNetNetworkMaxSimultaneousOffset.description>此值调整每座建筑可同时连接的终端数量上限。</GlitterNetNetworkMaxSimultaneousOffset.description>
+  <GlitterNetNetworkProcessingPowerFactor.label>网络算力系数</GlitterNetNetworkProcessingPowerFactor.label>
+  <GlitterNetNetworkProcessingPowerFactor.description>此系数调整网络提供的算力。</GlitterNetNetworkProcessingPowerFactor.description>
+  <GlitterNetNetworkProcessingUsageFactor.label>网络算力用量系数</GlitterNetNetworkProcessingUsageFactor.label>
+  <GlitterNetNetworkProcessingUsageFactor.description>此系数调整网络的算力用量。</GlitterNetNetworkProcessingUsageFactor.description>
+</LanguageData>

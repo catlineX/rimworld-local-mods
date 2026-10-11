@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <UnlimitedReborn.label>解除限制（Un-Limited Reborn）</UnlimitedReborn.label>
+  <UnlimitedReborn.settings.0.text>解除限制（Un-Limited Reborn）</UnlimitedReborn.settings.0.text>
+  <UnlimitedReborn.settings.3.tabs.0.label>原版</UnlimitedReborn.settings.3.tabs.0.label>
+  <UnlimitedReborn.settings.3.tabs.0.settings.0.label>服装</UnlimitedReborn.settings.3.tabs.0.settings.0.label>
+  <UnlimitedReborn.settings.3.tabs.0.settings.1.label>战斗</UnlimitedReborn.settings.3.tabs.0.settings.1.label>
+  <UnlimitedReborn.settings.3.tabs.0.settings.2.label>一般属性</UnlimitedReborn.settings.3.tabs.0.settings.2.label>
+  <UnlimitedReborn.settings.3.tabs.0.settings.3.label>社交</UnlimitedReborn.settings.3.tabs.0.settings.3.label>
+  <UnlimitedReborn.settings.3.tabs.0.settings.4.label>一般工作</UnlimitedReborn.settings.3.tabs.0.settings.4.label>
+  <UnlimitedReborn.settings.3.tabs.0.settings.5.label>医疗工作</UnlimitedReborn.settings.3.tabs.0.settings.5.label>
+  <UnlimitedReborn.settings.3.tabs.0.settings.6.label>制作配方</UnlimitedReborn.settings.3.tabs.0.settings.6.label>
+  <UnlimitedReborn.settings.3.tabs.1.label>理念</UnlimitedReborn.settings.3.tabs.1.label>
+  <UnlimitedReborn.settings.3.tabs.1.settings.0.label>角色理念属性</UnlimitedReborn.settings.3.tabs.1.settings.0.label>
+  <UnlimitedReborn.settings.3.tabs.1.settings.1.label>角色一般工作属性</UnlimitedReborn.settings.3.tabs.1.settings.1.label>
+  <UnlimitedReborn.settings.3.tabs.2.label>奥德赛</UnlimitedReborn.settings.3.tabs.2.label>
+  <UnlimitedReborn.settings.3.tabs.2.settings.0.label>角色一般属性</UnlimitedReborn.settings.3.tabs.2.settings.0.label>
+  <UnlimitedReborn.settings.3.tabs.3.label>高级</UnlimitedReborn.settings.3.tabs.3.label>
+  <UnlimitedReborn.settings.3.tabs.3.settings.0.label>取消后处理曲线限制（postProcessCurve）</UnlimitedReborn.settings.3.tabs.3.settings.0.label>
+  <UnlimitedReborn.settings.3.tabs.3.settings.1.label>修改技能需求系数（SkillNeedFactors）</UnlimitedReborn.settings.3.tabs.3.settings.1.label>
+  <UnlimitedReborn.settings.3.tabs.3.settings.2.label>双重裁剪（Double Pruning）</UnlimitedReborn.settings.3.tabs.3.settings.2.label>
+  <UnlimitedReborn.settings.3.tabs.3.settings.4.text>更多信息请参阅Wiki。</UnlimitedReborn.settings.3.tabs.3.settings.4.text>
+  <UnlimitedReborn.settings.3.tabs.3.settings.8.text>部分修改需要重启游戏才能生效。</UnlimitedReborn.settings.3.tabs.3.settings.8.text>
+</LanguageData>

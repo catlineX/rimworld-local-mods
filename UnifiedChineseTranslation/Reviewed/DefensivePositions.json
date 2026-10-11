@@ -1,0 +1,93 @@
+{
+  "directory": "DefensivePositions",
+  "packageId": "unlimitedhugs.defensivepositions",
+  "name": "Defensive Positions",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "DPPositionMote.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "位置标记特效"
+    },
+    {
+      "key": "DPDraftToPosition.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在前往防御位置"
+    },
+    {
+      "key": "DefPos_context_assignPosition",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "保存防御位置{0}"
+    },
+    {
+      "key": "DefPos_context_clearPosition",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "清除已保存的位置{0}"
+    },
+    {
+      "key": "DefPos_context_slotSuffix",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（位置槽{0}）"
+    },
+    {
+      "key": "DefPos_context_toggleAdvanced",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换高级模式"
+    },
+    {
+      "key": "setting_shiftKeyMode_label",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Shift键行为"
+    },
+    {
+      "key": "setting_shiftKeyMode_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "设置按住Shift点击位置槽或按快捷键时的行为。若Shift用于将命令加入队列，可通过位置槽的右键菜单分配殖民者位置。"
+    },
+    {
+      "key": "setting_shiftKeyMode_AssignSlot",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "分配位置槽"
+    },
+    {
+      "key": "setting_shiftKeyMode_QueueOrder",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "将移动命令加入队列"
+    },
+    {
+      "key": "settings_sameGroupDistance_label",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "跳转分组距离阈值"
+    },
+    {
+      "key": "settings_sameGroupDistance_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "距离在此范围内的殖民者视为同组；连续按小队键时用于在小队位置之间跳转。\n设为较小值（0以上）可逐个跳转成员。\n设为1000等较大值可仅在有同小队成员的地图之间跳转。"
+    },
+    {
+      "key": "settings_jumpingSelectsNearby_label",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "跳转时只选中附近成员"
+    },
+    {
+      "key": "settings_jumpingSelectsNearby_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "连续按小队键跳转时，开启则只选中目标位置附近的其他成员；关闭则选中当前地图上全部小队成员。"
+    }
+  ]
+}
+

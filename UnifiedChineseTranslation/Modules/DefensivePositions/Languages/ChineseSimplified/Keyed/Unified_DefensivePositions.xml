@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DefPos_context_assignPosition>保存防御位置{0}</DefPos_context_assignPosition>
+  <DefPos_context_clearPosition>清除已保存的位置{0}</DefPos_context_clearPosition>
+  <DefPos_context_slotSuffix>（位置槽{0}）</DefPos_context_slotSuffix>
+  <DefPos_context_toggleAdvanced>切换高级模式</DefPos_context_toggleAdvanced>
+  <setting_shiftKeyMode_label>Shift键行为</setting_shiftKeyMode_label>
+  <setting_shiftKeyMode_desc>设置按住Shift点击位置槽或按快捷键时的行为。若Shift用于将命令加入队列，可通过位置槽的右键菜单分配殖民者位置。</setting_shiftKeyMode_desc>
+  <setting_shiftKeyMode_AssignSlot>分配位置槽</setting_shiftKeyMode_AssignSlot>
+  <setting_shiftKeyMode_QueueOrder>将移动命令加入队列</setting_shiftKeyMode_QueueOrder>
+  <settings_sameGroupDistance_label>跳转分组距离阈值</settings_sameGroupDistance_label>
+  <settings_sameGroupDistance_desc>距离在此范围内的殖民者视为同组；连续按小队键时用于在小队位置之间跳转。
+设为较小值（0以上）可逐个跳转成员。
+设为1000等较大值可仅在有同小队成员的地图之间跳转。</settings_sameGroupDistance_desc>
+  <settings_jumpingSelectsNearby_label>跳转时只选中附近成员</settings_jumpingSelectsNearby_label>
+  <settings_jumpingSelectsNearby_desc>连续按小队键跳转时，开启则只选中目标位置附近的其他成员；关闭则选中当前地图上全部小队成员。</settings_jumpingSelectsNearby_desc>
+</LanguageData>

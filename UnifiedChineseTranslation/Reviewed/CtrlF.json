@@ -1,0 +1,81 @@
+{
+  "directory": "CtrlF",
+  "packageId": "memegoddess.ctrlf",
+  "name": "Ctrl F - Continued",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "TD.CtrlFSearch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Ctrl-F搜索"
+    },
+    {
+      "key": "TD.CtrlF",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Ctrl-F"
+    },
+    {
+      "key": "TD.CtrlFFoundThings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Ctrl-F搜索结果"
+    },
+    {
+      "key": "TD.DoesNotRefreshWhenPaused",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（暂停时不刷新）"
+    },
+    {
+      "key": "TD.ToggleToKeepThisWindowOpen",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "开启后，关闭搜索窗口时仍保留此窗口。\n\n右键点击重新打开搜索窗口。"
+    },
+    {
+      "key": "TD.ViewInCtrlF",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在Ctrl-F中查看"
+    },
+    {
+      "key": "TD.ShowSearchButton",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在按钮栏显示搜索按钮"
+    },
+    {
+      "key": "TD_Ctrl-F.label",
+      "kind": "DefInjected",
+      "defType": "MainButtonDef",
+      "text": "Ctrl-F搜索"
+    },
+    {
+      "key": "TD_Ctrl-F.description",
+      "kind": "DefInjected",
+      "defType": "MainButtonDef",
+      "text": "打开Ctrl-F搜索窗口。"
+    },
+    {
+      "key": "CtrlF.label",
+      "kind": "DefInjected",
+      "defType": "KeyBindingCategoryDef",
+      "text": "Ctrl-F搜索"
+    },
+    {
+      "key": "CtrlF.description",
+      "kind": "DefInjected",
+      "defType": "KeyBindingCategoryDef",
+      "text": "打开Ctrl-F搜索窗口的按钮。"
+    },
+    {
+      "key": "OpenCtrlF.label",
+      "kind": "DefInjected",
+      "defType": "KeyBindingDef",
+      "text": "查找对象（Ctrl＋指定键）"
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <QualityBuilder.SelectedSettingsHint>点击切换默认设置与当前地图专用设置。</QualityBuilder.SelectedSettingsHint>
+  <QualityBuilder.MinSkill>品质建造要求建造技能达到{0}（最佳建造者：{1}）</QualityBuilder.MinSkill>
+  <QualityBuilder.MinSkillDiff>允许比最佳建造者技能低最多{0}级的角色参与</QualityBuilder.MinSkillDiff>
+  <QualityBuilder.UseMapSettings>使用此地图的专用设置（关闭则使用默认设置）</QualityBuilder.UseMapSettings>
+  <QualityBuilder.MaxRebuildAttempts>重建失败{0}次后放弃（∞表示永不放弃）</QualityBuilder.MaxRebuildAttempts>
+  <QualityBuilder.RebuildGaveUp>品质建造在重建{1}次后放弃了{0}（最后品质：{2}），建筑已保留。可在模组设置中更改次数上限。</QualityBuilder.RebuildGaveUp>
+  <QualityBuilder.ExcludeMechs>机械体不参与高技能品质建造</QualityBuilder.ExcludeMechs>
+  <QualityBuilder.ExcludeMechsTooltip>机械体不计入最佳建造技能统计，也不能主动接受品质建造工作。手动强制命令仍然有效。适合希望殖民者通过品质建造提升技能的情况。</QualityBuilder.ExcludeMechsTooltip>
+  <QualityBuilder.DefaultSettingsActive>默认设置正在使用</QualityBuilder.DefaultSettingsActive>
+  <QualityBuilder.DefaultSettingsInactive>默认设置未在使用</QualityBuilder.DefaultSettingsInactive>
+  <QualityBuilder.DefaultSettingsActiveNote>此地图正在使用下方默认设置。在“当前地图”页面勾选“使用此地图的专用设置”，可为该地图独立设置。</QualityBuilder.DefaultSettingsActiveNote>
+  <QualityBuilder.DefaultSettingsInactiveNote>此地图使用自己的设置，默认设置页的修改不会影响它。取消勾选“使用此地图的专用设置”可恢复使用默认设置。</QualityBuilder.DefaultSettingsInactiveNote>
+  <QualityBuilder.DefaultSettingsNoMapNote>尚未加载殖民地，因此目前只有默认设置。加载后可为任意地图启用独立设置。</QualityBuilder.DefaultSettingsNoMapNote>
+  <QualityBuilder.GizmoOnBlueprintsOnly>仅在蓝图／施工框架上显示品质按钮</QualityBuilder.GizmoOnBlueprintsOnly>
+  <QualityBuilder.GizmoOnBlueprintsOnlyTooltip>隐藏完工建筑上的品质建造开关及右键品质菜单，恢复原有行为。蓝图和施工框架不受影响；现有指定和重建循环继续有效。</QualityBuilder.GizmoOnBlueprintsOnlyTooltip>
+</LanguageData>

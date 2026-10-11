@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HAR_AteAlienMeat.label>食用了异族肉</HAR_AteAlienMeat.label>
+  <HAR_ButcheredAlien.label>屠宰了异族</HAR_ButcheredAlien.label>
+  <HAR_AteNonAlienFood.label>食用了非异族食物</HAR_AteNonAlienFood.label>
+  <HAR_AlienDating_BeginRomance.label>与异族开始恋爱</HAR_AlienDating_BeginRomance.label>
+  <HAR_AlienDating_SharedBed.label>与异族共用床铺</HAR_AlienDating_SharedBed.label>
+  <HAR_AlienDating_Dating.label>与异族保持恋爱关系</HAR_AlienDating_Dating.label>
+  <HAR_Alien_SoldSlave.label>出售了奴隶</HAR_Alien_SoldSlave.label>
+  <HAR_Alien_EnslavedPrisoner.label>奴役了囚犯</HAR_Alien_EnslavedPrisoner.label>
+  <HAR_Alien_EnslavedPrisonerNotPreviouslyEnslaved.label>奴役了此前未被奴役的囚犯</HAR_Alien_EnslavedPrisonerNotPreviouslyEnslaved.label>
+</LanguageData>

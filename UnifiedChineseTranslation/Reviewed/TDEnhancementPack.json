@@ -1,0 +1,1167 @@
+{
+  "directory": "TDEnhancementPack",
+  "packageId": "memegoddess.tdpack",
+  "name": "TD Enhancement Pack - Continued",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "MarketValuePerFullStack.label",
+      "kind": "DefInjected",
+      "defType": "TransferableSorterDef",
+      "text": "整堆市场价值"
+    },
+    {
+      "key": "MarketValuePerMass.label",
+      "kind": "DefInjected",
+      "defType": "TransferableSorterDef",
+      "text": "单位重量市场价值"
+    },
+    {
+      "key": "TD.HexColorValuesOnly",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "仅接受十六进制颜色值"
+    },
+    {
+      "key": "TD.ToggleBuildable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换可建造地形覆盖显示"
+    },
+    {
+      "key": "TD.ToggleCoverage",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换建筑覆盖范围显示（所选建筑有作用范围时显示）"
+    },
+    {
+      "key": "TD.ToggleBeauty",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换美观度覆盖显示"
+    },
+    {
+      "key": "TD.ToggleFertility",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换肥沃度覆盖显示"
+    },
+    {
+      "key": "TD.ToggleLighting",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换照明覆盖显示"
+    },
+    {
+      "key": "TD.ToggleWalkSpeed",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换通行速度覆盖显示"
+    },
+    {
+      "key": "TD.TogglePlantHarveset",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换收获覆盖显示"
+    },
+    {
+      "key": "TD.TogglePowerOverlay",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换电网显示"
+    },
+    {
+      "key": "TDEnhancementPack",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "TD增强包"
+    },
+    {
+      "key": "TD.FertileCount",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "肥沃等效面积"
+    },
+    {
+      "key": "TD.SettingOverlayBuildable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用可建造地形覆盖显示按钮"
+    },
+    {
+      "key": "TD.SettingOverlayBuildableDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "红色表示无法建造；橙色表示中型承重；黄色表示轻型承重；无色表示重型承重（几乎所有建筑都能建在重型承重地形上）。"
+    },
+    {
+      "key": "TD.SettingOverlayCoverage",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用建筑覆盖范围显示按钮"
+    },
+    {
+      "key": "TD.SettingOverlayCoverageDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "选中交易信标等建筑时，显示它们的合计作用范围。"
+    },
+    {
+      "key": "TD.SettingOverlayBeauty",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用美观度覆盖显示按钮"
+    },
+    {
+      "key": "TD.SettingOverlayFertility",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用肥沃度覆盖显示按钮"
+    },
+    {
+      "key": "TD.SettingOverlayFertilityUnder",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "肥沃度覆盖显示地板下方地形的肥沃度"
+    },
+    {
+      "key": "TD.SettingOverlayWalkSpeed",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用通行速度覆盖显示按钮"
+    },
+    {
+      "key": "TD.SettingOverlayLighting",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用照明覆盖显示按钮"
+    },
+    {
+      "key": "TD.SettingOverlayLightingDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "受阳光照射的室外区域不着色。"
+    },
+    {
+      "key": "TD.SettingOverlayPower",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用电网显示按钮"
+    },
+    {
+      "key": "TD.SettingOverlayPlantHarvest",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用收获覆盖显示按钮"
+    },
+    {
+      "key": "TD.SettingTradeClose",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "设置关闭交易或谈判窗口后的游戏速度"
+    },
+    {
+      "key": "TD.SettingTradeCloseSpeed",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "关闭后的速度："
+    },
+    {
+      "key": "TD.SettingResearchingArrow",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示当前研究进度箭头"
+    },
+    {
+      "key": "TD.SettingSkillGainArrow",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示技能经验增长箭头"
+    },
+    {
+      "key": "TD.SettingSkillGainArrowDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在角色面板中显示。"
+    },
+    {
+      "key": "TD.SettingSkillLossArrow",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示技能经验衰减箭头"
+    },
+    {
+      "key": "TD.SettingSkillLossArrowDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "10级以后技能经验会逐渐衰减。衰减很慢时箭头颜色可能很淡。"
+    },
+    {
+      "key": "TD.SettingZoneFertility",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示计入肥沃度后的种植区等效面积"
+    },
+    {
+      "key": "TD.SettingZoneFertilityDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "“肥沃等效面积”折算为100%肥沃度土地的面积。例如，100格140%肥沃度土地的等效面积为140，产量相当于140格100%肥沃度土地。"
+    },
+    {
+      "key": "TD.OtherFeatures",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "其他功能："
+    },
+    {
+      "key": "TD.AreaEditing",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可在区域管理器中调整顺序、颜色及复制粘贴活动区域。"
+    },
+    {
+      "key": "TD.NeverHome",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "创建名为“Never Home”的活动区域，该区域将永远不会自动加入家园区域。"
+    },
+    {
+      "key": "TD.SlaughterZone",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "创建名为“Slaughter”的活动区域，动物只会在该区域内被屠宰。"
+    },
+    {
+      "key": "TD.RequiresRestart",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "以下功能需要重启后生效："
+    },
+    {
+      "key": "TD.VariousCount",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示选中的混合物品数量。"
+    },
+    {
+      "key": "TD.RottedAwayClickable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可点击食物“腐坏消失”的消息，查看其原来位置。"
+    },
+    {
+      "key": "TD.SettingsIgnoreSleeping",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "未征召的殖民者忽略睡眠中的敌人"
+    },
+    {
+      "key": "TD.SettingsIgnoreSleepingDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "适用于遇敌反应的“攻击”模式，可避免角色搬运经过时主动攻击睡眠中的巨型圣甲虫等敌人。"
+    },
+    {
+      "key": "TD.ShowStopButtonUnDrafted",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示停止按钮（未征召时）"
+    },
+    {
+      "key": "TD.ShowStopButtonDrafted",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示停止按钮（征召时）"
+    },
+    {
+      "key": "TD.StopGizmo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "停止"
+    },
+    {
+      "key": "TD.StopDescDrafted",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "停止当前行动。"
+    },
+    {
+      "key": "TD.StopDescUndrafted",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "停止当前工作并重新寻找工作（可能仍选择同一工作）。"
+    },
+    {
+      "key": "TD.AddedByTD",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "由TD增强包添加"
+    },
+    {
+      "key": "TD.AllowHarvesting",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许收获"
+    },
+    {
+      "key": "TD.AllowHarvestingDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "关闭后，殖民者不会收获此区域内的植物，但仍会播种。"
+    },
+    {
+      "key": "TD.SettingAllowHarvesting",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为种植区添加“允许收获”开关"
+    },
+    {
+      "key": "TD.SettingAllowHarvestingDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "也适用于水培盆。此时禁止状态仅影响播种。"
+    },
+    {
+      "key": "TD.SettingAreaForTypes",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为区域添加殖民者／机械体／动物可见性开关"
+    },
+    {
+      "key": "TD.SettingAreaForTypesDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "区域管理器中增加三个复选框。关闭对应选项后，殖民者／机械体／动物无法选择该活动区域。"
+    },
+    {
+      "key": "TD.FeatureConditionGreen",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "良好的健康状态显示为绿色；全身标签显示为黄色。"
+    },
+    {
+      "key": "TD.WhatDropped",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "空投物品：{0}"
+    },
+    {
+      "key": "TD.Deterioration",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "损耗"
+    },
+    {
+      "key": "TD.DeteriorationAlert",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "有物品正在损耗，且耐久已较低。将其搬入室内以保护它。"
+    },
+    {
+      "key": "TD.Match",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "匹配"
+    },
+    {
+      "key": "TD.MatchDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "创建种植区时，只加入肥沃度与最初选中格相同的地形。"
+    },
+    {
+      "key": "TD.SettingStopFlee",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "威胁消失后停止逃跑"
+    },
+    {
+      "key": "TD.SettingStopFleeDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "作者认为此功能应当有效。\n\n修改设置不会影响已经正在逃跑的角色。"
+    },
+    {
+      "key": "TD.SettingDodgeGrenades",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "征召时躲避手榴弹"
+    },
+    {
+      "key": "TD.SettingDodgeGrenadesDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "躲避会中断当前行动。"
+    },
+    {
+      "key": "TD.SettingDodgeGrenadesEnemy",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "殖民者躲避敌方手榴弹"
+    },
+    {
+      "key": "TD.SettingDodgeGrenadesEnemyDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版角色即使未征召也不会真正躲避敌方手榴弹；启用后会躲避。"
+    },
+    {
+      "key": "TD.SettingDodgeGrenadesNPC",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "敌人躲避己方手榴弹"
+    },
+    {
+      "key": "TD.SettingDodgeGrenadesNPCDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "敌人也会躲避你的手榴弹。作者不推荐，但认为这样更贴近现实。\n\n启用“殖民者躲避敌方手榴弹”时，两个其他派系之间也会互相躲避手榴弹。"
+    },
+    {
+      "key": "TD.SettingDodgeGrenadesUnlessBelt",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "穿戴护盾腰带时不躲避"
+    },
+    {
+      "key": "TD.SettingAutoBuildable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "放置建筑时自动显示可建造地形"
+    },
+    {
+      "key": "TD.SettingAutoBuildableDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "桥梁、墓穴等有特殊地形要求的建筑，会显示无法建造的位置。"
+    },
+    {
+      "key": "TD.SettingAutoCoverage",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "放置建筑时自动显示作用范围"
+    },
+    {
+      "key": "TD.SettingAutoCoverageDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示交易信标等建筑的合计作用范围。"
+    },
+    {
+      "key": "TD.SettingAutoSmoothable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "指定打磨时自动高亮可打磨地形"
+    },
+    {
+      "key": "TD.SettingAutoTreeGrowth",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "指定伐木时自动显示树木生长情况"
+    },
+    {
+      "key": "TD.SettingAutoTreeGrowthDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "红色：不可采伐。\n绿色：可采伐。\n白色：完全成熟。\n黄色：即将可采伐。"
+    },
+    {
+      "key": "TD.SettingAutoWindBlocker",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "放置风力发电机时自动高亮挡风对象"
+    },
+    {
+      "key": "TD.SettingAutoFertility",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "划定种植区时自动显示肥沃度"
+    },
+    {
+      "key": "TD.SettingAutoLighting",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "放置灯具时自动显示照明"
+    },
+    {
+      "key": "TD.SettingAutoPlantHarvest",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "指定收获植物时自动显示收获覆盖"
+    },
+    {
+      "key": "TD.SettingMakeWay",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "其他工人也为蓝图清除障碍物（如树木）"
+    },
+    {
+      "key": "TD.SettingMakeWayDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "伐木工和矿工会为蓝图清除障碍。\n\n有报告称此功能会使右键操作变慢；遇到问题时可尝试关闭。"
+    },
+    {
+      "key": "TD.SettingHandleAllBlocking",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "一次清除所有障碍物（通常会逐棵砍树）"
+    },
+    {
+      "key": "TD.SettingAutoAutorebuild",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "新游戏默认开启自动重建"
+    },
+    {
+      "key": "TD.SettingAutoRebuildTransportPod",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "运输舱发射后自动重建"
+    },
+    {
+      "key": "TD.CaravanLoadSelection",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "组建远行队时预选地图上当前选中的对象"
+    },
+    {
+      "key": "TD.CaravanSaveManifest",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "关闭远行队／运输舱窗口时记住装载清单，再次打开时重新选择这些对象。"
+    },
+    {
+      "key": "TD.CaravanDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "注意：保存过上次清单后，关闭窗口并在地图上改选物品不会自动追加。请先点击重置按钮，再重新打开窗口以使用新的选择。"
+    },
+    {
+      "key": "TD.CaravanWorstFirst",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "交易请求优先交付低价值物品"
+    },
+    {
+      "key": "TD.CaravanWorstFirstDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "仍须满足至少普通品质的要求；此功能可避免有普通物品可用时交出传奇物品。"
+    },
+    {
+      "key": "TD.BlueprintAnyStuff",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "右键建筑工具可选择任意建造材料（包括当前没有的材料）"
+    },
+    {
+      "key": "TD.SettingCopyPolicy",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在服装／食物政策设置中显示“创建副本”按钮"
+    },
+    {
+      "key": "TD.SettingBillCountEquippedAny",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所有制作账单都显示“计入已装备物品”选项"
+    },
+    {
+      "key": "TD.SettingBillCountEquippedAnyDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "武器和服装原本就有此选项，也可将随身携带的食物和药物计入数量。"
+    },
+    {
+      "key": "TD.SettingTopRightMouseover",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "将鼠标所在格的信息显示在右上角"
+    },
+    {
+      "key": "TD.SettingTopRightMouseoverDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "选中其他对象时也能看到格子信息。\n\n若仍启用学习助手，可能不适合放在此处。"
+    },
+    {
+      "key": "TD.SettingMouseOverLocation",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "鼠标所在格的信息位置"
+    },
+    {
+      "key": "TD.SettingMouseOverLocationDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "选择鼠标所在格的信息在屏幕上的显示位置。"
+    },
+    {
+      "key": "TD.SettingMouseOverLocationOptionTopRight",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "右上角"
+    },
+    {
+      "key": "TD.SettingMouseOverLocationOptionBottomLeft",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "左下角"
+    },
+    {
+      "key": "TD.SettingMouseOverLocationOptionMouse",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "鼠标附近"
+    },
+    {
+      "key": "TD.SettingFadeMouseover",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "鼠标移动时淡化格子信息"
+    },
+    {
+      "key": "TD.SettingPawnTableHighlightSelected",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在列表中标识已选中的角色"
+    },
+    {
+      "key": "TD.SettingPawnTableHighlightSelectedDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "适用于工作、野生动物等列表。"
+    },
+    {
+      "key": "TD.SettingPawnTableArrowMouseover",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在列表中悬停时显示指向角色的箭头"
+    },
+    {
+      "key": "TD.SettingCtrlQueueFront",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Ctrl＋Shift＋点击将行动插入队列最前面"
+    },
+    {
+      "key": "TD.SettingCtrlQueueFrontDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "通常Shift点击将行动追加到队尾，此功能允许将行动插入队首。"
+    },
+    {
+      "key": "TD.SettingPawnTableClickSelect",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "点击角色列表即可选中角色（Alt点击使用原有行为）"
+    },
+    {
+      "key": "TD.SettingPawnTableClickSelectDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "操作方式与其他选择操作一致。按Esc关闭面板。\n\nShift点击选择或取消多个角色；按住拖动框选；双击选择同类型；右键只跳转视角而不选中；Alt点击关闭窗口并选中、跳转到该角色。"
+    },
+    {
+      "key": "TD.SettingAlertDeterioration",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为损耗中的物品显示警报"
+    },
+    {
+      "key": "TD.SettingAlertDeteriorationDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "对象需未被禁止、正在损耗且耐久低于50%。不包括腐烂尸体。"
+    },
+    {
+      "key": "TD.SettingAlertBurning",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为着火的殖民者显示警报"
+    },
+    {
+      "key": "TD.SettingAlertToxic",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为毒素累积的殖民者显示警报"
+    },
+    {
+      "key": "TD.SettingAlertNoBill",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为没有制作账单的工作台显示警报"
+    },
+    {
+      "key": "TD.SettingMatchGrow",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用按地形肥沃度匹配种植区的工具"
+    },
+    {
+      "key": "TD.SettingMatchGrowDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "拖动划区时，只加入肥沃度百分比与第一个选中格相同的地形。"
+    },
+    {
+      "key": "TD.DropPodWhatDropped",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "随机资源空投的信件说明投下了什么物品"
+    },
+    {
+      "key": "TD.SarcophagusPreferred",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "优先使用石棺而非坟墓"
+    },
+    {
+      "key": "TD.SarcophagusPreferredDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "石棺默认采用最高储存优先级，因此优先于坟墓使用。虽然本来就只允许殖民者，但若不提高优先级，殖民者仍可能被埋入更近的坟墓。"
+    },
+    {
+      "key": "TD.NoFrameDecon",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "施工框架只能取消，不能拆除"
+    },
+    {
+      "key": "TD.NoFrameDeconDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "拆除返还的资源比取消施工更少。"
+    },
+    {
+      "key": "TD.DropdownBuildingsOrder",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "建筑下拉工具根据其子工具调整排序"
+    },
+    {
+      "key": "TD.DropdownBuildingsOrderDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "例如彩色灯会在建造菜单中排列于其他灯旁边，而不是列表最前面。"
+    },
+    {
+      "key": "TD.SmoothSelectedStone",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "选中岩石时显示打磨按钮"
+    },
+    {
+      "key": "TD.LowerOverlayOpacities",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "降低覆盖显示的不透明度："
+    },
+    {
+      "key": "TD.SettingUrgentRefill",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "安装Allow Tool时，为储存区添加“紧急补货”开关"
+    },
+    {
+      "key": "TD.SettingUrgentRefillDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用的储存区出现空格时，生成紧急搬运工作补充物品，适合厨房和工作台原料。\n\n需要Allow Tool。"
+    },
+    {
+      "key": "TD.SettingCameraDragFix",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "修正鼠标中键拖动视角"
+    },
+    {
+      "key": "TD.SettingCameraDragFixDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "让地图跟随鼠标，而不是以不确定的速度移动。\n\n低帧率下的拖动不受此修正影响。\n\n移除鼠标停止后地图仍继续滑动的效果。"
+    },
+    {
+      "key": "TD.WorkGiverRefillZones",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "紧急补充储存区"
+    },
+    {
+      "key": "TD.RefillingUrgently",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "正在紧急补货"
+    },
+    {
+      "key": "TD.GizmoUrgentRefill",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "紧急补货"
+    },
+    {
+      "key": "TD.GizmoUrgentRefillDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任何格子空置时，紧急补充物品。"
+    },
+    {
+      "key": "TD.SettingHeaderArea",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "活动区域／规划区域"
+    },
+    {
+      "key": "TD.SettingHeaderOverlays",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "覆盖显示"
+    },
+    {
+      "key": "TD.SettingHeaderAI",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "AI／行为"
+    },
+    {
+      "key": "TD.SettingCleanZoneEdges",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "更清晰的区域边界（及作用范围标记）"
+    },
+    {
+      "key": "TD.SettingsHeaderArea",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "活动区域／规划区域"
+    },
+    {
+      "key": "TD.SettingsCleanZone",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "更清晰的区域边界（及作用范围标记）"
+    },
+    {
+      "key": "TD.SettingsHeaderOverlays",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "覆盖显示"
+    },
+    {
+      "key": "TD.SettingsHeaderGame",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "游戏改进"
+    },
+    {
+      "key": "TD.SettingsHeaderInfo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "界面／信息"
+    },
+    {
+      "key": "TD.SettingsHeaderAlerts",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "警报"
+    },
+    {
+      "key": "TD.SettingsHeaderAI",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "AI／行为"
+    },
+    {
+      "key": "TD.EmptyWorkbench",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "无账单工作台"
+    },
+    {
+      "key": "TD.EmptyWorkbenchDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "有工作台未设置任何制作账单。"
+    },
+    {
+      "key": "TD.ClearEntireArea",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "清空整个区域（但不从列表删除）"
+    },
+    {
+      "key": "TD.PasteFrom",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "粘贴来源"
+    },
+    {
+      "key": "TD.AlertBurning",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "有殖民者着火，正在迅速加重中暑。"
+    },
+    {
+      "key": "TD.AlertHeatstrike",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "有殖民者正在加重中暑。"
+    },
+    {
+      "key": "TD.AlertToxic",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "有殖民者已出现明显毒素累积。"
+    },
+    {
+      "key": "TD.SettingRememberResourceReadout",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "每个存档分别记住资源列表状态（分类模式）"
+    },
+    {
+      "key": "TD.SettingNewGameOpenResourceReadout",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "新游戏默认展开资源列表的各个分类"
+    },
+    {
+      "key": "TD.SettingRememberShape",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在关闭建筑菜单前记住指定工具的形状"
+    },
+    {
+      "key": "TD.AlertWindBlocked",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为被挡风的风力发电机显示警报"
+    },
+    {
+      "key": "TD.WindBlocked",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "风力被阻挡"
+    },
+    {
+      "key": "TD.WindBlockedDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "有对象正在挡风，可能影响风力发电机。"
+    },
+    {
+      "key": "TD.Show",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示“{0}”"
+    },
+    {
+      "key": "TD.SettingHeaderToggleButtons",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示／隐藏开关按钮（右下角）"
+    },
+    {
+      "key": "TD.SettingHeaderToggleButtonsDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "本模组添加了许多覆盖显示按钮，可隐藏不常使用的按钮。"
+    },
+    {
+      "key": "TD.MakeCopy",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "创建副本"
+    },
+    {
+      "key": "TD.WarningReColorAll",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "此按钮会改变大量对象的颜色。如果不确定要这样做，请先备份存档。"
+    },
+    {
+      "key": "TD.OKIGetIt",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "好的，我明白了"
+    },
+    {
+      "key": "TD.HoldOn",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "稍等"
+    },
+    {
+      "key": "TD.SettingHeaderColorVariations",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "颜色变化"
+    },
+    {
+      "key": "TD.SettingColorVariation",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为制作出的物品添加轻微颜色变化"
+    },
+    {
+      "key": "TD.SettingColorVariationDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "具体为HSV值最多±5%的变化。\n\n仅适用于服装，因为武器的颜色自定义空间较小。"
+    },
+    {
+      "key": "TD.SettingColorGenerator",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为制作出的物品使用颜色生成器"
+    },
+    {
+      "key": "TD.SettingColorGeneratorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "其他派系能获得多种颜色的物品，你也可以。"
+    },
+    {
+      "key": "TD.SettingColorGeneratorChance",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "使用颜色生成器而非材料颜色的概率："
+    },
+    {
+      "key": "TD.SettingColorGenNoVariation",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "使用颜色生成器时，不叠加上方的颜色变化"
+    },
+    {
+      "key": "TD.SettingReapplyColorVariations",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为当前所有对象重新应用颜色变化"
+    },
+    {
+      "key": "TD.Go",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "执行"
+    },
+    {
+      "key": "TD.SettingReapplyColorVariationsDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "此操作也会应用前两项设置，无论它们是否勾选。"
+    },
+    {
+      "key": "TD.SettingFixColorStuff",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "修正材料颜色"
+    },
+    {
+      "key": "TD.SettingFixColorStuffDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "例如防弹护甲不应因钢铁而显示为白色：钢铁应像武器上的钢铁一样显示为灰色。“白色”源于钢铁的PNG贴图本身已经着色，而布料／皮革贴图不同。塑钢色动力装甲也可以获得相应效果。"
+    },
+    {
+      "key": "TD.SettingFixUncoloredStuff",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "忽略没有颜色的材料"
+    },
+    {
+      "key": "TD.SettingFixUncoloredStuffDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "部分全白护甲是因为零部件没有定义颜色；这类材料不应把“无颜色”传递给成品。"
+    },
+    {
+      "key": "TD.ShowThisAreaForColonists",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "向殖民者显示此活动区域"
+    },
+    {
+      "key": "TD.ShowThisAreaForMechs",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "向机械体显示此活动区域"
+    },
+    {
+      "key": "TD.ShowThisAreaForAnimals",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "向动物显示此活动区域"
+    },
+    {
+      "key": "TD.JumpToThisObject",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "跳转到此对象"
+    },
+    {
+      "key": "TD.CycleJumpingToTheseObjects",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "依次跳转到这些对象"
+    },
+    {
+      "key": "TD.NoLimitOnTheNumberOfAreas",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "不限制活动区域数量"
+    },
+    {
+      "key": "TD.SettingJumpToSelectedItems",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在选择信息面板显示跳转到所选对象的按钮"
+    },
+    {
+      "key": "TD.SettingStopForcedSlowdown",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Shift点击时间控制可停止战斗时的强制减速"
+    },
+    {
+      "key": "TD.ConfirmRestoreAllSettings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "确定恢复全部设置？"
+    },
+    {
+      "key": "TD.FeatureConfirmRestoreSettings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "“恢复设置”按钮需要确认，并会保存一份备份。"
+    },
+    {
+      "key": "TD.RotStatDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "此物品放在室外时距离腐坏的剩余天数。\n\n冷藏或冷冻可阻止腐坏。"
+    },
+    {
+      "key": "TD.CurrentTimeToRot",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "当前腐坏剩余时间"
+    },
+    {
+      "key": "TD.ShelfLife",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "保质期"
+    },
+    {
+      "key": "TD.WaitingForMap",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "等待地图加载……"
+    }
+  ]
+}
+

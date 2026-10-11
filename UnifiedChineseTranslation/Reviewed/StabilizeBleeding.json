@@ -1,0 +1,27 @@
+{
+  "directory": "StabilizeBleeding",
+  "packageId": "defi.stabilizebleeding",
+  "name": "Stabilize Bleeding",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "StabilizeHere",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为{0}稳定出血"
+    },
+    {
+      "key": "CannotStabilize",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "无法稳定{0}的伤势"
+    },
+    {
+      "key": "StabilizeHere.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在稳定TargetA的伤势。"
+    }
+  ]
+}
+

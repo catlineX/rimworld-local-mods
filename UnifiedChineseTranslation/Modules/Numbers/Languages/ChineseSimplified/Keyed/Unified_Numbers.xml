@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Numbers_Presets.Psycasting>灵能施放</Numbers_Presets.Psycasting>
+  <Numbers_coolerThanTheAnimalTab>让Numbers动物列表取代原版动物面板。</Numbers_coolerThanTheAnimalTab>
+  <Numbers_useSmolFont>标题使用极小字体（实验功能）</Numbers_useSmolFont>
+  <Numbers_resetToDefault>将列表列设置恢复默认。</Numbers_resetToDefault>
+  <Numbers_showWildMenTable>启用野人列表</Numbers_showWildMenTable>
+  <Numbers_SetAsDefaultExplanation>将当前视图设为此类视图（{0}）的默认布局。
+
+新殖民地将使用此视图。
+
+可在模组设置中删除：
+  [菜单] =&gt; [选项] =&gt; [模组选项] =&gt; [Numbers]。</Numbers_SetAsDefaultExplanation>
+</LanguageData>

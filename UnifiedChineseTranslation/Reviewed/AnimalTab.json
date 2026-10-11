@@ -1,0 +1,147 @@
+{
+  "directory": "AnimalTab",
+  "packageId": "fluffy.animaltab",
+  "name": "Animal Tab (Continued 1.6)",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "Animals.label",
+      "kind": "DefInjected",
+      "defType": "MainButtonDef",
+      "text": "动物"
+    },
+    {
+      "key": "Animals.description",
+      "kind": "DefInjected",
+      "defType": "MainButtonDef",
+      "text": "设置殖民地驯养动物的照料方式。"
+    },
+    {
+      "key": "Filter_PawnKind.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "动物种类"
+    },
+    {
+      "key": "Filter_Training.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "训练"
+    },
+    {
+      "key": "Filter_Intelligence.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "智力"
+    },
+    {
+      "key": "Filter_Age.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "年龄"
+    },
+    {
+      "key": "Filter_Gender.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "性别"
+    },
+    {
+      "key": "Filter_Milkable.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "可挤奶"
+    },
+    {
+      "key": "Filter_Shearable.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "可剪毛"
+    },
+    {
+      "key": "Filter_Reproductive.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "可繁殖"
+    },
+    {
+      "key": "Filter_Pregnant.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "怀孕"
+    },
+    {
+      "key": "Filter_PackAnimal.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "驮兽"
+    },
+    {
+      "key": "Filter_Bonded.label",
+      "kind": "DefInjected",
+      "defType": "AnimalTab.FilterDef",
+      "text": "羁绊"
+    },
+    {
+      "key": "AnimalTabAllowedArea.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "允许活动区域"
+    },
+    {
+      "key": "Handler.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "驯兽员"
+    },
+    {
+      "key": "Fluffy.AnimalTab",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "动物面板"
+    },
+    {
+      "key": "AnimalTab.BondedFilterTip.ShowBondedWithX",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示与{0}建立羁绊的动物\n\n点击更改筛选条件"
+    },
+    {
+      "key": "AnimalTab.BondedFilterTip.HideBondedWithX",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "隐藏与{0}建立羁绊的动物\n\n点击更改筛选条件"
+    },
+    {
+      "key": "AnimalTab.ShowBonded",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示有羁绊的动物"
+    },
+    {
+      "key": "AnimalTab.HideBonded",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "隐藏有羁绊的动物"
+    },
+    {
+      "key": "AnimalTab.BondedWithX",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "与{0}建立了羁绊"
+    },
+    {
+      "key": "AnimalTab.ClearFilter",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "清除筛选条件"
+    },
+    {
+      "key": "Fluffy.AnimalTab.HandlerDied",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}已无法继续担任{1}的驯兽员"
+    }
+  ]
+}
+

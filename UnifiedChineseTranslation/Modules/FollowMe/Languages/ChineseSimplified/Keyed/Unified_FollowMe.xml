@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FollowMe.Notifications>显示通知</FollowMe.Notifications>
+  <FollowMe.Notifications.Tooltip>跟随目标改变时是否显示通知？</FollowMe.Notifications.Tooltip>
+  <FollowMe.Sounds>播放音效</FollowMe.Sounds>
+  <FollowMe.Sounds.Tooltip>跟随目标改变时是否播放音效？</FollowMe.Sounds.Tooltip>
+  <FollowMe.EdgeDetection>鼠标边缘检测</FollowMe.EdgeDetection>
+  <FollowMe.EdgeDetection.Tooltip>鼠标接近屏幕边缘时是否停止跟随？</FollowMe.EdgeDetection.Tooltip>
+  <Fluffy.FollowMe.CinematicCamera>电影式镜头</Fluffy.FollowMe.CinematicCamera>
+  <Fluffy.FollowMe.CinematicCamera.Off>关闭</Fluffy.FollowMe.CinematicCamera.Off>
+  <Fluffy.FollowMe.CameraStart>启动镜头“{0}”</Fluffy.FollowMe.CameraStart>
+  <Fluffy.FollowMe.CameraStop>停止镜头“{0}”</Fluffy.FollowMe.CameraStop>
+  <Fluffy.FollowMe.Cinematics.NoValidTargets>停止电影式镜头：没有有效目标。</Fluffy.FollowMe.Cinematics.NoValidTargets>
+</LanguageData>

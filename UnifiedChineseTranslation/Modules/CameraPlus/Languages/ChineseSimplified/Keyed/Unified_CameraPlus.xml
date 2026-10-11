@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SuppressFloatingText>缩小视角时隐藏浮动文字</SuppressFloatingText>
+  <SettingsNote_ShortcutDisabled>已禁用：请至少选择一个修饰键。</SettingsNote_ShortcutDisabled>
+  <SettingsNote_LoadSaveShortcutConflict>加载和保存使用了相同的修饰键。</SettingsNote_LoadSaveShortcutConflict>
+  <SettingsHelp_SuppressFloatingText>在原版最近缩放级别以外隐藏地图浮动文字，包括伤害和事件提示等短暂反馈，不只是固定标签。
+
+隐藏开启时，“鼠标显示标签”也会显示附近的浮动文字。关闭此项可始终显示全部浮动反馈。</SettingsHelp_SuppressFloatingText>
+  <MouseRevealsLabels>鼠标位置显示名称{0}</MouseRevealsLabels>
+</LanguageData>

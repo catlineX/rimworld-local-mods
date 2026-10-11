@@ -1,0 +1,135 @@
+{
+  "directory": "UnlimitedReborn",
+  "packageId": "nuanki.unlimitedreborn",
+  "name": "Un-Limited Reborn",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "UnlimitedReborn.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "解除限制（Un-Limited Reborn）"
+    },
+    {
+      "key": "UnlimitedReborn.settings.0.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "解除限制（Un-Limited Reborn）"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.0.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "原版"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.0.settings.0.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "服装"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.0.settings.1.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "战斗"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.0.settings.2.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "一般属性"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.0.settings.3.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "社交"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.0.settings.4.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "一般工作"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.0.settings.5.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "医疗工作"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.0.settings.6.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "制作配方"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.1.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "理念"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.1.settings.0.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "角色理念属性"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.1.settings.1.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "角色一般工作属性"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.2.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "奥德赛"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.2.settings.0.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "角色一般属性"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.3.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "高级"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.3.settings.0.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "取消后处理曲线限制（postProcessCurve）"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.3.settings.1.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "修改技能需求系数（SkillNeedFactors）"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.3.settings.2.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "双重裁剪（Double Pruning）"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.3.settings.4.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "更多信息请参阅Wiki。"
+    },
+    {
+      "key": "UnlimitedReborn.settings.3.tabs.3.settings.8.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "部分修改需要重启游戏才能生效。"
+    }
+  ]
+}
+

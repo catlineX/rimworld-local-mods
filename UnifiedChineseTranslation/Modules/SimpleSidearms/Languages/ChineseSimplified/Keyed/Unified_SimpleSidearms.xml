@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SimpleSidearms_ModTitle>主副武器（Simple Sidearms）</SimpleSidearms_ModTitle>
+  <FirstTimeSettingsWarning>首次使用主副武器模组？
+
+此图标表示你还没有配置模组设置。首次打开设置菜单后，它就会消失。
+
+点击立即前往设置。</FirstTimeSettingsWarning>
+  <FumbleRecoveryChance_title>避免武器脱手的概率</FumbleRecoveryChance_title>
+  <FumbleRecoveryChance_hint>纵轴：避免武器脱手的概率。
+横轴：近战或射击技能（取较高者）。</FumbleRecoveryChance_hint>
+  <ReEquipOutOfCombat_desc>武器脱手后，战斗结束且脱离眼前危险时自动重新装备。</ReEquipOutOfCombat_desc>
+  <ReEquipOutOfCombat_title>重新装备脱手武器</ReEquipOutOfCombat_title>
+  <ReEquipInCombat_desc>即使仍处于战斗中，只要没有正在交战，也会自动重新装备武器。</ReEquipInCombat_desc>
+  <ReEquipInCombat_title>战斗中重新装备</ReEquipInCombat_title>
+  <SkipDangerousWeapons_desc>禁止自动装备危险武器，如燃烧瓶、破片手榴弹和火箭发射器。</SkipDangerousWeapons_desc>
+  <SkipDangerousWeapons_title>跳过危险武器</SkipDangerousWeapons_title>
+  <SkipEMPWeapons_desc>禁止自动装备EMP武器。角色本来就只会在对抗机械族时考虑自动装备此类武器。</SkipEMPWeapons_desc>
+  <SkipEMPWeapons_title>跳过EMP武器</SkipEMPWeapons_title>
+  <PreserveInventoryInCaravans_desc>远行队返回时，将副武器保留在正确角色的随身物品中。（实验功能，由GitHub上的XT-0xFF实现）</PreserveInventoryInCaravans_desc>
+  <PreserveInventoryInCaravans_title>远行队返回时保留副武器</PreserveInventoryInCaravans_title>
+  <HideSidearmsInCaravanDialogs_desc>在远行队窗口中隐藏副武器，以免误卖。（实验功能，由GitHub上的XT-0xFF实现）</HideSidearmsInCaravanDialogs_desc>
+  <HideSidearmsInCaravanDialogs_title>在远行队窗口中隐藏副武器</HideSidearmsInCaravanDialogs_title>
+  <ShowAlertsMissingSidearm_desc>角色记得拥有某把副武器，但现在已经失去它且找不到替代品时，显示警报。</ShowAlertsMissingSidearm_desc>
+  <ShowAlertsMissingSidearm_title>显示副武器遗失警报</ShowAlertsMissingSidearm_title>
+  <SidearmsPlaySounds_desc>切换武器时播放音效。</SidearmsPlaySounds_desc>
+  <SidearmsPlaySounds_title>播放音效</SidearmsPlaySounds_title>
+  <ShowBrainscope_desc>显示开发工具按钮，用于查看所选角色的内部状态。</ShowBrainscope_desc>
+  <ShowBrainscope_title>显示内部状态查看器（Brainscope）</ShowBrainscope_title>
+  <AllowBlockedWeaponUse_desc>允许使用通常受限制的武器，例如人格武器、生物编码武器及理念角色限定武器。参见XKCD第1172期。</AllowBlockedWeaponUse_desc>
+  <AllowBlockedWeaponUse_title>允许使用受限制的武器</AllowBlockedWeaponUse_title>
+  <MaximumMassAmountRelative_hint>列表按标准35 kg携带能力计算。</MaximumMassAmountRelative_hint>
+  <Fumbled>武器脱手！</Fumbled>
+  <Fumbled_dev>武器脱手！（{0}）</Fumbled_dev>
+  <SidearmPickupFail_NotYetBladelinkBonded>尚未建立武器链接</SidearmPickupFail_NotYetBladelinkBonded>
+  <DrawSidearm_blocked>武器不可用</DrawSidearm_blocked>
+  <SS_EquipWarning_CannotUseWithShield>使用{0}将无法使用{1}。</SS_EquipWarning_CannotUseWithShield>
+  <SS_EquipWarning_WillUnequipOffhand>装备{0}将卸下副手的{1}。</SS_EquipWarning_WillUnequipOffhand>
+  <SS_EquipOffandFail_NoPrimary>无法将{0}装备为副手武器：需要先装备一把与之搭配的主手武器。</SS_EquipOffandFail_NoPrimary>
+  <SS_EquipOffandFail_PrimaryTwoHanded>无法将{0}装备为副手武器：{1}是双手武器。</SS_EquipOffandFail_PrimaryTwoHanded>
+  <SS_EquipOffandFail_AlreadyHoldingShield>无法将{0}装备为副手武器：已经持有{1}。</SS_EquipOffandFail_AlreadyHoldingShield>
+  <SS_EquipAsOffand>左键点击副手图标，将{0}装备为副手武器。</SS_EquipAsOffand>
+  <SS_CanEquipAsOffand>左键点击副手图标，将{0}装备为副手武器。</SS_CanEquipAsOffand>
+</LanguageData>

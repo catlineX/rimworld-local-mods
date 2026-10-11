@@ -170,6 +170,18 @@ switch ($Action) {
             $p=Join-Path $source $item
             if (Test-Path -LiteralPath $p) { Copy-Item -LiteralPath $p -Destination (Join-Path $package $item) -Recurse }
         }
+        $modulesDir=Join-Path $source 'Modules'
+        if (Test-Path -LiteralPath $modulesDir) {
+            foreach ($module in (Get-ChildItem -LiteralPath $modulesDir -Directory)) {
+                foreach ($runtimeFolder in @('Languages','Patches','Defs','Assemblies','Textures','Sounds')) {
+                    $moduleSource=Join-Path $module.FullName $runtimeFolder
+                    if (-not (Test-Path -LiteralPath $moduleSource)) { continue }
+                    $moduleTarget=Join-Path (Join-Path $package 'Modules') $module.Name
+                    [void](New-Item -ItemType Directory -Path $moduleTarget -Force)
+                    Copy-Item -LiteralPath $moduleSource -Destination (Join-Path $moduleTarget $runtimeFolder) -Recurse
+                }
+            }
+        }
         $forbidden=@(Get-ChildItem -LiteralPath $package -Recurse -File | Where-Object { $_.Name -match '^(Assembly-CSharp|UnityEngine.*|mscorlib|System.*|netstandard|0Harmony)\.dll$' -or $_.Extension -in '.rws','.log','.dmp','.pdb' })
         if ($forbidden.Count) { throw 'Forbidden runtime/state file in release package.' }
         Compress-Archive -LiteralPath $package -DestinationPath $zip -Force

@@ -1,0 +1,15 @@
+{
+  "directory": "HugsLib",
+  "packageId": "unlimitedhugs.hugslib",
+  "name": "HugsLib",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "HugsLibShortcuts.label",
+      "kind": "DefInjected",
+      "defType": "KeyBindingCategoryDef",
+      "text": "HugsLib快捷键"
+    }
+  ]
+}
+

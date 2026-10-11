@@ -1,0 +1,1431 @@
+{
+  "directory": "HumanoidAlienRaces",
+  "packageId": "erdelf.humanoidalienraces",
+  "name": "Humanoid Alien Races",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "HAR.CharacterFeatures",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "角色外观"
+    },
+    {
+      "key": "HAR.RaceFeatures",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "种族外观"
+    },
+    {
+      "key": "HAR.BodyAddons",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "身体附加部件"
+    },
+    {
+      "key": "HAR.MatchSkinColor",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "匹配肤色"
+    },
+    {
+      "key": "HAR.Colors",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "颜色"
+    },
+    {
+      "key": "HAR.LinkedFrom",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "链接来源："
+    },
+    {
+      "key": "HAR.LinkedTo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "链接到："
+    },
+    {
+      "key": "HAR.FirstColor",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "第一颜色"
+    },
+    {
+      "key": "HAR.SecondColor",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "第二颜色"
+    },
+    {
+      "key": "HAR.NoAddonsForList",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "没有可自定义的附加部件"
+    },
+    {
+      "key": "HAR.NoColorsForList",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "没有可自定义的颜色"
+    },
+    {
+      "key": "HAR.RandomizeColors",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "随机"
+    },
+    {
+      "key": "HAR.HairOneInfo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "此颜色由标准发色决定。修改殖民者的普通发色即可改变此颜色。"
+    },
+    {
+      "key": "HAR.StartingRace",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "种族限制：{0}"
+    },
+    {
+      "key": "HAR.StartingRaceDescription",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "随机生成时仅使用指定异族。"
+    },
+    {
+      "key": "HAR.ReproductionNotAllowed",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{genderOne}{raceOne}无法与{genderTwo}{raceTwo}繁殖"
+    },
+    {
+      "key": "HAR.Options.TextureLoadingLogs_Label",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示贴图加载日志"
+    },
+    {
+      "key": "HAR.Options.TextureLoadingLogs_Tooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "开启：启动时显示贴图加载日志。\n关闭：隐藏贴图加载日志及详情。\n注意：用于种族模组调试和开发。"
+    },
+    {
+      "key": "HAR.Options.RandomizeStartingPawns_Label",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "重新随机生成开局角色时完全重置"
+    },
+    {
+      "key": "HAR.Options.RandomizeStartingPawns_Tooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "开启：随机开局角色时允许完整重新生成。\n关闭：保留全部设置，只改变细节。"
+    },
+    {
+      "key": "HAR.StartingHumanlikesScenPart.Label",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "以类人角色开局"
+    },
+    {
+      "key": "HAR_EatingAliens.label",
+      "kind": "DefInjected",
+      "defType": "IssueDef",
+      "text": "食用异族"
+    },
+    {
+      "key": "HAR_AteAlienMeat.label",
+      "kind": "DefInjected",
+      "defType": "HistoryEventDef",
+      "text": "食用了异族肉"
+    },
+    {
+      "key": "HAR_ButcheredAlien.label",
+      "kind": "DefInjected",
+      "defType": "HistoryEventDef",
+      "text": "屠宰了异族"
+    },
+    {
+      "key": "HAR_AteNonAlienFood.label",
+      "kind": "DefInjected",
+      "defType": "HistoryEventDef",
+      "text": "食用了非异族食物"
+    },
+    {
+      "key": "HAR_EatingAliens_Abhorrent.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "深恶痛绝"
+    },
+    {
+      "key": "HAR_EatingAliens_Abhorrent.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "即使在饥饿时，食用其他智慧种族的尸体也令人无法接受。"
+    },
+    {
+      "key": "HAR_AteAlienMeat_Abhorrent.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食用了异族肉"
+    },
+    {
+      "key": "HAR_AteAlienMeat_Abhorrent.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我不得不食用智慧异族的肉。这违背了我的全部信仰。"
+    },
+    {
+      "key": "HAR_AteAlienMeat_Know_Abhorrent.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食用了异族肉"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Abhorrent.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我屠宰了异族"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Abhorrent.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我屠宰了智慧异族。这违背了我的全部信仰。"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Know_Abhorrent.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们屠宰了异族"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Know_Abhorrent.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们之中有人屠宰了智慧异族。这违背了我的全部信仰。"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Know_Abhorrent_Opinion.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "屠宰了异族"
+    },
+    {
+      "key": "HAR_EatingAliens_Disapproved.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "不赞同"
+    },
+    {
+      "key": "HAR_EatingAliens_Disapproved.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "只有在极端困境下，才应食用其他智慧种族的尸体。"
+    },
+    {
+      "key": "HAR_AteAlienMeat_Disapproved.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食用了异族肉"
+    },
+    {
+      "key": "HAR_AteAlienMeat_Disapproved.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我不得不食用异族肉。我认为这是错误的。"
+    },
+    {
+      "key": "HAR_AteAlienMeat_Know_Disapproved.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食用了异族肉"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Disapproved.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我屠宰了异族"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Disapproved.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我屠宰了智慧异族。我认为这是错误的。"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Know_Disapproved.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们屠宰了异族"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Know_Disapproved.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们之中有人屠宰了智慧异族。我认为这是错误的。"
+    },
+    {
+      "key": "HAR_ButcheredAlien_Know_Disapproved_Opinion.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "屠宰了异族"
+    },
+    {
+      "key": "HAR_EatingAliens_Acceptable.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "可以接受"
+    },
+    {
+      "key": "HAR_EatingAliens_Acceptable.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "异族的肉与牦牛的肉没有区别。"
+    },
+    {
+      "key": "HAR_EatingAliens_Preferred.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "偏好"
+    },
+    {
+      "key": "HAR_EatingAliens_Preferred.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "异族肉营养丰富、热量充足，几乎没有理由不偏爱它。"
+    },
+    {
+      "key": "HAR_EatingAliens_Preferred.comps.1.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "数日未食用异族肉"
+    },
+    {
+      "key": "HAR_AteAlienMeat_Preferred.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食用了异族肉"
+    },
+    {
+      "key": "HAR_AteAlienMeat_Preferred.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我食用了异族肉，感觉高贵而强壮。"
+    },
+    {
+      "key": "HAR_NoRecentAlienMeat_Preferred.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "想吃异族肉"
+    },
+    {
+      "key": "HAR_NoRecentAlienMeat_Preferred.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我已经太久没吃异族肉了，这种感觉不对劲。"
+    },
+    {
+      "key": "HAR_EatingAliens_RequiredStrong.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "必须"
+    },
+    {
+      "key": "HAR_EatingAliens_RequiredStrong.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "异族肉优于无智慧生物的肉，应鼓励经常食用。"
+    },
+    {
+      "key": "HAR_EatingAliens_RequiredStrong.comps.3.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "{HUMANMEATREQUIREDINTERVAL}天未食用异族肉"
+    },
+    {
+      "key": "HAR_AteNonAlienFood_Horrible.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食用了非异族食物"
+    },
+    {
+      "key": "HAR_AteNonAlienFood_Horrible.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我不得不食用并非来自智慧异族的食物。我的信仰严格禁止这种行为。"
+    },
+    {
+      "key": "HAR_AteNonAlienFood_Know_Horrible.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食用了非异族食物"
+    },
+    {
+      "key": "HAR_AteAlienMeat_RequiredStrong.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食用了异族肉"
+    },
+    {
+      "key": "HAR_AteAlienMeat_RequiredStrong.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我食用了异族肉，每个真正的人都该如此。"
+    },
+    {
+      "key": "HAR_NoRecentAlienMeat_RequiredStrong.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "想吃异族肉"
+    },
+    {
+      "key": "HAR_NoRecentAlienMeat_RequiredStrong.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我已经太久没吃异族肉了，早就该吃一些了。"
+    },
+    {
+      "key": "HAR_Xenophobia.degreeDatas.0.label",
+      "kind": "DefInjected",
+      "defType": "TraitDef",
+      "text": "仇视异族"
+    },
+    {
+      "key": "HAR_Xenophobia.degreeDatas.0.description",
+      "kind": "DefInjected",
+      "defType": "TraitDef",
+      "text": "[PAWN_nameDef]厌恶且不信任异族，认为他们与动物无异。"
+    },
+    {
+      "key": "HAR_Xenophobia.degreeDatas.1.label",
+      "kind": "DefInjected",
+      "defType": "TraitDef",
+      "text": "喜爱异族"
+    },
+    {
+      "key": "HAR_Xenophobia.degreeDatas.1.description",
+      "kind": "DefInjected",
+      "defType": "TraitDef",
+      "text": "[PAWN_nameDef]认为异族新奇有趣，乐于进一步了解他们，也不介意与他们建立关系。"
+    },
+    {
+      "key": "HAR_Xenophilia.label",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "亲异族主义"
+    },
+    {
+      "key": "HAR_Xenophilia.description",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "应鼓励并接纳与异族的交往；对他们恐惧或敌视，只能证明自己思想狭隘。"
+    },
+    {
+      "key": "HAR_Xenophilia.generalRules.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeAdjective->普世"
+    },
+    {
+      "key": "HAR_Xenophilia.generalRules.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeAdjective->开明"
+    },
+    {
+      "key": "HAR_Xenophilia.generalRules.rulesStrings.2",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeAdjective->包容"
+    },
+    {
+      "key": "HAR_Xenophilia.generalRules.rulesStrings.3",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeAdjective->喜爱异族"
+    },
+    {
+      "key": "HAR_Xenophilia.generalRules.rulesStrings.4",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeLeaderAdjective->和谐"
+    },
+    {
+      "key": "HAR_Xenophilia.generalRules.rulesStrings.5",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeConcept->开放"
+    },
+    {
+      "key": "HAR_Xenophilia.generalRules.rulesStrings.6",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeConcept->接纳"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "creation(tag=meme_Xenophilia)        ->[deity0_name]创造了众多种族，每个种族都是[deity0_possessive]完美形象的不同体现。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "episode(uses=1,tag=meme_Xenophilia)  ->我们的生物学家将[deity0_name]的众多造物编目归档，使[deity0_objective]感到欣慰。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.2",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "intro(tag=meme_Xenophilia)           ->在[place_summary][place_name]，[memberNamePlural]发现了[deity0_name]的教诲，展现出真正的开明。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.3",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "conflict(tag=meme_Xenophilia)        ->仇视异族的[foeLeader]鄙视[memberNamePlural]群体的包容，[foeLeader_possessive][foeSoldiers]用[place_personalWeapon]摧毁了他们的大厅。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.4",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "founderJoin(tag=meme_Xenophilia)     ->一位名叫[founderName]的机敏[place_job]请求其他种族帮助，警告[memberNamePlural]注意[foeSoldiers]正在逼近。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.5",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "victory(tag=meme_Xenophilia)         ->[founderName]遵照[deity0_name]的神圣旨意传播包容与爱，将[memberNamePlural]中的各族团结起来，击败[foeSoldiers]。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.6",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "setup(tag=meme_Xenophilia)           ->行星殖民早期，[founderName]是一名社会科学家。看到许多政府极端排外的政策，[founder_pronoun]乘小型飞船离开，创立[founder_possessive]自己的运动。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.7",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "story(uses=1,tag=meme_Xenophilia)    ->[founderName]召集杰出的科学家和社会学家，建立让所有种族和谐共处的新文明。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.8",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "lessonIntro(tag=meme_Xenophilia)         ->我大学里最年长的社会学家教给我宇宙生命的历史，指出"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.9",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "lesson(tag=meme_Xenophilia)              ->我们并不孤独。群星之间并不缺少智慧生命，我们皆如兄弟姐妹。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.10",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "lessonReinforcement(tag=meme_Xenophilia) ->只有并肩合作、暂放彼此差异，才能完成任何任务。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.11",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "archistBasis(tag=meme_Xenophilia)    ->还有什么比统一的、超越奇点的超凡科技更能接纳我们内在的差异？"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.12",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "archistFact(tag=meme_Xenophilia)     ->在超越之中，我们的生物起源逐渐融为一体。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.13",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "archistProphecy(tag=meme_Xenophilia) ->[inTheEnd]，我们所有人都将通过合作实现升华。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.14",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "animistBasis(tag=meme_Xenophilia)    ->精灵之间没有“种族”的概念。"
+    },
+    {
+      "key": "HAR_Xenophilia.descriptionMaker.rules.rulesStrings.15",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "animistProphecy(tag=meme_Xenophilia) ->当我们完全接纳彼此、将彼此视作同一纯粹理念的不同体现时，精灵便会向我们揭示本质。"
+    },
+    {
+      "key": "HAR_Xenophobia.label",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "排异族主义"
+    },
+    {
+      "key": "HAR_Xenophobia.description",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "不容异族存活，他们的存在本身就威胁着我们。他们更适合成为我们的仆役或食物。"
+    },
+    {
+      "key": "HAR_Xenophobia.generalRules.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeAdjective->偏执"
+    },
+    {
+      "key": "HAR_Xenophobia.generalRules.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeAdjective->族群中心"
+    },
+    {
+      "key": "HAR_Xenophobia.generalRules.rulesStrings.2",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeAdjective->不宽容"
+    },
+    {
+      "key": "HAR_Xenophobia.generalRules.rulesStrings.3",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeAdjective->偏见"
+    },
+    {
+      "key": "HAR_Xenophobia.generalRules.rulesStrings.4",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeLeaderAdjective->顽固"
+    },
+    {
+      "key": "HAR_Xenophobia.generalRules.rulesStrings.5",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeConcept->排斥"
+    },
+    {
+      "key": "HAR_Xenophobia.generalRules.rulesStrings.6",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "memeConcept->偏见"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "creation(tag=meme_Xenophobia)        ->[deity0_name]创造了我们，作为[deity0_possessive]神圣形象的完美体现。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "episode(uses=1,tag=meme_Xenophobia)  ->[deity0_name]的其他造物只是为我们制作的工具；将他们视为工具正是[deity0_objective]的旨意。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.2",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "intro(tag=meme_Xenophobia)           ->在[place_summary][place_name]，[memberNamePlural]发现了[deity0_name]的教诲，确认我们居于造物之巅。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.3",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "conflict(tag=meme_Xenophobia)        ->嫉妒我们神圣地位的异族[foeLeader]试图征服[memberNamePlural]群体，[foeLeader_possessive][foeSoldiers]奴役了我们的人民。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.4",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "founderJoin(tag=meme_Xenophobia)     ->奴隶中出现了一位名叫[founderName]的机敏[place_job]，组织[memberNamePlural]反抗异族压迫者。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.5",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "victory(tag=meme_Xenophobia)         ->[founderName]遵照[deity0_name]的神圣旨意屠灭异族，将[memberNamePlural]带入进步与优越的新时代。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.6",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "setup(tag=meme_Xenophobia)           ->行星殖民早期，[founderName]是一名社会科学家。看到许多政府愚蠢的接纳政策，[founder_pronoun]乘小型飞船离开，创立[founder_possessive]自己的运动。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.7",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "story(uses=1,tag=meme_Xenophobia)    ->[founderName]召集杰出的科学家和社会学家，建立将本族需求置于可憎异族之上的新文明。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.8",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "lessonIntro(tag=meme_Xenophobia)         ->小队里最年长的猎人教给我宇宙生命的历史，指出"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.9",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "lesson(tag=meme_Xenophobia)              ->我们并不孤独。群星之间并不缺少智慧生命，而他们的存在本身就威胁着我们。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.10",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "lessonReinforcement(tag=meme_Xenophobia) ->别无选择，必须清除异族威胁。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.11",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "archistBasis(tag=meme_Xenophobia)    ->超凡科技是生物进化的顶峰，只有真正配得上它的人才应抵达。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.12",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "archistFact(tag=meme_Xenophobia)     ->你能想象失控的异族后奇点智能会对我们构成怎样的威胁吗？"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.13",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "archistProphecy(tag=meme_Xenophobia) ->别无选择，必须在异族获准达到那种境界前清除他们。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.14",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "animistBasis(tag=meme_Xenophobia)    ->异族没有灵魂，是精灵世界的污秽之物。"
+    },
+    {
+      "key": "HAR_Xenophobia.descriptionMaker.rules.rulesStrings.15",
+      "kind": "DefInjected",
+      "defType": "MemeDef",
+      "text": "animistProphecy(tag=meme_Xenophobia) ->只有清除所有异族，精灵才会眷顾我们。"
+    },
+    {
+      "key": "HAR_AlienRaces.label",
+      "kind": "DefInjected",
+      "defType": "IssueDef",
+      "text": "异族"
+    },
+    {
+      "key": "HAR_AlienRaces_Abhorrent.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "深恶痛绝"
+    },
+    {
+      "key": "HAR_AlienRaces_Abhorrent.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "异族休想与我们成为朋友。他们只想让我们灭亡，我们不能容忍他们在身边。"
+    },
+    {
+      "key": "HAR_AlienRaces_Abhorrent.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "恶心的异族！"
+    },
+    {
+      "key": "HAR_AlienRaces_Abhorrent.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "其他种族令人极其厌恶，我无法忍受他们！"
+    },
+    {
+      "key": "HAR_AlienRaces_Abhorrent_Social.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "恶心的异族！"
+    },
+    {
+      "key": "HAR_AlienRaces_Horrible.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "不喜欢"
+    },
+    {
+      "key": "HAR_AlienRaces_Horrible.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "异族与我们不同，差异太大。我们必须保持警惕，与他们保持距离。"
+    },
+    {
+      "key": "HAR_AlienRaces_Horrible_Social.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "不信任异族"
+    },
+    {
+      "key": "HAR_AlienRaces_Standard.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "中立"
+    },
+    {
+      "key": "HAR_AlienRaces_Standard.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "外来的异族与我们并无高低之分。"
+    },
+    {
+      "key": "HAR_AlienRaces_Respected.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "尊重"
+    },
+    {
+      "key": "HAR_AlienRaces_Respected.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "来自母星之外的异族值得我们敬重。"
+    },
+    {
+      "key": "HAR_AlienRaces_Respected_Social.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "尊重异族"
+    },
+    {
+      "key": "HAR_AlienRaces_Exalted.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "崇敬"
+    },
+    {
+      "key": "HAR_AlienRaces_Exalted.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "来自其他恒星系的异族非同凡响；能成为友善的东道主是我们的荣幸。"
+    },
+    {
+      "key": "HAR_AlienRaces_Exalted.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "了不起的异族！"
+    },
+    {
+      "key": "HAR_AlienRaces_Exalted.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "真不敢相信，我竟能与其他种族相伴！"
+    },
+    {
+      "key": "HAR_AlienRaces_Exalted_Social.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "了不起的异族！"
+    },
+    {
+      "key": "HAR_XenophobeVsXenophile.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "排异族者与亲异族者的分歧"
+    },
+    {
+      "key": "HAR_XenophobiaVsAlien.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "亲异族者喜爱异族"
+    },
+    {
+      "key": "HAR_XenophobiaVsAlien.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "亲异族者喜爱异族"
+    },
+    {
+      "key": "HAR_XenophobiaVsAlien.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "排异族者厌恶异族"
+    },
+    {
+      "key": "HAR_XenophobiaVsAlien.stages.1.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "排异族者厌恶异族"
+    },
+    {
+      "key": "HAR_AlienVsXenophobia.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "受到亲异族者喜爱的异族"
+    },
+    {
+      "key": "HAR_AlienVsXenophobia.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "受到排异族者厌恶的异族"
+    },
+    {
+      "key": "HAR_AlienDating.label",
+      "kind": "DefInjected",
+      "defType": "IssueDef",
+      "text": "与异族恋爱"
+    },
+    {
+      "key": "HAR_AlienDating_BeginRomance.label",
+      "kind": "DefInjected",
+      "defType": "HistoryEventDef",
+      "text": "与异族开始恋爱"
+    },
+    {
+      "key": "HAR_AlienDating_SharedBed.label",
+      "kind": "DefInjected",
+      "defType": "HistoryEventDef",
+      "text": "与异族共用床铺"
+    },
+    {
+      "key": "HAR_AlienDating_Dating.label",
+      "kind": "DefInjected",
+      "defType": "HistoryEventDef",
+      "text": "与异族保持恋爱关系"
+    },
+    {
+      "key": "HAR_AlienDating_Prohibited.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "禁止"
+    },
+    {
+      "key": "HAR_AlienDating_Prohibited.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "绝不允许与异族恋爱；与他们发生亲密关系的想法令人极度厌恶。"
+    },
+    {
+      "key": "HAR_AlienDating_Horrible.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "非常反感"
+    },
+    {
+      "key": "HAR_AlienDating_Horrible.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "与异族结合的想法荒谬至极，有许多理由不应考虑这样做。"
+    },
+    {
+      "key": "HAR_AlienDating_Horrible.comps.1.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "与异族恋爱"
+    },
+    {
+      "key": "HAR_AlienDating_Horrible.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "与异族交往过"
+    },
+    {
+      "key": "HAR_AlienDating_Horrible.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我怎么会与异族交往？我对自己感到厌恶。"
+    },
+    {
+      "key": "HAR_AlienDating_Know_Horrible.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "与异族交往过"
+    },
+    {
+      "key": "HAR_AlienDating_Acceptable.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "可以接受"
+    },
+    {
+      "key": "HAR_AlienDating_Acceptable.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "如果双方合得来，为何不能与异族恋爱？"
+    },
+    {
+      "key": "HAR_AlienDating_Preferred.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "偏好"
+    },
+    {
+      "key": "HAR_AlienDating_Preferred.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "与异族恋爱新奇而令人兴奋，应当鼓励。"
+    },
+    {
+      "key": "HAR_AlienDating_Honorable.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "值得尊敬"
+    },
+    {
+      "key": "HAR_AlienDating_Honorable.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "与异族携手相爱、相互忠诚既令人振奋又新奇；应尊重选择这样做的人所表现出的开明。"
+    },
+    {
+      "key": "HAR_AlienDating_Know_Honorable.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "与异族交往过"
+    },
+    {
+      "key": "HAR_AlienCorpseCategory.label",
+      "kind": "DefInjected",
+      "defType": "ThingCategoryDef",
+      "text": "异族尸体"
+    },
+    {
+      "key": "HAR.OutfitStandRaceCommandDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "更改展示的种族。\n这可能改变允许穿戴的服装。"
+    },
+    {
+      "key": "HAR.OutfitStandBodyCommandDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "更改展示的体型。\n这可能改变允许穿戴的服装。"
+    },
+    {
+      "key": "HAR.OutfitStandHeadCommandDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "更改展示的头型。"
+    },
+    {
+      "key": "HAR_AlienSlavery.label",
+      "kind": "DefInjected",
+      "defType": "IssueDef",
+      "text": "异族奴役"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave.label",
+      "kind": "DefInjected",
+      "defType": "HistoryEventDef",
+      "text": "出售了奴隶"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner.label",
+      "kind": "DefInjected",
+      "defType": "HistoryEventDef",
+      "text": "奴役了囚犯"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisonerNotPreviouslyEnslaved.label",
+      "kind": "DefInjected",
+      "defType": "HistoryEventDef",
+      "text": "奴役了此前未被奴役的囚犯"
+    },
+    {
+      "key": "HAR_AlienSlavery_Abhorrent.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "深恶痛绝"
+    },
+    {
+      "key": "HAR_AlienSlavery_Abhorrent.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "拥有或买卖异族智慧生命是极大的罪恶。"
+    },
+    {
+      "key": "HAR_AlienSlavery_Abhorrent.comps.0.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "殖民地中的每名异族奴隶"
+    },
+    {
+      "key": "HAR_AlienSlavery_Abhorrent.comps.5.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "有人出售了异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "殖民地中有异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Abhorrent_SlavesInColony.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们在囚禁异族奴隶，太野蛮了。"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Abhorrent.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "出售了异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "异族奴隶被出售"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Abhorrent_Mood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们将异族卖为奴隶。这是令人厌恶的野蛮行径。"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Abhorrent.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_AlienSlavery_Horrible.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "非常反感"
+    },
+    {
+      "key": "HAR_AlienSlavery_Horrible.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "拥有或买卖异族智慧生命是可怕的行为。"
+    },
+    {
+      "key": "HAR_AlienSlavery_Horrible.comps.0.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "殖民地中的每名异族奴隶"
+    },
+    {
+      "key": "HAR_AlienSlavery_Horrible.comps.5.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "有人出售了异族奴隶"
+    },
+    {
+      "key": "HAR_AlienSlavery_Horrible.comps.6.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "有人奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Horrible_SlavesInColony.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "殖民地中有异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Horrible_SlavesInColony.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们在囚禁异族奴隶，这是错误的。"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Horrible.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "出售了异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Horrible.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我将异族卖为奴隶，不知能否原谅自己。"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Horrible.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Horrible.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我强迫异族成为奴隶，怎能为此辩解？"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Horrible.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "出售了异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "异族奴隶被出售"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Horrible_Mood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们将异族卖为奴隶，太可怕了。"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Horrible.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Horrible_Mood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "异族囚犯被奴役"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Horrible_Mood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们奴役了异族，对另一个智慧生命做出如此可怕的事情。"
+    },
+    {
+      "key": "HAR_AlienSlavery_Disapproved.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "不赞同"
+    },
+    {
+      "key": "HAR_AlienSlavery_Disapproved.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "奴役异族虽是生活的一部分，但令人极为反感。"
+    },
+    {
+      "key": "HAR_AlienSlavery_Disapproved.comps.0.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "殖民地中的每名异族奴隶"
+    },
+    {
+      "key": "HAR_AlienSlavery_Disapproved.comps.5.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "有人出售了异族奴隶"
+    },
+    {
+      "key": "HAR_AlienSlavery_Disapproved.comps.6.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "有人奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Disapproved_SlavesInColony.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "殖民地中有异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Disapproved_SlavesInColony.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们在囚禁异族奴隶。即使有必要，仍令人反感，我希望我们不要这样做。"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Disapproved.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "出售了异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Disapproved.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我将异族卖为奴隶，希望他们不会遭遇可怕的事情。"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Disapproved.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Disapproved.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我奴役了异族，很难为这种行为辩解。"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Disapproved.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "出售了异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "异族奴隶被出售"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Disapproved_Mood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们将异族卖为奴隶，本不该这样做。"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Disapproved.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Disapproved_Mood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "异族囚犯被奴役"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Disapproved_Mood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们奴役了异族，本不该这样做。"
+    },
+    {
+      "key": "HAR_AlienSlavery_Acceptable.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "可以接受"
+    },
+    {
+      "key": "HAR_AlienSlavery_Acceptable.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "奴役异族是生活中正常、平常的一部分。"
+    },
+    {
+      "key": "HAR_AlienSlavery_Honorable.label",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "值得尊敬"
+    },
+    {
+      "key": "HAR_AlienSlavery_Honorable.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "拥有和买卖异族奴隶的人应当获得尊重与敬意。"
+    },
+    {
+      "key": "HAR_AlienSlavery_Honorable.comps.0.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "殖民地中的每名异族奴隶"
+    },
+    {
+      "key": "HAR_AlienSlavery_Honorable.comps.6.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "有人出售了异族奴隶"
+    },
+    {
+      "key": "HAR_AlienSlavery_Honorable.comps.7.description",
+      "kind": "DefInjected",
+      "defType": "PreceptDef",
+      "text": "有人奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Honorable_SlavesInColony.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "殖民地中有异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Honorable_SlavesInColony.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们拥有异族奴隶，这说明我们走在正确的道路上。"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Honorable_NoSlavesInColony.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "殖民地中没有异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_Slavery_Honorable_NoSlavesInColony.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "没有异族奴隶，别人就不会尊重我们。"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Honorable.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "出售了异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Honorable.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我将异族卖为奴隶，人们会因此注意到我的地位。"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Honorable.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Honorable.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我让异族成为奴隶，他们别无选择，只能服从。"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Honorable.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "出售了异族奴隶"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Honorable_Mood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "异族奴隶被出售"
+    },
+    {
+      "key": "HAR_Alien_SoldSlave_Know_Honorable_Mood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们将异族卖为奴隶，充分展示了我们的荣誉与力量！"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Honorable.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "奴役了异族囚犯"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "异族囚犯被奴役"
+    },
+    {
+      "key": "HAR_Alien_EnslavedPrisoner_Know_Honorable_Mood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我们奴役了异族，现在他们知道我们的荣誉与力量了！"
+    },
+    {
+      "key": "HAR_StartingHumanlikes.label",
+      "kind": "DefInjected",
+      "defType": "ScenPartDef",
+      "text": "以类人角色开局"
+    }
+  ]
+}
+

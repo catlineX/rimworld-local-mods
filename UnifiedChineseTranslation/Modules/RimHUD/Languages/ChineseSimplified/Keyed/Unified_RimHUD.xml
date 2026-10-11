@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RimHUD.Interface.Dialog_Config.Title>RimHUD（角色信息）</RimHUD.Interface.Dialog_Config.Title>
+  <RimHUD.Interface.Dialog_Config.Tab_Colors.RGBA>RGBA（红／绿／蓝／透明度）</RimHUD.Interface.Dialog_Config.Tab_Colors.RGBA>
+  <RimHUD.Layout.Stat>{0}属性</RimHUD.Layout.Stat>
+  <RimHUD.Layout.Record>{0}记录</RimHUD.Layout.Record>
+  <RimHUD.Model.OfFaction>所属派系：{0}</RimHUD.Model.OfFaction>
+  <RimHUD.Model.GenderRaceAndAge>{0}，年龄{1}</RimHUD.Model.GenderRaceAndAge>
+  <RimHUD.Model.Mood.Inspired>{0}（持续{1}）</RimHUD.Model.Mood.Inspired>
+  <RimHUD.Theme.RefreshRateUnits>ms（毫秒）</RimHUD.Theme.RefreshRateUnits>
+</LanguageData>

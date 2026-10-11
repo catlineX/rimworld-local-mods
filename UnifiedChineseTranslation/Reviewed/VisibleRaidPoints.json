@@ -1,0 +1,633 @@
+{
+  "directory": "VisibleRaidPoints",
+  "packageId": "visibleraidpoints.1trickpwnyta",
+  "name": "Visible Raid Points",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "VisibleRaidPoints_RaidPointsUsed",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "使用的威胁点数"
+    },
+    {
+      "key": "VisibleRaidPoints_ShowPointsInLetterLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在信件标题中显示点数"
+    },
+    {
+      "key": "VisibleRaidPoints_ShowPointsInLetterText",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在信件正文中显示点数"
+    },
+    {
+      "key": "VisibleRaidPoints_ShowBreakdownInLetterText",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在信件正文中显示点数明细"
+    },
+    {
+      "key": "VisibleRaidPoints_ShowBreakdownLinkInLetter",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在信件底部添加点数明细链接"
+    },
+    {
+      "key": "VisibleRaidPoints_IncidentWorkerTypes",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用的事件类型"
+    },
+    {
+      "key": "VisibleRaidPoints_Modify",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "修改"
+    },
+    {
+      "key": "VisibleRaidPoints_EnableAll",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全部启用"
+    },
+    {
+      "key": "VisibleRaidPoints_DisableAll",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全部禁用"
+    },
+    {
+      "key": "VisibleRaidPoints_AggressiveAnimals",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "猎人兽群"
+    },
+    {
+      "key": "VisibleRaidPoints_AmbushEnemyFaction",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队伏击（人类）"
+    },
+    {
+      "key": "VisibleRaidPoints_AmbushManhunterPack",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队伏击（动物）"
+    },
+    {
+      "key": "VisibleRaidPoints_AnimalInsanityMass",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "动物发狂"
+    },
+    {
+      "key": "VisibleRaidPoints_AnomalyEndgame",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "虚空觉醒"
+    },
+    {
+      "key": "VisibleRaidPoints_CaravanDemand",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队勒索"
+    },
+    {
+      "key": "VisibleRaidPoints_ChimeraAssault",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "嵌合兽袭击"
+    },
+    {
+      "key": "VisibleRaidPoints_CrashedShipPart",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "心灵／枯萎飞船"
+    },
+    {
+      "key": "VisibleRaidPoints_CropBlight",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "作物枯萎病"
+    },
+    {
+      "key": "VisibleRaidPoints_DeepDrillInfestation",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "挖得太深：虫灾"
+    },
+    {
+      "key": "VisibleRaidPoints_DevourerAssault",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "吞噬兽袭击"
+    },
+    {
+      "key": "VisibleRaidPoints_DevourerWaterAssault",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "吞噬兽水上袭击"
+    },
+    {
+      "key": "VisibleRaidPoints_EntitySwarm",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "异象群"
+    },
+    {
+      "key": "VisibleRaidPoints_FleshbeastAttack",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "血肉兽袭击"
+    },
+    {
+      "key": "VisibleRaidPoints_FleshmassHeart",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "血肉心脏"
+    },
+    {
+      "key": "VisibleRaidPoints_GhoulAttack",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "食尸鬼袭击"
+    },
+    {
+      "key": "VisibleRaidPoints_GiveQuest",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任务"
+    },
+    {
+      "key": "VisibleRaidPoints_GorehulkAssault",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "血棘巨人袭击"
+    },
+    {
+      "key": "VisibleRaidPoints_HateChanters",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "恶咒吟诵者"
+    },
+    {
+      "key": "VisibleRaidPoints_Infestation",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "虫灾"
+    },
+    {
+      "key": "VisibleRaidPoints_InsectJelly",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "虫胶"
+    },
+    {
+      "key": "VisibleRaidPoints_MechCluster",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "机械族集群"
+    },
+    {
+      "key": "VisibleRaidPoints_NoctolAttack",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "夜魇袭击"
+    },
+    {
+      "key": "VisibleRaidPoints_PitGateEmergence",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "巨坑出现"
+    },
+    {
+      "key": "VisibleRaidPoints_PsychicDrone",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "心灵低语"
+    },
+    {
+      "key": "VisibleRaidPoints_PsychicRitualSiege",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "邪教徒灵能仪式"
+    },
+    {
+      "key": "VisibleRaidPoints_RaidEnemy",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "袭击"
+    },
+    {
+      "key": "VisibleRaidPoints_RaidFriendly",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "友军"
+    },
+    {
+      "key": "VisibleRaidPoints_SanguophageIncidents",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "血族相关事件"
+    },
+    {
+      "key": "VisibleRaidPoints_ShamblerAssault",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "蹒跚怪袭击"
+    },
+    {
+      "key": "VisibleRaidPoints_ShamblerSwarm",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "蹒跚怪群"
+    },
+    {
+      "key": "VisibleRaidPoints_SightstealerArrival",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "隐形魔出现"
+    },
+    {
+      "key": "VisibleRaidPoints_SightstealerSwarm",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远方尖啸"
+    },
+    {
+      "key": "VisibleRaidPoints_TraderCaravanArrival",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "贸易商队"
+    },
+    {
+      "key": "VisibleRaidPoints_TravelerGroup",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "过路者"
+    },
+    {
+      "key": "VisibleRaidPoints_VisitorGroup",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "访客"
+    },
+    {
+      "key": "VisibleRaidPoints_WastepackInfestation",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "废物袋虫灾"
+    },
+    {
+      "key": "VisibleRaidPoints_PointsBreakdown",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "威胁点数明细"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownInitialValueDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "初始值"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownPlayerWealthForStorytellerDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "故事叙述者计入的玩家财富"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownPlayerWealthForStorytellerExpl",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "总财富 −（建筑财富 / 2）"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownPointsFromWealthDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "财富提供的点数"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownPointsPerPawnDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "每名角色提供的点数"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownPointsPerPawnExpl",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "根据财富计算"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownPointsFromPawnsDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "角色提供的总点数"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownTargetRandomFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队随机系数"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownAdaptationFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "适应度系数"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownThreatScaleDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "威胁规模系数"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownGraceFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "宽限期系数"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownGraceFactorExpl",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "根据殖民地建立时长计算"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownClampLowDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "最低限制为35点"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownClampHighDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "最高限制为{0}点"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownPreCalculatedPointsDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "预先计算的点数"
+    },
+    {
+      "key": "VisibleRaidPoints_BreakdownTotal",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "最终结果"
+    },
+    {
+      "key": "VisibleRaidPoints_StorytellerRandomFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "兰迪随机系数"
+    },
+    {
+      "key": "VisibleRaidPoints_RaidArrivalModeFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "袭击抵达方式系数"
+    },
+    {
+      "key": "VisibleRaidPoints_RaidStrategyFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "袭击策略系数"
+    },
+    {
+      "key": "VisibleRaidPoints_RaidAgeRestrictionFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "袭击年龄限制系数"
+    },
+    {
+      "key": "VisibleRaidPoints_PollutionRaidFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "污染袭击系数"
+    },
+    {
+      "key": "VisibleRaidPoints_AmbushManhunterFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队动物伏击系数"
+    },
+    {
+      "key": "VisibleRaidPoints_CaravanDemandFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队勒索随机系数"
+    },
+    {
+      "key": "VisibleRaidPoints_CrashedShipPartFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "坠毁飞船部件系数"
+    },
+    {
+      "key": "VisibleRaidPoints_DeepDrillInfestationFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "深钻井虫灾随机系数"
+    },
+    {
+      "key": "VisibleRaidPoints_InfestationFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "虫灾系数"
+    },
+    {
+      "key": "VisibleRaidPoints_IntermediateTotalDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "中间结果"
+    },
+    {
+      "key": "VisibleRaidPoints_AnimalInsanityMassCalcDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "动物群体发狂调整"
+    },
+    {
+      "key": "VisibleRaidPoints_CrashedShipPartMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "坠毁飞船部件最低300点"
+    },
+    {
+      "key": "VisibleRaidPoints_DeepDrillInfestationMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "深钻井虫灾最低200点"
+    },
+    {
+      "key": "VisibleRaidPoints_DeepDrillInfestationMaxDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "深钻井虫灾最高1000点"
+    },
+    {
+      "key": "VisibleRaidPoints_MechClusterMaxDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "机械族集群最高10000点"
+    },
+    {
+      "key": "VisibleRaidPoints_SightstealerSwarmFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "隐形魔群系数"
+    },
+    {
+      "key": "VisibleRaidPoints_GorehulkAssaultMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "血棘巨人袭击最低{0}点"
+    },
+    {
+      "key": "VisibleRaidPoints_GorehulkAssaultMinFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "血棘巨人袭击最低系数"
+    },
+    {
+      "key": "VisibleRaidPoints_EntitySwarmRandomFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "异象群随机系数"
+    },
+    {
+      "key": "VisibleRaidPoints_EntitySwarmMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "异象群最低{0}点"
+    },
+    {
+      "key": "VisibleRaidPoints_FleshbeastAttackFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "血肉兽袭击系数"
+    },
+    {
+      "key": "VisibleRaidPoints_NoctolithsDamagedFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "夜光柱受损系数"
+    },
+    {
+      "key": "VisibleRaidPoints_DevourerAssaultMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "吞噬兽袭击最低{0}点"
+    },
+    {
+      "key": "VisibleRaidPoints_DevourerAssaultMinFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "吞噬兽袭击最低系数"
+    },
+    {
+      "key": "VisibleRaidPoints_DevourerWaterAssaultFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "吞噬兽水上袭击系数"
+    },
+    {
+      "key": "VisibleRaidPoints_ChimeraAssaultMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "嵌合兽袭击最低{0}点"
+    },
+    {
+      "key": "VisibleRaidPoints_ChimeraAssaultMinFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "嵌合兽袭击最低系数"
+    },
+    {
+      "key": "VisibleRaidPoints_HateChantersMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "恶咒吟诵者最低{0}点"
+    },
+    {
+      "key": "VisibleRaidPoints_HateChantersMinFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "恶咒吟诵者最低系数"
+    },
+    {
+      "key": "VisibleRaidPoints_RaidStrategyMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "袭击策略最低{0}点"
+    },
+    {
+      "key": "VisibleRaidPoints_FactionMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "派系最低{0}点"
+    },
+    {
+      "key": "VisibleRaidPoints_PsychicRitualQualityDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "灵能仪式品质"
+    },
+    {
+      "key": "VisibleRaidPoints_PsychicRitualQualityFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "灵能仪式品质系数"
+    },
+    {
+      "key": "VisibleRaidPoints_PsychicRitualSiegeThreatDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "灵能仪式围攻威胁"
+    },
+    {
+      "key": "VisibleRaidPoints_VoidAwakeningFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "虚空觉醒系数"
+    },
+    {
+      "key": "VisibleRaidPoints_SanguophageHunterPointsDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "血族猎人点数"
+    },
+    {
+      "key": "VisibleRaidPoints_SanguophageHunterPointsExpl",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "每名血族200点"
+    },
+    {
+      "key": "VisibleRaidPoints_ThreatsGeneratorFactorDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "威胁生成器系数"
+    },
+    {
+      "key": "VisibleRaidPoints_ThreatsGeneratorMinDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "威胁生成器最低{0}点"
+    },
+    {
+      "key": "VisibleRaidPoints_ThreatsGeneratorExpl",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "例如Royalty结局"
+    }
+  ]
+}
+

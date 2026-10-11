@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PUAH.allowCorpses>允许将尸体放入随身物品</PUAH.allowCorpses>
+  <PUAH.allowCorpsesTooltip>默认关闭：尸体只直接拿在手中搬运。</PUAH.allowCorpsesTooltip>
+  <PUAH.allowAnimals>允许驯服的驮兽利用随身物品空间搬运</PUAH.allowAnimals>
+  <PUAH.allowAnimalsTooltip>默认开启。搭配为更多动物提供背包的模组效果更好，例如VFME Caravan Packs。</PUAH.allowAnimalsTooltip>
+  <PUAH.allowMechanoids>允许被入侵控制的机械体利用随身物品空间搬运</PUAH.allowMechanoids>
+  <PUAH.allowMechanoidsTooltip>需要What The Hack或类似模组。默认开启。</PUAH.allowMechanoidsTooltip>
+  <PUAH.minimumFreeInventorySpace>启用随身搬运所需的最小剩余空间</PUAH.minimumFreeInventorySpace>
+  <PUAH.minimumFreeInventorySpaceTooltip>剩余空间低于此值的角色直接使用原版搬运。设为0%会始终尝试随身搬运，即使空间几乎已满；100%则要求角色完全不携带或穿戴物品。默认20%。</PUAH.minimumFreeInventorySpaceTooltip>
+</LanguageData>

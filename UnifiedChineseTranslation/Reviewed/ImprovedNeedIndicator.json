@@ -1,0 +1,27 @@
+{
+  "directory": "ImprovedNeedIndicator",
+  "packageId": "amch.improvedneedindicator",
+  "name": "Improved Need Indicator",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "ShowDetails.label",
+      "kind": "DefInjected",
+      "defType": "KeyBindingDef",
+      "text": "悬停在需求条上时显示详细需求信息。"
+    },
+    {
+      "key": "ImprovedNeedIndicatorKeys.label",
+      "kind": "DefInjected",
+      "defType": "KeyBindingCategoryDef",
+      "text": "改进需求指示器"
+    },
+    {
+      "key": "ImprovedNeedIndicatorKeys.description",
+      "kind": "DefInjected",
+      "defType": "KeyBindingCategoryDef",
+      "text": "改进需求指示器的快捷键。"
+    }
+  ]
+}
+

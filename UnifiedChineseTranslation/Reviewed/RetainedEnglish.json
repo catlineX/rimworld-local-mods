@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "decisions": [
+    {
+      "packageId": "mlie.markthatpawn",
+      "key": "GDI.label",
+      "reason": "作品/阵营固有名称，配套说明已译"
+    },
+    {
+      "packageId": "mlie.markthatpawn",
+      "key": "Nod.label",
+      "reason": "作品/阵营固有名称，配套说明已译"
+    },
+    {
+      "packageId": "mlie.markthatpawn",
+      "key": "XCOM.label",
+      "reason": "作品/阵营固有名称，配套说明已译"
+    },
+    {
+      "packageId": "mlie.markthatpawn",
+      "key": "XCOMTwo.label",
+      "reason": "作品/阵营固有名称，配套说明已译"
+    },
+    {
+      "packageId": "yokaimura.1.32",
+      "key": "FoxFlame.verb",
+      "kind": "DefInjected",
+      "defType": "ManeuverDef",
+      "reason": "内部C#行为类名，不是显示文本；不可汉化"
+    },
+    {
+      "packageId": "yokaimura.1.32",
+      "key": "YokaiPower.verb",
+      "kind": "DefInjected",
+      "defType": "ManeuverDef",
+      "reason": "内部C#行为类名，不是显示文本；不可汉化"
+    },
+    {
+      "packageId": "yokaimura.1.32",
+      "key": "KamaitachiCut.verb",
+      "kind": "DefInjected",
+      "defType": "ManeuverDef",
+      "reason": "内部C#行为类名，不是显示文本；不可汉化"
+    },
+    {
+      "packageId": "yokaimura.1.32",
+      "key": "DragonScratch.verb",
+      "kind": "DefInjected",
+      "defType": "ManeuverDef",
+      "reason": "内部C#行为类名，不是显示文本；不可汉化"
+    },
+    {
+      "packageId": "yokaimura.1.32",
+      "key": "DragonBite.verb",
+      "kind": "DefInjected",
+      "defType": "ManeuverDef",
+      "reason": "内部C#行为类名，不是显示文本；不可汉化"
+    },
+    {
+      "packageId": "yokaimura.1.32",
+      "key": "Yokai_Frostbite.verb",
+      "kind": "DefInjected",
+      "defType": "ManeuverDef",
+      "reason": "内部C#行为类名，不是显示文本；不可汉化"
+    },
+    {
+      "packageId": "sandy.rpgstyleinventory",
+      "key": "SandyMassValue",
+      "kind": "Keyed",
+      "defType": "",
+      "reason": "数值格式与国际单位kg保留，界面上下文已汉化"
+    },
+    {
+      "packageId": "memegoddess.ctrlf",
+      "key": "TD.CtrlF",
+      "reason": "快捷键/功能固有名称Ctrl-F，配套说明已译"
+    },
+    {
+      "packageId": "memegoddess.medicaltab",
+      "key": "MedicalTab.Shift",
+      "reason": "键盘按键名称保留Shift"
+    },
+    {
+      "packageId": "memegoddess.medicaltab",
+      "key": "MedicalTab.Alt",
+      "reason": "键盘按键名称保留Alt"
+    },
+    {
+      "packageId": "memegoddess.medicaltab",
+      "key": "MedicalTab.Ctrl",
+      "reason": "键盘按键名称保留Ctrl"
+    },
+    {
+      "packageId": "andromeda.nicebilltab",
+      "key": "CEmmShort",
+      "reason": "国际长度单位mm保留"
+    }
+  ]
+}

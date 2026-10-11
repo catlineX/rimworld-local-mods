@@ -1,0 +1,525 @@
+{
+  "directory": "YokaiVillage",
+  "packageId": "yokaimura.1.32",
+  "name": "妖怪村",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "Yokai_TubakiAnimal.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "斩击"
+    },
+    {
+      "key": "Yokai_DragonArm.comps.0.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "刀刃"
+    },
+    {
+      "key": "YKVUI_Book_AuthorMikan.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.UI.YokaiBookUIDef",
+      "text": "占位作者"
+    },
+    {
+      "key": "YKV_FormattedTicks",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0} ticks（游戏刻）"
+    },
+    {
+      "key": "Yokai_YukiShizuku.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "左手"
+    },
+    {
+      "key": "Yokai_YukiShizuku.tools.1.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "右手"
+    },
+    {
+      "key": "Yokai_DoubleStrike.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "双重打击"
+    },
+    {
+      "key": "Yokai_DoubleStrike.description",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "双重打击的标记健康状态。"
+    },
+    {
+      "key": "Granade_YokaiTenagaDeco.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "长臂饰"
+    },
+    {
+      "key": "Yokai_ForcedShuffleBackstoriesIfNotNewGame.label",
+      "kind": "DefInjected",
+      "defType": "ScenPartDef",
+      "text": "重新随机背景故事"
+    },
+    {
+      "key": "Yokai_InitFactionGoodwill.label",
+      "kind": "DefInjected",
+      "defType": "ScenPartDef",
+      "text": "初始化好感度"
+    },
+    {
+      "key": "Yokai_AnimaAura.label",
+      "kind": "DefInjected",
+      "defType": "DamageDef",
+      "text": "灵气（Anima Aura）"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "无"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "一"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "二"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.3.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "三"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.4.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "四"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.5.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "五"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.6.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "六"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.7.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "七"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.8.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "八"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.9.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "九"
+    },
+    {
+      "key": "Hediff_YoikaiTenagaPower.stages.10.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "十或更多"
+    },
+    {
+      "key": "Yokai_AntiVacuumSealYokaiAura.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "未启用"
+    },
+    {
+      "key": "Yokai_AntiVacuumSealYokaiAura.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "已启用"
+    },
+    {
+      "key": "Yokai_AntiVacuumSealYokaiAura.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "节能启用"
+    },
+    {
+      "key": "Yokai_AntiVacuumSealAnimaAura.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "未启用"
+    },
+    {
+      "key": "Yokai_AntiVacuumSealAnimaAura.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "已启用"
+    },
+    {
+      "key": "Yokai_AntiVacuumSealAnimaAura.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "节能启用"
+    },
+    {
+      "key": "Yokai_Hi_No_Magatama.verbs.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "释放烟雾"
+    },
+    {
+      "key": "Yokai_Nagi_no_Magatama.verbs.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "释放烟雾"
+    },
+    {
+      "key": "Yokai_Tuzurao_Kago.verbs.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "释放烟雾"
+    },
+    {
+      "key": "YKVUI_Book_AuthorRikan.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.UI.YokaiBookUIDef",
+      "text": "占位作者"
+    },
+    {
+      "key": "Yokai_JorouGumo.lifeStages.0.label",
+      "kind": "DefInjected",
+      "defType": "PawnKindDef",
+      "text": "幼年络新妇"
+    },
+    {
+      "key": "YKVUI_Book_AuthorMisaki.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.UI.YokaiBookUIDef",
+      "text": "占位作者"
+    },
+    {
+      "key": "Yokai_RyuunoIkariAnimal.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "斩击"
+    },
+    {
+      "key": "Yokai_TukumoAnimal.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "斩击"
+    },
+    {
+      "key": "UseYokaiGratitudeOne.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在启用报恩。"
+    },
+    {
+      "key": "UseYokaiGratitudeFive.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在启用报恩。"
+    },
+    {
+      "key": "UseYokaiGratitudeTwentyFive.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在启用报恩。"
+    },
+    {
+      "key": "UseYokaiGratitudeAll.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在启用报恩。"
+    },
+    {
+      "key": "Yokai_TuskSprit.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "身体撞击"
+    },
+    {
+      "key": "Hediff_YoikaiOniPower.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "抑制"
+    },
+    {
+      "key": "Hediff_YoikaiOniPower.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "普通"
+    },
+    {
+      "key": "Hediff_YoikaiOniPower.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "统御"
+    },
+    {
+      "key": "Hediff_HeatPusherPower.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "节能"
+    },
+    {
+      "key": "Hediff_HeatPusherPower.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "最低"
+    },
+    {
+      "key": "Hediff_HeatPusherPower.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "低"
+    },
+    {
+      "key": "Hediff_HeatPusherPower.stages.3.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "高"
+    },
+    {
+      "key": "Hediff_HeatPusherPower.stages.4.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "最高"
+    },
+    {
+      "key": "Hediff_ColdPusherPower.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "节能"
+    },
+    {
+      "key": "Hediff_ColdPusherPower.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "最低"
+    },
+    {
+      "key": "Hediff_ColdPusherPower.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "低"
+    },
+    {
+      "key": "Hediff_ColdPusherPower.stages.3.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "高"
+    },
+    {
+      "key": "Hediff_ColdPusherPower.stages.4.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "最高"
+    },
+    {
+      "key": "Yokai_DownpourRemaining.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "降雨剩余时间"
+    },
+    {
+      "key": "Yokai_DownpourRemaining.description",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "此健康状态在普通界面中隐藏。"
+    },
+    {
+      "key": "Hediff_ImperfectYokaiToDie.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "致命"
+    },
+    {
+      "key": "Hediff_ImperfectYokaiToDie.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "极低"
+    },
+    {
+      "key": "Hediff_ImperfectYokaiToDie.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "低"
+    },
+    {
+      "key": "Hediff_ImperfectYokaiToDie.stages.3.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "降低"
+    },
+    {
+      "key": "Yokai_YojutuColorMoku.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "木"
+    },
+    {
+      "key": "Yokai_YojutuColorMoku.description",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "五行属性：木"
+    },
+    {
+      "key": "Yokai_YojutuColorKa.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "火"
+    },
+    {
+      "key": "Yokai_YojutuColorKa.description",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "五行属性：火"
+    },
+    {
+      "key": "Yokai_YojutuColorDo.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "土"
+    },
+    {
+      "key": "Yokai_YojutuColorDo.description",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "五行属性：土"
+    },
+    {
+      "key": "Yokai_YojutuColorKin.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "金"
+    },
+    {
+      "key": "Yokai_YojutuColorKin.description",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "五行属性：金"
+    },
+    {
+      "key": "Yokai_YojutuColorSui.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "水"
+    },
+    {
+      "key": "Yokai_YojutuColorSui.description",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.Yojutus.Defs.YojutuColorDefs",
+      "text": "五行属性：水"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "一"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "二"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "三"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.3.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "四"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.4.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "五"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.5.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "六"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.6.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "七"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.7.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "八"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.8.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "九"
+    },
+    {
+      "key": "YokaiAttackAcceleration.stages.9.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "十"
+    },
+    {
+      "key": "YKVUI_Book_AuthorKouro.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.UI.YokaiBookUIDef",
+      "text": "占位作者"
+    },
+    {
+      "key": "YokaiVillage_newPersonYadorigi.scenario.parts.0.text",
+      "kind": "DefInjected",
+      "defType": "ScenarioDef",
+      "text": "不算善良，但也绝非邪恶。"
+    },
+    {
+      "key": "Yokai_TenagaDecoPack.verbs.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "投掷长臂饰"
+    },
+    {
+      "key": "LW_CalcExp.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.LeveledWeapons.Defs.LW_YokaiWeaponStatDef",
+      "text": "经验计算（隐藏）"
+    },
+    {
+      "key": "YKVUI_Book_AuthorSango.label",
+      "kind": "DefInjected",
+      "defType": "Yokai_AllCode.UI.YokaiBookUIDef",
+      "text": "占位作者"
+    }
+  ]
+}
+

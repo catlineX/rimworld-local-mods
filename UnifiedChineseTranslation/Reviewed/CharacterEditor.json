@@ -1,0 +1,237 @@
+{
+  "directory": "CharacterEditor",
+  "packageId": "void.charactereditor",
+  "name": "Character Editor",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "SZHumanSize_05.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型05"
+    },
+    {
+      "key": "SZHumanSize_06.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型06"
+    },
+    {
+      "key": "SZHumanSize_07.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型07"
+    },
+    {
+      "key": "SZHumanSize_08.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型08"
+    },
+    {
+      "key": "SZHumanSize_09.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型09"
+    },
+    {
+      "key": "SZHumanSize_10.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型10"
+    },
+    {
+      "key": "SZHumanSize_11.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型11"
+    },
+    {
+      "key": "SZHumanSize_12.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型12"
+    },
+    {
+      "key": "SZHumanSize_13.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型13"
+    },
+    {
+      "key": "SZHumanSize_14.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型14"
+    },
+    {
+      "key": "SZHumanSize_15.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型15"
+    },
+    {
+      "key": "SZHumanSize_16.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型16"
+    },
+    {
+      "key": "SZHumanSize_17.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型17"
+    },
+    {
+      "key": "SZHumanSize_18.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型18"
+    },
+    {
+      "key": "SZHumanSize_19.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型19"
+    },
+    {
+      "key": "SZHumanSize_20.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型20"
+    },
+    {
+      "key": "SZHumanSize_30.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型30"
+    },
+    {
+      "key": "SZHumanSize_40.label",
+      "kind": "DefInjected",
+      "defType": "LifeStageDef",
+      "text": "体型40"
+    },
+    {
+      "key": "SZSpecial.label",
+      "kind": "DefInjected",
+      "defType": "GeneCategoryDef",
+      "text": "特殊"
+    },
+    {
+      "key": "SZBodySize_05.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型05"
+    },
+    {
+      "key": "SZBodySize_06.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型06"
+    },
+    {
+      "key": "SZBodySize_07.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型07"
+    },
+    {
+      "key": "SZBodySize_08.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型08"
+    },
+    {
+      "key": "SZBodySize_09.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型09"
+    },
+    {
+      "key": "SZBodySize_10.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型10"
+    },
+    {
+      "key": "SZBodySize_11.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型11"
+    },
+    {
+      "key": "SZBodySize_12.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型12"
+    },
+    {
+      "key": "SZBodySize_13.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型13"
+    },
+    {
+      "key": "SZBodySize_14.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型14"
+    },
+    {
+      "key": "SZBodySize_15.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型15"
+    },
+    {
+      "key": "SZBodySize_16.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型16"
+    },
+    {
+      "key": "SZBodySize_17.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型17"
+    },
+    {
+      "key": "SZBodySize_18.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型18"
+    },
+    {
+      "key": "SZBodySize_19.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型19"
+    },
+    {
+      "key": "SZBodySize_20.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型20"
+    },
+    {
+      "key": "SZBodySize_30.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型30"
+    },
+    {
+      "key": "SZBodySize_40.label",
+      "kind": "DefInjected",
+      "defType": "GeneDef",
+      "text": "体型40"
+    },
+    {
+      "key": "EnterZGrave.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在进入墓穴。"
+    }
+  ]
+}
+

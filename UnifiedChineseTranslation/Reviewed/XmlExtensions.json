@@ -1,0 +1,159 @@
+{
+  "directory": "XmlExtensions",
+  "packageId": "imranfish.xmlextensions",
+  "name": "XML Extensions",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "XmlExtensions_Label",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "XML扩展（XML Extensions）"
+    },
+    {
+      "key": "XmlExtensions_Confirmation",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "确定吗？"
+    },
+    {
+      "key": "XmlExtensions_ResetSettings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "重置设置"
+    },
+    {
+      "key": "XmlExtensions_ShowSettingsButton",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "添加“＋”按钮以打开XML Extensions模组设置菜单？"
+    },
+    {
+      "key": "XmlExtensions_ShowSettingsButtonTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "开启后，原版模组选项按钮旁边出现小型“＋”按钮，可快速打开此替代设置菜单。"
+    },
+    {
+      "key": "XmlExtensions_ViewUnusedSettings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "查看未使用的设置"
+    },
+    {
+      "key": "XmlExtensions_InactiveMods",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "当前未启用的模组："
+    },
+    {
+      "key": "XmlExtensions_NoExtraSettings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "目前没有额外设置"
+    },
+    {
+      "key": "XmlExtensions_SelectedModUnusedKeys",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所选模组未使用的键："
+    },
+    {
+      "key": "XmlExtensions_Delete",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "删除"
+    },
+    {
+      "key": "XmlExtensions_DeleteKeys",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "删除{0}个键"
+    },
+    {
+      "key": "XmlExtensions_ConfirmationResetMod",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "确定删除当前模组的全部未使用键？"
+    },
+    {
+      "key": "XmlExtensions_DeleteAllUnusedKeys",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "删除全部{0}个未使用键"
+    },
+    {
+      "key": "XmlExtensions_ConfirmResetAll",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "确定删除所有模组的全部未使用键？"
+    },
+    {
+      "key": "XmlExtensions_Open",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "打开"
+    },
+    {
+      "key": "XmlExtensions_Apply",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "应用"
+    },
+    {
+      "key": "XmlExtensions_ModSettingsFor",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "模组设置："
+    },
+    {
+      "key": "XmlExtensions_Unpin",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "取消固定此模组"
+    },
+    {
+      "key": "XmlExtensions_Pin",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "固定此模组"
+    },
+    {
+      "key": "XmlExtensions_HowToPin",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "右键点击模组可固定"
+    },
+    {
+      "key": "XmlExtensions_AddMainButton",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "添加打开XML Extensions设置菜单的主界面按钮？"
+    },
+    {
+      "key": "XmlExtensions_AddMainButtonTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "添加用于打开此替代设置菜单的主界面按钮。"
+    },
+    {
+      "key": "XmlExtensions_SearchResults",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}条结果"
+    },
+    {
+      "key": "XmlExtensions_MainButton_ModSettings.label",
+      "kind": "DefInjected",
+      "defType": "MainButtonDef",
+      "text": "模组设置"
+    },
+    {
+      "key": "XmlExtensions_MainButton_ModSettings.description",
+      "kind": "DefInjected",
+      "defType": "MainButtonDef",
+      "text": "修改模组设置。"
+    }
+  ]
+}
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HAR_Xenophilia.label>亲异族主义</HAR_Xenophilia.label>
+  <HAR_Xenophilia.description>应鼓励并接纳与异族的交往；对他们恐惧或敌视，只能证明自己思想狭隘。</HAR_Xenophilia.description>
+  <HAR_Xenophilia.generalRules.rulesStrings.0>memeAdjective-&gt;普世</HAR_Xenophilia.generalRules.rulesStrings.0>
+  <HAR_Xenophilia.generalRules.rulesStrings.1>memeAdjective-&gt;开明</HAR_Xenophilia.generalRules.rulesStrings.1>
+  <HAR_Xenophilia.generalRules.rulesStrings.2>memeAdjective-&gt;包容</HAR_Xenophilia.generalRules.rulesStrings.2>
+  <HAR_Xenophilia.generalRules.rulesStrings.3>memeAdjective-&gt;喜爱异族</HAR_Xenophilia.generalRules.rulesStrings.3>
+  <HAR_Xenophilia.generalRules.rulesStrings.4>memeLeaderAdjective-&gt;和谐</HAR_Xenophilia.generalRules.rulesStrings.4>
+  <HAR_Xenophilia.generalRules.rulesStrings.5>memeConcept-&gt;开放</HAR_Xenophilia.generalRules.rulesStrings.5>
+  <HAR_Xenophilia.generalRules.rulesStrings.6>memeConcept-&gt;接纳</HAR_Xenophilia.generalRules.rulesStrings.6>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Xenophilia)        -&gt;[deity0_name]创造了众多种族，每个种族都是[deity0_possessive]完美形象的不同体现。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.0>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_Xenophilia)  -&gt;我们的生物学家将[deity0_name]的众多造物编目归档，使[deity0_objective]感到欣慰。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.1>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_Xenophilia)           -&gt;在[place_summary][place_name]，[memberNamePlural]发现了[deity0_name]的教诲，展现出真正的开明。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.2>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_Xenophilia)        -&gt;仇视异族的[foeLeader]鄙视[memberNamePlural]群体的包容，[foeLeader_possessive][foeSoldiers]用[place_personalWeapon]摧毁了他们的大厅。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.3>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_Xenophilia)     -&gt;一位名叫[founderName]的机敏[place_job]请求其他种族帮助，警告[memberNamePlural]注意[foeSoldiers]正在逼近。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.4>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Xenophilia)         -&gt;[founderName]遵照[deity0_name]的神圣旨意传播包容与爱，将[memberNamePlural]中的各族团结起来，击败[foeSoldiers]。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.5>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_Xenophilia)           -&gt;行星殖民早期，[founderName]是一名社会科学家。看到许多政府极端排外的政策，[founder_pronoun]乘小型飞船离开，创立[founder_possessive]自己的运动。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.6>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Xenophilia)    -&gt;[founderName]召集杰出的科学家和社会学家，建立让所有种族和谐共处的新文明。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.7>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Xenophilia)         -&gt;我大学里最年长的社会学家教给我宇宙生命的历史，指出</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.8>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Xenophilia)              -&gt;我们并不孤独。群星之间并不缺少智慧生命，我们皆如兄弟姐妹。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.9>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_Xenophilia) -&gt;只有并肩合作、暂放彼此差异，才能完成任何任务。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.10>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_Xenophilia)    -&gt;还有什么比统一的、超越奇点的超凡科技更能接纳我们内在的差异？</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.11>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_Xenophilia)     -&gt;在超越之中，我们的生物起源逐渐融为一体。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.12>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_Xenophilia) -&gt;[inTheEnd]，我们所有人都将通过合作实现升华。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.13>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.14>animistBasis(tag=meme_Xenophilia)    -&gt;精灵之间没有“种族”的概念。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.14>
+  <HAR_Xenophilia.descriptionMaker.rules.rulesStrings.15>animistProphecy(tag=meme_Xenophilia) -&gt;当我们完全接纳彼此、将彼此视作同一纯粹理念的不同体现时，精灵便会向我们揭示本质。</HAR_Xenophilia.descriptionMaker.rules.rulesStrings.15>
+  <HAR_Xenophobia.label>排异族主义</HAR_Xenophobia.label>
+  <HAR_Xenophobia.description>不容异族存活，他们的存在本身就威胁着我们。他们更适合成为我们的仆役或食物。</HAR_Xenophobia.description>
+  <HAR_Xenophobia.generalRules.rulesStrings.0>memeAdjective-&gt;偏执</HAR_Xenophobia.generalRules.rulesStrings.0>
+  <HAR_Xenophobia.generalRules.rulesStrings.1>memeAdjective-&gt;族群中心</HAR_Xenophobia.generalRules.rulesStrings.1>
+  <HAR_Xenophobia.generalRules.rulesStrings.2>memeAdjective-&gt;不宽容</HAR_Xenophobia.generalRules.rulesStrings.2>
+  <HAR_Xenophobia.generalRules.rulesStrings.3>memeAdjective-&gt;偏见</HAR_Xenophobia.generalRules.rulesStrings.3>
+  <HAR_Xenophobia.generalRules.rulesStrings.4>memeLeaderAdjective-&gt;顽固</HAR_Xenophobia.generalRules.rulesStrings.4>
+  <HAR_Xenophobia.generalRules.rulesStrings.5>memeConcept-&gt;排斥</HAR_Xenophobia.generalRules.rulesStrings.5>
+  <HAR_Xenophobia.generalRules.rulesStrings.6>memeConcept-&gt;偏见</HAR_Xenophobia.generalRules.rulesStrings.6>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.0>creation(tag=meme_Xenophobia)        -&gt;[deity0_name]创造了我们，作为[deity0_possessive]神圣形象的完美体现。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.0>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.1>episode(uses=1,tag=meme_Xenophobia)  -&gt;[deity0_name]的其他造物只是为我们制作的工具；将他们视为工具正是[deity0_objective]的旨意。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.1>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.2>intro(tag=meme_Xenophobia)           -&gt;在[place_summary][place_name]，[memberNamePlural]发现了[deity0_name]的教诲，确认我们居于造物之巅。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.2>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.3>conflict(tag=meme_Xenophobia)        -&gt;嫉妒我们神圣地位的异族[foeLeader]试图征服[memberNamePlural]群体，[foeLeader_possessive][foeSoldiers]奴役了我们的人民。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.3>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.4>founderJoin(tag=meme_Xenophobia)     -&gt;奴隶中出现了一位名叫[founderName]的机敏[place_job]，组织[memberNamePlural]反抗异族压迫者。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.4>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.5>victory(tag=meme_Xenophobia)         -&gt;[founderName]遵照[deity0_name]的神圣旨意屠灭异族，将[memberNamePlural]带入进步与优越的新时代。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.5>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.6>setup(tag=meme_Xenophobia)           -&gt;行星殖民早期，[founderName]是一名社会科学家。看到许多政府愚蠢的接纳政策，[founder_pronoun]乘小型飞船离开，创立[founder_possessive]自己的运动。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.6>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.7>story(uses=1,tag=meme_Xenophobia)    -&gt;[founderName]召集杰出的科学家和社会学家，建立将本族需求置于可憎异族之上的新文明。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.7>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.8>lessonIntro(tag=meme_Xenophobia)         -&gt;小队里最年长的猎人教给我宇宙生命的历史，指出</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.8>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.9>lesson(tag=meme_Xenophobia)              -&gt;我们并不孤独。群星之间并不缺少智慧生命，而他们的存在本身就威胁着我们。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.9>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.10>lessonReinforcement(tag=meme_Xenophobia) -&gt;别无选择，必须清除异族威胁。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.10>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.11>archistBasis(tag=meme_Xenophobia)    -&gt;超凡科技是生物进化的顶峰，只有真正配得上它的人才应抵达。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.11>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.12>archistFact(tag=meme_Xenophobia)     -&gt;你能想象失控的异族后奇点智能会对我们构成怎样的威胁吗？</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.12>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.13>archistProphecy(tag=meme_Xenophobia) -&gt;别无选择，必须在异族获准达到那种境界前清除他们。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.13>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.14>animistBasis(tag=meme_Xenophobia)    -&gt;异族没有灵魂，是精灵世界的污秽之物。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.14>
+  <HAR_Xenophobia.descriptionMaker.rules.rulesStrings.15>animistProphecy(tag=meme_Xenophobia) -&gt;只有清除所有异族，精灵才会眷顾我们。</HAR_Xenophobia.descriptionMaker.rules.rulesStrings.15>
+</LanguageData>

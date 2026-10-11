@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Category_Royal.label>贵族</Category_Royal.label>
+  <Category_Biotech.label>生物科技</Category_Biotech.label>
+  <Category_Odyssey.label>奥德赛</Category_Odyssey.label>
+  <Category_IdeoPawn.label>理念</Category_IdeoPawn.label>
+  <Category_PawnProp.label>个人信息</Category_PawnProp.label>
+  <Category_PawnStats.label>统计</Category_PawnStats.label>
+  <Category_PawnStatus.label>状态</Category_PawnStatus.label>
+  <Category_PawnGuest.label>访客</Category_PawnGuest.label>
+  <Category_PawnAssign.label>分配</Category_PawnAssign.label>
+  <Category_AnimalProp.label>动物信息</Category_AnimalProp.label>
+  <Category_ItemInfo.label>物品信息</Category_ItemInfo.label>
+  <Category_BuildingInfo.label>建筑信息</Category_BuildingInfo.label>
+  <Category_Plants.label>植物与食物</Category_Plants.label>
+  <Category_Location.label>位置</Category_Location.label>
+  <Category_Mod.label>扩展／模组</Category_Mod.label>
+  <Category_devmode.label>开发／作弊选项</Category_devmode.label>
+</LanguageData>

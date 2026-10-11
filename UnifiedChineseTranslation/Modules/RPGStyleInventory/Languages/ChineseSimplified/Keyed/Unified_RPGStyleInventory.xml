@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SandyMassValue> {0} / {1} kg</SandyMassValue>
+  <RPG_Inventory_Width>装备面板宽度</RPG_Inventory_Width>
+  <RPG_Inventory_Height>装备面板高度</RPG_Inventory_Height>
+  <RPG_Style_Inventory_Title>RPG风格装备栏</RPG_Style_Inventory_Title>
+  <RWoM_ArmorHarmony>魔法防御</RWoM_ArmorHarmony>
+  <RPG_Inventory_Color_Setting>品质颜色设置</RPG_Inventory_Color_Setting>
+  <RPG_Inventory_Color_Selector>选择</RPG_Inventory_Color_Selector>
+  <RPG_Inventory_Legendary>传奇</RPG_Inventory_Legendary>
+  <RPG_Inventory_Masterwork>大师</RPG_Inventory_Masterwork>
+  <RPG_Inventory_Excellent>极佳</RPG_Inventory_Excellent>
+  <RPG_Inventory_Good>精良</RPG_Inventory_Good>
+  <RPG_Inventory_Normal>普通</RPG_Inventory_Normal>
+  <RPG_Inventory_Poor>较差</RPG_Inventory_Poor>
+  <RPG_Inventory_Awful>极差</RPG_Inventory_Awful>
+</LanguageData>

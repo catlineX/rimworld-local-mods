@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TempSleepSpot.label>临时治疗点</TempSleepSpot.label>
+  <TempSleepSpot.description>由智能医疗自动创建，用于野外治疗。不再使用时自动移除。</TempSleepSpot.description>
+</LanguageData>

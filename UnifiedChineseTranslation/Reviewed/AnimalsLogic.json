@@ -1,0 +1,41 @@
+{
+  "directory": "AnimalsLogic",
+  "packageId": "oblitus.animalslogic",
+  "name": "Animals Logic",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "ALConfigShearCorpsesLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "屠宰时收取羊毛"
+    },
+    {
+      "key": "ALConfigShearCorpsesTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "仅适用于原版剪毛组件，不适用于部分模组的特殊产物机制。"
+    },
+    {
+      "key": "ALConfigTamingAgeFactorLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "幼年动物更易驯服和训练"
+    },
+    {
+      "key": "ALConfigTamingAgeFactorTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "按年龄比例降低未成年动物的有效野性，使其更易驯服和训练。新生动物变化最大，接近成年时影响很小。"
+    },
+    {
+      "key": "ALConfigToxicBuildupRotLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "毒素累积腐烂概率倍率：{0}%",
+      "original": "Toxic buildup rot chance multiplier: {0}%",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1098354593\\Languages\\English\\Keyed\\Keys.xml",
+      "correction": "已对照当前原文，补回变量或修正语义"
+    }
+  ]
+}

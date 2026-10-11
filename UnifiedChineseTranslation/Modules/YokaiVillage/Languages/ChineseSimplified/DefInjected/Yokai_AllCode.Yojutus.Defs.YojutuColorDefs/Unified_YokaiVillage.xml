@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Yokai_YojutuColorMoku.label>木</Yokai_YojutuColorMoku.label>
+  <Yokai_YojutuColorMoku.description>五行属性：木</Yokai_YojutuColorMoku.description>
+  <Yokai_YojutuColorKa.label>火</Yokai_YojutuColorKa.label>
+  <Yokai_YojutuColorKa.description>五行属性：火</Yokai_YojutuColorKa.description>
+  <Yokai_YojutuColorDo.label>土</Yokai_YojutuColorDo.label>
+  <Yokai_YojutuColorDo.description>五行属性：土</Yokai_YojutuColorDo.description>
+  <Yokai_YojutuColorKin.label>金</Yokai_YojutuColorKin.label>
+  <Yokai_YojutuColorKin.description>五行属性：金</Yokai_YojutuColorKin.description>
+  <Yokai_YojutuColorSui.label>水</Yokai_YojutuColorSui.label>
+  <Yokai_YojutuColorSui.description>五行属性：水</Yokai_YojutuColorSui.description>
+</LanguageData>

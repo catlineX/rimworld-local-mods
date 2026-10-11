@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FSFProduction.labelShort>生产</FSFProduction.labelShort>
+  <FSFProduction.pawnLabel>生产工</FSFProduction.pawnLabel>
+  <FSFProduction.gerundLabel>生产</FSFProduction.gerundLabel>
+  <FSFProduction.description>进行各种物品的一般生产工作，通常包括为生产设施装料、取料或执行简单操作。</FSFProduction.description>
+  <FSFProduction.verb>生产</FSFProduction.verb>
+  <FSFTransport.labelShort>运输</FSFTransport.labelShort>
+  <FSFTransport.pawnLabel>运输工</FSFTransport.pawnLabel>
+  <FSFTransport.gerundLabel>运输</FSFTransport.gerundLabel>
+  <FSFTransport.description>为运输舱、远行队和载具装载、卸货。</FSFTransport.description>
+  <FSFTransport.verb>运输</FSFTransport.verb>
+  <FSFHauling.labelShort>搬运</FSFHauling.labelShort>
+  <FSFHauling.pawnLabel>搬运工</FSFHauling.pawnLabel>
+  <FSFHauling.gerundLabel>搬运</FSFHauling.gerundLabel>
+  <FSFHauling.description>将物品送到需要的位置。</FSFHauling.description>
+  <FSFHauling.verb>搬运</FSFHauling.verb>
+</LanguageData>

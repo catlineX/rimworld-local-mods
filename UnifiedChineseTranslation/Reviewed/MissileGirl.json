@@ -1,0 +1,171 @@
+{
+  "directory": "MissileGirl",
+  "packageId": "vr.missilegirl",
+  "name": "Missile Girl - Performance Mod",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "MissileGirl.ModNameShort",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "导弹女孩（Missile Girl）"
+    },
+    {
+      "key": "MissileGirl.ResetDefault",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "恢复默认"
+    },
+    {
+      "key": "MissileGirl.MissileGirl",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "导弹女孩（MissileGirl）"
+    },
+    {
+      "key": "MissileGirl.FixBeauty",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "动态美观度扫描半径"
+    },
+    {
+      "key": "MissileGirl.FixBeauty.Tip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "美观度扫描半径随角色当前行动改变。请自行评估风险。"
+    },
+    {
+      "key": "MissileGirl.DeepDrillOptimize",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "修正深钻井卡顿"
+    },
+    {
+      "key": "MissileGirl.DeepDrillOptimize.Tip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "减少深钻井不位于资源矿脉上时的卡顿。"
+    },
+    {
+      "key": "MissileGirl.TemperatureTickCheck",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "缓存温度检查"
+    },
+    {
+      "key": "MissileGirl.TemperatureTickCheck.Tip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "每个tick内只对角色温度检查一次，并缓存结果。"
+    },
+    {
+      "key": "MissileGirl.BuildingRepairCheck",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "建筑可修理性检查"
+    },
+    {
+      "key": "MissileGirl.BuildingRepairCheck.Tip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "建筑不可修理或没有耐久时提前结束检查。"
+    },
+    {
+      "key": "MissileGirl.NotifyPawnDamage",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "优化角色受伤通知"
+    },
+    {
+      "key": "MissileGirl.NotifyPawnDamage.Tip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "角色的群组行为（LordToil）为进攻或破墙时，抑制重复受伤通知以减少卡顿。"
+    },
+    {
+      "key": "MissileGirl.GenMapSize",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "覆盖新地图生成尺寸"
+    },
+    {
+      "key": "MissileGirl.GenMapSize.Text",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "设置下一张新生成地图的尺寸和形状。生成后此选项自动恢复默认。"
+    },
+    {
+      "key": "MissileGirl.GenMapSize.Note",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "新地图宽度和高度会自动取整为区域尺寸的整数倍。"
+    },
+    {
+      "key": "MissileGirl.GenMapSize.Mode.Custom",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "自定义"
+    },
+    {
+      "key": "MissileGirl.GenMapSize.Mode.Vanilla",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版"
+    },
+    {
+      "key": "MissileGirl.GenMapSize.Width",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "宽度"
+    },
+    {
+      "key": "MissileGirl.GenMapSize.Height",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "高度"
+    },
+    {
+      "key": "MissileGirl.ProgressBar.Pause",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "预热完成后暂停"
+    },
+    {
+      "key": "MissileGirl.DebuggingOption",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "调试选项"
+    },
+    {
+      "key": "MissileGirl.OptimizationSettings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版功能优化"
+    },
+    {
+      "key": "Gagarin.CacheExpires",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "缓存会过期"
+    },
+    {
+      "key": "Gagarin.CacheExpires.Desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "决定缓存是否随时间过期。不影响检测到模组变化时重新建立缓存。"
+    },
+    {
+      "key": "Gagarin.CacheRetentionTime",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "缓存最长保留时间"
+    },
+    {
+      "key": "RocketWindow.label",
+      "kind": "DefInjected",
+      "defType": "MainButtonDef",
+      "text": "导弹女孩（MissileGirl）"
+    }
+  ]
+}
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Fluffy.AnimalTab>动物面板</Fluffy.AnimalTab>
+  <AnimalTab.BondedFilterTip.ShowBondedWithX>显示与{0}建立羁绊的动物
+
+点击更改筛选条件</AnimalTab.BondedFilterTip.ShowBondedWithX>
+  <AnimalTab.BondedFilterTip.HideBondedWithX>隐藏与{0}建立羁绊的动物
+
+点击更改筛选条件</AnimalTab.BondedFilterTip.HideBondedWithX>
+  <AnimalTab.ShowBonded>显示有羁绊的动物</AnimalTab.ShowBonded>
+  <AnimalTab.HideBonded>隐藏有羁绊的动物</AnimalTab.HideBonded>
+  <AnimalTab.BondedWithX>与{0}建立了羁绊</AnimalTab.BondedWithX>
+  <AnimalTab.ClearFilter>清除筛选条件</AnimalTab.ClearFilter>
+  <Fluffy.AnimalTab.HandlerDied>{0}已无法继续担任{1}的驯兽员</Fluffy.AnimalTab.HandlerDied>
+</LanguageData>

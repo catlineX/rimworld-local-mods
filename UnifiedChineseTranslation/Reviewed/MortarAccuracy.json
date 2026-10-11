@@ -1,0 +1,21 @@
+{
+  "directory": "MortarAccuracy",
+  "packageId": "hobtook.mortaraccuracy",
+  "name": "Mortar Accuracy",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "MortarAccuracy",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "迫击炮精度"
+    },
+    {
+      "key": "OptionShowExplosionRadius",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示爆炸范围"
+    }
+  ]
+}
+

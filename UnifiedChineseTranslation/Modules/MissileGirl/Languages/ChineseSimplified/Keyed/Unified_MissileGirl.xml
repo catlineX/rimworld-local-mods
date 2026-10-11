@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MissileGirl.ModNameShort>导弹女孩（Missile Girl）</MissileGirl.ModNameShort>
+  <MissileGirl.ResetDefault>恢复默认</MissileGirl.ResetDefault>
+  <MissileGirl.MissileGirl>导弹女孩（MissileGirl）</MissileGirl.MissileGirl>
+  <MissileGirl.FixBeauty>动态美观度扫描半径</MissileGirl.FixBeauty>
+  <MissileGirl.FixBeauty.Tip>美观度扫描半径随角色当前行动改变。请自行评估风险。</MissileGirl.FixBeauty.Tip>
+  <MissileGirl.DeepDrillOptimize>修正深钻井卡顿</MissileGirl.DeepDrillOptimize>
+  <MissileGirl.DeepDrillOptimize.Tip>减少深钻井不位于资源矿脉上时的卡顿。</MissileGirl.DeepDrillOptimize.Tip>
+  <MissileGirl.TemperatureTickCheck>缓存温度检查</MissileGirl.TemperatureTickCheck>
+  <MissileGirl.TemperatureTickCheck.Tip>每个tick内只对角色温度检查一次，并缓存结果。</MissileGirl.TemperatureTickCheck.Tip>
+  <MissileGirl.BuildingRepairCheck>建筑可修理性检查</MissileGirl.BuildingRepairCheck>
+  <MissileGirl.BuildingRepairCheck.Tip>建筑不可修理或没有耐久时提前结束检查。</MissileGirl.BuildingRepairCheck.Tip>
+  <MissileGirl.NotifyPawnDamage>优化角色受伤通知</MissileGirl.NotifyPawnDamage>
+  <MissileGirl.NotifyPawnDamage.Tip>角色的群组行为（LordToil）为进攻或破墙时，抑制重复受伤通知以减少卡顿。</MissileGirl.NotifyPawnDamage.Tip>
+  <MissileGirl.GenMapSize>覆盖新地图生成尺寸</MissileGirl.GenMapSize>
+  <MissileGirl.GenMapSize.Text>设置下一张新生成地图的尺寸和形状。生成后此选项自动恢复默认。</MissileGirl.GenMapSize.Text>
+  <MissileGirl.GenMapSize.Note>新地图宽度和高度会自动取整为区域尺寸的整数倍。</MissileGirl.GenMapSize.Note>
+  <MissileGirl.GenMapSize.Mode.Custom>自定义</MissileGirl.GenMapSize.Mode.Custom>
+  <MissileGirl.GenMapSize.Mode.Vanilla>原版</MissileGirl.GenMapSize.Mode.Vanilla>
+  <MissileGirl.GenMapSize.Width>宽度</MissileGirl.GenMapSize.Width>
+  <MissileGirl.GenMapSize.Height>高度</MissileGirl.GenMapSize.Height>
+  <MissileGirl.ProgressBar.Pause>预热完成后暂停</MissileGirl.ProgressBar.Pause>
+  <MissileGirl.DebuggingOption>调试选项</MissileGirl.DebuggingOption>
+  <MissileGirl.OptimizationSettings>原版功能优化</MissileGirl.OptimizationSettings>
+  <Gagarin.CacheExpires>缓存会过期</Gagarin.CacheExpires>
+  <Gagarin.CacheExpires.Desc>决定缓存是否随时间过期。不影响检测到模组变化时重新建立缓存。</Gagarin.CacheExpires.Desc>
+  <Gagarin.CacheRetentionTime>缓存最长保留时间</Gagarin.CacheRetentionTime>
+</LanguageData>

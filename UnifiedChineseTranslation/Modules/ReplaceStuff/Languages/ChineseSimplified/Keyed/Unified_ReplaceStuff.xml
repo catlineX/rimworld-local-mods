@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TD.ReplaceStuff>替换材料（Replace Stuff）</TD.ReplaceStuff>
+  <TD.SettingsPreferredBridge>需要桥梁时优先指定的桥梁顺序：</TD.SettingsPreferredBridge>
+  <TD.SettingsBridgeResources>先选择已有资源足够建造的桥，再按此列表顺序选择。拖动可调整顺序。</TD.SettingsBridgeResources>
+  <TD.ReplacementAlreadyInProgess>替换已在进行。</TD.ReplacementAlreadyInProgess>
+</LanguageData>

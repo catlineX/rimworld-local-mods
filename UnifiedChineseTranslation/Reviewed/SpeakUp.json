@@ -1,0 +1,21 @@
+{
+  "directory": "SpeakUp",
+  "packageId": "cn.speakup.ttyet",
+  "name": "SpeakUp畅所欲言 中文版",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "Joke_08b.logRulesInitiator.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "he_she->他"
+    },
+    {
+      "key": "Joke_08b.logRulesInitiator.rulesStrings.2",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "he_she->她"
+    }
+  ]
+}
+

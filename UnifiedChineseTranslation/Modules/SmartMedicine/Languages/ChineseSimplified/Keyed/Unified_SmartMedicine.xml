@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TD.Encumbered>超载</TD.Encumbered>
+  <TD.SettingGlobalSurgeryUnlimited>新游戏的默认医疗设置勾选“手术使用最佳药物”</TD.SettingGlobalSurgeryUnlimited>
+  <TD.SettingGlobalSurgeryUnlimitedDesc>此设置不影响进行中的游戏。新殖民者的默认值与其他医疗默认设置一起，可从健康面板访问。</TD.SettingGlobalSurgeryUnlimitedDesc>
+  <TD.DefaultSurgeryUnlimited>手术使用可用的最佳药物</TD.DefaultSurgeryUnlimited>
+  <TD.PawnSettingSurgeryUnlimited>手术使用最佳药物</TD.PawnSettingSurgeryUnlimited>
+  <TD.DefaultCare>默认医疗照料</TD.DefaultCare>
+  <TD.RemoveTempTendDesc>移除此对象（用于已经不再使用却仍未消失的情况）。</TD.RemoveTempTendDesc>
+  <TD.StockAnythingWithoutDev>不启用开发者模式也显示“储备任意物品”按钮</TD.StockAnythingWithoutDev>
+  <TD.NiceHealthTab.Optimize>健康面板底层优化</TD.NiceHealthTab.Optimize>
+  <TD.NiceHealthTab.OptimizeDesc>优化内容：
+- 缓存静态健康状况标签，避免每帧重新翻译。</TD.NiceHealthTab.OptimizeDesc>
+</LanguageData>

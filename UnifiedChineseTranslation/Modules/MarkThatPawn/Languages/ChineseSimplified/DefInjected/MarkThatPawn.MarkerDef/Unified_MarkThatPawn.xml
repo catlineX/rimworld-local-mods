@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WowStyle.label>魔兽世界风格</WowStyle.label>
+  <WowStyle.description>受《魔兽世界》团队标记启发的标记。</WowStyle.description>
+  <Numbers.label>数字</Numbers.label>
+  <Numbers.description>简单的数字标记。</Numbers.description>
+  <Skills.label>技能</Skills.label>
+  <Skills.description>表示工作技能的标记。</Skills.description>
+  <Jobs.label>工作</Jobs.label>
+  <Jobs.description>表示工作分配的标记，由[✚] Survivalmaster制作。</Jobs.description>
+  <Militar.label>军事</Militar.label>
+  <Militar.description>以美国军队为主题的标记。</Militar.description>
+  <GDI.description>以《命令与征服》的GDI阵营为主题的标记。</GDI.description>
+  <Nod.description>以《命令与征服》的Nod阵营为主题的标记。</Nod.description>
+  <XCOM.description>以《XCOM》为主题的标记，由Botaxalim制作。</XCOM.description>
+  <XCOMTwo.description>以《XCOM 2》为主题的标记，由Lekoda提供。</XCOMTwo.description>
+  <Weapons.label>武器</Weapons.label>
+  <Weapons.description>通用武器类型标记，由flaticon.com的max.icons制作。</Weapons.description>
+  <XCOMMedieval.label>XCOM中世纪风格</XCOMMedieval.label>
+  <XCOMMedieval.description>以《XCOM》为基础的中世纪风格标记，由Botaxalim制作。</XCOMMedieval.description>
+  <Symbols.label>符号</Symbols.label>
+  <Symbols.description>通用符号标记。</Symbols.description>
+  <Ideology.label>理念</Ideology.label>
+  <Ideology.description>以Ideology内容为主题的标记，由Yoann制作。</Ideology.description>
+</LanguageData>

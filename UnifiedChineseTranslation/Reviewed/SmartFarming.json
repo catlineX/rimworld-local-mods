@@ -1,0 +1,21 @@
+{
+  "directory": "SmartFarming",
+  "packageId": "owlchemist.smartfarming",
+  "name": "Smart Farming",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "SmartFarming.Settings.OldPatchMethod",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "使用旧版补丁方式"
+    },
+    {
+      "key": "SmartFarming.Settings.OldPatchMethod.Desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "兼容性相对更安全，但可能导致功能异常或种植区不遵守生长模式。"
+    }
+  ]
+}
+

@@ -1,0 +1,491 @@
+﻿{
+    "schemaVersion":  1,
+    "modules":  [
+                    {
+                        "directory":  "GlitterNet",
+                        "packageId":  "k.glitternet",
+                        "name":  "GlitterNet",
+                        "status":  "reviewed-static-not-runtime",
+                        "source":  "migrated-local-translation"
+                    },
+                    {
+                        "directory":  "CustomInfestations",
+                        "packageId":  "local.custominfestations.continued",
+                        "name":  "Custom Infestations (Continued)",
+                        "status":  "migrated-needs-reaudit",
+                        "source":  "migrated-local-translation"
+                    },
+                    {
+                        "directory":  "AnimalsLogic",
+                        "packageId":  "oblitus.animalslogic",
+                        "name":  "Animals Logic",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  5,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "AnimalTab",
+                        "packageId":  "fluffy.animaltab",
+                        "name":  "Animal Tab (Continued 1.6)",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  23,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "BetterWorkbenchManagement",
+                        "packageId":  "falconne.bwm",
+                        "name":  "Better Workbench Management",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  6,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "CameraPlus",
+                        "packageId":  "brrainz.cameraplus",
+                        "name":  "Camera+",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  5,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "CharacterEditor",
+                        "packageId":  "void.charactereditor",
+                        "name":  "Character Editor",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  38,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "ComplexJobs",
+                        "packageId":  "frozensnowfox.complexjobs",
+                        "name":  "[FSF] Complex Jobs",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  60,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "CtrlF",
+                        "packageId":  "memegoddess.ctrlf",
+                        "name":  "Ctrl F - Continued",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  12,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "DamageIndicators",
+                        "packageId":  "caesarv6.damageindicators",
+                        "name":  "Damage Indicators [1.6]",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  2,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "DefensivePositions",
+                        "packageId":  "unlimitedhugs.defensivepositions",
+                        "name":  "Defensive Positions",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  14,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "DesignatorShapes",
+                        "packageId":  "merthsoft.designatorshapes",
+                        "name":  "Designator Shapes",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  71,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "DevInYourLanguage",
+                        "packageId":  "latta.devl10n",
+                        "name":  "Dev In Your Language",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  19,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "DoorMat",
+                        "packageId":  "dracoix.doormat.r12a",
+                        "name":  "Door Mat",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  8,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "DubsMintMinimap",
+                        "packageId":  "dubwise.dubsmintminimap",
+                        "name":  "Dubs Mint Minimap",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  2,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "FollowMe",
+                        "packageId":  "fluffy.followme",
+                        "name":  "Follow Me",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  11,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "GlitterTech",
+                        "packageId":  "gt.sam.glittertech",
+                        "name":  "Glitter Tech Classic",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  3,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "Hospitality",
+                        "packageId":  "orion.hospitality",
+                        "name":  "Hospitality (Continued)",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  88,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "HugsLib",
+                        "packageId":  "unlimitedhugs.hugslib",
+                        "name":  "HugsLib",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  1,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "HumanoidAlienRaces",
+                        "packageId":  "erdelf.humanoidalienraces",
+                        "name":  "Humanoid Alien Races",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  237,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "ImprovedNeedIndicator",
+                        "packageId":  "amch.improvedneedindicator",
+                        "name":  "Improved Need Indicator",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  3,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MadSkills",
+                        "packageId":  "ratys.madskills",
+                        "name":  "Mad Skills",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  12,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MapPreview",
+                        "packageId":  "m00nl1ght.mappreview",
+                        "name":  "Map Preview",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  1,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MarkThatPawn",
+                        "packageId":  "mlie.markthatpawn",
+                        "name":  "Mark That Pawn",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  23,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MechWorkModes",
+                        "packageId":  "wvc.sergkart.biotech.moremechanoidsworkmodes",
+                        "name":  "WVC - Work Modes",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  1,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MedicalTab",
+                        "packageId":  "memegoddess.medicaltab",
+                        "name":  "Medical Tab - Continued",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  6,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MedicalTraining",
+                        "packageId":  "itchyflea.medicaltraining",
+                        "name":  "Medical Training",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  7,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MiscTraining",
+                        "packageId":  "haplo.miscellaneous.training",
+                        "name":  "Misc. Training",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  11,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MissileGirl",
+                        "packageId":  "vr.missilegirl",
+                        "name":  "Missile Girl - Performance Mod",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  27,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MortarAccuracy",
+                        "packageId":  "hobtook.mortaraccuracy",
+                        "name":  "Mortar Accuracy",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  2,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "MothballedAndDeadPawns",
+                        "packageId":  "gwinnbleidd.mothballedanddeadpawns",
+                        "name":  "Better GC: Mothballed and World Pawns",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  1,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "NiceBillTab",
+                        "packageId":  "andromeda.nicebilltab",
+                        "name":  "Nice Bill Tab",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  2,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "Numbers",
+                        "packageId":  "mehni.numbers",
+                        "name":  "Numbers",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  34,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "PickUpAndHaul",
+                        "packageId":  "mehni.pickupandhaul",
+                        "name":  "Pick Up And Haul",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  8,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "PocketSand",
+                        "packageId":  "usagirei.pocketsand",
+                        "name":  "Pocket Sand",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  28,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "PolarisCore",
+                        "packageId":  "vanya.polarisbloc.corelab.tmp",
+                        "name":  "Polarisbloc - Core LAB tmp port",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  12,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "PolarisSecurity",
+                        "packageId":  "vanya.polarisbloc.securityforce.tmp",
+                        "name":  "Polarisbloc - Security Force tmp port",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  8,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "PriorityTreatment",
+                        "packageId":  "tk421storm.prioritytreatmentressurected",
+                        "name":  "Priority Treatment Ressurected",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  13,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "QualityBuilder",
+                        "packageId":  "hatti.qualitybuilder",
+                        "name":  "QualityBuilder Unofficial 1.6",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  15,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "QualityColors",
+                        "packageId":  "dawnsglow.qualcolor",
+                        "name":  "Quality Colors (Continued)",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  18,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "ReplaceStuff",
+                        "packageId":  "memegoddess.replacestuff",
+                        "name":  "Replace Stuff - Continued",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  5,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "RimHUD",
+                        "packageId":  "jaxe.rimhud",
+                        "name":  "RimHUD",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  8,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "RPGStyleInventory",
+                        "packageId":  "sandy.rpgstyleinventory",
+                        "name":  "RPG Style Inventory",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  25,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "SimpleSidearms",
+                        "packageId":  "petetimessix.simplesidearms",
+                        "name":  "Simple sidearms",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  50,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "SmartFarming",
+                        "packageId":  "owlchemist.smartfarming",
+                        "name":  "Smart Farming",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  2,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "SmartMedicine",
+                        "packageId":  "memegoddess.smartmedicine",
+                        "name":  "Smart Medicine - Continued",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  14,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "SpeakUp",
+                        "packageId":  "cn.speakup.ttyet",
+                        "name":  "SpeakUp畅所欲言 中文版",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  2,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "StabilizeBleeding",
+                        "packageId":  "defi.stabilizebleeding",
+                        "name":  "Stabilize Bleeding",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  3,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "StackXXL",
+                        "packageId":  "indeed.stackxxl",
+                        "name":  "Stack XXL",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  2,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "TDEnhancementPack",
+                        "packageId":  "memegoddess.tdpack",
+                        "name":  "TD Enhancement Pack - Continued",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  193,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "TDFindLib",
+                        "packageId":  "memegoddess.tdfindlib",
+                        "name":  "TD Find Lib - Continued",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  430,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "TerraformingDevices",
+                        "packageId":  "tug.terraformerpumps",
+                        "name":  "Terraforming Devices",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  14,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "TilledSoil",
+                        "packageId":  "gt.sam.tilledsoil",
+                        "name":  "Tilled Soil",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  2,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "TradingSpot",
+                        "packageId":  "tradingpost.programmerlily.com",
+                        "name":  "[PL] Trading Spot",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  1,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "UnlimitedReborn",
+                        "packageId":  "nuanki.unlimitedreborn",
+                        "name":  "Un-Limited Reborn",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  21,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "UsefulMarks",
+                        "packageId":  "andromeda.usefulmarks",
+                        "name":  "Useful Marks",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  19,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "VisibleRaidPoints",
+                        "packageId":  "visibleraidpoints.1trickpwnyta",
+                        "name":  "Visible Raid Points",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  104,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "Weaponry",
+                        "packageId":  "void.weaponry",
+                        "name":  "Weaponry",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  2,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "WhatsForSale",
+                        "packageId":  "kikohi.whatsforsale",
+                        "name":  "What\u0027s for sale?",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  8,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "XmlExtensions",
+                        "packageId":  "imranfish.xmlextensions",
+                        "name":  "XML Extensions",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  25,
+                        "source":  "reviewed-map"
+                    },
+                    {
+                        "directory":  "YokaiVillage",
+                        "packageId":  "yokaimura.1.32",
+                        "name":  "妖怪村",
+                        "status":  "reviewed-candidate-texts-static-not-runtime",
+                        "entries":  86,
+                        "source":  "reviewed-map"
+                    }
+                ]
+}

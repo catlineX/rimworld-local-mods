@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MadSkills_SettingsCategory>技能成长（Mad Skills）</MadSkills_SettingsCategory>
+  <MadSkills_DailyXPSaturationThresholdLabel>每日经验阈值</MadSkills_DailyXPSaturationThresholdLabel>
+  <MadSkills_DailyXPSaturationThresholdTip>原版默认值：4000
+某项技能当天获得的经验达到此值后，后续经验收益乘以下方倍率，直到午夜重置。</MadSkills_DailyXPSaturationThresholdTip>
+  <MadSkills_SaturatedXPMultiplierLabel>超出阈值后的经验倍率</MadSkills_SaturatedXPMultiplierLabel>
+  <MadSkills_SaturatedXPMultiplierTip>原版默认值：20%
+某项技能当天经验超过上方阈值后，后续获得的经验乘以此倍率。
+设为100%可完全取消每日经验阈值造成的收益衰减。</MadSkills_SaturatedXPMultiplierTip>
+  <MadSkills_MultiplierLabel>技能遗忘倍率</MadSkills_MultiplierLabel>
+  <MadSkills_MultiplierTip>原版默认值：100%
+原版技能经验衰减速度乘以此倍率。
+0%为不衰减，50%为减半，200%为加倍。</MadSkills_MultiplierTip>
+  <MadSkills_TieredLabel>保留已获得的技能等级</MadSkills_TieredLabel>
+  <MadSkills_TieredTip>原版默认：关闭。
+技能不会降级，但通往下一等级的经验仍按遗忘倍率衰减。</MadSkills_TieredTip>
+  <MadSkills_AlternativeGreatMemoryDescription>{PAWN_nameDef}对细节有极佳的记忆力。{PAWN_pronoun}学习新技能的速度比其他人略快。</MadSkills_AlternativeGreatMemoryDescription>
+  <MadSkills_AlterGreatMemoryLabel>替代版“大脑记忆”</MadSkills_AlterGreatMemoryLabel>
+  <MadSkills_AlterGreatMemoryTip>原版默认：关闭。
+改变“大脑记忆”特性的效果：不再将技能遗忘速度减半，改为提高25%的学习速度。</MadSkills_AlterGreatMemoryTip>
+</LanguageData>

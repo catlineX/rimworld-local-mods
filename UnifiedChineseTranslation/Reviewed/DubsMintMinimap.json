@@ -1,0 +1,21 @@
+{
+  "directory": "DubsMintMinimap",
+  "packageId": "dubwise.dubsmintminimap",
+  "name": "Dubs Mint Minimap",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "Minimap.RimatomicsTACS",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Rimatomics TACS（模组联动）"
+    },
+    {
+      "key": "MintMinimap.label",
+      "kind": "DefInjected",
+      "defType": "KeyBindingCategoryDef",
+      "text": "Mint小地图"
+    }
+  ]
+}
+

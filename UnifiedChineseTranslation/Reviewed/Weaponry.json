@@ -1,0 +1,21 @@
+{
+  "directory": "Weaponry",
+  "packageId": "void.weaponry",
+  "name": "Weaponry",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "OpenWeaponry.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "配置武器"
+    },
+    {
+      "key": "Bullet_Rubber.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "橡胶弹"
+    }
+  ]
+}
+

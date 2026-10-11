@@ -1,0 +1,2594 @@
+{
+  "directory": "TDFindLib",
+  "packageId": "memegoddess.tdfindlib",
+  "name": "TD Find Lib - Continued",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "TD.IdeoXenotypeFilterType.Preferred",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "偏好"
+    },
+    {
+      "key": "TD.IdeoXenotypeFilterType.Disliked",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "厌恶"
+    },
+    {
+      "key": "TD.IdeoXenotypeFilterType.NoOpinion",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "无偏好"
+    },
+    {
+      "key": "TD.GauranlenFilterType.Connection",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已连接"
+    },
+    {
+      "key": "TD.GauranlenFilterType.Mode",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "树精种类"
+    },
+    {
+      "key": "TD.GauranlenFilterType.Strength",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "连接强度"
+    },
+    {
+      "key": "TD.GauranlenFilterType.StrengthDesired",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "目标连接强度"
+    },
+    {
+      "key": "TD.GauranlenFilterType.MaxDryads",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "树精数量上限"
+    },
+    {
+      "key": "TD.GauranlenFilterType.CurDryads",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "当前树精数量"
+    },
+    {
+      "key": "TD.GauranlenFilterType.TimeToDryad",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "新树精生成剩余天数"
+    },
+    {
+      "key": "TD.Intelligence.Animal",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "动物"
+    },
+    {
+      "key": "TD.Intelligence.ToolUser",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "工具使用者"
+    },
+    {
+      "key": "TD.Intelligence.Humanlike",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "类人"
+    },
+    {
+      "key": "TD.Gender.Male",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "男性"
+    },
+    {
+      "key": "TD.Gender.Female",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "女性"
+    },
+    {
+      "key": "TD.Gender.None",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "无性别"
+    },
+    {
+      "key": "Category_Royal.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "贵族"
+    },
+    {
+      "key": "Query_Royalty_Title.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "拥有贵族头衔"
+    },
+    {
+      "key": "Query_Royalty_TitleRange.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "贵族头衔等级范围"
+    },
+    {
+      "key": "Query_Royalty_TitleRequirement.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "未满足的贵族要求"
+    },
+    {
+      "key": "Query_Royalty_Honor.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "荣誉"
+    },
+    {
+      "key": "Query_Royalty_Permit.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "许可"
+    },
+    {
+      "key": "Query_Royalty_PermitPoints.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "许可点数"
+    },
+    {
+      "key": "Query_Royalty_Psyfocus.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "灵能专注度"
+    },
+    {
+      "key": "Query_Royalty_Entropy.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "神经热"
+    },
+    {
+      "key": "TD.TDFindLib",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "TD筛选库（TD Find Lib）"
+    },
+    {
+      "key": "TD.Delete0",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "删除{0}？"
+    },
+    {
+      "key": "TD.StopRefresh0",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "停止刷新{0}？"
+    },
+    {
+      "key": "TD.AllMaps",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所有地图"
+    },
+    {
+      "key": "TD.CurrentMap",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "当前地图"
+    },
+    {
+      "key": "TD.ChosenMaps",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "指定地图"
+    },
+    {
+      "key": "TD.IncludeShort",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "包含"
+    },
+    {
+      "key": "TD.ExcludeShort",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "排除"
+    },
+    {
+      "key": "TD.DeleteThisQuery",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "删除此筛选条件"
+    },
+    {
+      "key": "TD.EnableThisQuery",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用此筛选条件"
+    },
+    {
+      "key": "TD.IncludeOrExcludeThingsMatchingThisQuery",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "包含或排除符合此筛选条件的对象"
+    },
+    {
+      "key": "TD.SearchTriedToLoad",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "TDFindLib错误：搜索“{0}”尝试加载“{1}”类型、名为“{2}”的筛选条件，但未找到。"
+    },
+    {
+      "key": "TD.SearchTriedToLoadOnMap",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "搜索“{0}”尝试在{3}加载“{1}”类型、名为“{2}”的筛选条件，但未找到。"
+    },
+    {
+      "key": "TD.Spoils",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "腐坏"
+    },
+    {
+      "key": "TD.Refrigerated",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "冷藏"
+    },
+    {
+      "key": "TD.Frozen",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "冷冻"
+    },
+    {
+      "key": "TD.Player",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "玩家"
+    },
+    {
+      "key": "TD.Mechanoid",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "机械族"
+    },
+    {
+      "key": "TD.Insectoid",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "虫族"
+    },
+    {
+      "key": "TD.NoFaction",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "无派系"
+    },
+    {
+      "key": "TD.NotMadeFromStuff",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "非材质制品"
+    },
+    {
+      "key": "TD.AnyStockpile",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意储存区"
+    },
+    {
+      "key": "TD.AnyGrowingZone",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意种植区"
+    },
+    {
+      "key": "TD.Opened",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已打开"
+    },
+    {
+      "key": "TD.BlockedOpen",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "被阻挡而保持开启"
+    },
+    {
+      "key": "TD.IncludeThingsThatMatch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "包含符合条件的对象"
+    },
+    {
+      "key": "TD.ExcludeThingsThatMatch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "排除符合条件的对象"
+    },
+    {
+      "key": "TD.OfTheseQueries",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "以下筛选条件："
+    },
+    {
+      "key": "TD.TheThingHoldingThis",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "容纳此对象的对象"
+    },
+    {
+      "key": "TD.AnythingThisIsHolding",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "此对象容纳的任意对象"
+    },
+    {
+      "key": "TD.Matches",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "符合"
+    },
+    {
+      "key": "TD.Of",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "以下条件："
+    },
+    {
+      "key": "TD.AnythingXStepsNearbyMatchesPre",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意对象在附近"
+    },
+    {
+      "key": "TD.AnythingXStepsNearbyMatchesPost",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "步范围内符合"
+    },
+    {
+      "key": "TD.From",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "来源"
+    },
+    {
+      "key": "TD.Invisible",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（不可见）"
+    },
+    {
+      "key": "TD.Cold",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "寒冷"
+    },
+    {
+      "key": "TD.ALittleCold",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "略冷"
+    },
+    {
+      "key": "TD.Comfortable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "舒适"
+    },
+    {
+      "key": "TD.ALittleHot",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "略热"
+    },
+    {
+      "key": "TD.Hot",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "炎热"
+    },
+    {
+      "key": "TD.IsPrisoner",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是囚犯"
+    },
+    {
+      "key": "TD.InCell",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "位于牢房"
+    },
+    {
+      "key": "TD.ThereAreNoOptionsAvailablePerhapsYouShouldUncheckOnlyAvailableThings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "没有可用选项。可尝试按住Shift点击，以显示所有选项。"
+    },
+    {
+      "key": "TD.LockEditing",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "锁定编辑"
+    },
+    {
+      "key": "TD.Listing",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "搜索范围："
+    },
+    {
+      "key": "TD.Name",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "名称："
+    },
+    {
+      "key": "TD.OnlyShowQueryOptionsForAvailableThings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "仅列出现有对象的筛选选项（Shift反转）"
+    },
+    {
+      "key": "TD.ForExampleDontShowTheOptionMadeFromPlasteelIfNothingIsMadeFromPlasteel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "例如，地图上没有塑钢制品时，不显示“由塑钢制成”选项。\n\n按住Shift点击某个选项，可仅对此次点击反转此设置。"
+    },
+    {
+      "key": "TD.AddNewQuery...",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "添加筛选条件……"
+    },
+    {
+      "key": "TD.AnyOption",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意选项"
+    },
+    {
+      "key": "TD.AllOptions",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全部选项"
+    },
+    {
+      "key": "TD.AnyValue",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意数值"
+    },
+    {
+      "key": "TD.LabelCountThings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}个对象"
+    },
+    {
+      "key": "TD.SelectAllGameAllowsUpTo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全选（游戏最多允许{0}个）"
+    },
+    {
+      "key": "TD.Refresh",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "刷新"
+    },
+    {
+      "key": "TD.ContinuousRefreshAboutEverySecond",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "持续刷新（约每秒一次）"
+    },
+    {
+      "key": "TD.SavedSearches",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已保存的搜索"
+    },
+    {
+      "key": "TD.CopyNameSuffix",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（副本）"
+    },
+    {
+      "key": "TD.Settings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "设置："
+    },
+    {
+      "key": "TD.ViewQuerySearchLibrary",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "打开已保存搜索库"
+    },
+    {
+      "key": "TD.View",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "查看"
+    },
+    {
+      "key": "TD.SaveSearches",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "保存到搜索库"
+    },
+    {
+      "key": "TD.LoadSearches",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "从搜索库加载"
+    },
+    {
+      "key": "TD.SaveTo0",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "保存到{0}"
+    },
+    {
+      "key": "TD.TDFindLibrary",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "TD搜索库"
+    },
+    {
+      "key": "TD.SaveChangesTo0",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "将修改保存到{0}？"
+    },
+    {
+      "key": "TD.OverwriteSearch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "覆盖搜索"
+    },
+    {
+      "key": "TD.SaveAsCopy",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "保存为副本"
+    },
+    {
+      "key": "TD.OpenTheLibraryOfSearches",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "打开搜索库"
+    },
+    {
+      "key": "TD.ImportSearchFrom",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "导入搜索……"
+    },
+    {
+      "key": "TD.ExportSearchTo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "导出搜索……"
+    },
+    {
+      "key": "TD.ImportGroupFrom",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "导入分组……"
+    },
+    {
+      "key": "TD.ExportGroupTo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "导出分组……"
+    },
+    {
+      "key": "TD.ImportLibraryFrom",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "导入搜索库……"
+    },
+    {
+      "key": "TD.ExportLibraryTo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "导出搜索库……"
+    },
+    {
+      "key": "TD.CopyToClipboard",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "复制到剪贴板"
+    },
+    {
+      "key": "TD.PasteFromClipboard",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "从剪贴板粘贴"
+    },
+    {
+      "key": "TD.AND",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "且（AND）"
+    },
+    {
+      "key": "TD.OR",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "或（OR）"
+    },
+    {
+      "key": "TD.NOT",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "非（NOT）"
+    },
+    {
+      "key": "TD.HeyManWeHaveToSearchSomewhere",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "请至少指定一个搜索范围"
+    },
+    {
+      "key": "TD.Searching",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "搜索："
+    },
+    {
+      "key": "TD.Named",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "名称："
+    },
+    {
+      "key": "TD.HostIs",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所属宿主为"
+    },
+    {
+      "key": "TD.FactionIs",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所属派系为"
+    },
+    {
+      "key": "TD.InstallingCategory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（安装中）"
+    },
+    {
+      "key": "TD.BlueprintCategory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（蓝图）"
+    },
+    {
+      "key": "TD.FrameCategory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（施工框架）"
+    },
+    {
+      "key": "TD.BlueprintCategoryTerrain",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（地形蓝图）"
+    },
+    {
+      "key": "TD.FrameCategoryTerrain",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（地形施工框架）"
+    },
+    {
+      "key": "TD.MiscCategory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "杂项"
+    },
+    {
+      "key": "TD.LivingCategory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "生物"
+    },
+    {
+      "key": "TD.MineableCategory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可开采"
+    },
+    {
+      "key": "TD.OtherCategory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "（其他）"
+    },
+    {
+      "key": "TD.TDFindLibSearchLibrary",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "TD筛选库：搜索库"
+    },
+    {
+      "key": "TD.NewGroup",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "新建分组"
+    },
+    {
+      "key": "TD.NameForNewGroup",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "新分组名称"
+    },
+    {
+      "key": "TD.AddNewGroup",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "添加新分组……"
+    },
+    {
+      "key": "TD.NewSearch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "新建搜索"
+    },
+    {
+      "key": "TD.NameForNewSearch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "新搜索名称"
+    },
+    {
+      "key": "TD.EditThisSearch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "编辑此搜索"
+    },
+    {
+      "key": "TD.ActiveSearches",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "运行中的搜索"
+    },
+    {
+      "key": "TD.ViewThisSearch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "查看此搜索"
+    },
+    {
+      "key": "TD.OpenTheModControllingThisSearch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "打开控制此搜索的模组"
+    },
+    {
+      "key": "TD.StopThisSearchFromRunningITrustYouKnowWhatYoureDoing",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "停止此搜索（请确认你了解其作用）"
+    },
+    {
+      "key": "TD.Every0Ticks",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "每{0} ticks"
+    },
+    {
+      "key": "TD.SetRefreshPeriodInTicks",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "设置刷新周期（ticks）"
+    },
+    {
+      "key": "TD.GodModeIsAllowingYouToSeeThingsInFoggedAreasThingsYouCantNormallyKnowAndVariousOtherWeirdThings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "上帝模式允许你查看迷雾中的对象、通常无法获知的信息及其他调试内容。"
+    },
+    {
+      "key": "TD.Editing",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "编辑中"
+    },
+    {
+      "key": "TD.ListThingsMatchingThisSearch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "列出符合此搜索的对象"
+    },
+    {
+      "key": "TD.Viewing",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "查看中"
+    },
+    {
+      "key": "TD.MatchingAllFilters",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "符合全部筛选条件"
+    },
+    {
+      "key": "TD.MatchingAnyFilter",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "符合任一筛选条件"
+    },
+    {
+      "key": "TD.SearchCurrentMapOnly",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "仅搜索当前地图"
+    },
+    {
+      "key": "TD.SearchAllMaps",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "搜索所有地图"
+    },
+    {
+      "key": "TD.SearchChosenMapsOnceLoaded",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "搜索指定地图（加载后）"
+    },
+    {
+      "key": "TD.AFilterIsForcingThisSearchToRunOnTheCurrentMapOnly",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "某个筛选条件强制此搜索只在当前地图运行"
+    },
+    {
+      "key": "TD.Rename0",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "重命名{0}"
+    },
+    {
+      "key": "TD.Missing01",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "缺少{0}：{1}？"
+    },
+    {
+      "key": "TD.Filter01NeedsAMap",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "筛选条件{0}：{1}需要地图，但获得了空地图？"
+    },
+    {
+      "key": "TD.Missing01On2",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在{2}中缺少{0}：{1}？"
+    },
+    {
+      "key": "TD.Search0TriedToLoad1FilterButNoMapToFind2",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "搜索{0}尝试加载{1}筛选条件，但没有提供用于查找{2}的地图。"
+    },
+    {
+      "key": "TD.AnyAggresive",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意攻击性状态"
+    },
+    {
+      "key": "TD.IsHelper",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是援助者"
+    },
+    {
+      "key": "TD.IsLodger",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是暂住者"
+    },
+    {
+      "key": "TD.SecurePrisoner",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "需保护的囚犯"
+    },
+    {
+      "key": "TD.SecureSlave",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "需保护的奴隶"
+    },
+    {
+      "key": "TD.AnyBleeding",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "存在出血"
+    },
+    {
+      "key": "TD.KeepChanges",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "保留修改？"
+    },
+    {
+      "key": "TD.AnyPassion",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意激情"
+    },
+    {
+      "key": "TD.IgnorePassion",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "忽略激情"
+    },
+    {
+      "key": "TD.Resource",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "资源"
+    },
+    {
+      "key": "TD.Rock",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "岩石"
+    },
+    {
+      "key": "TD.Mineable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可开采"
+    },
+    {
+      "key": "TD.PermitIsReady",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "许可可用"
+    },
+    {
+      "key": "TD.HoldsPermit",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "持有许可"
+    },
+    {
+      "key": "TD.ContainerBuildings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "容器"
+    },
+    {
+      "key": "TD.Structures",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "结构"
+    },
+    {
+      "key": "TD.AbilityLevel01",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "等级{0}：{1}"
+    },
+    {
+      "key": "TD.Seconds",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "秒"
+    },
+    {
+      "key": "TD.Hours",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "小时"
+    },
+    {
+      "key": "TD.Days",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "天"
+    },
+    {
+      "key": "TD.Years",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "年"
+    },
+    {
+      "key": "TD.DefLabel.RemovePaintBuilding",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "清除建筑涂色"
+    },
+    {
+      "key": "TD.DefLabel.RemovePaintFloor",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "清除地板涂色"
+    },
+    {
+      "key": "TD.PlayersIdeoligion",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "玩家理念"
+    },
+    {
+      "key": "TD.OtherIdeoligion",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "其他理念"
+    },
+    {
+      "key": "TD.PersonsIdeoligion",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "该角色的理念"
+    },
+    {
+      "key": "TD.CanBe",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可以成为"
+    },
+    {
+      "key": "TD.HasRole",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "拥有角色"
+    },
+    {
+      "key": "TD.WantsApparelForRole",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "需要理念角色服装"
+    },
+    {
+      "key": "TD.AnyNonLeaderRole",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意非领袖角色"
+    },
+    {
+      "key": "TD.AnyLeaderRole",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意领袖角色"
+    },
+    {
+      "key": "TD.OwnersIdeoligion",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所有者的理念"
+    },
+    {
+      "key": "TD.Mood",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "心情"
+    },
+    {
+      "key": "TD.Opinion",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "评价"
+    },
+    {
+      "key": "TD.Level01",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "等级{0}：{1}"
+    },
+    {
+      "key": "TD.Chronological",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "实际年龄"
+    },
+    {
+      "key": "TD.Biological",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "生理年龄"
+    },
+    {
+      "key": "TD.MechsOverseer",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "机械体的控制者"
+    },
+    {
+      "key": "TD.MechanitorsMechs",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "机械师的机械体"
+    },
+    {
+      "key": "TD.AnyCommon",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意常见类型"
+    },
+    {
+      "key": "TD.NoGene",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "没有基因"
+    },
+    {
+      "key": "TD.AnyGene",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意基因"
+    },
+    {
+      "key": "TD.Is",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是"
+    },
+    {
+      "key": "TD.As",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "作为"
+    },
+    {
+      "key": "TD.WorkMechanoid",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "工作机械体"
+    },
+    {
+      "key": "TD.ReserverMatches",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "预留者符合"
+    },
+    {
+      "key": "TD.IsReserved",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已被预留"
+    },
+    {
+      "key": "TD.Addiction",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "成瘾"
+    },
+    {
+      "key": "TD.Implant",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "植入物"
+    },
+    {
+      "key": "TD.Injury",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "伤势"
+    },
+    {
+      "key": "TD.High",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "药物作用"
+    },
+    {
+      "key": "TD.Sickness",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "疾病"
+    },
+    {
+      "key": "TD.UnknownModHediff",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "未知模组"
+    },
+    {
+      "key": "TD.WarnCustom",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "自定义筛选属于高级功能，需要了解游戏代码。它允许读取并比较任意C#字段或属性，几乎所有数据（包括模组内容）都可访问。\n\n这里不提供遍历游戏代码的完整指南，因为范围过于庞大。你应当先明确要查找的内容，而不是盲目浏览所有选项。许多选项没有实际用途，有些运行较慢，有些本来不应在游戏中显示。这是一份完整列表，并未按易用性筛选。"
+    },
+    {
+      "key": "TD.WarnExtension",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "自定义筛选已经属于高级功能，而这里使用的还是扩展方法。\n\n只有在了解代码作用时才应使用。普通自定义筛选只读取字段和属性，不改变数据；扩展方法可能修改对象。搜索不应产生此类副作用，因此请确认所选方法仅访问数据。"
+    },
+    {
+      "key": "TD.AnyXWhereX",
+      "kind": "Keyed",
+      "defType": "",
+      "text": ".Any x => x（满足条件的任一元素）"
+    },
+    {
+      "key": "TD.CouldNotFindDef0For123",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "找不到用于（{1}）{2}.{3}的定义{0}"
+    },
+    {
+      "key": "TD.CouldntFindType0",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "找不到类型{0}"
+    },
+    {
+      "key": "TD.CouldntFindHowToHandle0",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "找不到处理{0}的方法"
+    },
+    {
+      "key": "TD.0Options",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}个选项"
+    },
+    {
+      "key": "TD.NoOptions",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "没有选项！"
+    },
+    {
+      "key": "TD.DropwdownAllOptions",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全部选项"
+    },
+    {
+      "key": "TD.SetupCustomQueryOnStartup",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启动时初始化自定义筛选"
+    },
+    {
+      "key": "TD.SetupCustomQueryOnStartupTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "自定义筛选需要大量反射操作，因此在启动时生成会耗费较长时间。"
+    },
+    {
+      "key": "TD.SetupCustomQueryOnStartupLongEvent",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "正在生成自定义筛选字段"
+    },
+    {
+      "key": "Category_Biotech.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "生物科技"
+    },
+    {
+      "key": "Query_IsMechanitor.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryPreselectDef",
+      "text": "是机械师"
+    },
+    {
+      "key": "Query_MechanitorBandwidth.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "机械师带宽"
+    },
+    {
+      "key": "Query_MechOverseer.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "受控机械体／控制者"
+    },
+    {
+      "key": "Query_IsWorkMech.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryPreselectDef",
+      "text": "是工作机械体"
+    },
+    {
+      "key": "Query_MechWeightClass.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "机械体重量级别"
+    },
+    {
+      "key": "Query_MechBandwidthCost.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "机械体带宽消耗"
+    },
+    {
+      "key": "Query_MechWorkMode.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "机械体工作模式"
+    },
+    {
+      "key": "Query_MechUncontrolled.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "机械体失控"
+    },
+    {
+      "key": "Query_MechEnergy.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryPreselectDef",
+      "text": "机械体能量"
+    },
+    {
+      "key": "Query_Xenotype.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "异种"
+    },
+    {
+      "key": "Query_Xenogerm.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryPreselectDef",
+      "text": "没有异种基因"
+    },
+    {
+      "key": "Query_Gene.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "基因"
+    },
+    {
+      "key": "Category_Odyssey.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "奥德赛"
+    },
+    {
+      "key": "Query_IsUnique.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "是独特对象"
+    },
+    {
+      "key": "Query_GravshipFuel.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "重力飞船燃料百分比"
+    },
+    {
+      "key": "Query_GravshipCapacity.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "重力飞船容量百分比"
+    },
+    {
+      "key": "Query_GravshipIsOnCooldown.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "重力飞船冷却中"
+    },
+    {
+      "key": "TD.BandwidthFilterType.Total",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "总计"
+    },
+    {
+      "key": "TD.BandwidthFilterType.Used",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已使用"
+    },
+    {
+      "key": "TD.BandwidthFilterType.Available",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可用"
+    },
+    {
+      "key": "TD.GeneType.Either",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意基因"
+    },
+    {
+      "key": "TD.GeneType.Endogene",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "内源基因"
+    },
+    {
+      "key": "TD.GeneType.Xenogene",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "异种基因"
+    },
+    {
+      "key": "TD.GeneHavingType.Active",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "生效"
+    },
+    {
+      "key": "TD.GeneHavingType.Inactive",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "未生效"
+    },
+    {
+      "key": "TD.GeneHavingType.Has",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "拥有"
+    },
+    {
+      "key": "TD.UnmetRequirementType.ApparelRequirementNotMet",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "需要头衔对应的服装"
+    },
+    {
+      "key": "TD.UnmetRequirementType.ApparelMinQualityNotMet",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "需要满足贵族品质要求的服装"
+    },
+    {
+      "key": "Category_IdeoPawn.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "理念"
+    },
+    {
+      "key": "Query_Style.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "风格"
+    },
+    {
+      "key": "Query_Ideoligion.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "理念"
+    },
+    {
+      "key": "Query_Meme.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "理念包含模因"
+    },
+    {
+      "key": "Query_Precept.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "理念包含戒律"
+    },
+    {
+      "key": "Query_Role.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "理念角色"
+    },
+    {
+      "key": "Query_IdeoXenotype.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "偏好的异种"
+    },
+    {
+      "key": "Query_VeneratedAnimal.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "崇敬动物"
+    },
+    {
+      "key": "Query_WeaponClass.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "武器类别"
+    },
+    {
+      "key": "Query_WeaponDisposition.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "武器偏好"
+    },
+    {
+      "key": "Query_Gauranlen.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "高兰树"
+    },
+    {
+      "key": "TD.SearchListType.Selectable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所有可选择对象"
+    },
+    {
+      "key": "TD.SearchListType.All",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所有对象（包括通常不可选择者）"
+    },
+    {
+      "key": "TD.SearchListType.Items",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "物品"
+    },
+    {
+      "key": "TD.SearchListType.Junk",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "杂物"
+    },
+    {
+      "key": "TD.SearchListType.Everyone",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所有角色"
+    },
+    {
+      "key": "TD.SearchListType.Buildings",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "建筑"
+    },
+    {
+      "key": "TD.SearchListType.Natural",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "自然物"
+    },
+    {
+      "key": "TD.SearchListType.Plants",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "植物"
+    },
+    {
+      "key": "TD.SearchListType.Inventory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "随身物品"
+    },
+    {
+      "key": "TD.SearchListType.Haulables",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可搬运对象"
+    },
+    {
+      "key": "TD.SearchListType.Mergables",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可合并堆叠"
+    },
+    {
+      "key": "TD.SearchListType.FilthInHomeArea",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "家园区域内的污物"
+    },
+    {
+      "key": "TD.ForbiddenType.Forbidden",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "禁止"
+    },
+    {
+      "key": "TD.ForbiddenType.Allowed",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许"
+    },
+    {
+      "key": "TD.ForbiddenType.Forbiddable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可设为禁止"
+    },
+    {
+      "key": "TD.ListCategory.Person",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "人物"
+    },
+    {
+      "key": "TD.ListCategory.Animal",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "动物"
+    },
+    {
+      "key": "TD.ListCategory.Item",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "物品"
+    },
+    {
+      "key": "TD.ListCategory.Building",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "建筑"
+    },
+    {
+      "key": "TD.ListCategory.Natural",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "自然物"
+    },
+    {
+      "key": "TD.ListCategory.Plant",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "植物"
+    },
+    {
+      "key": "TD.ListCategory.Other",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "其他"
+    },
+    {
+      "key": "TD.MineableType.Resource",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "资源"
+    },
+    {
+      "key": "TD.MineableType.Rock",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "岩石"
+    },
+    {
+      "key": "TD.MineableType.All",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全部"
+    },
+    {
+      "key": "TD.DraftQuery.Drafted",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已征召"
+    },
+    {
+      "key": "TD.DraftQuery.Undrafted",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "未征召"
+    },
+    {
+      "key": "TD.DraftQuery.Controllable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可控制"
+    },
+    {
+      "key": "TD.RacePropsQuery.Predator",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "捕食者"
+    },
+    {
+      "key": "TD.RacePropsQuery.Prey",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "猎物"
+    },
+    {
+      "key": "TD.RacePropsQuery.Herd",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "群居"
+    },
+    {
+      "key": "TD.RacePropsQuery.Pack",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "驮兽"
+    },
+    {
+      "key": "TD.RacePropsQuery.Wildness",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "野性"
+    },
+    {
+      "key": "TD.RacePropsQuery.Petness",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "宠物倾向"
+    },
+    {
+      "key": "TD.RacePropsQuery.Trainability",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可训练性"
+    },
+    {
+      "key": "TD.RacePropsQuery.Intelligence",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "智力"
+    },
+    {
+      "key": "TD.RacePropsQuery.RevengeTame",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "驯服失败时反击概率"
+    },
+    {
+      "key": "TD.RacePropsQuery.RevengeHarm",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "受伤时反击概率"
+    },
+    {
+      "key": "TD.ProgressType.Milkable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "挤奶进度完成"
+    },
+    {
+      "key": "TD.ProgressType.Shearable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "剪毛进度完成"
+    },
+    {
+      "key": "TD.ProgressType.EggHatch",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "孵化进度"
+    },
+    {
+      "key": "TD.QueryPawnProperty.IsColonist",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是殖民者"
+    },
+    {
+      "key": "TD.QueryPawnProperty.IsFreeColonist",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是自由殖民者"
+    },
+    {
+      "key": "TD.QueryPawnProperty.IsPrisonerOfColony",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是殖民地囚犯"
+    },
+    {
+      "key": "TD.QueryPawnProperty.IsSlaveOfColony",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是殖民地奴隶"
+    },
+    {
+      "key": "TD.QueryPawnProperty.IsPrisoner",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是囚犯"
+    },
+    {
+      "key": "TD.QueryPawnProperty.IsSlave",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是奴隶"
+    },
+    {
+      "key": "TD.QueryPawnProperty.IsColonyMech",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是殖民地机械体"
+    },
+    {
+      "key": "TD.QueryPawnProperty.Downed",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已倒地"
+    },
+    {
+      "key": "TD.QueryPawnProperty.Dead",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已死亡"
+    },
+    {
+      "key": "TD.QueryPawnProperty.HasPsylink",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "拥有灵能链接"
+    },
+    {
+      "key": "TD.AbilityFilterType.Has",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已掌握"
+    },
+    {
+      "key": "TD.AbilityFilterType.Cooldown",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "冷却中"
+    },
+    {
+      "key": "TD.AbilityFilterType.CanCast",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "可使用"
+    },
+    {
+      "key": "TD.AbilityFilterType.Active",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已激活"
+    },
+    {
+      "key": "TD.AbilityFilterType.Charges",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "剩余使用次数"
+    },
+    {
+      "key": "TD.SubmatchType.Has",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "拥有任一项"
+    },
+    {
+      "key": "TD.SubmatchType.Any",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "任意"
+    },
+    {
+      "key": "TD.SubmatchType.All",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全部"
+    },
+    {
+      "key": "TD.AnyAllOrNone.Any",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "至少一项"
+    },
+    {
+      "key": "TD.AnyAllOrNone.All",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全部"
+    },
+    {
+      "key": "TD.AnyAllOrNone.None",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全部不符合"
+    },
+    {
+      "key": "TD.ScheduleFilterType.Current",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "当前安排为"
+    },
+    {
+      "key": "TD.ScheduleFilterType.AllScheduleIs",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "日程符合"
+    },
+    {
+      "key": "TD.ScheduleFilterType.AnyScheduleNot",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "日程不符合"
+    },
+    {
+      "key": "TD.EquipmentFilterType.Any",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "装备或穿戴"
+    },
+    {
+      "key": "TD.EquipmentFilterType.Primary",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "主武器"
+    },
+    {
+      "key": "TD.EquipmentFilterType.Equipment",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "其他装备"
+    },
+    {
+      "key": "TD.EquipmentFilterType.Apparel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "服装"
+    },
+    {
+      "key": "TD.EquipmentFilterType.Inventory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "随身物品"
+    },
+    {
+      "key": "TD.EquipmentFilterType.Carried",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "手持物品"
+    },
+    {
+      "key": "TD.EquipmentFilterType.Unused",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "手持或随身物品"
+    },
+    {
+      "key": "Query_Name.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "按名称搜索"
+    },
+    {
+      "key": "Query_Def.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "指定对象"
+    },
+    {
+      "key": "Query_Category.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "大类"
+    },
+    {
+      "key": "Query_Stat.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "属性"
+    },
+    {
+      "key": "Category_PawnProp.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "个人信息"
+    },
+    {
+      "key": "Category_PawnStats.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "统计"
+    },
+    {
+      "key": "Category_PawnStatus.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "状态"
+    },
+    {
+      "key": "Category_PawnGuest.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "访客"
+    },
+    {
+      "key": "Category_PawnAssign.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "分配"
+    },
+    {
+      "key": "Query_PawnProperty.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "一般信息"
+    },
+    {
+      "key": "Query_PawnDying.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "死亡剩余时间"
+    },
+    {
+      "key": "Query_Skill.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "技能"
+    },
+    {
+      "key": "Query_Trait.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "特性"
+    },
+    {
+      "key": "Query_Thought.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "想法"
+    },
+    {
+      "key": "Query_Need.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "需求"
+    },
+    {
+      "key": "Query_Health.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "健康状况"
+    },
+    {
+      "key": "Query_Capacity.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "身体能力"
+    },
+    {
+      "key": "Query_MentalState.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "精神状态"
+    },
+    {
+      "key": "Query_ComfyTemp.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "温度舒适度"
+    },
+    {
+      "key": "Query_Incapable.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "无法从事"
+    },
+    {
+      "key": "Query_AreaRestriction.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "活动区域限制"
+    },
+    {
+      "key": "Query_Equipment.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "装备"
+    },
+    {
+      "key": "Query_Ability.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "能力"
+    },
+    {
+      "key": "Query_Drafted.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "征召状态"
+    },
+    {
+      "key": "Query_Job.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "当前行动"
+    },
+    {
+      "key": "Query_Schedule.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "日程"
+    },
+    {
+      "key": "Query_Inspiration.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "灵感"
+    },
+    {
+      "key": "Query_Guest.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "访客状态"
+    },
+    {
+      "key": "Query_Prisoner.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "囚犯"
+    },
+    {
+      "key": "Query_Quest.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "任务状态"
+    },
+    {
+      "key": "Query_MarketValue.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryPreselectDef",
+      "text": "市场价值"
+    },
+    {
+      "key": "Query_Work.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "启用的工作"
+    },
+    {
+      "key": "Query_AssignOutfit.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "服装政策"
+    },
+    {
+      "key": "Query_AssignFood.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "食物限制"
+    },
+    {
+      "key": "Query_AssignDrug.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "药物政策"
+    },
+    {
+      "key": "Query_AssignOutfitThing.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "符合服装政策"
+    },
+    {
+      "key": "Query_AssignFoodThing.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "符合食物限制"
+    },
+    {
+      "key": "Query_KeepInInventory.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "保留在随身物品中"
+    },
+    {
+      "key": "Query_AssignDrugThing.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "符合药物政策"
+    },
+    {
+      "key": "Query_ThingQueryDevelopmentalStage.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "年龄阶段"
+    },
+    {
+      "key": "Query_ThingQueryAge.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "年龄"
+    },
+    {
+      "key": "Query_ThingQueryRelation.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "关系"
+    },
+    {
+      "key": "Query_RecordTime.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "记录（时间）"
+    },
+    {
+      "key": "Query_Gender.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "性别"
+    },
+    {
+      "key": "Query_MissingBodyPart.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "缺失身体部位"
+    },
+    {
+      "key": "Category_AnimalProp.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "动物信息"
+    },
+    {
+      "key": "Query_RaceProps.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "种族"
+    },
+    {
+      "key": "Query_Meat.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "肉类产物"
+    },
+    {
+      "key": "Query_Leather.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "皮革产物"
+    },
+    {
+      "key": "Query_Egg.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "年产蛋量"
+    },
+    {
+      "key": "Query_Milk.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "年产奶量"
+    },
+    {
+      "key": "Query_Wool.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "年产毛量"
+    },
+    {
+      "key": "Query_ProductProgress.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "产出进度"
+    },
+    {
+      "key": "Query_Trained.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "已训练"
+    },
+    {
+      "key": "Query_Bonded.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "已建立羁绊"
+    },
+    {
+      "key": "Category_ItemInfo.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "物品信息"
+    },
+    {
+      "key": "Query_ItemCategory.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "物品类别"
+    },
+    {
+      "key": "Query_Quality.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "品质"
+    },
+    {
+      "key": "Query_Stuff.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "制作材料"
+    },
+    {
+      "key": "Query_SpecialFilter.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "特殊筛选"
+    },
+    {
+      "key": "Query_ApparelLayer.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "服装层"
+    },
+    {
+      "key": "Query_ApparelCoverage.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "服装覆盖部位"
+    },
+    {
+      "key": "Query_Forbidden.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "禁止状态"
+    },
+    {
+      "key": "Category_BuildingInfo.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "建筑信息"
+    },
+    {
+      "key": "Query_Mineable.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "可开采"
+    },
+    {
+      "key": "Query_MineableDef.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "可开采"
+    },
+    {
+      "key": "Query_BuildingCategory.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "建筑类别"
+    },
+    {
+      "key": "Query_Door.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "门的状态"
+    },
+    {
+      "key": "Category_Plants.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "植物与食物"
+    },
+    {
+      "key": "Query_Crop.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "是作物"
+    },
+    {
+      "key": "Query_Harvest.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "收获产物"
+    },
+    {
+      "key": "Query_Harvestable.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "现在可收获"
+    },
+    {
+      "key": "Query_Growth.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "植物生长进度"
+    },
+    {
+      "key": "Query_GrowthRate.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "植物生长速度"
+    },
+    {
+      "key": "Query_Freshness.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "新鲜度"
+    },
+    {
+      "key": "Query_TimeToRot.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "腐坏剩余天数"
+    },
+    {
+      "key": "Query_DiesLeafless.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "因寒冷枯死"
+    },
+    {
+      "key": "Query_Blighted.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "枯萎病"
+    },
+    {
+      "key": "Category_Location.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "位置"
+    },
+    {
+      "key": "Query_Area.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "活动区域"
+    },
+    {
+      "key": "Query_Zone.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "规划区域"
+    },
+    {
+      "key": "Query_Temp.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "温度"
+    },
+    {
+      "key": "Query_Deterioration.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "正在损耗"
+    },
+    {
+      "key": "Query_Nearby.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "附近对象"
+    },
+    {
+      "key": "Query_HP.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "耐久百分比"
+    },
+    {
+      "key": "Query_Inventory.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "随身物品"
+    },
+    {
+      "key": "Query_Designation.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "已指定操作"
+    },
+    {
+      "key": "Query_CanDesignate.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "可指定操作"
+    },
+    {
+      "key": "Query_Faction.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "派系"
+    },
+    {
+      "key": "Query_Reserved.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "预留情况"
+    },
+    {
+      "key": "Query_Art.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "是艺术品"
+    },
+    {
+      "key": "Query_Accessible.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "可访问部位"
+    },
+    {
+      "key": "Category_Mod.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "扩展／模组"
+    },
+    {
+      "key": "Query_Mod.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "来自模组"
+    },
+    {
+      "key": "Query_Onscreen.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "当前显示在屏幕上"
+    },
+    {
+      "key": "Query_AndOrGroup.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "筛选条件分组"
+    },
+    {
+      "key": "Query_Custom.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "自定义（高级）"
+    },
+    {
+      "key": "Category_devmode.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryCategoryDef",
+      "text": "开发／作弊选项"
+    },
+    {
+      "key": "Query_Selectable.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "可选择"
+    },
+    {
+      "key": "Query_ClassType.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "C#类类型"
+    },
+    {
+      "key": "Query_DrawerType.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "绘制类型"
+    },
+    {
+      "key": "Query_Fogged.label",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "text": "迷雾中（需要开启上帝模式）"
+    },
+    {
+      "key": "Query_WeaponClass.tooltip",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "original": "The weapon class for an ideoligion's preferred weapons",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\3529443295\\1.6\\ModSupport\\Ideology\\Defs\\TDFindLib_Ideology_ThingQueries.xml",
+      "text": "理念所偏好武器的类别。"
+    },
+    {
+      "key": "Query_WeaponDisposition.tooltip",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "original": "If a weapon is preferred by your ideoligion; or the ideoligion of its wielder; or if a person is wielding a preferred weapon according to their ideoligion",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\3529443295\\1.6\\ModSupport\\Ideology\\Defs\\TDFindLib_Ideology_ThingQueries.xml",
+      "text": "筛选玩家理念、武器使用者的理念是否偏好此武器，或某个人是否正在使用其理念偏好的武器。"
+    },
+    {
+      "key": "Query_Accessible.tooltip",
+      "kind": "DefInjected",
+      "defType": "TD_Find_Lib.ThingQueryDef",
+      "original": "Materials or parts that you can potentially get, by smelting / deconstructing / operation / killing",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\3529443295\\1.6\\Defs\\ThingQueries.xml",
+      "text": "通过熔炼、拆除、手术或击杀可能获得的材料或身体部位。"
+    }
+  ]
+}

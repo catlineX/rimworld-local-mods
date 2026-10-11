@@ -1,0 +1,159 @@
+{
+  "directory": "RPGStyleInventory",
+  "packageId": "sandy.rpgstyleinventory",
+  "name": "RPG Style Inventory",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "SandyMassValue",
+      "kind": "Keyed",
+      "defType": "",
+      "text": " {0} / {1} kg"
+    },
+    {
+      "key": "RPG_Inventory_Width",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "装备面板宽度"
+    },
+    {
+      "key": "RPG_Inventory_Height",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "装备面板高度"
+    },
+    {
+      "key": "RPG_Style_Inventory_Title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "RPG风格装备栏"
+    },
+    {
+      "key": "RWoM_ArmorHarmony",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "魔法防御"
+    },
+    {
+      "key": "RPG_Inventory_Color_Setting",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "品质颜色设置"
+    },
+    {
+      "key": "RPG_Inventory_Color_Selector",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "选择"
+    },
+    {
+      "key": "RPG_Inventory_Legendary",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "传奇"
+    },
+    {
+      "key": "RPG_Inventory_Masterwork",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "大师"
+    },
+    {
+      "key": "RPG_Inventory_Excellent",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "极佳"
+    },
+    {
+      "key": "RPG_Inventory_Good",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "精良"
+    },
+    {
+      "key": "RPG_Inventory_Normal",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "普通"
+    },
+    {
+      "key": "RPG_Inventory_Poor",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "较差"
+    },
+    {
+      "key": "RPG_Inventory_Awful",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "极差"
+    },
+    {
+      "key": "Ears.label",
+      "kind": "DefInjected",
+      "defType": "BodyPartGroupDef",
+      "text": "耳部"
+    },
+    {
+      "key": "Accessories.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "饰品"
+    },
+    {
+      "key": "Shield.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "盾牌"
+    },
+    {
+      "key": "Underwear.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "内衣"
+    },
+    {
+      "key": "UnderwearTop.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "上身内衣"
+    },
+    {
+      "key": "VFEC_OuterShell.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "最外层"
+    },
+    {
+      "key": "OnSkin_A.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "贴身层（A）"
+    },
+    {
+      "key": "Middle_A.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "中间层（A）"
+    },
+    {
+      "key": "Shell_A.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "外层（A）"
+    },
+    {
+      "key": "Belt_A.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "装备层（A）"
+    },
+    {
+      "key": "Overhead_A.label",
+      "kind": "DefInjected",
+      "defType": "ApparelLayerDef",
+      "text": "头部装备层（A）"
+    }
+  ]
+}
+

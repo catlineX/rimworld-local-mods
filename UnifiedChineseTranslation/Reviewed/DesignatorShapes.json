@@ -1,0 +1,434 @@
+{
+  "directory": "DesignatorShapes",
+  "packageId": "merthsoft.designatorshapes",
+  "name": "Designator Shapes",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "LineFreeform.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "自由线条"
+    },
+    {
+      "key": "LineFreeform.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "像用画笔一样按自由线条指定操作。"
+    },
+    {
+      "key": "GridThreeByThree.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "3×3网格"
+    },
+    {
+      "key": "GridThreeByThree.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按3×3网格指定操作。"
+    },
+    {
+      "key": "GridFourByFour.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "4×4网格"
+    },
+    {
+      "key": "GridFourByFour.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按4×4网格指定操作。"
+    },
+    {
+      "key": "GridFiveByFive.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "5×5网格"
+    },
+    {
+      "key": "GridFiveByFive.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按5×5网格指定操作。"
+    },
+    {
+      "key": "GridSixBySix.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "6×6网格"
+    },
+    {
+      "key": "GridSixBySix.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按6×6网格指定操作。"
+    },
+    {
+      "key": "GridSevenBySeven.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "7×7网格"
+    },
+    {
+      "key": "GridSevenBySeven.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按7×7网格指定操作。"
+    },
+    {
+      "key": "GridSizeInput.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "自定义网格"
+    },
+    {
+      "key": "GridSizeInput.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按自定义尺寸的网格指定操作。"
+    },
+    {
+      "key": "GridThreeByThreeInverse.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "反向3×3网格"
+    },
+    {
+      "key": "GridThreeByThreeInverse.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按反向3×3网格指定操作。"
+    },
+    {
+      "key": "GridFourByFourInverse.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "反向4×4网格"
+    },
+    {
+      "key": "GridFourByFourInverse.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按反向4×4网格指定操作。"
+    },
+    {
+      "key": "GridFiveByFiveInverse.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "反向5×5网格"
+    },
+    {
+      "key": "GridFiveByFiveInverse.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按反向5×5网格指定操作。"
+    },
+    {
+      "key": "GridSixBySixInverse.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "反向6×6网格"
+    },
+    {
+      "key": "GridSixBySixInverse.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按反向6×6网格指定操作。"
+    },
+    {
+      "key": "GridSevenBySevenInverse.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "反向7×7网格"
+    },
+    {
+      "key": "GridSevenBySevenInverse.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按反向7×7网格指定操作。"
+    },
+    {
+      "key": "GridSizeInputInverse.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "自定义反向网格"
+    },
+    {
+      "key": "GridSizeInputInverse.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "按自定义尺寸的反向网格指定操作。"
+    },
+    {
+      "key": "MidpointHexagon.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "中心六边形"
+    },
+    {
+      "key": "MidpointHexagon.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "从中心绘制六边形并指定操作。"
+    },
+    {
+      "key": "MidpointHexagonFilled.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "中心实心六边形"
+    },
+    {
+      "key": "MidpointHexagonFilled.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef",
+      "text": "从中心绘制实心六边形并指定操作。"
+    },
+    {
+      "key": "LineFreeform.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "自由线条"
+    },
+    {
+      "key": "Hexagon.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "六边形"
+    },
+    {
+      "key": "HexagonFilled.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "实心六边形"
+    },
+    {
+      "key": "MidpointHexagon.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "中心六边形"
+    },
+    {
+      "key": "MidpointHexagonFilled.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "中心实心六边形"
+    },
+    {
+      "key": "Circle.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "圆形"
+    },
+    {
+      "key": "CircleFilled.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "实心圆形"
+    },
+    {
+      "key": "SunLamp.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "太阳灯范围"
+    },
+    {
+      "key": "SunLampOutline.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "太阳灯范围轮廓"
+    },
+    {
+      "key": "TradeBeacon.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "交易信标范围"
+    },
+    {
+      "key": "TradeBeaconOutline.label",
+      "kind": "DefInjected",
+      "defType": "DrawStyleDef",
+      "text": "交易信标范围轮廓"
+    },
+    {
+      "key": "Merthsoft_DesignatorShapes_Settings_HideCompletelyOnAltToggle",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换隐藏时完全隐藏界面。"
+    },
+    {
+      "key": "Merthsoft_DesignatorShapes_Settings_EnableRotation",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用旋转快捷键。"
+    },
+    {
+      "key": "Merthsoft_DesignatorShapes_KeyLabel_Undo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "撤销"
+    },
+    {
+      "key": "Merthsoft_DesignatorShapes_KeyLabel_Redo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "重做"
+    },
+    {
+      "key": "Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeToggleTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换为按指定形状计算边界框。"
+    },
+    {
+      "key": "Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "边界框行为："
+    },
+    {
+      "key": "Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Vanilla",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "按鼠标输入计算（原版行为）。"
+    },
+    {
+      "key": "Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Shape",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "按形状而不是鼠标输入计算边界框。"
+    },
+    {
+      "key": "Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Toggle",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在游戏设置栏添加切换按钮。"
+    },
+    {
+      "key": "Line.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "线条"
+    },
+    {
+      "key": "Rectangle.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "矩形"
+    },
+    {
+      "key": "Rectangle_Input.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "固定矩形"
+    },
+    {
+      "key": "Rectangle_Input.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "由用户指定固定尺寸的矩形。"
+    },
+    {
+      "key": "Grids.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "网格"
+    },
+    {
+      "key": "Grids.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "网格形状。"
+    },
+    {
+      "key": "Grids_Input.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "自定义尺寸网格"
+    },
+    {
+      "key": "Grids_Input.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "自定义尺寸的网格。"
+    },
+    {
+      "key": "Grids_Inverse.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "反向网格"
+    },
+    {
+      "key": "Grids_Inverse.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "反向网格形状。"
+    },
+    {
+      "key": "Grids_Inverse_Input.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "自定义尺寸反向网格"
+    },
+    {
+      "key": "Grids_Inverse_Input.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "自定义尺寸的反向网格。"
+    },
+    {
+      "key": "Ellipse.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "椭圆"
+    },
+    {
+      "key": "Ellipse_Input.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "固定椭圆"
+    },
+    {
+      "key": "Ellipse_Input.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "由用户指定固定尺寸的椭圆。"
+    },
+    {
+      "key": "MoreShapes.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "更多形状"
+    },
+    {
+      "key": "MoreShapes.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "其他几何形状。"
+    },
+    {
+      "key": "FloodFill.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "泛洪填充"
+    },
+    {
+      "key": "FloodFill.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "填充墙体围起的区域。"
+    },
+    {
+      "key": "Etc.label",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "其他"
+    },
+    {
+      "key": "Etc.description",
+      "kind": "DefInjected",
+      "defType": "Merthsoft.DesignatorShapes.Defs.OverlayGroupDef",
+      "text": "预设的RimWorld范围形状。"
+    }
+  ]
+}

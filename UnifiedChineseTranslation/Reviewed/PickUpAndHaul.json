@@ -1,0 +1,57 @@
+{
+  "directory": "PickUpAndHaul",
+  "packageId": "mehni.pickupandhaul",
+  "name": "Pick Up And Haul",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "PUAH.allowCorpses",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许将尸体放入随身物品"
+    },
+    {
+      "key": "PUAH.allowCorpsesTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "默认关闭：尸体只直接拿在手中搬运。"
+    },
+    {
+      "key": "PUAH.allowAnimals",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许驯服的驮兽利用随身物品空间搬运"
+    },
+    {
+      "key": "PUAH.allowAnimalsTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "默认开启。搭配为更多动物提供背包的模组效果更好，例如VFME Caravan Packs。"
+    },
+    {
+      "key": "PUAH.allowMechanoids",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许被入侵控制的机械体利用随身物品空间搬运"
+    },
+    {
+      "key": "PUAH.allowMechanoidsTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "需要What The Hack或类似模组。默认开启。"
+    },
+    {
+      "key": "PUAH.minimumFreeInventorySpace",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用随身搬运所需的最小剩余空间"
+    },
+    {
+      "key": "PUAH.minimumFreeInventorySpaceTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "剩余空间低于此值的角色直接使用原版搬运。设为0%会始终尝试随身搬运，即使空间几乎已满；100%则要求角色完全不携带或穿戴物品。默认20%。"
+    }
+  ]
+}
+

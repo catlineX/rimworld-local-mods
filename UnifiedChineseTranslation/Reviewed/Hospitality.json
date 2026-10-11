@@ -1,0 +1,540 @@
+{
+  "directory": "Hospitality",
+  "packageId": "orion.hospitality",
+  "name": "Hospitality (Continued)",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]与[RECIPIENT_nameDef]就[TalkTopicLight]进行了外交交谈。"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]与[RECIPIENT_nameDef]讨论了[subject]的政治意义。"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.3",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef][complimented]了[RECIPIENT_nameDef]所属的派系。"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.4",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef][complimented]了与[RECIPIENT_factionName]的关系。"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.5",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]的[PersonFamily]致意。"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.6",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]尝试借双方共同的[opinion]与[RECIPIENT_nameDef]拉近关系。"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.7",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "opinion->对[ConceptPositive]的支持"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.8",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "opinion->对[ConceptNegative]的厌恶"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.9",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "opinion->对[ConceptNegative]的恐惧"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.10",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "opinion->对[ConceptAny]的看法"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.11",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "opinion->对[ConceptPositive]的向往"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.12",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "complimented->赞扬"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.13",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "complimented->称赞"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.14",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "complimented->赞颂"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.15",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "complimented->赞许"
+    },
+    {
+      "key": "GuestDiplomacy.logRulesInitiator.rulesStrings.16",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "complimented->歌颂"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]介绍了[INITIATOR_factionName]的各种[ConceptPositive]。"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.2",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]讲述了其他殖民者的[adjwords]故事。"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.3",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]将[RECIPIENT_nameDef]介绍给另一位殖民者。"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.4",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "saidwords->说了些[adjwords]的话"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.5",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "saidwords->表达了[ConceptPositive]"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.6",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "saidwords->做出[adjwords]的举动"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.7",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "adjwords->有趣"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.8",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "adjwords->亲切"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.9",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "adjwords->热情"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.10",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "adjwords->友好"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.11",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "adjwords->迷人"
+    },
+    {
+      "key": "ScroungeFoodAttempt.logRulesInitiator.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]乞求食物。"
+    },
+    {
+      "key": "ScroungeFoodAttempt.logRulesInitiator.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]向[RECIPIENT_nameDef]请求一些吃的。"
+    },
+    {
+      "key": "ScroungeFoodAttempt.logRulesInitiator.rulesStrings.2",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "text": "r_logentry->[INITIATOR_nameDef]渴望地盯着[RECIPIENT_nameDef]的食物。"
+    },
+    {
+      "key": "GuestClaimedBed.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "免费床位"
+    },
+    {
+      "key": "GuestClaimedBed.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位免费，我没什么可抱怨的。"
+    },
+    {
+      "key": "GuestClaimedBed.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位价格极其离谱"
+    },
+    {
+      "key": "GuestClaimedBed.stages.1.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位的价格远远超过了它的价值。"
+    },
+    {
+      "key": "GuestClaimedBed.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位过于昂贵"
+    },
+    {
+      "key": "GuestClaimedBed.stages.2.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位的价格比其实际价值高得多。"
+    },
+    {
+      "key": "GuestClaimedBed.stages.3.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位不值这个价"
+    },
+    {
+      "key": "GuestClaimedBed.stages.3.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我的床位不值这个价格。"
+    },
+    {
+      "key": "GuestClaimedBed.stages.4.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位价格合理"
+    },
+    {
+      "key": "GuestClaimedBed.stages.4.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "这里的床位价格还算合理。"
+    },
+    {
+      "key": "GuestClaimedBed.stages.5.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位物有所值"
+    },
+    {
+      "key": "GuestClaimedBed.stages.5.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我的床位很划算。"
+    },
+    {
+      "key": "GuestClaimedBed.stages.6.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位非常划算"
+    },
+    {
+      "key": "GuestClaimedBed.stages.6.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我的床位简直物超所值！"
+    },
+    {
+      "key": "GuestAngered.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "因招募而愤怒"
+    },
+    {
+      "key": "GuestAngered.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "这些家伙正试图挖走我们的成员！"
+    },
+    {
+      "key": "GuestRecruitmentForced.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "非自愿加入"
+    },
+    {
+      "key": "GuestRecruitmentForced.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我不确定自己是否应该留在这里。"
+    },
+    {
+      "key": "GuestOffendedRelationship.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "被殖民者冒犯"
+    },
+    {
+      "key": "GuestOffendedRelationship.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "这些家伙真差劲！"
+    },
+    {
+      "key": "GuestPleasedRelationship.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "被殖民者打动"
+    },
+    {
+      "key": "GuestPleasedRelationship.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "真是一群友善的人！"
+    },
+    {
+      "key": "EndorsedByRecruiter.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "获得招募者推荐"
+    },
+    {
+      "key": "EndorsedByRecruiter.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "有人向我推荐了这个人。"
+    },
+    {
+      "key": "GuestDismissiveAttitude.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "不想再交谈"
+    },
+    {
+      "key": "GuestDismissiveAttitude.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我暂时不想再说话了，让我清静一下。"
+    },
+    {
+      "key": "GuestExpensiveFood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食物昂贵"
+    },
+    {
+      "key": "GuestExpensiveFood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我不得不花高价从售卖机买食物。"
+    },
+    {
+      "key": "GuestCheapFood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "食物便宜"
+    },
+    {
+      "key": "GuestCheapFood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我能从售卖机买到便宜食物。"
+    },
+    {
+      "key": "GuestCantAffordBed.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "住不起床位"
+    },
+    {
+      "key": "GuestCantAffordBed.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我付不起床位费用。"
+    },
+    {
+      "key": "GuestHasNoFood.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "没有食物"
+    },
+    {
+      "key": "GuestHasNoFood.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "我没有任何东西可吃。"
+    },
+    {
+      "key": "GuestBedCount.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "没有客床"
+    },
+    {
+      "key": "GuestBedCount.stages.0.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "他们这里甚至没有床！"
+    },
+    {
+      "key": "GuestBedCount.stages.1.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "客床不足"
+    },
+    {
+      "key": "GuestBedCount.stages.1.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "应该为访客准备更多床位。"
+    },
+    {
+      "key": "GuestBedCount.stages.2.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位充足"
+    },
+    {
+      "key": "GuestBedCount.stages.2.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "房间里的床够我们所有人使用。"
+    },
+    {
+      "key": "GuestBedCount.stages.3.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "床位很多"
+    },
+    {
+      "key": "GuestBedCount.stages.3.description",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "哇，这里有这么多床！"
+    },
+    {
+      "key": "Sentence_CharmAttemptAccepted.rulePack.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]兴奋地拍着[RECIPIENT_possessive]双手。"
+    },
+    {
+      "key": "Sentence_CharmAttemptAccepted.rulePack.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]微笑了。"
+    },
+    {
+      "key": "Sentence_CharmAttemptAccepted.rulePack.rulesStrings.2",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]点头表示赞同。"
+    },
+    {
+      "key": "Sentence_CharmAttemptAccepted.rulePack.rulesStrings.3",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]急切地想听更多。"
+    },
+    {
+      "key": "Sentence_CharmAttemptAccepted.rulePack.rulesStrings.4",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]看起来很兴奋。"
+    },
+    {
+      "key": "Sentence_CharmAttemptAccepted.rulePack.rulesStrings.5",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]看起来受宠若惊。"
+    },
+    {
+      "key": "Sentence_CharmAttemptAccepted.rulePack.rulesStrings.6",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]惊讶地望着[INITIATOR_nameDef]。"
+    },
+    {
+      "key": "Sentence_CharmAttemptRejected.rulePack.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]开始不耐烦了。"
+    },
+    {
+      "key": "Sentence_CharmAttemptRejected.rulePack.rulesStrings.1",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]不赞同地摇着[RECIPIENT_possessive]头。"
+    },
+    {
+      "key": "Sentence_CharmAttemptRejected.rulePack.rulesStrings.2",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]毫不在意。"
+    },
+    {
+      "key": "Sentence_CharmAttemptRejected.rulePack.rulesStrings.3",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]已经听够了。"
+    },
+    {
+      "key": "Sentence_CharmAttemptRejected.rulePack.rulesStrings.4",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]无聊地环顾房间。"
+    },
+    {
+      "key": "Sentence_CharmAttemptRejected.rulePack.rulesStrings.5",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]提到很快就要离开。"
+    },
+    {
+      "key": "Sentence_CharmAttemptRejected.rulePack.rulesStrings.6",
+      "kind": "DefInjected",
+      "defType": "RulePackDef",
+      "text": "sent->[RECIPIENT_nameDef]翻了翻[RECIPIENT_possessive]白眼。"
+    },
+    {
+      "key": "CharmGuestAttempt.logRulesInitiator.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "InteractionDef",
+      "original": "r_logentry->[INITIATOR_nameDef] [saidwords] [RECIPIENT_nameDef].",
+      "text": "r_logentry->[INITIATOR_nameDef]对[RECIPIENT_nameDef][saidwords]。"
+    },
+    {
+      "key": "ForceRecruitQuestion",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "你可以立即招募{PAWN_nameDef}。\n\n{PAWN_pronoun}尚未愿意自愿加入，因为{PAWN_possessive}朋友还不够多。立即招募会损失与{PAWN_possessive}派系{0}点关系。如果{PAWN_pronoun}有更多朋友，损失会减少。{1}{2}\n\n\n确定吗？",
+      "original": "You can recruit {PAWN_nameDef} immediately.\\n\\nBecause {PAWN_pronoun} doesn't have enough friends yet to join you on {PAWN_possessive} own accord, this costs you {0} points of relationship with {PAWN_possessive} faction. This will be less if {PAWN_pronoun} has more friends. {1}{2}\\n\\n\\nAre you sure?",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\3509486825\\1.6\\Languages\\English\\Keyed\\Hospitality.xml",
+      "correction": "已对照当前原文，补回变量或修正语义"
+    }
+  ]
+}

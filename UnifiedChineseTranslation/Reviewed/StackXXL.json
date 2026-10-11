@@ -1,0 +1,21 @@
+{
+  "directory": "StackXXL",
+  "packageId": "indeed.stackxxl",
+  "name": "Stack XXL",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "StackXXL.Size.XL",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "超大（XL）"
+    },
+    {
+      "key": "StackXXL.Size.XXL",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "特大（XXL）"
+    }
+  ]
+}
+

@@ -1,0 +1,56 @@
+{
+  "directory": "RimHUD",
+  "packageId": "jaxe.rimhud",
+  "name": "RimHUD",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "RimHUD.Interface.Dialog_Config.Title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "RimHUD（角色信息）"
+    },
+    {
+      "key": "RimHUD.Interface.Dialog_Config.Tab_Colors.RGBA",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "RGBA（红／绿／蓝／透明度）"
+    },
+    {
+      "key": "RimHUD.Layout.Stat",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}属性"
+    },
+    {
+      "key": "RimHUD.Layout.Record",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}记录"
+    },
+    {
+      "key": "RimHUD.Model.OfFaction",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "所属派系：{0}"
+    },
+    {
+      "key": "RimHUD.Model.GenderRaceAndAge",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}，年龄{1}"
+    },
+    {
+      "key": "RimHUD.Model.Mood.Inspired",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}（持续{1}）"
+    },
+    {
+      "key": "RimHUD.Theme.RefreshRateUnits",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "ms（毫秒）"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "directory": "PocketSand",
+  "packageId": "usagirei.pocketsand",
+  "name": "Pocket Sand",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "PS_GizmoLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "武器"
+    },
+    {
+      "key": "PS_GizmoDescription",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "选择角色的装备。"
+    },
+    {
+      "key": "PS_SettingCategory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "随身武器（Pocket Sand）"
+    },
+    {
+      "key": "PS_SettingMassCheck",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用武器重量检查"
+    },
+    {
+      "key": "PS_SettingEquipDelay",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用装备延迟"
+    },
+    {
+      "key": "PS_SettingCaravanDrop",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "防止远行队到达时丢弃武器"
+    },
+    {
+      "key": "PS_SettingShuttleInventory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "穿梭机不接收乘客随身物品"
+    },
+    {
+      "key": "PS_SettingEquipDelayMultiplier",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "装备延迟系数"
+    },
+    {
+      "key": "PS_SettingBlacklist",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队武器保留例外清单"
+    },
+    {
+      "key": "PS_SettingAddBlacklist",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "添加武器"
+    },
+    {
+      "key": "PS_SettingJobDriver",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "工作执行器（JobDriver）信息："
+    },
+    {
+      "key": "PS_SettingJobDriverOk",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "正在使用Pocket Sand的远行队卸货执行器"
+    },
+    {
+      "key": "PS_SettingJobDriverError",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "正在使用其他模组的远行队卸货执行器"
+    },
+    {
+      "key": "PS_SettingJobDriverCaravan",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队卸货"
+    },
+    {
+      "key": "PS_SettingJobDriverEquip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "装备物品"
+    },
+    {
+      "key": "PS_SettingJobDriverDrop",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "卸下物品"
+    },
+    {
+      "key": "PS_TooltipGizmoWeapon",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{thing}。\n左键点击装备。\n右键点击丢下。"
+    },
+    {
+      "key": "PS_TooltipGizmoUnarmed",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "徒手。\n左键点击卸下当前武器。"
+    },
+    {
+      "key": "PS_TooltipGizmoUnarmedActive",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "徒手。"
+    },
+    {
+      "key": "PS_TooltipSettingCaravan",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队卸货时阻止角色在到达后丢下武器。"
+    },
+    {
+      "key": "PS_TooltipSettingShuttle",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "防止Odyssey穿梭机将乘客随身物品转移到货舱。"
+    },
+    {
+      "key": "PS_TooltipSettingCaravanBlacklist",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "加入此例外清单的武器可以在远行队到达时被丢下。"
+    },
+    {
+      "key": "PS_TooltipSettingEquipDelay",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "根据武器重量增加装备延迟。\n同时修改原版卸下武器的延迟。"
+    },
+    {
+      "key": "PS_TooltipSettingEquipDelayMultiplier",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "装备延迟系数，结果以tick计。\n延迟 = 武器重量 × 系数\n60 ticks = 1秒"
+    },
+    {
+      "key": "PS_TooltipSettingMassCheck",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "从地上装备武器时检查负重，防止角色超载。\n不检查已经放在角色随身物品中的武器。"
+    },
+    {
+      "key": "PS_MessageOverCapacity",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{pawn}尝试拾取并装备{thing}，但携带的物品过重。"
+    },
+    {
+      "key": "PS_Equip.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在装备TargetA。"
+    },
+    {
+      "key": "PS_Drop.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在丢下TargetA。"
+    }
+  ]
+}
+

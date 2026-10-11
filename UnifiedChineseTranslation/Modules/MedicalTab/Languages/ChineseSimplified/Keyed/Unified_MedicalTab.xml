@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MedicalTab.Shift>Shift</MedicalTab.Shift>
+  <MedicalTab.Alt>Alt</MedicalTab.Alt>
+  <MedicalTab.Ctrl>Ctrl</MedicalTab.Ctrl>
+  <MedicalTab.FilterHealthyOn>只显示健康状况并非完全正常的角色。
+
+点击显示全部角色。</MedicalTab.FilterHealthyOn>
+  <MedicalTab.FilterHealthyOff>显示全部角色。
+
+点击只显示健康状况并非完全正常的角色。</MedicalTab.FilterHealthyOff>
+</LanguageData>

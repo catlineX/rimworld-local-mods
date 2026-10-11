@@ -1,0 +1,147 @@
+{
+  "directory": "MarkThatPawn",
+  "packageId": "mlie.markthatpawn",
+  "name": "Mark That Pawn",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "MTP.AutomaticType.Downed",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "^ 倒地"
+    },
+    {
+      "key": "WowStyle.label",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "魔兽世界风格"
+    },
+    {
+      "key": "WowStyle.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "受《魔兽世界》团队标记启发的标记。"
+    },
+    {
+      "key": "Numbers.label",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "数字"
+    },
+    {
+      "key": "Numbers.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "简单的数字标记。"
+    },
+    {
+      "key": "Skills.label",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "技能"
+    },
+    {
+      "key": "Skills.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "表示工作技能的标记。"
+    },
+    {
+      "key": "Jobs.label",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "工作"
+    },
+    {
+      "key": "Jobs.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "表示工作分配的标记，由[✚] Survivalmaster制作。"
+    },
+    {
+      "key": "Militar.label",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "军事"
+    },
+    {
+      "key": "Militar.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "以美国军队为主题的标记。"
+    },
+    {
+      "key": "GDI.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "以《命令与征服》的GDI阵营为主题的标记。"
+    },
+    {
+      "key": "Nod.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "以《命令与征服》的Nod阵营为主题的标记。"
+    },
+    {
+      "key": "XCOM.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "以《XCOM》为主题的标记，由Botaxalim制作。"
+    },
+    {
+      "key": "XCOMTwo.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "以《XCOM 2》为主题的标记，由Lekoda提供。"
+    },
+    {
+      "key": "Weapons.label",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "武器"
+    },
+    {
+      "key": "Weapons.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "通用武器类型标记，由flaticon.com的max.icons制作。"
+    },
+    {
+      "key": "XCOMMedieval.label",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "XCOM中世纪风格"
+    },
+    {
+      "key": "XCOMMedieval.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "以《XCOM》为基础的中世纪风格标记，由Botaxalim制作。"
+    },
+    {
+      "key": "Symbols.label",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "符号"
+    },
+    {
+      "key": "Symbols.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "通用符号标记。"
+    },
+    {
+      "key": "Ideology.label",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "理念"
+    },
+    {
+      "key": "Ideology.description",
+      "kind": "DefInjected",
+      "defType": "MarkThatPawn.MarkerDef",
+      "text": "以Ideology内容为主题的标记，由Yoann制作。"
+    }
+  ]
+}
+

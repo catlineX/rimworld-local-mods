@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Local.GlitterNetChineseFix.Debug.ResetLabel>DEBUG Reset System Wake</Local.GlitterNetChineseFix.Debug.ResetLabel>
+  <Local.GlitterNetChineseFix.Debug.ResetDesc>Reset the state of System Wake</Local.GlitterNetChineseFix.Debug.ResetDesc>
+  <Local.GlitterNetChineseFix.Debug.QuestLabel>DEBUG Give random quest</Local.GlitterNetChineseFix.Debug.QuestLabel>
+  <Local.GlitterNetChineseFix.Debug.QuestDesc>Give a random awoken hub quest</Local.GlitterNetChineseFix.Debug.QuestDesc>
+  <Local.GlitterNetChineseFix.Debug.MoodLabel>DEBUG Force default mood</Local.GlitterNetChineseFix.Debug.MoodLabel>
+  <Local.GlitterNetChineseFix.Debug.MoodDesc>Forces this hub to its default mood</Local.GlitterNetChineseFix.Debug.MoodDesc>
+  <Local.GlitterNetChineseFix.Debug.AddTrustLabel>DEBUG Add 5 trust</Local.GlitterNetChineseFix.Debug.AddTrustLabel>
+  <Local.GlitterNetChineseFix.Debug.AddTrustDesc>Adds 5 trust to this hub</Local.GlitterNetChineseFix.Debug.AddTrustDesc>
+  <Local.GlitterNetChineseFix.Debug.RemoveTrustLabel>DEBUG Remove 5 trust</Local.GlitterNetChineseFix.Debug.RemoveTrustLabel>
+  <Local.GlitterNetChineseFix.Debug.RemoveTrustDesc>Removes 5 trust to this hub</Local.GlitterNetChineseFix.Debug.RemoveTrustDesc>
+  <Local.GlitterNetChineseFix.Debug.LogLabel>DEBUG Dump quest log</Local.GlitterNetChineseFix.Debug.LogLabel>
+  <Local.GlitterNetChineseFix.Debug.LogDesc>Dumps the quest log</Local.GlitterNetChineseFix.Debug.LogDesc>
+</LanguageData>
+

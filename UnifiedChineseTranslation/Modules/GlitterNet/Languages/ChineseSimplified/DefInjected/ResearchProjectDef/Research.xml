@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GNImprovedWorkspeedIntegration.description>研究工业传感器，以建造改进工程终端。</GNImprovedWorkspeedIntegration.description>
+  <GNMaxSimultaneousProcessor.description>研发专用并行处理器，使同一座建筑能够同时连接更多终端。</GNMaxSimultaneousProcessor.description>
+  <GNProcessingPowerProcessor.description>研发专用优化处理器，减少网络的计算开销，从而增加可用算力。</GNProcessingPowerProcessor.description>
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Merthsoft_DesignatorShapes_Settings_HideCompletelyOnAltToggle>切换隐藏时完全隐藏界面。</Merthsoft_DesignatorShapes_Settings_HideCompletelyOnAltToggle>
+  <Merthsoft_DesignatorShapes_Settings_EnableRotation>启用旋转快捷键。</Merthsoft_DesignatorShapes_Settings_EnableRotation>
+  <Merthsoft_DesignatorShapes_KeyLabel_Undo>撤销</Merthsoft_DesignatorShapes_KeyLabel_Undo>
+  <Merthsoft_DesignatorShapes_KeyLabel_Redo>重做</Merthsoft_DesignatorShapes_KeyLabel_Redo>
+  <Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeToggleTooltip>切换为按指定形状计算边界框。</Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeToggleTooltip>
+  <Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode>边界框行为：</Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode>
+  <Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Vanilla>按鼠标输入计算（原版行为）。</Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Vanilla>
+  <Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Shape>按形状而不是鼠标输入计算边界框。</Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Shape>
+  <Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Toggle>在游戏设置栏添加切换按钮。</Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Toggle>
+</LanguageData>

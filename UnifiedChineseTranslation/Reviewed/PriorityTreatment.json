@@ -1,0 +1,87 @@
+{
+  "directory": "PriorityTreatment",
+  "packageId": "tk421storm.prioritytreatmentressurected",
+  "name": "Priority Treatment Ressurected",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "TKSPriortyTreatmentName",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "优先治疗（复活版）"
+    },
+    {
+      "key": "TKSIncludeSickness",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "治疗长期疾病"
+    },
+    {
+      "key": "TKSIncludeSicknessToolTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "默认情况下，医生只将伤势视为最高优先级的紧急情况。勾选后，所有治疗（包括长期疾病治疗）也按此规则处理。"
+    },
+    {
+      "key": "TKSWakeUpToTend",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "唤醒医生进行治疗"
+    },
+    {
+      "key": "TKSWakeUpToTendToolTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许医生从睡眠中醒来进行治疗。如果其他模组已提供此功能（例如Wake Up），可以不勾选。"
+    },
+    {
+      "key": "TKSDocPriority",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "紧急治疗所需的医生工作优先级"
+    },
+    {
+      "key": "TKSDocPriorityToolTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "角色的医生工作优先级数值必须小于或等于此值，才会受到本模组影响。"
+    },
+    {
+      "key": "TKSAllowEating",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许医生进食"
+    },
+    {
+      "key": "TKSAllowEatingToolTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "取消勾选后，医生会继续紧急治疗，而不是给自己找食物。请留意医生的状态！"
+    },
+    {
+      "key": "TKSDebugPrint",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在日志中显示额外调试信息。"
+    },
+    {
+      "key": "NotOperatingWithInjuries",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}受伤时不会进行手术（PriorityTreatmentRessurected）。"
+    },
+    {
+      "key": "TKSAllowInjuredSurgery",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许受伤的角色进行手术"
+    },
+    {
+      "key": "TKSAllowInjuredSurgeryTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "关闭此项可阻止受伤角色进行手术，直到其恢复健康。"
+    }
+  ]
+}
+

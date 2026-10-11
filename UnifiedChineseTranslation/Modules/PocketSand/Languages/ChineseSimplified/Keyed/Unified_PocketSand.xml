@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PS_GizmoLabel>武器</PS_GizmoLabel>
+  <PS_GizmoDescription>选择角色的装备。</PS_GizmoDescription>
+  <PS_SettingCategory>随身武器（Pocket Sand）</PS_SettingCategory>
+  <PS_SettingMassCheck>启用武器重量检查</PS_SettingMassCheck>
+  <PS_SettingEquipDelay>启用装备延迟</PS_SettingEquipDelay>
+  <PS_SettingCaravanDrop>防止远行队到达时丢弃武器</PS_SettingCaravanDrop>
+  <PS_SettingShuttleInventory>穿梭机不接收乘客随身物品</PS_SettingShuttleInventory>
+  <PS_SettingEquipDelayMultiplier>装备延迟系数</PS_SettingEquipDelayMultiplier>
+  <PS_SettingBlacklist>远行队武器保留例外清单</PS_SettingBlacklist>
+  <PS_SettingAddBlacklist>添加武器</PS_SettingAddBlacklist>
+  <PS_SettingJobDriver>工作执行器（JobDriver）信息：</PS_SettingJobDriver>
+  <PS_SettingJobDriverOk>正在使用Pocket Sand的远行队卸货执行器</PS_SettingJobDriverOk>
+  <PS_SettingJobDriverError>正在使用其他模组的远行队卸货执行器</PS_SettingJobDriverError>
+  <PS_SettingJobDriverCaravan>远行队卸货</PS_SettingJobDriverCaravan>
+  <PS_SettingJobDriverEquip>装备物品</PS_SettingJobDriverEquip>
+  <PS_SettingJobDriverDrop>卸下物品</PS_SettingJobDriverDrop>
+  <PS_TooltipGizmoWeapon>{thing}。
+左键点击装备。
+右键点击丢下。</PS_TooltipGizmoWeapon>
+  <PS_TooltipGizmoUnarmed>徒手。
+左键点击卸下当前武器。</PS_TooltipGizmoUnarmed>
+  <PS_TooltipGizmoUnarmedActive>徒手。</PS_TooltipGizmoUnarmedActive>
+  <PS_TooltipSettingCaravan>远行队卸货时阻止角色在到达后丢下武器。</PS_TooltipSettingCaravan>
+  <PS_TooltipSettingShuttle>防止Odyssey穿梭机将乘客随身物品转移到货舱。</PS_TooltipSettingShuttle>
+  <PS_TooltipSettingCaravanBlacklist>加入此例外清单的武器可以在远行队到达时被丢下。</PS_TooltipSettingCaravanBlacklist>
+  <PS_TooltipSettingEquipDelay>根据武器重量增加装备延迟。
+同时修改原版卸下武器的延迟。</PS_TooltipSettingEquipDelay>
+  <PS_TooltipSettingEquipDelayMultiplier>装备延迟系数，结果以tick计。
+延迟 = 武器重量 × 系数
+60 ticks = 1秒</PS_TooltipSettingEquipDelayMultiplier>
+  <PS_TooltipSettingMassCheck>从地上装备武器时检查负重，防止角色超载。
+不检查已经放在角色随身物品中的武器。</PS_TooltipSettingMassCheck>
+  <PS_MessageOverCapacity>{pawn}尝试拾取并装备{thing}，但携带的物品过重。</PS_MessageOverCapacity>
+</LanguageData>

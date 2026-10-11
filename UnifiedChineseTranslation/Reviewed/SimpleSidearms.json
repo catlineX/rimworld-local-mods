@@ -1,0 +1,320 @@
+{
+  "directory": "SimpleSidearms",
+  "packageId": "petetimessix.simplesidearms",
+  "name": "Simple sidearms",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "Concept_SidearmsDropping.label",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "text": "副武器：丢下副武器"
+    },
+    {
+      "key": "Concept_SimpleSidearmsPreference.label",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "text": "副武器：武器偏好"
+    },
+    {
+      "key": "Concept_SimpleSidearmsAdvancedRanged.label",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "text": "副武器：高级操作（远程）"
+    },
+    {
+      "key": "Concept_SimpleSidearmsAdvancedMelee.label",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "text": "副武器：高级操作（近战）"
+    },
+    {
+      "key": "Concept_SimpleSidearmsAdvancedDrafted.label",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "text": "副武器：高级操作（征召）"
+    },
+    {
+      "key": "Concept_SimpleSidearmsLosingWeapons.label",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "text": "副武器：遗失武器"
+    },
+    {
+      "key": "SimpleSidearms_ModTitle",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "主副武器（Simple Sidearms）"
+    },
+    {
+      "key": "FirstTimeSettingsWarning",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "首次使用主副武器模组？\n\n此图标表示你还没有配置模组设置。首次打开设置菜单后，它就会消失。\n\n点击立即前往设置。"
+    },
+    {
+      "key": "FumbleRecoveryChance_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "避免武器脱手的概率"
+    },
+    {
+      "key": "FumbleRecoveryChance_hint",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "纵轴：避免武器脱手的概率。\n横轴：近战或射击技能（取较高者）。"
+    },
+    {
+      "key": "ReEquipOutOfCombat_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "武器脱手后，战斗结束且脱离眼前危险时自动重新装备。"
+    },
+    {
+      "key": "ReEquipOutOfCombat_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "重新装备脱手武器"
+    },
+    {
+      "key": "ReEquipInCombat_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "即使仍处于战斗中，只要没有正在交战，也会自动重新装备武器。"
+    },
+    {
+      "key": "ReEquipInCombat_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "战斗中重新装备"
+    },
+    {
+      "key": "SkipDangerousWeapons_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "禁止自动装备危险武器，如燃烧瓶、破片手榴弹和火箭发射器。"
+    },
+    {
+      "key": "SkipDangerousWeapons_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "跳过危险武器"
+    },
+    {
+      "key": "SkipEMPWeapons_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "禁止自动装备EMP武器。角色本来就只会在对抗机械族时考虑自动装备此类武器。"
+    },
+    {
+      "key": "SkipEMPWeapons_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "跳过EMP武器"
+    },
+    {
+      "key": "PreserveInventoryInCaravans_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队返回时，将副武器保留在正确角色的随身物品中。（实验功能，由GitHub上的XT-0xFF实现）"
+    },
+    {
+      "key": "PreserveInventoryInCaravans_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "远行队返回时保留副武器"
+    },
+    {
+      "key": "HideSidearmsInCaravanDialogs_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在远行队窗口中隐藏副武器，以免误卖。（实验功能，由GitHub上的XT-0xFF实现）"
+    },
+    {
+      "key": "HideSidearmsInCaravanDialogs_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "在远行队窗口中隐藏副武器"
+    },
+    {
+      "key": "ShowAlertsMissingSidearm_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "角色记得拥有某把副武器，但现在已经失去它且找不到替代品时，显示警报。"
+    },
+    {
+      "key": "ShowAlertsMissingSidearm_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示副武器遗失警报"
+    },
+    {
+      "key": "SidearmsPlaySounds_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换武器时播放音效。"
+    },
+    {
+      "key": "SidearmsPlaySounds_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "播放音效"
+    },
+    {
+      "key": "ShowBrainscope_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示开发工具按钮，用于查看所选角色的内部状态。"
+    },
+    {
+      "key": "ShowBrainscope_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示内部状态查看器（Brainscope）"
+    },
+    {
+      "key": "AllowBlockedWeaponUse_desc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许使用通常受限制的武器，例如人格武器、生物编码武器及理念角色限定武器。参见XKCD第1172期。"
+    },
+    {
+      "key": "AllowBlockedWeaponUse_title",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "允许使用受限制的武器"
+    },
+    {
+      "key": "MaximumMassAmountRelative_hint",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "列表按标准35 kg携带能力计算。"
+    },
+    {
+      "key": "Fumbled",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "武器脱手！"
+    },
+    {
+      "key": "Fumbled_dev",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "武器脱手！（{0}）"
+    },
+    {
+      "key": "SidearmPickupFail_NotYetBladelinkBonded",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "尚未建立武器链接"
+    },
+    {
+      "key": "DrawSidearm_blocked",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "武器不可用"
+    },
+    {
+      "key": "SS_EquipWarning_CannotUseWithShield",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "使用{0}将无法使用{1}。"
+    },
+    {
+      "key": "SS_EquipWarning_WillUnequipOffhand",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "装备{0}将卸下副手的{1}。"
+    },
+    {
+      "key": "SS_EquipOffandFail_NoPrimary",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "无法将{0}装备为副手武器：需要先装备一把与之搭配的主手武器。"
+    },
+    {
+      "key": "SS_EquipOffandFail_PrimaryTwoHanded",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "无法将{0}装备为副手武器：{1}是双手武器。"
+    },
+    {
+      "key": "SS_EquipOffandFail_AlreadyHoldingShield",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "无法将{0}装备为副手武器：已经持有{1}。"
+    },
+    {
+      "key": "SS_EquipAsOffand",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "左键点击副手图标，将{0}装备为副手武器。"
+    },
+    {
+      "key": "SS_CanEquipAsOffand",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "左键点击副手图标，将{0}装备为副手武器。"
+    },
+    {
+      "key": "ReequipSecondary.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在将TargetA重新装备为副武器。"
+    },
+    {
+      "key": "ReequipSecondaryCombat.reportString",
+      "kind": "DefInjected",
+      "defType": "JobDef",
+      "text": "正在将TargetA重新装备为副武器。"
+    },
+    {
+      "key": "Concept_SidearmsDropping.helpText",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "original": "Sidearms with a gray background are currently in a colonists inventory and eligible for use. Right click to drop.",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\927155256\\v1.6\\Defs\\TutorDefs\\Concepts.xml",
+      "text": "灰色背景的副武器当前位于殖民者随身物品中，可以使用。右键点击可丢下。"
+    },
+    {
+      "key": "Concept_SimpleSidearmsPreference.helpText",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "original": "Colonists can have sidearm use configured on an individual basis. The options are: \\nUse ranged weapons\\nUse weapons colonist is passionate about or skilled with \\nUse melee weapons",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\927155256\\v1.6\\Defs\\TutorDefs\\Concepts.xml",
+      "text": "可分别设置每名殖民者的副武器偏好：\n使用远程武器；\n使用角色有激情或更擅长的武器；\n使用近战武器。"
+    },
+    {
+      "key": "Concept_SimpleSidearmsAdvancedRanged.helpText",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "original": "Left click a carried ranged weapon to set it as the default ranged weapon. If the colonist weapon preference is set to ranged (or skill on a colonist more skilled with ranged weapons), this weapon will be what the colonist equips when not in active combat. It will also be used while hunting. \\n\\nClick a default ranged weapon again to force its use regardless of range/DPS. \\n\\nRight click to remove forced use/default status.",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\927155256\\v1.6\\Defs\\TutorDefs\\Concepts.xml",
+      "text": "左键点击携带的远程武器，将其设为默认远程武器。若角色偏好远程（或偏好按技能选择，且射击技能更高），不在主动交战时会装备它，狩猎时也会使用它。\n\n再次点击默认远程武器，可强制使用它而不考虑距离或每秒伤害（DPS）。\n\n右键点击取消强制使用或默认状态。"
+    },
+    {
+      "key": "Concept_SimpleSidearmsAdvancedMelee.helpText",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "original": "Left click a carried melee weapon to set it as the preferred ranged weapon. The colonist will always use this weapon when weapon preference is set to melee (or skill on a colonist more skilled with melee weapons) and when forced into close combat. \\n\\nClick a preferred melee weapon again to force its use at all times. \\n\\nRight click to remove forced use/preference.",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\927155256\\v1.6\\Defs\\TutorDefs\\Concepts.xml",
+      "text": "左键点击携带的近战武器，将其设为偏好近战武器。角色偏好近战（或按技能选择且近战技能更高）以及被迫进入近身战斗时，都会使用它。\n\n再次点击偏好近战武器，可强制始终使用它。\n\n右键点击取消强制使用或偏好状态。"
+    },
+    {
+      "key": "Concept_SimpleSidearmsAdvancedDrafted.helpText",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "original": "Left click a carried weapon while drafted to force its use until end of combat. \\n\\nNote that most changes to sidearm loadout require the pawn to not be drafted.",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\927155256\\v1.6\\Defs\\TutorDefs\\Concepts.xml",
+      "text": "征召时左键点击携带的武器，可强制使用它直到战斗结束。\n\n注意：多数副武器配置修改需要角色未被征召。"
+    },
+    {
+      "key": "Concept_SimpleSidearmsLosingWeapons.helpText",
+      "kind": "DefInjected",
+      "defType": "ConceptDef",
+      "original": "Depending on the settings, Simple Sidearms can cause colonists to drop their weapons in a variety of situations (default is attacks in melee). Don't worry - your colonists will retrieve their weapons after the fight. \\n\\nThis is a customizable feature - take a look in the mod settings dialog to learn more.",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\927155256\\v1.6\\Defs\\TutorDefs\\Concepts.xml",
+      "text": "根据设置，主副武器模组可能让殖民者在不同情况下丢下武器（默认发生于近战攻击）。不用担心，战斗结束后他们会重新拾取武器。\n\n此功能可自定义，详情请查看模组设置。"
+    }
+  ]
+}

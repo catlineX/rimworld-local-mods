@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="k.glitternet">Modules/GlitterNet</li>
+    <li IfModActive="local.custominfestations.continued">Modules/CustomInfestations</li>
+    <li IfModActive="oblitus.animalslogic">Modules/AnimalsLogic</li>
+    <li IfModActive="fluffy.animaltab">Modules/AnimalTab</li>
+    <li IfModActive="falconne.bwm">Modules/BetterWorkbenchManagement</li>
+    <li IfModActive="brrainz.cameraplus">Modules/CameraPlus</li>
+    <li IfModActive="void.charactereditor">Modules/CharacterEditor</li>
+    <li IfModActive="frozensnowfox.complexjobs">Modules/ComplexJobs</li>
+    <li IfModActive="memegoddess.ctrlf">Modules/CtrlF</li>
+    <li IfModActive="caesarv6.damageindicators">Modules/DamageIndicators</li>
+    <li IfModActive="unlimitedhugs.defensivepositions">Modules/DefensivePositions</li>
+    <li IfModActive="merthsoft.designatorshapes">Modules/DesignatorShapes</li>
+    <li IfModActive="latta.devl10n">Modules/DevInYourLanguage</li>
+    <li IfModActive="dracoix.doormat.r12a">Modules/DoorMat</li>
+    <li IfModActive="dubwise.dubsmintminimap">Modules/DubsMintMinimap</li>
+    <li IfModActive="fluffy.followme">Modules/FollowMe</li>
+    <li IfModActive="gt.sam.glittertech">Modules/GlitterTech</li>
+    <li IfModActive="orion.hospitality">Modules/Hospitality</li>
+    <li IfModActive="unlimitedhugs.hugslib">Modules/HugsLib</li>
+    <li IfModActive="erdelf.humanoidalienraces">Modules/HumanoidAlienRaces</li>
+    <li IfModActive="amch.improvedneedindicator">Modules/ImprovedNeedIndicator</li>
+    <li IfModActive="ratys.madskills">Modules/MadSkills</li>
+    <li IfModActive="m00nl1ght.mappreview">Modules/MapPreview</li>
+    <li IfModActive="mlie.markthatpawn">Modules/MarkThatPawn</li>
+    <li IfModActive="wvc.sergkart.biotech.moremechanoidsworkmodes">Modules/MechWorkModes</li>
+    <li IfModActive="memegoddess.medicaltab">Modules/MedicalTab</li>
+    <li IfModActive="itchyflea.medicaltraining">Modules/MedicalTraining</li>
+    <li IfModActive="haplo.miscellaneous.training">Modules/MiscTraining</li>
+    <li IfModActive="vr.missilegirl">Modules/MissileGirl</li>
+    <li IfModActive="hobtook.mortaraccuracy">Modules/MortarAccuracy</li>
+    <li IfModActive="gwinnbleidd.mothballedanddeadpawns">Modules/MothballedAndDeadPawns</li>
+    <li IfModActive="andromeda.nicebilltab">Modules/NiceBillTab</li>
+    <li IfModActive="mehni.numbers">Modules/Numbers</li>
+    <li IfModActive="mehni.pickupandhaul">Modules/PickUpAndHaul</li>
+    <li IfModActive="usagirei.pocketsand">Modules/PocketSand</li>
+    <li IfModActive="vanya.polarisbloc.corelab.tmp">Modules/PolarisCore</li>
+    <li IfModActive="vanya.polarisbloc.securityforce.tmp">Modules/PolarisSecurity</li>
+    <li IfModActive="tk421storm.prioritytreatmentressurected">Modules/PriorityTreatment</li>
+    <li IfModActive="hatti.qualitybuilder">Modules/QualityBuilder</li>
+    <li IfModActive="dawnsglow.qualcolor">Modules/QualityColors</li>
+    <li IfModActive="memegoddess.replacestuff">Modules/ReplaceStuff</li>
+    <li IfModActive="jaxe.rimhud">Modules/RimHUD</li>
+    <li IfModActive="sandy.rpgstyleinventory">Modules/RPGStyleInventory</li>
+    <li IfModActive="petetimessix.simplesidearms">Modules/SimpleSidearms</li>
+    <li IfModActive="owlchemist.smartfarming">Modules/SmartFarming</li>
+    <li IfModActive="memegoddess.smartmedicine">Modules/SmartMedicine</li>
+    <li IfModActive="cn.speakup.ttyet">Modules/SpeakUp</li>
+    <li IfModActive="defi.stabilizebleeding">Modules/StabilizeBleeding</li>
+    <li IfModActive="indeed.stackxxl">Modules/StackXXL</li>
+    <li IfModActive="memegoddess.tdpack">Modules/TDEnhancementPack</li>
+    <li IfModActive="memegoddess.tdfindlib">Modules/TDFindLib</li>
+    <li IfModActive="tug.terraformerpumps">Modules/TerraformingDevices</li>
+    <li IfModActive="gt.sam.tilledsoil">Modules/TilledSoil</li>
+    <li IfModActive="tradingpost.programmerlily.com">Modules/TradingSpot</li>
+    <li IfModActive="nuanki.unlimitedreborn">Modules/UnlimitedReborn</li>
+    <li IfModActive="andromeda.usefulmarks">Modules/UsefulMarks</li>
+    <li IfModActive="visibleraidpoints.1trickpwnyta">Modules/VisibleRaidPoints</li>
+    <li IfModActive="void.weaponry">Modules/Weaponry</li>
+    <li IfModActive="kikohi.whatsforsale">Modules/WhatsForSale</li>
+    <li IfModActive="imranfish.xmlextensions">Modules/XmlExtensions</li>
+    <li IfModActive="yokaimura.1.32">Modules/YokaiVillage</li>
+  </v1.6>
+</loadFolders>

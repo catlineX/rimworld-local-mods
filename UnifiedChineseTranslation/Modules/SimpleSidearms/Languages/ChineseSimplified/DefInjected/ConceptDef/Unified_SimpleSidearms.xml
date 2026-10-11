@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Concept_SidearmsDropping.label>副武器：丢下副武器</Concept_SidearmsDropping.label>
+  <Concept_SimpleSidearmsPreference.label>副武器：武器偏好</Concept_SimpleSidearmsPreference.label>
+  <Concept_SimpleSidearmsAdvancedRanged.label>副武器：高级操作（远程）</Concept_SimpleSidearmsAdvancedRanged.label>
+  <Concept_SimpleSidearmsAdvancedMelee.label>副武器：高级操作（近战）</Concept_SimpleSidearmsAdvancedMelee.label>
+  <Concept_SimpleSidearmsAdvancedDrafted.label>副武器：高级操作（征召）</Concept_SimpleSidearmsAdvancedDrafted.label>
+  <Concept_SimpleSidearmsLosingWeapons.label>副武器：遗失武器</Concept_SimpleSidearmsLosingWeapons.label>
+  <Concept_SidearmsDropping.helpText>灰色背景的副武器当前位于殖民者随身物品中，可以使用。右键点击可丢下。</Concept_SidearmsDropping.helpText>
+  <Concept_SimpleSidearmsPreference.helpText>可分别设置每名殖民者的副武器偏好：
+使用远程武器；
+使用角色有激情或更擅长的武器；
+使用近战武器。</Concept_SimpleSidearmsPreference.helpText>
+  <Concept_SimpleSidearmsAdvancedRanged.helpText>左键点击携带的远程武器，将其设为默认远程武器。若角色偏好远程（或偏好按技能选择，且射击技能更高），不在主动交战时会装备它，狩猎时也会使用它。
+
+再次点击默认远程武器，可强制使用它而不考虑距离或每秒伤害（DPS）。
+
+右键点击取消强制使用或默认状态。</Concept_SimpleSidearmsAdvancedRanged.helpText>
+  <Concept_SimpleSidearmsAdvancedMelee.helpText>左键点击携带的近战武器，将其设为偏好近战武器。角色偏好近战（或按技能选择且近战技能更高）以及被迫进入近身战斗时，都会使用它。
+
+再次点击偏好近战武器，可强制始终使用它。
+
+右键点击取消强制使用或偏好状态。</Concept_SimpleSidearmsAdvancedMelee.helpText>
+  <Concept_SimpleSidearmsAdvancedDrafted.helpText>征召时左键点击携带的武器，可强制使用它直到战斗结束。
+
+注意：多数副武器配置修改需要角色未被征召。</Concept_SimpleSidearmsAdvancedDrafted.helpText>
+  <Concept_SimpleSidearmsLosingWeapons.helpText>根据设置，主副武器模组可能让殖民者在不同情况下丢下武器（默认发生于近战攻击）。不用担心，战斗结束后他们会重新拾取武器。
+
+此功能可自定义，详情请查看模组设置。</Concept_SimpleSidearmsLosingWeapons.helpText>
+</LanguageData>

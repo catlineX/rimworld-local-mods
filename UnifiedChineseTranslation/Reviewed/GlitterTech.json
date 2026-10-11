@@ -1,0 +1,27 @@
+{
+  "directory": "GlitterTech",
+  "packageId": "gt.sam.glittertech",
+  "name": "Glitter Tech Classic",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "GTArm.comps.0.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "HediffDef",
+      "text": "拳头"
+    },
+    {
+      "key": "HeavyPowerConduit.description",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "结实且不可燃的重型电缆。"
+    },
+    {
+      "key": "Race_OCtank.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "正面装甲"
+    }
+  ]
+}
+

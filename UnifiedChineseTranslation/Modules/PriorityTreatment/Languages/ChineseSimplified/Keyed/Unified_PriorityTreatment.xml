@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TKSPriortyTreatmentName>优先治疗（复活版）</TKSPriortyTreatmentName>
+  <TKSIncludeSickness>治疗长期疾病</TKSIncludeSickness>
+  <TKSIncludeSicknessToolTip>默认情况下，医生只将伤势视为最高优先级的紧急情况。勾选后，所有治疗（包括长期疾病治疗）也按此规则处理。</TKSIncludeSicknessToolTip>
+  <TKSWakeUpToTend>唤醒医生进行治疗</TKSWakeUpToTend>
+  <TKSWakeUpToTendToolTip>允许医生从睡眠中醒来进行治疗。如果其他模组已提供此功能（例如Wake Up），可以不勾选。</TKSWakeUpToTendToolTip>
+  <TKSDocPriority>紧急治疗所需的医生工作优先级</TKSDocPriority>
+  <TKSDocPriorityToolTip>角色的医生工作优先级数值必须小于或等于此值，才会受到本模组影响。</TKSDocPriorityToolTip>
+  <TKSAllowEating>允许医生进食</TKSAllowEating>
+  <TKSAllowEatingToolTip>取消勾选后，医生会继续紧急治疗，而不是给自己找食物。请留意医生的状态！</TKSAllowEatingToolTip>
+  <TKSDebugPrint>在日志中显示额外调试信息。</TKSDebugPrint>
+  <NotOperatingWithInjuries>{0}受伤时不会进行手术（PriorityTreatmentRessurected）。</NotOperatingWithInjuries>
+  <TKSAllowInjuredSurgery>允许受伤的角色进行手术</TKSAllowInjuredSurgery>
+  <TKSAllowInjuredSurgeryTooltip>关闭此项可阻止受伤角色进行手术，直到其恢复健康。</TKSAllowInjuredSurgeryTooltip>
+</LanguageData>

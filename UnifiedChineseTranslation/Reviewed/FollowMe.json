@@ -1,0 +1,75 @@
+{
+  "directory": "FollowMe",
+  "packageId": "fluffy.followme",
+  "name": "Follow Me",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "FollowMe.Notifications",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示通知"
+    },
+    {
+      "key": "FollowMe.Notifications.Tooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "跟随目标改变时是否显示通知？"
+    },
+    {
+      "key": "FollowMe.Sounds",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "播放音效"
+    },
+    {
+      "key": "FollowMe.Sounds.Tooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "跟随目标改变时是否播放音效？"
+    },
+    {
+      "key": "FollowMe.EdgeDetection",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "鼠标边缘检测"
+    },
+    {
+      "key": "FollowMe.EdgeDetection.Tooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "鼠标接近屏幕边缘时是否停止跟随？"
+    },
+    {
+      "key": "Fluffy.FollowMe.CinematicCamera",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "电影式镜头"
+    },
+    {
+      "key": "Fluffy.FollowMe.CinematicCamera.Off",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "关闭"
+    },
+    {
+      "key": "Fluffy.FollowMe.CameraStart",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启动镜头“{0}”"
+    },
+    {
+      "key": "Fluffy.FollowMe.CameraStop",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "停止镜头“{0}”"
+    },
+    {
+      "key": "Fluffy.FollowMe.Cinematics.NoValidTargets",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "停止电影式镜头：没有有效目标。"
+    }
+  ]
+}
+

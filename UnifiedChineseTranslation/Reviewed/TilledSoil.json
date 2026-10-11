@@ -1,0 +1,21 @@
+{
+  "directory": "TilledSoil",
+  "packageId": "gt.sam.tilledsoil",
+  "name": "Tilled Soil",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "GT_SoilTilled.label",
+      "kind": "DefInjected",
+      "defType": "TerrainDef",
+      "text": "耕作土壤"
+    },
+    {
+      "key": "GT_SoilTilled.description",
+      "kind": "DefInjected",
+      "defType": "TerrainDef",
+      "text": "经过翻耕、适合种植作物的土壤。"
+    }
+  ]
+}
+

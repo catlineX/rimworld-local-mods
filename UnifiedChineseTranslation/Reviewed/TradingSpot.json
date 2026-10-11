@@ -1,0 +1,15 @@
+{
+  "directory": "TradingSpot",
+  "packageId": "tradingpost.programmerlily.com",
+  "name": "[PL] Trading Spot",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "TradingSpot.RequiresWorkToPlace",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "放置时需要施工"
+    }
+  ]
+}
+

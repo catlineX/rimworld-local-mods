@@ -1,0 +1,57 @@
+{
+  "directory": "PolarisSecurity",
+  "packageId": "vanya.polarisbloc.securityforce.tmp",
+  "name": "Polarisbloc - Security Force tmp port",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "PolarisDropSupplyBeacon.comps.0.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "释放补给包"
+    },
+    {
+      "key": "Polarisbloc_CaniculaRifle.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "枪托"
+    },
+    {
+      "key": "Polarisbloc_CaniculaRifle.tools.1.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "枪管"
+    },
+    {
+      "key": "Polarisbloc_CaniculaSniper.tools.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "枪托"
+    },
+    {
+      "key": "Polarisbloc_CaniculaSniper.tools.1.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "枪管"
+    },
+    {
+      "key": "PolarisShieldMemoryStick.comps.0.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "解码记忆棒"
+    },
+    {
+      "key": "PolarisMemoryStickQuest.questNameRules.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "QuestScriptDef",
+      "text": "questName->自选补给"
+    },
+    {
+      "key": "PolarisMemoryStickQuest.questDescriptionRules.rulesStrings.0",
+      "kind": "DefInjected",
+      "defType": "QuestScriptDef",
+      "text": "questDescription->总部提供了一份补给清单，请选择需要的一项。\n\n补给将立即送达。"
+    }
+  ]
+}
+

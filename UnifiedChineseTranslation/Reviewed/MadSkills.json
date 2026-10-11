@@ -1,0 +1,81 @@
+{
+  "directory": "MadSkills",
+  "packageId": "ratys.madskills",
+  "name": "Mad Skills",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "MadSkills_SettingsCategory",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "技能成长（Mad Skills）"
+    },
+    {
+      "key": "MadSkills_DailyXPSaturationThresholdLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "每日经验阈值"
+    },
+    {
+      "key": "MadSkills_DailyXPSaturationThresholdTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版默认值：4000\n某项技能当天获得的经验达到此值后，后续经验收益乘以下方倍率，直到午夜重置。"
+    },
+    {
+      "key": "MadSkills_SaturatedXPMultiplierLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "超出阈值后的经验倍率"
+    },
+    {
+      "key": "MadSkills_SaturatedXPMultiplierTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版默认值：20%\n某项技能当天经验超过上方阈值后，后续获得的经验乘以此倍率。\n设为100%可完全取消每日经验阈值造成的收益衰减。"
+    },
+    {
+      "key": "MadSkills_MultiplierLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "技能遗忘倍率"
+    },
+    {
+      "key": "MadSkills_MultiplierTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版默认值：100%\n原版技能经验衰减速度乘以此倍率。\n0%为不衰减，50%为减半，200%为加倍。"
+    },
+    {
+      "key": "MadSkills_TieredLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "保留已获得的技能等级"
+    },
+    {
+      "key": "MadSkills_TieredTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版默认：关闭。\n技能不会降级，但通往下一等级的经验仍按遗忘倍率衰减。"
+    },
+    {
+      "key": "MadSkills_AlternativeGreatMemoryDescription",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{PAWN_nameDef}对细节有极佳的记忆力。{PAWN_pronoun}学习新技能的速度比其他人略快。"
+    },
+    {
+      "key": "MadSkills_AlterGreatMemoryLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "替代版“大脑记忆”"
+    },
+    {
+      "key": "MadSkills_AlterGreatMemoryTip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版默认：关闭。\n改变“大脑记忆”特性的效果：不再将技能遗忘速度减半，改为提高25%的学习速度。"
+    }
+  ]
+}
+

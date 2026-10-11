@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Accessories.label>饰品</Accessories.label>
+  <Shield.label>盾牌</Shield.label>
+  <Underwear.label>内衣</Underwear.label>
+  <UnderwearTop.label>上身内衣</UnderwearTop.label>
+  <VFEC_OuterShell.label>最外层</VFEC_OuterShell.label>
+  <OnSkin_A.label>贴身层（A）</OnSkin_A.label>
+  <Middle_A.label>中间层（A）</Middle_A.label>
+  <Shell_A.label>外层（A）</Shell_A.label>
+  <Belt_A.label>装备层（A）</Belt_A.label>
+  <Overhead_A.label>头部装备层（A）</Overhead_A.label>
+</LanguageData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HAR.CharacterFeatures>角色外观</HAR.CharacterFeatures>
+  <HAR.RaceFeatures>种族外观</HAR.RaceFeatures>
+  <HAR.BodyAddons>身体附加部件</HAR.BodyAddons>
+  <HAR.MatchSkinColor>匹配肤色</HAR.MatchSkinColor>
+  <HAR.Colors>颜色</HAR.Colors>
+  <HAR.LinkedFrom>链接来源：</HAR.LinkedFrom>
+  <HAR.LinkedTo>链接到：</HAR.LinkedTo>
+  <HAR.FirstColor>第一颜色</HAR.FirstColor>
+  <HAR.SecondColor>第二颜色</HAR.SecondColor>
+  <HAR.NoAddonsForList>没有可自定义的附加部件</HAR.NoAddonsForList>
+  <HAR.NoColorsForList>没有可自定义的颜色</HAR.NoColorsForList>
+  <HAR.RandomizeColors>随机</HAR.RandomizeColors>
+  <HAR.HairOneInfo>此颜色由标准发色决定。修改殖民者的普通发色即可改变此颜色。</HAR.HairOneInfo>
+  <HAR.StartingRace>种族限制：{0}</HAR.StartingRace>
+  <HAR.StartingRaceDescription>随机生成时仅使用指定异族。</HAR.StartingRaceDescription>
+  <HAR.ReproductionNotAllowed>{genderOne}{raceOne}无法与{genderTwo}{raceTwo}繁殖</HAR.ReproductionNotAllowed>
+  <HAR.Options.TextureLoadingLogs_Label>显示贴图加载日志</HAR.Options.TextureLoadingLogs_Label>
+  <HAR.Options.TextureLoadingLogs_Tooltip>开启：启动时显示贴图加载日志。
+关闭：隐藏贴图加载日志及详情。
+注意：用于种族模组调试和开发。</HAR.Options.TextureLoadingLogs_Tooltip>
+  <HAR.Options.RandomizeStartingPawns_Label>重新随机生成开局角色时完全重置</HAR.Options.RandomizeStartingPawns_Label>
+  <HAR.Options.RandomizeStartingPawns_Tooltip>开启：随机开局角色时允许完整重新生成。
+关闭：保留全部设置，只改变细节。</HAR.Options.RandomizeStartingPawns_Tooltip>
+  <HAR.StartingHumanlikesScenPart.Label>以类人角色开局</HAR.StartingHumanlikesScenPart.Label>
+  <HAR.OutfitStandRaceCommandDesc>更改展示的种族。
+这可能改变允许穿戴的服装。</HAR.OutfitStandRaceCommandDesc>
+  <HAR.OutfitStandBodyCommandDesc>更改展示的体型。
+这可能改变允许穿戴的服装。</HAR.OutfitStandBodyCommandDesc>
+  <HAR.OutfitStandHeadCommandDesc>更改展示的头型。</HAR.OutfitStandHeadCommandDesc>
+</LanguageData>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]与[RECIPIENT_nameDef]就[TalkTopicLight]进行了外交交谈。</GuestDiplomacy.logRulesInitiator.rulesStrings.0>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef]与[RECIPIENT_nameDef]讨论了[subject]的政治意义。</GuestDiplomacy.logRulesInitiator.rulesStrings.1>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.3>r_logentry-&gt;[INITIATOR_nameDef][complimented]了[RECIPIENT_nameDef]所属的派系。</GuestDiplomacy.logRulesInitiator.rulesStrings.3>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.4>r_logentry-&gt;[INITIATOR_nameDef][complimented]了与[RECIPIENT_factionName]的关系。</GuestDiplomacy.logRulesInitiator.rulesStrings.4>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.5>r_logentry-&gt;[INITIATOR_nameDef]向[RECIPIENT_nameDef]的[PersonFamily]致意。</GuestDiplomacy.logRulesInitiator.rulesStrings.5>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.6>r_logentry-&gt;[INITIATOR_nameDef]尝试借双方共同的[opinion]与[RECIPIENT_nameDef]拉近关系。</GuestDiplomacy.logRulesInitiator.rulesStrings.6>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.7>opinion-&gt;对[ConceptPositive]的支持</GuestDiplomacy.logRulesInitiator.rulesStrings.7>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.8>opinion-&gt;对[ConceptNegative]的厌恶</GuestDiplomacy.logRulesInitiator.rulesStrings.8>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.9>opinion-&gt;对[ConceptNegative]的恐惧</GuestDiplomacy.logRulesInitiator.rulesStrings.9>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.10>opinion-&gt;对[ConceptAny]的看法</GuestDiplomacy.logRulesInitiator.rulesStrings.10>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.11>opinion-&gt;对[ConceptPositive]的向往</GuestDiplomacy.logRulesInitiator.rulesStrings.11>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.12>complimented-&gt;赞扬</GuestDiplomacy.logRulesInitiator.rulesStrings.12>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.13>complimented-&gt;称赞</GuestDiplomacy.logRulesInitiator.rulesStrings.13>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.14>complimented-&gt;赞颂</GuestDiplomacy.logRulesInitiator.rulesStrings.14>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.15>complimented-&gt;赞许</GuestDiplomacy.logRulesInitiator.rulesStrings.15>
+  <GuestDiplomacy.logRulesInitiator.rulesStrings.16>complimented-&gt;歌颂</GuestDiplomacy.logRulesInitiator.rulesStrings.16>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef]向[RECIPIENT_nameDef]介绍了[INITIATOR_factionName]的各种[ConceptPositive]。</CharmGuestAttempt.logRulesInitiator.rulesStrings.1>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef]向[RECIPIENT_nameDef]讲述了其他殖民者的[adjwords]故事。</CharmGuestAttempt.logRulesInitiator.rulesStrings.2>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.3>r_logentry-&gt;[INITIATOR_nameDef]将[RECIPIENT_nameDef]介绍给另一位殖民者。</CharmGuestAttempt.logRulesInitiator.rulesStrings.3>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.4>saidwords-&gt;说了些[adjwords]的话</CharmGuestAttempt.logRulesInitiator.rulesStrings.4>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.5>saidwords-&gt;表达了[ConceptPositive]</CharmGuestAttempt.logRulesInitiator.rulesStrings.5>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.6>saidwords-&gt;做出[adjwords]的举动</CharmGuestAttempt.logRulesInitiator.rulesStrings.6>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.7>adjwords-&gt;有趣</CharmGuestAttempt.logRulesInitiator.rulesStrings.7>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.8>adjwords-&gt;亲切</CharmGuestAttempt.logRulesInitiator.rulesStrings.8>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.9>adjwords-&gt;热情</CharmGuestAttempt.logRulesInitiator.rulesStrings.9>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.10>adjwords-&gt;友好</CharmGuestAttempt.logRulesInitiator.rulesStrings.10>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.11>adjwords-&gt;迷人</CharmGuestAttempt.logRulesInitiator.rulesStrings.11>
+  <ScroungeFoodAttempt.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]向[RECIPIENT_nameDef]乞求食物。</ScroungeFoodAttempt.logRulesInitiator.rulesStrings.0>
+  <ScroungeFoodAttempt.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef]向[RECIPIENT_nameDef]请求一些吃的。</ScroungeFoodAttempt.logRulesInitiator.rulesStrings.1>
+  <ScroungeFoodAttempt.logRulesInitiator.rulesStrings.2>r_logentry-&gt;[INITIATOR_nameDef]渴望地盯着[RECIPIENT_nameDef]的食物。</ScroungeFoodAttempt.logRulesInitiator.rulesStrings.2>
+  <CharmGuestAttempt.logRulesInitiator.rulesStrings.0>r_logentry-&gt;[INITIATOR_nameDef]对[RECIPIENT_nameDef][saidwords]。</CharmGuestAttempt.logRulesInitiator.rulesStrings.0>
+</LanguageData>

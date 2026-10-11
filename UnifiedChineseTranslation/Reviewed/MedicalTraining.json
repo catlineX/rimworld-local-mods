@@ -1,0 +1,51 @@
+{
+  "directory": "MedicalTraining",
+  "packageId": "itchyflea.medicaltraining",
+  "name": "Medical Training",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "IF_MeditrainTable.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "医疗训练台（Meditrain）"
+    },
+    {
+      "key": "IF_MeditrainTable.description",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "医生通过在尸体上练习医疗技术来提高技能。"
+    },
+    {
+      "key": "IF_TrainingMedicine.label",
+      "kind": "DefInjected",
+      "defType": "WorkGiverDef",
+      "text": "医疗训练"
+    },
+    {
+      "key": "IF_TrainingMedicine.verb",
+      "kind": "DefInjected",
+      "defType": "WorkGiverDef",
+      "text": "训练"
+    },
+    {
+      "key": "IF_TrainingMedicine.gerund",
+      "kind": "DefInjected",
+      "defType": "WorkGiverDef",
+      "text": "训练"
+    },
+    {
+      "key": "IF_MedTable.label",
+      "kind": "DefInjected",
+      "defType": "RecipeDef",
+      "text": "训练医疗技能"
+    },
+    {
+      "key": "IF_MedTable.description",
+      "kind": "DefInjected",
+      "defType": "RecipeDef",
+      "text": "医生通过在尸体上练习医疗技术来提高技能。"
+    }
+  ]
+}
+

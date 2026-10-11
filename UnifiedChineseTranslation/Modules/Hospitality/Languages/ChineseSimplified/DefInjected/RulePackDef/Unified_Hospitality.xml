@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Sentence_CharmAttemptAccepted.rulePack.rulesStrings.0>sent-&gt;[RECIPIENT_nameDef]兴奋地拍着[RECIPIENT_possessive]双手。</Sentence_CharmAttemptAccepted.rulePack.rulesStrings.0>
+  <Sentence_CharmAttemptAccepted.rulePack.rulesStrings.1>sent-&gt;[RECIPIENT_nameDef]微笑了。</Sentence_CharmAttemptAccepted.rulePack.rulesStrings.1>
+  <Sentence_CharmAttemptAccepted.rulePack.rulesStrings.2>sent-&gt;[RECIPIENT_nameDef]点头表示赞同。</Sentence_CharmAttemptAccepted.rulePack.rulesStrings.2>
+  <Sentence_CharmAttemptAccepted.rulePack.rulesStrings.3>sent-&gt;[RECIPIENT_nameDef]急切地想听更多。</Sentence_CharmAttemptAccepted.rulePack.rulesStrings.3>
+  <Sentence_CharmAttemptAccepted.rulePack.rulesStrings.4>sent-&gt;[RECIPIENT_nameDef]看起来很兴奋。</Sentence_CharmAttemptAccepted.rulePack.rulesStrings.4>
+  <Sentence_CharmAttemptAccepted.rulePack.rulesStrings.5>sent-&gt;[RECIPIENT_nameDef]看起来受宠若惊。</Sentence_CharmAttemptAccepted.rulePack.rulesStrings.5>
+  <Sentence_CharmAttemptAccepted.rulePack.rulesStrings.6>sent-&gt;[RECIPIENT_nameDef]惊讶地望着[INITIATOR_nameDef]。</Sentence_CharmAttemptAccepted.rulePack.rulesStrings.6>
+  <Sentence_CharmAttemptRejected.rulePack.rulesStrings.0>sent-&gt;[RECIPIENT_nameDef]开始不耐烦了。</Sentence_CharmAttemptRejected.rulePack.rulesStrings.0>
+  <Sentence_CharmAttemptRejected.rulePack.rulesStrings.1>sent-&gt;[RECIPIENT_nameDef]不赞同地摇着[RECIPIENT_possessive]头。</Sentence_CharmAttemptRejected.rulePack.rulesStrings.1>
+  <Sentence_CharmAttemptRejected.rulePack.rulesStrings.2>sent-&gt;[RECIPIENT_nameDef]毫不在意。</Sentence_CharmAttemptRejected.rulePack.rulesStrings.2>
+  <Sentence_CharmAttemptRejected.rulePack.rulesStrings.3>sent-&gt;[RECIPIENT_nameDef]已经听够了。</Sentence_CharmAttemptRejected.rulePack.rulesStrings.3>
+  <Sentence_CharmAttemptRejected.rulePack.rulesStrings.4>sent-&gt;[RECIPIENT_nameDef]无聊地环顾房间。</Sentence_CharmAttemptRejected.rulePack.rulesStrings.4>
+  <Sentence_CharmAttemptRejected.rulePack.rulesStrings.5>sent-&gt;[RECIPIENT_nameDef]提到很快就要离开。</Sentence_CharmAttemptRejected.rulePack.rulesStrings.5>
+  <Sentence_CharmAttemptRejected.rulePack.rulesStrings.6>sent-&gt;[RECIPIENT_nameDef]翻了翻[RECIPIENT_possessive]白眼。</Sentence_CharmAttemptRejected.rulePack.rulesStrings.6>
+</LanguageData>

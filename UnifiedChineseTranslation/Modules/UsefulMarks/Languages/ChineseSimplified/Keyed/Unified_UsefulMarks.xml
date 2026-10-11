@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Marker_Shooter>射手</Marker_Shooter>
+  <Marker_Sniper>狙击手</Marker_Sniper>
+  <Marker_Grenadier>掷弹兵</Marker_Grenadier>
+  <Marker_Demolitionist>导弹兵</Marker_Demolitionist>
+  <SkillValue>数值</SkillValue>
+  <ObsoletedWarning>已失效，请重新添加</ObsoletedWarning>
+  <ConditionHoldingWeaponThing>武器</ConditionHoldingWeaponThing>
+  <ConditionHoldingWeaponStat>武器属性</ConditionHoldingWeaponStat>
+  <ConditionWearingApparelStat>服装属性</ConditionWearingApparelStat>
+  <ConditionAttackRange>攻击距离</ConditionAttackRange>
+  <ConditionTechLevel>科技等级</ConditionTechLevel>
+  <ConditionIsRanged>是远程武器</ConditionIsRanged>
+  <ConditionIsGrenade>是手榴弹</ConditionIsGrenade>
+  <ConditionBiocoded>生物编码</ConditionBiocoded>
+  <ConditionPawnAge>角色年龄</ConditionPawnAge>
+  <AddMarkers>添加标记</AddMarkers>
+  <Presets>预设</Presets>
+  <PresetLoaded>预设已加载</PresetLoaded>
+  <PresetName>预设名称</PresetName>
+</LanguageData>

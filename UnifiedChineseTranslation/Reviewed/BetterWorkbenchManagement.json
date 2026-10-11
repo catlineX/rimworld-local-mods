@@ -1,0 +1,45 @@
+{
+  "directory": "BetterWorkbenchManagement",
+  "packageId": "falconne.bwm",
+  "name": "Better Workbench Management",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "IW.OutputFilterLabel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "计入额外物品"
+    },
+    {
+      "key": "IW.OutputFilterTitle",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "同时计入这些产物："
+    },
+    {
+      "key": "IW.CountOutsideStockpiles",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "计入储存区外的资源"
+    },
+    {
+      "key": "IW.CountOutsideStockpilesDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版问题会使食物、药物等资源在储存区外不被计数。开启可修正；若其他模组已修正，可关闭。"
+    },
+    {
+      "key": "IW.CountCarriedByNonHumans",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "计入非人类携带的资源"
+    },
+    {
+      "key": "IW.CountCarriedByNonHumansDesc",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "原版问题会使动物、机械体或远行队动物携带的食物、药物等资源不被计数。开启可修正。"
+    }
+  ]
+}
+

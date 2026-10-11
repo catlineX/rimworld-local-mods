@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CEmmShort>mm</CEmmShort>
+  <WeaponFireRateTooltip>射速表示每秒发射次数，计入冷却时间和连射中各发之间的间隔。
+
+{0} / ({1} + {2}) = {3}</WeaponFireRateTooltip>
+</LanguageData>

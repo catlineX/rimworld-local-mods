@@ -1,0 +1,15 @@
+{
+  "directory": "MechWorkModes",
+  "packageId": "wvc.sergkart.biotech.moremechanoidsworkmodes",
+  "name": "WVC - Work Modes",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "WVC_WM_ShutdownGroup",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "关机"
+    }
+  ]
+}
+

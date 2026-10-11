@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ForceRecruitQuestion>你可以立即招募{PAWN_nameDef}。
+
+{PAWN_pronoun}尚未愿意自愿加入，因为{PAWN_possessive}朋友还不够多。立即招募会损失与{PAWN_possessive}派系{0}点关系。如果{PAWN_pronoun}有更多朋友，损失会减少。{1}{2}
+
+
+确定吗？</ForceRecruitQuestion>
+</LanguageData>

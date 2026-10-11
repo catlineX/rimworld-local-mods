@@ -1,0 +1,75 @@
+{
+  "directory": "MiscTraining",
+  "packageId": "haplo.miscellaneous.training",
+  "name": "Misc. Training",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "MiscTraining_CombatTraining.label",
+      "kind": "DefInjected",
+      "defType": "WorkGiverDef",
+      "text": "训练"
+    },
+    {
+      "key": "MiscTraining_CombatTraining.verb",
+      "kind": "DefInjected",
+      "defType": "WorkGiverDef",
+      "text": "训练"
+    },
+    {
+      "key": "MiscTraining_CombatTraining.gerund",
+      "kind": "DefInjected",
+      "defType": "WorkGiverDef",
+      "text": "训练"
+    },
+    {
+      "key": "TrainingFacility_PracticeArchery",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "练习射箭"
+    },
+    {
+      "key": "MiscTraining_CombatTraining.labelShort",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "训练"
+    },
+    {
+      "key": "MiscTraining_CombatTraining.pawnLabel",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "战斗训练者"
+    },
+    {
+      "key": "MiscTraining_CombatTraining.gerundLabel",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "战斗训练"
+    },
+    {
+      "key": "MiscTraining_CombatTraining.description",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "进行近战或射击训练，训练类型取决于使用者持有的武器。"
+    },
+    {
+      "key": "MiscTraining_CombatTraining.verb",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "战斗训练"
+    },
+    {
+      "key": "Gaming_MartialArts.label",
+      "kind": "DefInjected",
+      "defType": "JoyKindDef",
+      "text": "近战训练"
+    },
+    {
+      "key": "Gaming_Shooting.label",
+      "kind": "DefInjected",
+      "defType": "JoyKindDef",
+      "text": "射击训练"
+    }
+  ]
+}
+

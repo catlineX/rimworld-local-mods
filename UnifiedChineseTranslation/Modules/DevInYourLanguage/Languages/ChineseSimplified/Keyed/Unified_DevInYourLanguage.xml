@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DebugAction_EditEffecter>编辑特效器（Effecter）……</DebugAction_EditEffecter>
+  <DebugAction_TriggerMaintainedEffecter>触发持续特效器……</DebugAction_TriggerMaintainedEffecter>
+  <DebugAction_TriggerMaintainedEffecter5S>触发持续特效器（5秒）……</DebugAction_TriggerMaintainedEffecter5S>
+  <DebugAction_TriggerMaintainedEffecter12S>触发持续特效器（12秒）……</DebugAction_TriggerMaintainedEffecter12S>
+  <EnableTranslationWindowInEnglish>英文语言下也启用翻译窗口</EnableTranslationWindowInEnglish>
+  <PauseOnError>出错时暂停</PauseOnError>
+  <ShowHiddenPawns>显示隐藏角色</ShowHiddenPawns>
+  <ShowHiddenInfo>显示隐藏信息</ShowHiddenInfo>
+  <AnomalyDarkeningFX>Anomaly黑暗特效</AnomalyDarkeningFX>
+  <FastMonolithRespawn>快速重生巨石</FastMonolithRespawn>
+  <SearchIgnoresRestrictions>搜索忽略限制</SearchIgnoresRestrictions>
+  <SingleThreadedDrawing>单线程绘制</SingleThreadedDrawing>
+  <DrawPatherState>显示寻路器状态</DrawPatherState>
+  <DrawNonCombatantTimer>显示非战斗人员计时器</DrawNonCombatantTimer>
+  <DrawHateChanterPositions>显示恶咒吟诵者位置</DrawHateChanterPositions>
+  <DrawDarknessOverlay>显示黑暗覆盖</DrawDarknessOverlay>
+  <DrawMapGraphs>显示地图图结构</DrawMapGraphs>
+  <DrawMapRooms>显示地图房间</DrawMapRooms>
+  <DrawShamblerAlertMote>显示蹒跚怪警戒特效</DrawShamblerAlertMote>
+</LanguageData>

@@ -1,0 +1,41 @@
+$ErrorActionPreference='Stop'
+$root=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
+$index=Get-Content -Raw -Encoding UTF8 -LiteralPath (Join-Path $root 'Modules/index.json') | ConvertFrom-Json
+$load=New-Object Xml.XmlDocument;$load.Load((Join-Path $root 'LoadFolders.xml'))
+$routes=@($load.SelectNodes('/loadFolders/v1.6/li'))
+if($routes.Count -ne $index.modules.Count+1){throw 'Module routing count mismatch'}
+$paths=@{};$ids=@{}
+foreach($module in $index.modules){
+    if($paths.ContainsKey($module.directory) -or $ids.ContainsKey($module.packageId)){throw 'Duplicate module identity'}
+    $paths[$module.directory]=$true;$ids[$module.packageId]=$true
+    $route=$load.SelectSingleNode('/loadFolders/v1.6/li[text()="Modules/'+$module.directory+'"]')
+    if(!$route -or $route.GetAttribute('IfModActive') -ne $module.packageId){throw 'Missing conditional route'}
+    $folder=Join-Path $root ('Modules/'+$module.directory)
+    if(!(Test-Path -LiteralPath $folder)){throw 'Missing module folder'}
+}
+$translations=@{};$count=0
+foreach($file in (Get-ChildItem -LiteralPath (Join-Path $root 'Modules') -Recurse -File -Filter '*.xml')){
+    $x=New-Object Xml.XmlDocument;$x.Load($file.FullName)
+    if($file.FullName -notmatch '[\\/]Languages[\\/]ChineseSimplified[\\/](.+)[\\/][^\\/]+\.xml$'){continue}
+    $kind=$Matches[1].Replace('\','/')
+    foreach($n in $x.DocumentElement.ChildNodes){
+        if($n.NodeType -ne 'Element'){continue}
+        $key=$kind+':'+$n.Name
+        if($translations.ContainsKey($key) -and $translations[$key] -cne $n.InnerText){throw "Conflicting cross-module translation: $key"}
+        $translations[$key]=$n.InnerText;$count++
+    }
+}
+# Verify migrated local assets except the intentionally modified debug source.
+$repo=Split-Path $root -Parent
+foreach($file in (Get-ChildItem -LiteralPath (Join-Path $repo 'GlitterNet_ChineseFix/Languages') -Recurse -File)){
+    $base=(Join-Path $repo 'GlitterNet_ChineseFix/Languages')
+    $relative=$file.FullName.Substring($base.Length).TrimStart('\')
+    $dest=Join-Path (Join-Path $root 'Modules/GlitterNet/Languages') $relative
+    if((Get-FileHash -LiteralPath $dest).Hash -ne (Get-FileHash -LiteralPath $file.FullName).Hash){throw 'GlitterNet migration mismatch'}
+}
+$source=Join-Path $repo 'CustomInfestationsContinued_ChineseSimplified/Patches/ChineseSimplified.xml'
+$dest=Join-Path $root 'Modules/CustomInfestations/Patches/ChineseSimplified.xml'
+if((Get-FileHash -LiteralPath $source).Hash -ne (Get-FileHash -LiteralPath $dest).Hash){throw 'Infestation migration mismatch'}
+Write-Host "PASS: $($index.modules.Count) conditional modules; $count language entries; no conflicting cross-module keys"
+Write-Host 'PASS: migrated GlitterNet and CustomInfestations language/patch assets unchanged'
+Write-Host 'Static only; runtime field injection and menu layout still require game verification.'

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <XmlExtensions_Label>XML扩展（XML Extensions）</XmlExtensions_Label>
+  <XmlExtensions_Confirmation>确定吗？</XmlExtensions_Confirmation>
+  <XmlExtensions_ResetSettings>重置设置</XmlExtensions_ResetSettings>
+  <XmlExtensions_ShowSettingsButton>添加“＋”按钮以打开XML Extensions模组设置菜单？</XmlExtensions_ShowSettingsButton>
+  <XmlExtensions_ShowSettingsButtonTip>开启后，原版模组选项按钮旁边出现小型“＋”按钮，可快速打开此替代设置菜单。</XmlExtensions_ShowSettingsButtonTip>
+  <XmlExtensions_ViewUnusedSettings>查看未使用的设置</XmlExtensions_ViewUnusedSettings>
+  <XmlExtensions_InactiveMods>当前未启用的模组：</XmlExtensions_InactiveMods>
+  <XmlExtensions_NoExtraSettings>目前没有额外设置</XmlExtensions_NoExtraSettings>
+  <XmlExtensions_SelectedModUnusedKeys>所选模组未使用的键：</XmlExtensions_SelectedModUnusedKeys>
+  <XmlExtensions_Delete>删除</XmlExtensions_Delete>
+  <XmlExtensions_DeleteKeys>删除{0}个键</XmlExtensions_DeleteKeys>
+  <XmlExtensions_ConfirmationResetMod>确定删除当前模组的全部未使用键？</XmlExtensions_ConfirmationResetMod>
+  <XmlExtensions_DeleteAllUnusedKeys>删除全部{0}个未使用键</XmlExtensions_DeleteAllUnusedKeys>
+  <XmlExtensions_ConfirmResetAll>确定删除所有模组的全部未使用键？</XmlExtensions_ConfirmResetAll>
+  <XmlExtensions_Open>打开</XmlExtensions_Open>
+  <XmlExtensions_Apply>应用</XmlExtensions_Apply>
+  <XmlExtensions_ModSettingsFor>模组设置：</XmlExtensions_ModSettingsFor>
+  <XmlExtensions_Unpin>取消固定此模组</XmlExtensions_Unpin>
+  <XmlExtensions_Pin>固定此模组</XmlExtensions_Pin>
+  <XmlExtensions_HowToPin>右键点击模组可固定</XmlExtensions_HowToPin>
+  <XmlExtensions_AddMainButton>添加打开XML Extensions设置菜单的主界面按钮？</XmlExtensions_AddMainButton>
+  <XmlExtensions_AddMainButtonTip>添加用于打开此替代设置菜单的主界面按钮。</XmlExtensions_AddMainButtonTip>
+  <XmlExtensions_SearchResults>{0}条结果</XmlExtensions_SearchResults>
+</LanguageData>

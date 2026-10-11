@@ -1,0 +1,369 @@
+{
+  "directory": "ComplexJobs",
+  "packageId": "frozensnowfox.complexjobs",
+  "name": "[FSF] Complex Jobs",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "FSFProduction.labelShort",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "生产"
+    },
+    {
+      "key": "FSFProduction.pawnLabel",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "生产工"
+    },
+    {
+      "key": "FSFProduction.gerundLabel",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "生产"
+    },
+    {
+      "key": "FSFProduction.description",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "进行各种物品的一般生产工作，通常包括为生产设施装料、取料或执行简单操作。"
+    },
+    {
+      "key": "FSFProduction.verb",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "生产"
+    },
+    {
+      "key": "FSFTransport.labelShort",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "运输"
+    },
+    {
+      "key": "FSFTransport.pawnLabel",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "运输工"
+    },
+    {
+      "key": "FSFTransport.gerundLabel",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "运输"
+    },
+    {
+      "key": "FSFTransport.description",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "为运输舱、远行队和载具装载、卸货。"
+    },
+    {
+      "key": "FSFTransport.verb",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "运输"
+    },
+    {
+      "key": "FSFHauling.labelShort",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "搬运"
+    },
+    {
+      "key": "FSFHauling.pawnLabel",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "搬运工"
+    },
+    {
+      "key": "FSFHauling.gerundLabel",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "搬运"
+    },
+    {
+      "key": "FSFHauling.description",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "将物品送到需要的位置。"
+    },
+    {
+      "key": "FSFHauling.verb",
+      "kind": "DefInjected",
+      "defType": "WorkTypeDef",
+      "text": "搬运"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "FSF复杂工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.1.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "修改设置后需重启游戏。\n若在已有存档中启用新的工作类型，现有机械体需要重新替换才能获得新工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.4.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "复杂工作设置"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.6.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将异常研究相关工作归入黑暗研究"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.8.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将其他工作类型中的Anomaly任务移入黑暗研究，并把社交能力纳入该工作类型的要求。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.11.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "征召时执行工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.13.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "允许征召状态下执行工作，无需反复取消征召和重新征召。\n注意：少数任务仍可能无法在征召时执行，或会强制取消征召。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.16.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "灭火工作包含救援"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.18.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "为灭火工作添加救援任务，使执行灭火工作的角色先救援倒地友军，再灭火。\n注意：虽然它可替代独立救援工作类型，但两项同时启用也没有问题。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.21.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "解除理念角色的工作及武器限制"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.23.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "移除所有理念角色禁用的工作类型和武器限制。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.26.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "允许机械体执行更多工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.28.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将工作任务的canBeDoneByMechs由false改为true。\n注意：部分任务缺少额外代码补丁时会破坏游戏，因此不包含这些任务。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.31.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "允许奴隶执行更多工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.33.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "允许奴隶执行除看守以外的全部工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.41.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立清除污染工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.43.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将清除污染任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.46.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立清雪工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.48.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将清雪任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.51.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立改信工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.53.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将改信任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.56.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立入侵工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.58.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将全部入侵相关任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.61.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立机械体工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.63.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将全部机械体相关任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.66.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立合并堆叠工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.68.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将合并堆叠任务从搬运划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.71.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立涂色工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.73.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将全部涂色相关任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.76.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立囚犯照料工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.78.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将全部囚犯照料任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.81.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立修剪工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.83.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将全部修剪相关任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.86.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立救援工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.88.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "添加专门救援倒地友军的独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.91.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立自我治疗工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.93.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将全部自我治疗相关任务划分为独立工作类型。角色仍需开启自我治疗选项；此工作让角色能治疗自己而无需负责其他人的医疗工作。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.96.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立屠宰工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.98.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将全部动物屠宰相关任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.101.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立打磨工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.103.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将全部表面打磨相关任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.106.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立驯服工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.108.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将全部动物驯服相关任务划分为独立工作类型。"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.111.label",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "独立教学工作"
+    },
+    {
+      "key": "FrozenSnowFoxComplexJobsSettings.settings.113.text",
+      "kind": "DefInjected",
+      "defType": "XmlExtensions.SettingsMenuDef",
+      "text": "将儿童教学任务从育儿划分为独立工作类型。"
+    }
+  ]
+}
+

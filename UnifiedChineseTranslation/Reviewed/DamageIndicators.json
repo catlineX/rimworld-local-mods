@@ -1,0 +1,21 @@
+{
+  "directory": "DamageIndicators",
+  "packageId": "caesarv6.damageindicators",
+  "name": "Damage Indicators [1.6]",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "PERSONALSHIELD_BROKEN",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "护盾破裂"
+    },
+    {
+      "key": "DM_MISS",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "未命中"
+    }
+  ]
+}
+

@@ -1,0 +1,81 @@
+{
+  "directory": "PolarisCore",
+  "packageId": "vanya.polarisbloc.corelab.tmp",
+  "name": "Polarisbloc - Core LAB tmp port",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "Polarisbloc.NanoRepairHazeIntervalValue",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0} ticks（游戏刻）"
+    },
+    {
+      "key": "PolarisCharm.stages.0.label",
+      "kind": "DefInjected",
+      "defType": "ThoughtDef",
+      "text": "魅力"
+    },
+    {
+      "key": "PolarisCartridge.comps.2.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "使用弹药包"
+    },
+    {
+      "key": "PolarisBondorudoDiary.comps.0.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "解读黎明卿的日记"
+    },
+    {
+      "key": "PolarisCombatChipConverter.comps.1.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "使用转换器"
+    },
+    {
+      "key": "PolarisCombatChipConverter.verbs.0.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "使用转换器"
+    },
+    {
+      "key": "PolarisOrbitalTraderCaller.comps.0.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "呼叫{0}"
+    },
+    {
+      "key": "PolarisMechSerumTraitreleaser.comps.0.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "使用特性释放器获得{0}"
+    },
+    {
+      "key": "PolarisMomeryRester.comps.0.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "使用记忆重置器获得{0}"
+    },
+    {
+      "key": "PolarisVoidKey.comps.0.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "使用虚空之钥"
+    },
+    {
+      "key": "PolarisDecoder.comps.0.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "使用生物编码破译器"
+    },
+    {
+      "key": "PolarisIdeoCode.comps.1.useLabel",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "使用{0}"
+    }
+  ]
+}
+

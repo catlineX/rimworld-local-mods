@@ -1,0 +1,39 @@
+{
+  "directory": "ReplaceStuff",
+  "packageId": "memegoddess.replacestuff",
+  "name": "Replace Stuff - Continued",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "TD.ReplaceStuff",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "替换材料（Replace Stuff）"
+    },
+    {
+      "key": "TD.SettingsPreferredBridge",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "需要桥梁时优先指定的桥梁顺序："
+    },
+    {
+      "key": "TD.SettingsBridgeResources",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "先选择已有资源足够建造的桥，再按此列表顺序选择。拖动可调整顺序。"
+    },
+    {
+      "key": "TD.ReplacementAlreadyInProgess",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "替换已在进行。"
+    },
+    {
+      "key": "Vent_Over2W.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "跨墙通风口（宽型）"
+    }
+  ]
+}
+

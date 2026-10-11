@@ -1,0 +1,45 @@
+{
+  "directory": "MedicalTab",
+  "packageId": "memegoddess.medicaltab",
+  "name": "Medical Tab - Continued",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "MedicalTab_MedicalCare.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "医疗照料"
+    },
+    {
+      "key": "MedicalTab.Shift",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Shift"
+    },
+    {
+      "key": "MedicalTab.Alt",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Alt"
+    },
+    {
+      "key": "MedicalTab.Ctrl",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Ctrl"
+    },
+    {
+      "key": "MedicalTab.FilterHealthyOn",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "只显示健康状况并非完全正常的角色。\n\n点击显示全部角色。"
+    },
+    {
+      "key": "MedicalTab.FilterHealthyOff",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示全部角色。\n\n点击只显示健康状况并非完全正常的角色。"
+    }
+  ]
+}
+

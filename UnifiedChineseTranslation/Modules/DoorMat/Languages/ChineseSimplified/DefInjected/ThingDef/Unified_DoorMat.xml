@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LT_DoorMatLeather.label>门垫</LT_DoorMatLeather.label>
+  <LT_DoorMatCheckerLeather.label>格纹门垫</LT_DoorMatCheckerLeather.label>
+  <LT_DoorMatBigLeather.label>大型门垫</LT_DoorMatBigLeather.label>
+  <LT_DoorMatBigCheckerLeather.label>大型格纹门垫</LT_DoorMatBigCheckerLeather.label>
+  <LT_DoorMatOrange.label>门垫（橙色）</LT_DoorMatOrange.label>
+  <LT_DoorMatTeal.label>门垫（蓝绿色）</LT_DoorMatTeal.label>
+  <LT_DoorMatBigOrange.label>大型门垫（橙色）</LT_DoorMatBigOrange.label>
+  <LT_DoorMatBigTeal.label>大型门垫（蓝绿色）</LT_DoorMatBigTeal.label>
+</LanguageData>

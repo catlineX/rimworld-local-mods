@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ALConfigShearCorpsesLabel>屠宰时收取羊毛</ALConfigShearCorpsesLabel>
+  <ALConfigShearCorpsesTooltip>仅适用于原版剪毛组件，不适用于部分模组的特殊产物机制。</ALConfigShearCorpsesTooltip>
+  <ALConfigTamingAgeFactorLabel>幼年动物更易驯服和训练</ALConfigTamingAgeFactorLabel>
+  <ALConfigTamingAgeFactorTooltip>按年龄比例降低未成年动物的有效野性，使其更易驯服和训练。新生动物变化最大，接近成年时影响很小。</ALConfigTamingAgeFactorTooltip>
+  <ALConfigToxicBuildupRotLabel>毒素累积腐烂概率倍率：{0}%</ALConfigToxicBuildupRotLabel>
+</LanguageData>

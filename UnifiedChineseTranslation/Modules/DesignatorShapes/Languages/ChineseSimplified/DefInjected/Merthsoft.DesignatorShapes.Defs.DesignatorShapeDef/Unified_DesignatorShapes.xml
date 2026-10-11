@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LineFreeform.label>自由线条</LineFreeform.label>
+  <LineFreeform.description>像用画笔一样按自由线条指定操作。</LineFreeform.description>
+  <GridThreeByThree.label>3×3网格</GridThreeByThree.label>
+  <GridThreeByThree.description>按3×3网格指定操作。</GridThreeByThree.description>
+  <GridFourByFour.label>4×4网格</GridFourByFour.label>
+  <GridFourByFour.description>按4×4网格指定操作。</GridFourByFour.description>
+  <GridFiveByFive.label>5×5网格</GridFiveByFive.label>
+  <GridFiveByFive.description>按5×5网格指定操作。</GridFiveByFive.description>
+  <GridSixBySix.label>6×6网格</GridSixBySix.label>
+  <GridSixBySix.description>按6×6网格指定操作。</GridSixBySix.description>
+  <GridSevenBySeven.label>7×7网格</GridSevenBySeven.label>
+  <GridSevenBySeven.description>按7×7网格指定操作。</GridSevenBySeven.description>
+  <GridSizeInput.label>自定义网格</GridSizeInput.label>
+  <GridSizeInput.description>按自定义尺寸的网格指定操作。</GridSizeInput.description>
+  <GridThreeByThreeInverse.label>反向3×3网格</GridThreeByThreeInverse.label>
+  <GridThreeByThreeInverse.description>按反向3×3网格指定操作。</GridThreeByThreeInverse.description>
+  <GridFourByFourInverse.label>反向4×4网格</GridFourByFourInverse.label>
+  <GridFourByFourInverse.description>按反向4×4网格指定操作。</GridFourByFourInverse.description>
+  <GridFiveByFiveInverse.label>反向5×5网格</GridFiveByFiveInverse.label>
+  <GridFiveByFiveInverse.description>按反向5×5网格指定操作。</GridFiveByFiveInverse.description>
+  <GridSixBySixInverse.label>反向6×6网格</GridSixBySixInverse.label>
+  <GridSixBySixInverse.description>按反向6×6网格指定操作。</GridSixBySixInverse.description>
+  <GridSevenBySevenInverse.label>反向7×7网格</GridSevenBySevenInverse.label>
+  <GridSevenBySevenInverse.description>按反向7×7网格指定操作。</GridSevenBySevenInverse.description>
+  <GridSizeInputInverse.label>自定义反向网格</GridSizeInputInverse.label>
+  <GridSizeInputInverse.description>按自定义尺寸的反向网格指定操作。</GridSizeInputInverse.description>
+  <MidpointHexagon.label>中心六边形</MidpointHexagon.label>
+  <MidpointHexagon.description>从中心绘制六边形并指定操作。</MidpointHexagon.description>
+  <MidpointHexagonFilled.label>中心实心六边形</MidpointHexagonFilled.label>
+  <MidpointHexagonFilled.description>从中心绘制实心六边形并指定操作。</MidpointHexagonFilled.description>
+</LanguageData>

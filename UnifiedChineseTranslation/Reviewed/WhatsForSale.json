@@ -1,0 +1,56 @@
+{
+  "directory": "WhatsForSale",
+  "packageId": "kikohi.whatsforsale",
+  "name": "What's for sale?",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "WDYS",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "出售什么？（What's for sale?）"
+    },
+    {
+      "key": "WDYS.GlobalStockTab",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "全局搜索面板"
+    },
+    {
+      "key": "WDYS.MaxDays",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "只查询距谈判者所在聚落／远行队不超过{0}个世界格的聚落商品"
+    },
+    {
+      "key": "WDYS.NoTrader",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "没有可用商人"
+    },
+    {
+      "key": "WDYS.TilesAway",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "{0}距离{1}个世界格"
+    },
+    {
+      "key": "WDYS.EnableMaxTile",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用距离筛选"
+    },
+    {
+      "key": "WDYS.NoPath",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "无法步行到达。"
+    },
+    {
+      "key": "WDYS.OnlyShowReachable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "仅显示可到达聚落的商品"
+    }
+  ]
+}

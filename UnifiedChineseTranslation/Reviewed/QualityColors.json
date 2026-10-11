@@ -1,0 +1,117 @@
+{
+  "directory": "QualityColors",
+  "packageId": "dawnsglow.qualcolor",
+  "name": "Quality Colors (Continued)",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "QualityColors",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "品质颜色"
+    },
+    {
+      "key": "QualityColors.Colors.Label",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "更改颜色"
+    },
+    {
+      "key": "QualityColors.Change",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "修改{0}的颜色"
+    },
+    {
+      "key": "QualityColors.Presets",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "切换预设"
+    },
+    {
+      "key": "QualityColors.Presets.Default",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "默认"
+    },
+    {
+      "key": "QualityColors.Presets.Legacy",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "旧版模组配色"
+    },
+    {
+      "key": "QualityColors.Presets.RPGStyleInventoryMod",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "RPG Style Inventory模组配色"
+    },
+    {
+      "key": "QualityColors.Presets.WoW",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "魔兽世界风格配色"
+    },
+    {
+      "key": "QualityColors.Presets.Colorblind",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "色盲模式（作者对可能的不完善表示歉意）"
+    },
+    {
+      "key": "QualityColors.Presets.FFXIV",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "最终幻想14配色（Erin提供）"
+    },
+    {
+      "key": "QualityColors.Apply",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "应用"
+    },
+    {
+      "key": "QualityColors.Red",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "红："
+    },
+    {
+      "key": "QualityColors.Blue",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "蓝："
+    },
+    {
+      "key": "QualityColors.Green",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "绿："
+    },
+    {
+      "key": "QualityColors.Preview",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "预览："
+    },
+    {
+      "key": "QualityColors.Changing",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "正在修改{0}"
+    },
+    {
+      "key": "QualityColors.FullLabelInInspectPane.Label",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "为信息面板中的整个标题着色（选中物品时的左下方面板）"
+    },
+    {
+      "key": "QualityColors.FullLabelInInspectPane.Tooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "选中物品时，为信息面板中显示的完整标题文字着色。"
+    }
+  ]
+}
+

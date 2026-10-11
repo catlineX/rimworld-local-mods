@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IF_MeditrainTable.label>医疗训练台（Meditrain）</IF_MeditrainTable.label>
+  <IF_MeditrainTable.description>医生通过在尸体上练习医疗技术来提高技能。</IF_MeditrainTable.description>
+</LanguageData>

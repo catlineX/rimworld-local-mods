@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HAR_Xenophobia.degreeDatas.0.label>仇视异族</HAR_Xenophobia.degreeDatas.0.label>
+  <HAR_Xenophobia.degreeDatas.0.description>[PAWN_nameDef]厌恶且不信任异族，认为他们与动物无异。</HAR_Xenophobia.degreeDatas.0.description>
+  <HAR_Xenophobia.degreeDatas.1.label>喜爱异族</HAR_Xenophobia.degreeDatas.1.label>
+  <HAR_Xenophobia.degreeDatas.1.description>[PAWN_nameDef]认为异族新奇有趣，乐于进一步了解他们，也不介意与他们建立关系。</HAR_Xenophobia.degreeDatas.1.description>
+</LanguageData>

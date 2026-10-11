@@ -1,0 +1,23 @@
+{
+  "directory": "NiceBillTab",
+  "packageId": "andromeda.nicebilltab",
+  "name": "Nice Bill Tab",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "CEmmShort",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "mm"
+    },
+    {
+      "key": "WeaponFireRateTooltip",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "射速表示每秒发射次数，计入冷却时间和连射中各发之间的间隔。\n\n{0} / ({1} + {2}) = {3}",
+      "original": "Fire rate shows the number of shots per second. It includes cooldown and delays between shots in the burst.\\n\\n{0} / ({1} + {2}) = {3}",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\3520130671\\Languages\\English\\Keyed\\Common.xml",
+      "correction": "已对照当前原文，补回变量或修正语义"
+    }
+  ]
+}

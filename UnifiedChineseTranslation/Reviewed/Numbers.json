@@ -1,0 +1,215 @@
+{
+  "directory": "Numbers",
+  "packageId": "mehni.numbers",
+  "name": "Numbers",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "Numbers_ColonistNeedsPreset.label",
+      "kind": "DefInjected",
+      "defType": "PawnTableDef",
+      "text": "殖民者需求"
+    },
+    {
+      "key": "Numbers_WildMen.label",
+      "kind": "DefInjected",
+      "defType": "PawnTableDef",
+      "text": "野人"
+    },
+    {
+      "key": "Numbers_LeatherType.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "皮革类型"
+    },
+    {
+      "key": "Numbers_Psyfocus.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "灵能专注度"
+    },
+    {
+      "key": "Numbers_Entropy.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "神经热"
+    },
+    {
+      "key": "Numbers_PsylinkLevel.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "灵能等级"
+    },
+    {
+      "key": "Numbers_Inventory.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "随身物品"
+    },
+    {
+      "key": "Numbers_InventoryDropAll.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "丢下全部随身物品"
+    },
+    {
+      "key": "Numbers_TameChance.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "驯服概率"
+    },
+    {
+      "key": "Numbers_Faction.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "派系"
+    },
+    {
+      "key": "Numbers_AnimalFilthRate.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "污物产生率"
+    },
+    {
+      "key": "Numbers_Meditation.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "冥想专注"
+    },
+    {
+      "key": "Numbers_Areas.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "允许活动区域"
+    },
+    {
+      "key": "Numbers_Traits.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "特性"
+    },
+    {
+      "key": "Numbers_Bandwidth.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "带宽"
+    },
+    {
+      "key": "Numbers_Endogenes.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "内源基因"
+    },
+    {
+      "key": "Numbers_Xenogenes.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "异种基因"
+    },
+    {
+      "key": "Numbers_GenesRegrowTime.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "基因再生"
+    },
+    {
+      "key": "Numbers_Guilt.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "罪责"
+    },
+    {
+      "key": "Numbers_Ideology.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "理念"
+    },
+    {
+      "key": "Numbers_Will.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "意志"
+    },
+    {
+      "key": "Numbers_FoodConsumption.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "食物消耗"
+    },
+    {
+      "key": "Numbers_Strip.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "剥除衣物"
+    },
+    {
+      "key": "Numbers_Recruitable.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "坚定忠诚"
+    },
+    {
+      "key": "Numbers_IdeologyCertainty.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "理念坚定度"
+    },
+    {
+      "key": "Numbers_ToxicBuildup.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "毒素累积"
+    },
+    {
+      "key": "Numbers_CaravanCarryingCapacity.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "远行队携带能力"
+    },
+    {
+      "key": "Numbers_ExtractSkull.label",
+      "kind": "DefInjected",
+      "defType": "PawnColumnDef",
+      "text": "提取头骨"
+    },
+    {
+      "key": "Numbers_Presets.Psycasting",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "灵能施放"
+    },
+    {
+      "key": "Numbers_coolerThanTheAnimalTab",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "让Numbers动物列表取代原版动物面板。"
+    },
+    {
+      "key": "Numbers_useSmolFont",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "标题使用极小字体（实验功能）"
+    },
+    {
+      "key": "Numbers_resetToDefault",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "将列表列设置恢复默认。"
+    },
+    {
+      "key": "Numbers_showWildMenTable",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "启用野人列表"
+    },
+    {
+      "key": "Numbers_SetAsDefaultExplanation",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "将当前视图设为此类视图（{0}）的默认布局。\n\n新殖民地将使用此视图。\n\n可在模组设置中删除：\n  [菜单] => [选项] => [模组选项] => [Numbers]。",
+      "original": "Set the current view as the default for this type of view ({0}).\\n\\nThis view will then be used for new colonies.\\n\\nCan be deleted in the mod settings:\\n  [Menu] => [Options] => [Mod settings] => [Numbers].",
+      "source": "F:\\SteamLibrary\\steamapps\\workshop\\content\\294100\\1414302321\\Languages\\English\\Keyed\\Keys.xml",
+      "correction": "已对照当前原文，补回变量或修正语义"
+    }
+  ]
+}

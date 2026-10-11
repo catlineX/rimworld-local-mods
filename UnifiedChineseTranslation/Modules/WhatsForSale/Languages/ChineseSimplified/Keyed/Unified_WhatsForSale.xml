@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WDYS>出售什么？（What's for sale?）</WDYS>
+  <WDYS.GlobalStockTab>全局搜索面板</WDYS.GlobalStockTab>
+  <WDYS.MaxDays>只查询距谈判者所在聚落／远行队不超过{0}个世界格的聚落商品</WDYS.MaxDays>
+  <WDYS.NoTrader>没有可用商人</WDYS.NoTrader>
+  <WDYS.TilesAway>{0}距离{1}个世界格</WDYS.TilesAway>
+  <WDYS.EnableMaxTile>启用距离筛选</WDYS.EnableMaxTile>
+  <WDYS.NoPath>无法步行到达。</WDYS.NoPath>
+  <WDYS.OnlyShowReachable>仅显示可到达聚落的商品</WDYS.OnlyShowReachable>
+</LanguageData>

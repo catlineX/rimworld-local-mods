@@ -1,0 +1,123 @@
+{
+  "directory": "UsefulMarks",
+  "packageId": "andromeda.usefulmarks",
+  "name": "Useful Marks",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "Marker_Shooter",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "射手"
+    },
+    {
+      "key": "Marker_Sniper",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "狙击手"
+    },
+    {
+      "key": "Marker_Grenadier",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "掷弹兵"
+    },
+    {
+      "key": "Marker_Demolitionist",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "导弹兵"
+    },
+    {
+      "key": "SkillValue",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "数值"
+    },
+    {
+      "key": "ObsoletedWarning",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "已失效，请重新添加"
+    },
+    {
+      "key": "ConditionHoldingWeaponThing",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "武器"
+    },
+    {
+      "key": "ConditionHoldingWeaponStat",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "武器属性"
+    },
+    {
+      "key": "ConditionWearingApparelStat",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "服装属性"
+    },
+    {
+      "key": "ConditionAttackRange",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "攻击距离"
+    },
+    {
+      "key": "ConditionTechLevel",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "科技等级"
+    },
+    {
+      "key": "ConditionIsRanged",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是远程武器"
+    },
+    {
+      "key": "ConditionIsGrenade",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "是手榴弹"
+    },
+    {
+      "key": "ConditionBiocoded",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "生物编码"
+    },
+    {
+      "key": "ConditionPawnAge",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "角色年龄"
+    },
+    {
+      "key": "AddMarkers",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "添加标记"
+    },
+    {
+      "key": "Presets",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "预设"
+    },
+    {
+      "key": "PresetLoaded",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "预设已加载"
+    },
+    {
+      "key": "PresetName",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "预设名称"
+    }
+  ]
+}
+

@@ -1,0 +1,93 @@
+{
+  "directory": "TerraformingDevices",
+  "packageId": "tug.terraformerpumps",
+  "name": "Terraforming Devices",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "Pump_SoilStabilizer.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "土壤改良注入器"
+    },
+    {
+      "key": "Pump_SoilStabilizer.description",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "将沙地、砾石土、覆苔土和肥沃土壤转为普通土壤。利用土壤结合技术和微电流刺激改善贫瘠土地，并将富营养土壤调整为适合耕作的普通土壤。"
+    },
+    {
+      "key": "Pump_SoilRich.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "肥沃土壤注入器"
+    },
+    {
+      "key": "Pump_SoilRich.description",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "通过电解和微电流刺激促进微生物活动与养分循环，逐渐将普通土壤转为肥沃土壤。"
+    },
+    {
+      "key": "Pump_TerrainToShallowWater.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "水分注入器"
+    },
+    {
+      "key": "Pump_TerrainToShallowWater.description",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "逐渐向地形补水，将普通土壤、砾石土、覆苔土、沼泽、沼泽土及淤泥转为浅水；沙地和软沙转为浅海水。"
+    },
+    {
+      "key": "Pump_WaterDeep.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "深水注入器"
+    },
+    {
+      "key": "Pump_WaterDeep.description",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "通过控制水流逐渐加深水域，使其无法通行。浅水和沼泽转为深水，浅海水转为深海水。可用于改造水域或形成天然防线。"
+    },
+    {
+      "key": "Pump_WaterShallow.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "深水排水泵"
+    },
+    {
+      "key": "Pump_WaterShallow.description",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "逐渐排水，将深水转为浅水、深海水转为浅海水，以便进一步开垦土地和调整水域布局。"
+    },
+    {
+      "key": "Pump_GravelInjector.label",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "砾石土注入器"
+    },
+    {
+      "key": "Pump_GravelInjector.description",
+      "kind": "DefInjected",
+      "defType": "ThingDef",
+      "text": "利用振动和微震逐渐将多种表层地形转为砾石土。可作用于沙地、普通土壤、覆苔地形、粗糙岩面（砂岩、花岗岩、石灰岩、板岩和大理石）、夯实泥地及破损沥青。"
+    },
+    {
+      "key": "ReinforcedDeepWaterBridge.label",
+      "kind": "DefInjected",
+      "defType": "TerrainDef",
+      "text": "加固桥梁"
+    },
+    {
+      "key": "ReinforcedDeepWaterBridge.description",
+      "kind": "DefInjected",
+      "defType": "TerrainDef",
+      "text": "由结实木梁支撑的加固钢制桥面，可建于浅水及深水注入器形成的水域之上。受到足够伤害时仍会倒塌，桥上的建筑也会随之坍塌。"
+    }
+  ]
+}
+

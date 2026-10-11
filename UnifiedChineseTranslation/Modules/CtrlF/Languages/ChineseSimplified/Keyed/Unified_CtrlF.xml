@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TD.CtrlFSearch>Ctrl-F搜索</TD.CtrlFSearch>
+  <TD.CtrlF>Ctrl-F</TD.CtrlF>
+  <TD.CtrlFFoundThings>Ctrl-F搜索结果</TD.CtrlFFoundThings>
+  <TD.DoesNotRefreshWhenPaused>（暂停时不刷新）</TD.DoesNotRefreshWhenPaused>
+  <TD.ToggleToKeepThisWindowOpen>开启后，关闭搜索窗口时仍保留此窗口。
+
+右键点击重新打开搜索窗口。</TD.ToggleToKeepThisWindowOpen>
+  <TD.ViewInCtrlF>在Ctrl-F中查看</TD.ViewInCtrlF>
+  <TD.ShowSearchButton>在按钮栏显示搜索按钮</TD.ShowSearchButton>
+</LanguageData>

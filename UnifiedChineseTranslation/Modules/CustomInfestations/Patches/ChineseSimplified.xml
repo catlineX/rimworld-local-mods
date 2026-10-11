@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/label</xpath>
+    <value><label>自定义虫灾（继续版）</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[1]/text</xpath>
+    <value><text>禁止虫灾</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="ForbidOnBuildings"]/label</xpath>
+    <value><label>禁止虫灾在有建筑的格子生成</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="ForbidOnStoneFloor"]/label</xpath>
+    <value><label>禁止虫灾在石质地板上生成（需重启）</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="ForbidOnSteelFloor"]/label</xpath>
+    <value><label>禁止虫灾在钢制地板上生成（需重启）</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="ForbidOnConcreteFloor"]/label</xpath>
+    <value><label>禁止虫灾在混凝土地板上生成（需重启）</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="ForbidOnPavedFloor"]/label</xpath>
+    <value><label>禁止虫灾在铺砌地板上生成（需重启）</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="ForbidOnPreciousFloor"]/label</xpath>
+    <value><label>禁止虫灾在银/金地板上生成（需重启）</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="ForbidOnSterileFloor"]/label</xpath>
+    <value><label>禁止虫灾在无菌地板上生成（需重启）</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="ForbidOnCarpetFloor"]/label</xpath>
+    <value><label>禁止虫灾在地毯地板上生成（需重启）</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[1]/text</xpath>
+    <value><text>禁止虫灾</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li/text[.="Thresholds"]</xpath>
+    <value><text>生成阈值</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="MaxDistanceToColonyBuilding"]/label</xpath>
+    <value><label>距殖民地建筑的最大距离</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="SmallestClosedArea"]/label</xpath>
+    <value><label>考虑的最小封闭区域</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="MinimumScore"]/label</xpath>
+    <value><label>考虑的最低分数 - {MinimumScore}</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="MinimumMountainousness"]/label</xpath>
+    <value><label>最低山地程度 - {MinimumMountainousness}</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li/text[.="Lighting"]</xpath>
+    <value><text>光照</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="BrightestLightClamp"]/label</xpath>
+    <value><label>最亮光照阈值 - {BrightestLightClamp}</label></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="MaximumLightAttenuation"]/label</xpath>
+    <value><label>最大光照衰减 - {MaximumLightAttenuation}</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li/text[.="Temperature"]</xpath>
+    <value><text>温度</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li[key="TemperatureCurveExponent"]/label</xpath>
+    <value><label>温度衰减曲线 - {TemperatureCurveExponent}</label></value>
+  </Operation>
+
+  <!-- Explanatory text -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li/text[contains(. ,"Cells further than this") ]</xpath>
+    <value><text>距离任意殖民地建筑超过此数值的格子永远不会被选中。提高该值会允许虫灾在离基地更远的地方生成。原版：30</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li/text[contains(. ,"Cells scoring below this") ]</xpath>
+    <value><text>低于此分数的格子永远不会被选中。降低该值会让地图上更多区域符合生成条件。原版：7.5</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li/text[contains(. ,"How much surrounding rock") ]</xpath>
+    <value><text>格子周围需要的岩石和厚屋顶程度。降低该值会允许虫灾在较薄的山体边缘生成。原版：0.17</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li/text[contains(. ,"At what value of lighting") ]</xpath>
+    <value><text>达到哪个光照值时使用最大的光照衰减（0.0-0.3为黑暗，0.3-0.9为有光，0.9-1.0为明亮）。原版：1.00</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li/text[contains(. ,"How much are we reducing") ]</xpath>
+    <value><text>在最亮光照下，将虫灾分数降低多少（分数 ×（1 - 衰减值））。设为 1.00 可让完全照亮的格子完全安全。原版：0.82</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings//text[contains(. ,"The full temperature range") ]</xpath>
+    <value><text>允许虫灾生成的完整温度范围（摄氏度）</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings//text[contains(. ,"The temperature range") ]</xpath>
+    <value><text>虫灾概率不受温度影响的温度范围（摄氏度）</text></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/XmlExtensions.SettingsMenuDef[defName="CustomInfestationsContinued_Menu"]/settings/li/text[contains(. ,"Shapes how sharply") ]</xpath>
+    <value><text>控制不安全温度区间内分数下降的幅度。高于 1 会更严厉地惩罚接近冰点的格子。原版：1.20</text></value>
+  </Operation>
+</Patch>

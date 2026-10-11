@@ -1,0 +1,122 @@
+{
+  "directory": "DevInYourLanguage",
+  "packageId": "latta.devl10n",
+  "name": "Dev In Your Language",
+  "reviewedBy": "manual-source-review",
+  "entries": [
+    {
+      "key": "DebugAction_EditEffecter",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "编辑特效器（Effecter）……"
+    },
+    {
+      "key": "DebugAction_TriggerMaintainedEffecter",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "触发持续特效器……"
+    },
+    {
+      "key": "DebugAction_TriggerMaintainedEffecter5S",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "触发持续特效器（5秒）……"
+    },
+    {
+      "key": "DebugAction_TriggerMaintainedEffecter12S",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "触发持续特效器（12秒）……"
+    },
+    {
+      "key": "EnableTranslationWindowInEnglish",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "英文语言下也启用翻译窗口"
+    },
+    {
+      "key": "PauseOnError",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "出错时暂停"
+    },
+    {
+      "key": "ShowHiddenPawns",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示隐藏角色"
+    },
+    {
+      "key": "ShowHiddenInfo",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示隐藏信息"
+    },
+    {
+      "key": "AnomalyDarkeningFX",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "Anomaly黑暗特效"
+    },
+    {
+      "key": "FastMonolithRespawn",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "快速重生巨石"
+    },
+    {
+      "key": "SearchIgnoresRestrictions",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "搜索忽略限制"
+    },
+    {
+      "key": "SingleThreadedDrawing",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "单线程绘制"
+    },
+    {
+      "key": "DrawPatherState",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示寻路器状态"
+    },
+    {
+      "key": "DrawNonCombatantTimer",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示非战斗人员计时器"
+    },
+    {
+      "key": "DrawHateChanterPositions",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示恶咒吟诵者位置"
+    },
+    {
+      "key": "DrawDarknessOverlay",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示黑暗覆盖"
+    },
+    {
+      "key": "DrawMapGraphs",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示地图图结构"
+    },
+    {
+      "key": "DrawMapRooms",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示地图房间"
+    },
+    {
+      "key": "DrawShamblerAlertMote",
+      "kind": "Keyed",
+      "defType": "",
+      "text": "显示蹒跚怪警戒特效"
+    }
+  ]
+}

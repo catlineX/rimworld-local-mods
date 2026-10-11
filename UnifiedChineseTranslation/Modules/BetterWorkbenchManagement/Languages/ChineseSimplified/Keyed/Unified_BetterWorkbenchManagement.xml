@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <IW.OutputFilterLabel>计入额外物品</IW.OutputFilterLabel>
+  <IW.OutputFilterTitle>同时计入这些产物：</IW.OutputFilterTitle>
+  <IW.CountOutsideStockpiles>计入储存区外的资源</IW.CountOutsideStockpiles>
+  <IW.CountOutsideStockpilesDesc>原版问题会使食物、药物等资源在储存区外不被计数。开启可修正；若其他模组已修正，可关闭。</IW.CountOutsideStockpilesDesc>
+  <IW.CountCarriedByNonHumans>计入非人类携带的资源</IW.CountCarriedByNonHumans>
+  <IW.CountCarriedByNonHumansDesc>原版问题会使动物、机械体或远行队动物携带的食物、药物等资源不被计数。开启可修正。</IW.CountCarriedByNonHumansDesc>
+</LanguageData>
