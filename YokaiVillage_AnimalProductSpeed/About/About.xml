@@ -3,15 +3,16 @@
   <name>Yokai Village - Animal Product Speed</name>
   <author>Local patch</author>
   <packageId>local.xuewen.yokaivillage.animalproductspeed</packageId>
-  <modVersion>1.0.0</modVersion>
+  <modVersion>1.1.0</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <description>Adjusts Yokai Village animal product generation: Hiirokabe metal 10x, Nine-tail wool 10x, Yuki Shizuku snow milk 50x, and Tusk spirit dragon tusks 50x.</description>
+  <description>妖怪村产物速率调整：日绯色壁产物10倍、九尾狐毛10倍、月牙精灵50倍、尖牙精灵50倍、长臂及其变体的头发2倍。只调整生产周期或所需点数，每批数量和原有产出条件不变。</description>
   <modDependencies>
     <li>
       <packageId>YokaiMura.1.32</packageId>
       <displayName>Yokai Village</displayName>
     </li>
   </modDependencies>
+  <loadAfter><li>YokaiMura.1.32</li></loadAfter>
 </ModMetaData>

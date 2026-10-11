@@ -2,6 +2,15 @@
 
 ## 当前修改
 
+- 长臂及变体 `Yokai_Tenaga`、`Yokai_TenagaH`（2026-10-12，版本1.1.0）
+  - 产物：`Yokai_TenagaHair`（头发）
+  - 原参数：`pointPerSecond=1`、`needPoint=5000`
+  - 新参数：`pointPerSecond=1`、`needPoint=2500`
+  - 效果：产出频率2倍，理论满条件周期由5游戏日缩短为2.5游戏日
+  - 每批数量不变：普通型5个，另一变体1个
+  - 玩家派系与家园区域等产出条件不变；其他已有倍率不变
+  - 按用户要求仅用Git管理，不新增文件备份；此前版本可从提交 `b65157b` 恢复
+
 - 九尾狐 `Yokai_NineTail`
   - 原参数：`shearIntervalDays=30`
   - 新参数：`shearIntervalDays=3`
@@ -40,7 +49,8 @@
 
 ## 回退方式
 
-- 在 Mod 列表中禁用并删除本地补丁目录即可恢复妖怪村原始定义。
+- 在 Mod 列表中禁用本地补丁并重启即可恢复妖怪村原始定义，无需删除目录。
+- 仅回退长臂2倍改动：从Git提交 `b65157b` 恢复本模组的对应文件，再验证和部署。先提交需保留的当前改动，不使用整仓硬重置。
 - 原始文件备份位于：
   `D:/learn/openCode/content/game-data/rimworld/backups/20261008-060505-YokaiVillage-animal-products-before-speed-patch/`
 - 备份对象：
