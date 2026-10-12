@@ -6,6 +6,10 @@ $known = @{}
 foreach ($e in $candidates) { $known[$e.packageId+'|'+$e.kind+'|'+$e.defType+'|'+$e.key] = $e }
 $index = Get-Content -Raw -Encoding UTF8 -LiteralPath (Join-Path $root 'Modules/index.json') | ConvertFrom-Json
 $modules = @($index.modules | Where-Object { $_.source -eq 'migrated-local-translation' })
+$pathCorrections=@{}
+foreach($p in (Get-Content (Join-Path $root 'PathCorrections.json') -Raw -Encoding UTF8 | ConvertFrom-Json)){
+    $pathCorrections[$p.module+'|'+$p.oldKind+'|'+$p.oldDefType+'|'+$p.oldKey]=$p
+}
 function Tokens([string]$text) { (([regex]::Matches($text,'\{[^{}]+\}|\[[^\[\]]+\]') | ForEach-Object { $_.Value } | Sort-Object) -join '|') }
 function Find-OriginalField($map, $entry) {
     $parts=$entry.key.Split('.')
@@ -47,9 +51,12 @@ foreach ($file in (Get-ChildItem -LiteralPath (Join-Path $root 'Reviewed') -Filt
             if ($source.original.Split(@('->'),[StringSplitOptions]::None)[0] -cne $entry.text.Split(@('->'),[StringSplitOptions]::None)[0]) { throw "Rule grammar changed: $($entry.key)" }
         }
         $group = 'Keyed'
-        if ($entry.kind -eq 'DefInjected') { $group = 'DefInjected/' + $entry.defType }
+        $outputEntry=$entry
+        $correction=$pathCorrections[$map.directory+'|'+$entry.kind+'|'+$entry.defType+'|'+$entry.key]
+        if($correction){$outputEntry=[pscustomobject]@{key=$correction.key;kind=$correction.kind;defType=$correction.defType;text=$entry.text}}
+        if ($outputEntry.kind -eq 'DefInjected') { $group = 'DefInjected/' + $outputEntry.defType }
         if (!$groups.ContainsKey($group)) { $groups[$group] = @() }
-        $groups[$group] += $entry
+        $groups[$group] += $outputEntry
     }
     foreach ($group in $groups.Keys) {
         $xml = New-Object System.Xml.XmlDocument
@@ -68,6 +75,20 @@ foreach ($file in (Get-ChildItem -LiteralPath (Join-Path $root 'Reviewed') -Filt
         try { $xml.Save($writer) } finally { $writer.Dispose() }
     }
     $modules += [pscustomobject]@{ directory=$map.directory; packageId=$map.packageId; name=$map.name; status='reviewed-candidate-texts-static-not-runtime'; entries=$map.entries.Count; source='reviewed-map' }
+}
+# Migrated hand-authored language files receive the same reproducible corrections.
+foreach($module in ($modules | Where-Object {$_.source -eq 'migrated-local-translation'})){
+    foreach($file in Get-ChildItem (Join-Path $root ('Modules/'+$module.directory+'/Languages')) -Recurse -Filter '*.xml' -File){
+        if($file.FullName -notmatch '\\DefInjected\\([^\\]+)\\'){continue};$type=$Matches[1]
+        $xml=[xml](Get-Content $file.FullName -Raw -Encoding UTF8);$changed=$false
+        foreach($node in @($xml.LanguageData.ChildNodes)){
+            if($node.NodeType -ne 'Element'){continue}
+            $p=$pathCorrections[$module.directory+'|DefInjected|'+$type+'|'+$node.Name]
+            if(!$p){continue};if($p.kind -ne 'DefInjected' -or $p.defType -ne $type){throw 'Unsupported migrated category change'}
+            $new=$xml.CreateElement($p.key);$new.InnerText=$node.InnerText;[void]$node.ParentNode.ReplaceChild($new,$node);$changed=$true
+        }
+        if($changed){$xml.Save($file.FullName)}
+    }
 }
 $index.modules = $modules
 $index | ConvertTo-Json -Depth 8 | Set-Content -Encoding UTF8 -LiteralPath (Join-Path $root 'Modules/index.json')

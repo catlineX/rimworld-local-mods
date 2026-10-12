@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PolarisCartridge.comps.2.useLabel>使用弹药包</PolarisCartridge.comps.2.useLabel>
-  <PolarisBondorudoDiary.comps.0.useLabel>解读黎明卿的日记</PolarisBondorudoDiary.comps.0.useLabel>
-  <PolarisCombatChipConverter.comps.1.useLabel>使用转换器</PolarisCombatChipConverter.comps.1.useLabel>
-  <PolarisCombatChipConverter.verbs.0.label>使用转换器</PolarisCombatChipConverter.verbs.0.label>
-  <PolarisOrbitalTraderCaller.comps.0.useLabel>呼叫{0}</PolarisOrbitalTraderCaller.comps.0.useLabel>
-  <PolarisMechSerumTraitreleaser.comps.0.useLabel>使用特性释放器获得{0}</PolarisMechSerumTraitreleaser.comps.0.useLabel>
-  <PolarisMomeryRester.comps.0.useLabel>使用记忆重置器获得{0}</PolarisMomeryRester.comps.0.useLabel>
-  <PolarisVoidKey.comps.0.useLabel>使用虚空之钥</PolarisVoidKey.comps.0.useLabel>
-  <PolarisDecoder.comps.0.useLabel>使用生物编码破译器</PolarisDecoder.comps.0.useLabel>
-  <PolarisIdeoCode.comps.1.useLabel>使用{0}</PolarisIdeoCode.comps.1.useLabel>
+  <PolarisCartridge.comps.CompUsable.useLabel>使用弹药包</PolarisCartridge.comps.CompUsable.useLabel>
+  <PolarisBondorudoDiary.comps.CompUsable.useLabel>解读黎明卿的日记</PolarisBondorudoDiary.comps.CompUsable.useLabel>
+  <PolarisCombatChipConverter.comps.CompUsable.useLabel>使用转换器</PolarisCombatChipConverter.comps.CompUsable.useLabel>
+  <PolarisCombatChipConverter.verbs.use_converter.label>使用转换器</PolarisCombatChipConverter.verbs.use_converter.label>
+  <PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>呼叫{0}</PolarisOrbitalTraderCaller.comps.CompOrbitalTraderCaller.useLabel>
+  <PolarisMechSerumTraitreleaser.comps.CompTraitreleaser.useLabel>使用特性释放器获得{0}</PolarisMechSerumTraitreleaser.comps.CompTraitreleaser.useLabel>
+  <PolarisMomeryRester.comps.CompMomeryRester.useLabel>使用记忆重置器获得{0}</PolarisMomeryRester.comps.CompMomeryRester.useLabel>
+  <PolarisVoidKey.comps.CompUsable.useLabel>使用虚空之钥</PolarisVoidKey.comps.CompUsable.useLabel>
+  <PolarisDecoder.comps.CompUsable.useLabel>使用生物编码破译器</PolarisDecoder.comps.CompUsable.useLabel>
+  <PolarisIdeoCode.comps.CompIdeoCode.useLabel>使用{0}</PolarisIdeoCode.comps.CompIdeoCode.useLabel>
 </LanguageData>

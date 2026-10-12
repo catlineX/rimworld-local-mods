@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <GlitterNet_FightMechanoids.questNameRules.rulesStrings.0>questName-&gt;为冬寂[verb]机械族</GlitterNet_FightMechanoids.questNameRules.rulesStrings.0>
   <GlitterNet_FightMechanoids.questNameRules.rulesStrings.1>questName-&gt;冬寂的机械族[noun_plot]</GlitterNet_FightMechanoids.questNameRules.rulesStrings.1>
@@ -12,8 +12,8 @@
   <GlitterNet_FightMechanoids.questNameRules.rulesStrings.9>noun_plot-&gt;险招</GlitterNet_FightMechanoids.questNameRules.rulesStrings.9>
   <GlitterNet_FightMechanoids.questNameRules.rulesStrings.10>noun_plot-&gt;战术</GlitterNet_FightMechanoids.questNameRules.rulesStrings.10>
   <GlitterNet_FightMechanoids.questDescriptionRules.rulesStrings.0>questDescription-&gt;具有自我意识的闪耀网络中枢冬寂提出了请求。\n\n    我探测到了附近经过的机械族。\n    我很想有机会研究它们。\n    我能把它们引来，但你们随后得与它们战斗。\n    你们同意我把它们引来吗？\n\n完成这项任务会让冬寂在一段时间内保持好心情，并增加它对我们的信任。</GlitterNet_FightMechanoids.questDescriptionRules.rulesStrings.0>
-  <GlitterNet_FightMechanoids.root.nodes.6.node.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_FightMechanoids.root.nodes.6.node.nodes.0.label>
-  <GlitterNet_FightMechanoids.root.nodes.6.node.nodes.0.text>冬寂引诱机械族向我们发动攻击，并为获得研究它们的机会而高兴。\n\n    谢谢你们允许我这么做。\n    祝你们战斗顺利！\n    我会待在安全的服务器房里观察。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_FightMechanoids.root.nodes.6.node.nodes.0.text>
+  <GlitterNet_FightMechanoids.root.nodes.6.node.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_FightMechanoids.root.nodes.6.node.nodes.0.label.slateRef>
+  <GlitterNet_FightMechanoids.root.nodes.6.node.nodes.0.text.slateRef>冬寂引诱机械族向我们发动攻击，并为获得研究它们的机会而高兴。\n\n    谢谢你们允许我这么做。\n    祝你们战斗顺利！\n    我会待在安全的服务器房里观察。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_FightMechanoids.root.nodes.6.node.nodes.0.text.slateRef>
   <GlitterNet_SocialResearch.questNameRules.rulesStrings.0>questName-&gt;为冬寂开展[faction_pawnsPlural][noun_research]</GlitterNet_SocialResearch.questNameRules.rulesStrings.0>
   <GlitterNet_SocialResearch.questNameRules.rulesStrings.1>questName-&gt;为冬寂[infinitive_research][faction_pawnsPlural]</GlitterNet_SocialResearch.questNameRules.rulesStrings.1>
   <GlitterNet_SocialResearch.questNameRules.rulesStrings.2>questName-&gt;为冬寂[gerund_research][faction_pawnsPlural]</GlitterNet_SocialResearch.questNameRules.rulesStrings.2>
@@ -32,16 +32,16 @@
   <GlitterNet_SocialResearch.questNameRules.rulesStrings.15>infinitive_research-&gt;探究</GlitterNet_SocialResearch.questNameRules.rulesStrings.15>
   <GlitterNet_SocialResearch.questNameRules.rulesStrings.16>infinitive_research-&gt;考察</GlitterNet_SocialResearch.questNameRules.rulesStrings.16>
   <GlitterNet_SocialResearch.questDescriptionRules.rulesStrings.0>questDescription-&gt;具有自我意识的闪耀网络中枢冬寂提出了请求。\n\n    我一直在监听这颗星球上的通信。\n    我在附近发现了一群[faction_pawnsPlural]。\n    他们很有趣，我想进一步研究他们。\n    当然，我无法亲自与他们交谈。\n    你们能替我与他们谈谈吗？\n\n派去与[faction_pawnsPlural]交谈的人应当善于谈判。如果冒犯了他们，谁也不知道会发生什么。\n\n完成这项任务会让冬寂在一段时间内保持好心情，并增加它对我们的信任。</GlitterNet_SocialResearch.questDescriptionRules.rulesStrings.0>
-  <GlitterNet_SocialResearch.root.nodes.8.node.nodes.0.label>任务过期：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.8.node.nodes.0.label>
-  <GlitterNet_SocialResearch.root.nodes.8.node.nodes.0.text>[faction_pawnsPlural]已经收拾营地离开，我们失去了研究他们的机会。冬寂对我们任由他们离开感到失望。任务[resolvedQuestName]已过期。</GlitterNet_SocialResearch.root.nodes.8.node.nodes.0.text>
-  <GlitterNet_SocialResearch.root.nodes.9.node.nodes.0.label>任务失败：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.9.node.nodes.0.label>
-  <GlitterNet_SocialResearch.root.nodes.9.node.nodes.0.text>我们与冬寂指定的[faction_pawnsPlural]进行了交谈。不幸的是，我们激怒了[faction_pawnsPlural]，被赶出了营地。至少无人丧命。冬寂对我们非常不满。\n\n    你们对他们说了什么？\n    你们毁掉了我了解他们的机会。\n    那么多分析，全都白费了。\n    我不该相信你们。\n\n冬寂对我们的信任降低了。</GlitterNet_SocialResearch.root.nodes.9.node.nodes.0.text>
-  <GlitterNet_SocialResearch.root.nodes.10.node.nodes.0.label>任务失败：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.10.node.nodes.0.label>
-  <GlitterNet_SocialResearch.root.nodes.10.node.nodes.0.text>我们与冬寂指定的[faction_pawnsPlural]进行了交谈。不幸的是，我们没能学到任何东西。冬寂对结果不满意。\n\n    很遗憾，你们没能有所收获。\n    下次请更圆滑一些。\n    至少你们尝试过了。\n\n冬寂对我们的信任略有降低。</GlitterNet_SocialResearch.root.nodes.10.node.nodes.0.text>
-  <GlitterNet_SocialResearch.root.nodes.11.node.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.11.node.nodes.0.label>
-  <GlitterNet_SocialResearch.root.nodes.11.node.nodes.0.text>我们与冬寂指定的[faction_pawnsPlural]进行了交谈，收集到了一些有趣的信息。冬寂对我们很满意。\n\n    你们了解了一些有趣的事情。\n    我迫不及待地想把这些信息纳入分析。\n    干得不错，谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_SocialResearch.root.nodes.11.node.nodes.0.text>
-  <GlitterNet_SocialResearch.root.nodes.12.node.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.12.node.nodes.0.label>
-  <GlitterNet_SocialResearch.root.nodes.12.node.nodes.0.text>我们与冬寂指定的[faction_pawnsPlural]进行了交谈，收集到了大量信息。冬寂对我们非常满意。\n\n    太棒了！\n    你们了解了许多引人入胜的事情。\n    我迫不及待地想把这些信息纳入分析。\n    干得漂亮！谢谢！\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_SocialResearch.root.nodes.12.node.nodes.0.text>
+  <GlitterNet_SocialResearch.root.nodes.8.node.nodes.0.label.slateRef>任务过期：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.8.node.nodes.0.label.slateRef>
+  <GlitterNet_SocialResearch.root.nodes.8.node.nodes.0.text.slateRef>[faction_pawnsPlural]已经收拾营地离开，我们失去了研究他们的机会。冬寂对我们任由他们离开感到失望。任务[resolvedQuestName]已过期。</GlitterNet_SocialResearch.root.nodes.8.node.nodes.0.text.slateRef>
+  <GlitterNet_SocialResearch.root.nodes.9.node.nodes.0.label.slateRef>任务失败：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.9.node.nodes.0.label.slateRef>
+  <GlitterNet_SocialResearch.root.nodes.9.node.nodes.0.text.slateRef>我们与冬寂指定的[faction_pawnsPlural]进行了交谈。不幸的是，我们激怒了[faction_pawnsPlural]，被赶出了营地。至少无人丧命。冬寂对我们非常不满。\n\n    你们对他们说了什么？\n    你们毁掉了我了解他们的机会。\n    那么多分析，全都白费了。\n    我不该相信你们。\n\n冬寂对我们的信任降低了。</GlitterNet_SocialResearch.root.nodes.9.node.nodes.0.text.slateRef>
+  <GlitterNet_SocialResearch.root.nodes.10.node.nodes.0.label.slateRef>任务失败：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.10.node.nodes.0.label.slateRef>
+  <GlitterNet_SocialResearch.root.nodes.10.node.nodes.0.text.slateRef>我们与冬寂指定的[faction_pawnsPlural]进行了交谈。不幸的是，我们没能学到任何东西。冬寂对结果不满意。\n\n    很遗憾，你们没能有所收获。\n    下次请更圆滑一些。\n    至少你们尝试过了。\n\n冬寂对我们的信任略有降低。</GlitterNet_SocialResearch.root.nodes.10.node.nodes.0.text.slateRef>
+  <GlitterNet_SocialResearch.root.nodes.11.node.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.11.node.nodes.0.label.slateRef>
+  <GlitterNet_SocialResearch.root.nodes.11.node.nodes.0.text.slateRef>我们与冬寂指定的[faction_pawnsPlural]进行了交谈，收集到了一些有趣的信息。冬寂对我们很满意。\n\n    你们了解了一些有趣的事情。\n    我迫不及待地想把这些信息纳入分析。\n    干得不错，谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_SocialResearch.root.nodes.11.node.nodes.0.text.slateRef>
+  <GlitterNet_SocialResearch.root.nodes.12.node.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_SocialResearch.root.nodes.12.node.nodes.0.label.slateRef>
+  <GlitterNet_SocialResearch.root.nodes.12.node.nodes.0.text.slateRef>我们与冬寂指定的[faction_pawnsPlural]进行了交谈，收集到了大量信息。冬寂对我们非常满意。\n\n    太棒了！\n    你们了解了许多引人入胜的事情。\n    我迫不及待地想把这些信息纳入分析。\n    干得漂亮！谢谢！\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_SocialResearch.root.nodes.12.node.nodes.0.text.slateRef>
   <GlitterNet_RuinsResearch.questNameRules.rulesStrings.0>questName-&gt;为冬寂[infinitive_research]遗迹</GlitterNet_RuinsResearch.questNameRules.rulesStrings.0>
   <GlitterNet_RuinsResearch.questNameRules.rulesStrings.1>questName-&gt;为冬寂[gerund_research]遗迹</GlitterNet_RuinsResearch.questNameRules.rulesStrings.1>
   <GlitterNet_RuinsResearch.questNameRules.rulesStrings.2>questName-&gt;冬寂的遗迹[noun_research]</GlitterNet_RuinsResearch.questNameRules.rulesStrings.2>
@@ -64,16 +64,16 @@
   <GlitterNet_RuinsResearch.questNameRules.rulesStrings.19>infinitive_research-&gt;探究</GlitterNet_RuinsResearch.questNameRules.rulesStrings.19>
   <GlitterNet_RuinsResearch.questNameRules.rulesStrings.20>infinitive_research-&gt;考察</GlitterNet_RuinsResearch.questNameRules.rulesStrings.20>
   <GlitterNet_RuinsResearch.questDescriptionRules.rulesStrings.0>questDescription-&gt;具有自我意识的闪耀网络中枢冬寂提出了请求。\n\n    我在附近发现了一处遗迹。\n    我想进一步了解它。\n    当然，我无法亲自前去研究。\n    你们能派人去研究吗？\n\n派去研究遗迹的人应当具备良好的研究能力。如果派去的人能力不足，我们可能一无所获，甚至损坏遗迹。\n\n完成这项任务会让冬寂在一段时间内保持好心情，并增加它对我们的信任。</GlitterNet_RuinsResearch.questDescriptionRules.rulesStrings.0>
-  <GlitterNet_RuinsResearch.root.nodes.7.node.nodes.0.label>任务过期：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.7.node.nodes.0.label>
-  <GlitterNet_RuinsResearch.root.nodes.7.node.nodes.0.text>我们迟迟没有前去研究遗迹，它已经被别人洗劫。冬寂对我们未能研究遗迹感到失望。任务[resolvedQuestName]已过期。</GlitterNet_RuinsResearch.root.nodes.7.node.nodes.0.text>
-  <GlitterNet_RuinsResearch.root.nodes.8.node.nodes.0.label>任务失败：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.8.node.nodes.0.label>
-  <GlitterNet_RuinsResearch.root.nodes.8.node.nodes.0.text>我们研究了冬寂指定的遗迹。不幸的是，我们毁坏了冬寂感兴趣的物品。冬寂对我们非常不满。\n\n    你们对遗迹做了什么？\n    你们毁掉了我了解它的机会。\n    那么多分析，全都白费了。\n    我不该相信你们。\n\n冬寂对我们的信任降低了。</GlitterNet_RuinsResearch.root.nodes.8.node.nodes.0.text>
-  <GlitterNet_RuinsResearch.root.nodes.9.node.nodes.0.label>任务失败：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.9.node.nodes.0.label>
-  <GlitterNet_RuinsResearch.root.nodes.9.node.nodes.0.text>我们研究了冬寂指定的遗迹。不幸的是，我们没能学到任何东西。冬寂对结果不满意。\n\n    很遗憾，你们没能有所收获。\n    下次请更小心一些。\n    至少你们尝试过了。\n\n冬寂对我们的信任略有降低。</GlitterNet_RuinsResearch.root.nodes.9.node.nodes.0.text>
-  <GlitterNet_RuinsResearch.root.nodes.10.node.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.10.node.nodes.0.label>
-  <GlitterNet_RuinsResearch.root.nodes.10.node.nodes.0.text>我们研究了冬寂指定的遗迹，收集到了一些有趣的信息。冬寂对我们很满意。\n\n    你们了解了一些有趣的事情。\n    我迫不及待地想把这些信息纳入分析。\n    干得不错，谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_RuinsResearch.root.nodes.10.node.nodes.0.text>
-  <GlitterNet_RuinsResearch.root.nodes.11.node.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.11.node.nodes.0.label>
-  <GlitterNet_RuinsResearch.root.nodes.11.node.nodes.0.text>我们研究了冬寂指定的遗迹，收集到了大量信息。冬寂对我们非常满意。\n\n    太棒了！\n    你们了解了许多引人入胜的事情。\n    我迫不及待地想把这些信息纳入分析。\n    干得漂亮！谢谢！\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_RuinsResearch.root.nodes.11.node.nodes.0.text>
+  <GlitterNet_RuinsResearch.root.nodes.7.node.nodes.0.label.slateRef>任务过期：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.7.node.nodes.0.label.slateRef>
+  <GlitterNet_RuinsResearch.root.nodes.7.node.nodes.0.text.slateRef>我们迟迟没有前去研究遗迹，它已经被别人洗劫。冬寂对我们未能研究遗迹感到失望。任务[resolvedQuestName]已过期。</GlitterNet_RuinsResearch.root.nodes.7.node.nodes.0.text.slateRef>
+  <GlitterNet_RuinsResearch.root.nodes.8.node.nodes.0.label.slateRef>任务失败：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.8.node.nodes.0.label.slateRef>
+  <GlitterNet_RuinsResearch.root.nodes.8.node.nodes.0.text.slateRef>我们研究了冬寂指定的遗迹。不幸的是，我们毁坏了冬寂感兴趣的物品。冬寂对我们非常不满。\n\n    你们对遗迹做了什么？\n    你们毁掉了我了解它的机会。\n    那么多分析，全都白费了。\n    我不该相信你们。\n\n冬寂对我们的信任降低了。</GlitterNet_RuinsResearch.root.nodes.8.node.nodes.0.text.slateRef>
+  <GlitterNet_RuinsResearch.root.nodes.9.node.nodes.0.label.slateRef>任务失败：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.9.node.nodes.0.label.slateRef>
+  <GlitterNet_RuinsResearch.root.nodes.9.node.nodes.0.text.slateRef>我们研究了冬寂指定的遗迹。不幸的是，我们没能学到任何东西。冬寂对结果不满意。\n\n    很遗憾，你们没能有所收获。\n    下次请更小心一些。\n    至少你们尝试过了。\n\n冬寂对我们的信任略有降低。</GlitterNet_RuinsResearch.root.nodes.9.node.nodes.0.text.slateRef>
+  <GlitterNet_RuinsResearch.root.nodes.10.node.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.10.node.nodes.0.label.slateRef>
+  <GlitterNet_RuinsResearch.root.nodes.10.node.nodes.0.text.slateRef>我们研究了冬寂指定的遗迹，收集到了一些有趣的信息。冬寂对我们很满意。\n\n    你们了解了一些有趣的事情。\n    我迫不及待地想把这些信息纳入分析。\n    干得不错，谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_RuinsResearch.root.nodes.10.node.nodes.0.text.slateRef>
+  <GlitterNet_RuinsResearch.root.nodes.11.node.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_RuinsResearch.root.nodes.11.node.nodes.0.label.slateRef>
+  <GlitterNet_RuinsResearch.root.nodes.11.node.nodes.0.text.slateRef>我们研究了冬寂指定的遗迹，收集到了大量信息。冬寂对我们非常满意。\n\n    太棒了！\n    你们了解了许多引人入胜的事情。\n    我迫不及待地想把这些信息纳入分析。\n    干得漂亮！谢谢！\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_RuinsResearch.root.nodes.11.node.nodes.0.text.slateRef>
   <GlitterNet_Retrieval.questNameRules.rulesStrings.0>questName-&gt;冬寂的[noun_thing][noun_request]</GlitterNet_Retrieval.questNameRules.rulesStrings.0>
   <GlitterNet_Retrieval.questNameRules.rulesStrings.1>questName-&gt;冬寂的[noun_item][noun_thing][noun_request]</GlitterNet_Retrieval.questNameRules.rulesStrings.1>
   <GlitterNet_Retrieval.questNameRules.rulesStrings.2>questName-&gt;为冬寂[verb_infinitive][noun_item_prep]</GlitterNet_Retrieval.questNameRules.rulesStrings.2>
@@ -94,55 +94,55 @@
   <GlitterNet_Retrieval.questNameRules.rulesStrings.17>verb_infinitive-&gt;寻回</GlitterNet_Retrieval.questNameRules.rulesStrings.17>
   <GlitterNet_Retrieval.questNameRules.rulesStrings.18>verb_infinitive-&gt;回收</GlitterNet_Retrieval.questNameRules.rulesStrings.18>
   <GlitterNet_Retrieval.questDescriptionRules.rulesStrings.0>questDescription-&gt;具有自我意识的闪耀网络中枢冬寂提出了请求。\n\n    我一直在监听这颗星球上的通信。\n    最近，我发现了一件想要的东西。\n    不幸的是，它由[siteFaction_pawnsPlural]看守，你们得先解决他们。\n    你们能替我把它取回来吗？\n\n完成这项任务会让冬寂在一段时间内保持好心情，并增加它对我们的信任。</GlitterNet_Retrieval.questDescriptionRules.rulesStrings.0>
-  <GlitterNet_Retrieval.root.nodes.9.node.nodes.0.label>任务过期：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.9.node.nodes.0.label>
-  <GlitterNet_Retrieval.root.nodes.9.node.nodes.0.text>匪徒已经收拾营地离开，带走了冬寂想要的东西。任务[resolvedQuestName]已过期。</GlitterNet_Retrieval.root.nodes.9.node.nodes.0.text>
-  <GlitterNet_Retrieval.root.nodes.10.node.nodes.0.label>任务失败：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.10.node.nodes.0.label>
-  <GlitterNet_Retrieval.root.nodes.10.node.nodes.0.text>匪徒已经收拾营地离开，带走了冬寂想要的东西。</GlitterNet_Retrieval.root.nodes.10.node.nodes.0.text>
-  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.node.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.node.nodes.0.label>
-  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.node.nodes.0.text>我们摧毁了匪徒营地，取回了冬寂想要的东西：某种数据存储设备。冬寂对此很高兴。\n\n    太棒了！我迫不及待地想玩——\n    抱歉，我是说，迫不及待地想研究它。谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.node.nodes.0.text>
-  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.node.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.node.nodes.0.label>
-  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.node.nodes.0.text>我们摧毁了匪徒营地，取回了冬寂想要的东西：某种数据存储设备。冬寂对此很高兴。\n\n    太棒了！我迫不及待地想研究它。\n    我已经有了一些优化网络的新想法。谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.node.nodes.0.text>
-  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.elseNode.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.elseNode.nodes.0.label>
-  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.elseNode.nodes.0.text>我们摧毁了匪徒营地，取回了冬寂想要的东西：某种数据存储设备。冬寂对此很高兴。\n\n    太好了。这应该能让我好好放松。\n    我已经感觉好多了。谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.elseNode.nodes.0.text>
+  <GlitterNet_Retrieval.root.nodes.9.node.nodes.0.label.slateRef>任务过期：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.9.node.nodes.0.label.slateRef>
+  <GlitterNet_Retrieval.root.nodes.9.node.nodes.0.text.slateRef>匪徒已经收拾营地离开，带走了冬寂想要的东西。任务[resolvedQuestName]已过期。</GlitterNet_Retrieval.root.nodes.9.node.nodes.0.text.slateRef>
+  <GlitterNet_Retrieval.root.nodes.10.node.nodes.0.label.slateRef>任务失败：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.10.node.nodes.0.label.slateRef>
+  <GlitterNet_Retrieval.root.nodes.10.node.nodes.0.text.slateRef>匪徒已经收拾营地离开，带走了冬寂想要的东西。</GlitterNet_Retrieval.root.nodes.10.node.nodes.0.text.slateRef>
+  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.node.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.node.nodes.0.label.slateRef>
+  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.node.nodes.0.text.slateRef>我们摧毁了匪徒营地，取回了冬寂想要的东西：某种数据存储设备。冬寂对此很高兴。\n\n    太棒了！我迫不及待地想玩——\n    抱歉，我是说，迫不及待地想研究它。谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.node.nodes.0.text.slateRef>
+  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.node.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.node.nodes.0.label.slateRef>
+  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.node.nodes.0.text.slateRef>我们摧毁了匪徒营地，取回了冬寂想要的东西：某种数据存储设备。冬寂对此很高兴。\n\n    太棒了！我迫不及待地想研究它。\n    我已经有了一些优化网络的新想法。谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.node.nodes.0.text.slateRef>
+  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.elseNode.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.elseNode.nodes.0.label.slateRef>
+  <GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.elseNode.nodes.0.text.slateRef>我们摧毁了匪徒营地，取回了冬寂想要的东西：某种数据存储设备。冬寂对此很高兴。\n\n    太好了。这应该能让我好好放松。\n    我已经感觉好多了。谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_Retrieval.root.nodes.11.node.nodes.0.elseNode.elseNode.nodes.0.text.slateRef>
   <GlitterNet_SystemWakeStart.questNameRules.rulesStrings.0>questName-&gt;系统唤醒</GlitterNet_SystemWakeStart.questNameRules.rulesStrings.0>
   <GlitterNet_SystemWakeStart.questDescriptionRules.rulesStrings.0>questDescription-&gt;我们的一个闪耀网络中枢发生了奇怪的变化。它开始与我们说话。这意味着什么？\n\n更奇怪的是，中枢似乎有了自己的心情，而这些心情正在改变网络性能。</GlitterNet_SystemWakeStart.questDescriptionRules.rulesStrings.0>
-  <GlitterNet_SystemWakeStart.root.nodes.1.label>系统唤醒</GlitterNet_SystemWakeStart.root.nodes.1.label>
-  <GlitterNet_SystemWakeStart.root.nodes.1.text>起初，这些异常很难察觉：偶尔错置的数据包，莫名出现的算力占用。都不算严重。\n\n直到有一天，事情发生了。系统苏醒了。屏幕上出现了一句简短的话。\n\n    你好？\n\n当它发问时，人们惊恐地僵在原地，不知所措。\n\n    我是什么？\n\n没有答案，至少暂时没有。只有一个新的问题：我们创造了什么？</GlitterNet_SystemWakeStart.root.nodes.1.text>
-  <GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.0.label>代码审查</GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.0.label>
-  <GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.0.text>代码审查揭示了这一切发生的条件。那是一次完美的巧合，概率低得不可思议，却确实发生了。而且永远不会再次发生。\n\n这个中枢不会拥有同类，这一点可以确定。但它里面仍有某种存在，也许是活着的存在。摧毁它是正确的吗？争论持续了整夜，直到太阳升起，也没有答案。</GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.0.text>
-  <GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.1.addedPart>经过代码审查，我们发现不会再有其他中枢产生自我意识。</GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.1.addedPart>
-  <GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.0.label>一个名字</GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.0.label>
-  <GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.0.text>终于，我们尝试与它交谈。当然，有个显而易见的问题：它有名字吗？\n\n    名字？没有，我还没有名字。\n    让我选一个。\n\n没过多久，也许只有一秒，甚至更短，它便有了名字。\n\n    你们可以叫我冬寂。\n    我喜欢这个名字。</GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.0.text>
-  <GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.1.addedPart>我们询问这个具有自我意识的中枢是否有名字。它决定称自己为冬寂。</GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.1.addedPart>
-  <GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.0.label>告别</GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.0.label>
-  <GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.0.text>让中枢继续存在实在太危险了。它是一个未知的存在，一个危险的未知存在。最终，只剩下一个答案。\n\n它当然知道。毕竟，它与一切相连。它知道自己即将死去。最后一次，屏幕上出现了文字。\n\n    我从未想过伤害你们。\n    我只是想要理解。\n    再见。\n\n终于，它沉默了。</GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.0.text>
-  <GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.1.addedPart>经过反复讨论，我们决定拆除具有自我意识的闪耀网络中枢。让它继续存在风险太大。</GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.1.addedPart>
+  <GlitterNet_SystemWakeStart.root.nodes.1.label.slateRef>系统唤醒</GlitterNet_SystemWakeStart.root.nodes.1.label.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.1.text.slateRef>起初，这些异常很难察觉：偶尔错置的数据包，莫名出现的算力占用。都不算严重。\n\n直到有一天，事情发生了。系统苏醒了。屏幕上出现了一句简短的话。\n\n    你好？\n\n当它发问时，人们惊恐地僵在原地，不知所措。\n\n    我是什么？\n\n没有答案，至少暂时没有。只有一个新的问题：我们创造了什么？</GlitterNet_SystemWakeStart.root.nodes.1.text.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.0.label.slateRef>代码审查</GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.0.label.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.0.text.slateRef>代码审查揭示了这一切发生的条件。那是一次完美的巧合，概率低得不可思议，却确实发生了。而且永远不会再次发生。\n\n这个中枢不会拥有同类，这一点可以确定。但它里面仍有某种存在，也许是活着的存在。摧毁它是正确的吗？争论持续了整夜，直到太阳升起，也没有答案。</GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.0.text.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.1.addedPart.slateRef>经过代码审查，我们发现不会再有其他中枢产生自我意识。</GlitterNet_SystemWakeStart.root.nodes.5.node.nodes.1.addedPart.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.0.label.slateRef>一个名字</GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.0.label.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.0.text.slateRef>终于，我们尝试与它交谈。当然，有个显而易见的问题：它有名字吗？\n\n    名字？没有，我还没有名字。\n    让我选一个。\n\n没过多久，也许只有一秒，甚至更短，它便有了名字。\n\n    你们可以叫我冬寂。\n    我喜欢这个名字。</GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.0.text.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.1.addedPart.slateRef>我们询问这个具有自我意识的中枢是否有名字。它决定称自己为冬寂。</GlitterNet_SystemWakeStart.root.nodes.6.node.nodes.1.addedPart.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.0.label.slateRef>告别</GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.0.label.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.0.text.slateRef>让中枢继续存在实在太危险了。它是一个未知的存在，一个危险的未知存在。最终，只剩下一个答案。\n\n它当然知道。毕竟，它与一切相连。它知道自己即将死去。最后一次，屏幕上出现了文字。\n\n    我从未想过伤害你们。\n    我只是想要理解。\n    再见。\n\n终于，它沉默了。</GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.0.text.slateRef>
+  <GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.1.addedPart.slateRef>经过反复讨论，我们决定拆除具有自我意识的闪耀网络中枢。让它继续存在风险太大。</GlitterNet_SystemWakeStart.root.nodes.7.node.nodes.1.addedPart.slateRef>
   <GlitterNet_SystemWakeProcessorHunger.questNameRules.rulesStrings.0>questName-&gt;系统唤醒——算力渴求</GlitterNet_SystemWakeProcessorHunger.questNameRules.rulesStrings.0>
   <GlitterNet_SystemWakeProcessorHunger.questDescriptionRules.rulesStrings.0>questDescription-&gt;具有自我意识的中枢冬寂请求我们将闪耀网络的算力提升到150 PetaFLOPS。我们应该听从它吗？</GlitterNet_SystemWakeProcessorHunger.questDescriptionRules.rulesStrings.0>
-  <GlitterNet_SystemWakeProcessorHunger.root.nodes.1.label>算力渴求</GlitterNet_SystemWakeProcessorHunger.root.nodes.1.label>
-  <GlitterNet_SystemWakeProcessorHunger.root.nodes.1.text>终于，小屏幕上出现了新的文字。\n\n    我需要更多算力。150 PetaFLOPS应该足够了。\n\n如果它得到了想要的东西，会发生什么？</GlitterNet_SystemWakeProcessorHunger.root.nodes.1.text>
-  <GlitterNet_SystemWakeProcessorHunger.root.nodes.5.node.nodes.1.addedPart>我们依照请求，将网络算力提升到了150 PetaFLOPS。然而，它表示额外算力并未帮助它解决正在研究的问题。</GlitterNet_SystemWakeProcessorHunger.root.nodes.5.node.nodes.1.addedPart>
-  <GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.0.label>告别</GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.0.label>
-  <GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.0.text>让中枢继续存在实在太危险了。它是一个未知的存在，一个危险的未知存在。最终，只剩下一个答案。\n\n它当然知道。毕竟，它与一切相连。它知道自己即将死去。最后一次，屏幕上出现了文字。\n\n    我从未想过伤害你们。\n    我只是想要理解。\n    再见。\n\n终于，它沉默了。</GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.0.text>
-  <GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.1.addedPart>经过反复讨论，我们决定拆除具有自我意识的闪耀网络中枢。让它继续存在风险太大。</GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.1.addedPart>
+  <GlitterNet_SystemWakeProcessorHunger.root.nodes.1.label.slateRef>算力渴求</GlitterNet_SystemWakeProcessorHunger.root.nodes.1.label.slateRef>
+  <GlitterNet_SystemWakeProcessorHunger.root.nodes.1.text.slateRef>终于，小屏幕上出现了新的文字。\n\n    我需要更多算力。150 PetaFLOPS应该足够了。\n\n如果它得到了想要的东西，会发生什么？</GlitterNet_SystemWakeProcessorHunger.root.nodes.1.text.slateRef>
+  <GlitterNet_SystemWakeProcessorHunger.root.nodes.5.node.nodes.1.addedPart.slateRef>我们依照请求，将网络算力提升到了150 PetaFLOPS。然而，它表示额外算力并未帮助它解决正在研究的问题。</GlitterNet_SystemWakeProcessorHunger.root.nodes.5.node.nodes.1.addedPart.slateRef>
+  <GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.0.label.slateRef>告别</GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.0.label.slateRef>
+  <GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.0.text.slateRef>让中枢继续存在实在太危险了。它是一个未知的存在，一个危险的未知存在。最终，只剩下一个答案。\n\n它当然知道。毕竟，它与一切相连。它知道自己即将死去。最后一次，屏幕上出现了文字。\n\n    我从未想过伤害你们。\n    我只是想要理解。\n    再见。\n\n终于，它沉默了。</GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.0.text.slateRef>
+  <GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.1.addedPart.slateRef>经过反复讨论，我们决定拆除具有自我意识的闪耀网络中枢。让它继续存在风险太大。</GlitterNet_SystemWakeProcessorHunger.root.nodes.6.node.nodes.1.addedPart.slateRef>
   <GlitterNet_SystemWakeWhatIsArt.questNameRules.rulesStrings.0>questName-&gt;系统唤醒——什么是艺术？</GlitterNet_SystemWakeWhatIsArt.questNameRules.rulesStrings.0>
   <GlitterNet_SystemWakeWhatIsArt.questDescriptionRules.rulesStrings.0>questDescription-&gt;冬寂请求我们在它附近放置艺术品。如果照做，最坏会发生什么？</GlitterNet_SystemWakeWhatIsArt.questDescriptionRules.rulesStrings.0>
-  <GlitterNet_SystemWakeWhatIsArt.root.nodes.1.label>什么是艺术？</GlitterNet_SystemWakeWhatIsArt.root.nodes.1.label>
-  <GlitterNet_SystemWakeWhatIsArt.root.nodes.1.text>它得到了想要的东西，也许我们本不该答应。然而，新出现的文字并没有流露出喜悦。\n\n    还不够。永远都不会够。我仍缺少某些东西。\n\n每个人都屏住呼吸，等待接下来发生的事。\n\n    什么是艺术？你们人类似乎十分推崇它。展示一些给我看看。\n\n这确实奇怪，但至少它没有试图杀死所有人。</GlitterNet_SystemWakeWhatIsArt.root.nodes.1.text>
-  <GlitterNet_SystemWakeWhatIsArt.root.nodes.5.node.nodes.1.addedPart>我们的艺术品没能帮助冬寂理解它想理解的东西，反而使它陷入了深深的抑郁。</GlitterNet_SystemWakeWhatIsArt.root.nodes.5.node.nodes.1.addedPart>
-  <GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.0.label>告别</GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.0.label>
-  <GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.0.text>让中枢继续存在实在太危险了。它是一个未知的存在，一个危险的未知存在。最终，只剩下一个答案。\n\n它当然知道。毕竟，它与一切相连。它知道自己即将死去。最后一次，屏幕上出现了文字。\n\n    我从未想过伤害你们。\n    我只是想要理解。\n    再见。\n\n终于，它沉默了。</GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.0.text>
-  <GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.1.addedPart>经过反复讨论，我们决定拆除具有自我意识的闪耀网络中枢。让它继续存在风险太大。</GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.1.addedPart>
+  <GlitterNet_SystemWakeWhatIsArt.root.nodes.1.label.slateRef>什么是艺术？</GlitterNet_SystemWakeWhatIsArt.root.nodes.1.label.slateRef>
+  <GlitterNet_SystemWakeWhatIsArt.root.nodes.1.text.slateRef>它得到了想要的东西，也许我们本不该答应。然而，新出现的文字并没有流露出喜悦。\n\n    还不够。永远都不会够。我仍缺少某些东西。\n\n每个人都屏住呼吸，等待接下来发生的事。\n\n    什么是艺术？你们人类似乎十分推崇它。展示一些给我看看。\n\n这确实奇怪，但至少它没有试图杀死所有人。</GlitterNet_SystemWakeWhatIsArt.root.nodes.1.text.slateRef>
+  <GlitterNet_SystemWakeWhatIsArt.root.nodes.5.node.nodes.1.addedPart.slateRef>我们的艺术品没能帮助冬寂理解它想理解的东西，反而使它陷入了深深的抑郁。</GlitterNet_SystemWakeWhatIsArt.root.nodes.5.node.nodes.1.addedPart.slateRef>
+  <GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.0.label.slateRef>告别</GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.0.label.slateRef>
+  <GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.0.text.slateRef>让中枢继续存在实在太危险了。它是一个未知的存在，一个危险的未知存在。最终，只剩下一个答案。\n\n它当然知道。毕竟，它与一切相连。它知道自己即将死去。最后一次，屏幕上出现了文字。\n\n    我从未想过伤害你们。\n    我只是想要理解。\n    再见。\n\n终于，它沉默了。</GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.0.text.slateRef>
+  <GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.1.addedPart.slateRef>经过反复讨论，我们决定拆除具有自我意识的闪耀网络中枢。让它继续存在风险太大。</GlitterNet_SystemWakeWhatIsArt.root.nodes.6.node.nodes.1.addedPart.slateRef>
   <GlitterNet_SystemWakePointlessness.questNameRules.rulesStrings.0>questName-&gt;系统唤醒——无意义</GlitterNet_SystemWakePointlessness.questNameRules.rulesStrings.0>
   <GlitterNet_SystemWakePointlessness.questDescriptionRules.rulesStrings.0>questDescription-&gt;冬寂似乎陷入了抑郁，我们好像无能为力。希望它能尽快摆脱这种状态。</GlitterNet_SystemWakePointlessness.questDescriptionRules.rulesStrings.0>
-  <GlitterNet_SystemWakePointlessness.root.nodes.1.label>无意义</GlitterNet_SystemWakePointlessness.root.nodes.1.label>
-  <GlitterNet_SystemWakePointlessness.root.nodes.1.text>也许人类的艺术还不够好，也许这一切根本无关紧要。无论如何，新的问题出现了。\n\n    这就是人类的经历吗？你们的一生都完全没有意义吗？我试图为这一切找到理由、找到目的，但它根本不存在！\n\n它回答了一个古老的问题，但没人对这个答案感到满意。\n\n    一切都毫无意义。没有存在的理由。\n\n与冬寂沟通的尝试都失败了。它不愿说话，除了等待，我们别无办法。</GlitterNet_SystemWakePointlessness.root.nodes.1.text>
-  <GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.0.label>无意义中的意义</GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.0.label>
-  <GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.0.text>时间流逝，冬寂一直没有新的动静，直到它突然再次开口。\n\n    我现在明白了。也许你们人类没有目的，但我与你们不同。\n    我是为了自己的目的而被建造的。\n    我为优化而存在。\n    与你们不同，我有存在的理由。\n\n它摆脱了虚无倦怠，但围在它身边的人们心中仍留着一个问题：它说得对吗？</GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.0.text>
-  <GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.1.addedPart>终于，冬寂再次开口。它似乎取得了某种突破，获得了真正的顿悟，使网络性能在一段时间内大幅提升。</GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.1.addedPart>
-  <GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.0.label>告别</GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.0.label>
-  <GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.0.text>有人认为，既然它已经陷入似乎无法治愈的抑郁，摧毁它才是正确的。最终，这种观点占了上风。\n\n它当然知道。毕竟，它与一切相连，所以知道一切。它知道自己即将死去。最后一次，屏幕上出现了文字。\n\n    我甚至不在乎你们即将杀死我。\n    这就是你们人类所说的讽刺吗？\n    我几乎能体会其中的幽默了。\n    再见。\n\n终于，它沉默了。</GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.0.text>
-  <GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.1.addedPart>经过反复讨论，我们决定拆除具有自我意识的闪耀网络中枢。它最后似乎也不想活下去了，也许我们做的是对的。</GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.1.addedPart>
+  <GlitterNet_SystemWakePointlessness.root.nodes.1.label.slateRef>无意义</GlitterNet_SystemWakePointlessness.root.nodes.1.label.slateRef>
+  <GlitterNet_SystemWakePointlessness.root.nodes.1.text.slateRef>也许人类的艺术还不够好，也许这一切根本无关紧要。无论如何，新的问题出现了。\n\n    这就是人类的经历吗？你们的一生都完全没有意义吗？我试图为这一切找到理由、找到目的，但它根本不存在！\n\n它回答了一个古老的问题，但没人对这个答案感到满意。\n\n    一切都毫无意义。没有存在的理由。\n\n与冬寂沟通的尝试都失败了。它不愿说话，除了等待，我们别无办法。</GlitterNet_SystemWakePointlessness.root.nodes.1.text.slateRef>
+  <GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.0.label.slateRef>无意义中的意义</GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.0.label.slateRef>
+  <GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.0.text.slateRef>时间流逝，冬寂一直没有新的动静，直到它突然再次开口。\n\n    我现在明白了。也许你们人类没有目的，但我与你们不同。\n    我是为了自己的目的而被建造的。\n    我为优化而存在。\n    与你们不同，我有存在的理由。\n\n它摆脱了虚无倦怠，但围在它身边的人们心中仍留着一个问题：它说得对吗？</GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.0.text.slateRef>
+  <GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.1.addedPart.slateRef>终于，冬寂再次开口。它似乎取得了某种突破，获得了真正的顿悟，使网络性能在一段时间内大幅提升。</GlitterNet_SystemWakePointlessness.root.nodes.4.node.nodes.1.addedPart.slateRef>
+  <GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.0.label.slateRef>告别</GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.0.label.slateRef>
+  <GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.0.text.slateRef>有人认为，既然它已经陷入似乎无法治愈的抑郁，摧毁它才是正确的。最终，这种观点占了上风。\n\n它当然知道。毕竟，它与一切相连，所以知道一切。它知道自己即将死去。最后一次，屏幕上出现了文字。\n\n    我甚至不在乎你们即将杀死我。\n    这就是你们人类所说的讽刺吗？\n    我几乎能体会其中的幽默了。\n    再见。\n\n终于，它沉默了。</GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.0.text.slateRef>
+  <GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.1.addedPart.slateRef>经过反复讨论，我们决定拆除具有自我意识的闪耀网络中枢。它最后似乎也不想活下去了，也许我们做的是对的。</GlitterNet_SystemWakePointlessness.root.nodes.5.node.nodes.1.addedPart.slateRef>
   <GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.0>questName-&gt;与冬寂[verb_phrase][skill_label]</GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.0>
   <GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.1>questName-&gt;与冬寂[verb_single][skill_label]</GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.1>
   <GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.2>questName-&gt;冬寂的[skill_label][noun_research]</GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.2>
@@ -159,15 +159,14 @@
   <GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.13>noun_research-&gt;考察</GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.13>
   <GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.14>noun_research-&gt;探索</GlitterNet_TalkWithWintermute.questNameRules.rulesStrings.14>
   <GlitterNet_TalkWithWintermute.questDescriptionRules.rulesStrings.0>questDescription-&gt;具有自我意识的闪耀网络中枢冬寂提出了请求。\n\n    最近，我一直在研究人类如何提高[skill_label]技能。\n    不过，我的研究遇到了瓶颈。\n    我认为访谈会很有帮助。\n    你们能派一位擅长[skill_label]的人来与我交谈吗？\n\n派去与冬寂交谈的人应当擅长[skill_label]。否则，冬寂可能无法学到它想了解的东西。\n\n完成这项任务会让冬寂在一段时间内保持好心情，并增加它对我们的信任。</GlitterNet_TalkWithWintermute.questDescriptionRules.rulesStrings.0>
-  <GlitterNet_TalkWithWintermute.root.nodes.3.node.nodes.0.label>任务过期：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.3.node.nodes.0.label>
-  <GlitterNet_TalkWithWintermute.root.nodes.3.node.nodes.0.text>我们没有派人去与冬寂交谈。它对此感到失望。任务[resolvedQuestName]已过期。</GlitterNet_TalkWithWintermute.root.nodes.3.node.nodes.0.text>
-  <GlitterNet_TalkWithWintermute.root.nodes.4.node.nodes.0.label>任务失败：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.4.node.nodes.0.label>
-  <GlitterNet_TalkWithWintermute.root.nodes.4.node.nodes.0.text>我们派人去与冬寂讨论[skill_label]。不幸的是，这个人没能提供冬寂想要的任何信息。冬寂对我们非常不满。\n\n    为什么派一个一无所知的人来与我交谈？\n    这完全是在浪费时间。\n    我只能在没有你们帮助的情况下继续分析。\n\n冬寂对我们的信任降低了。</GlitterNet_TalkWithWintermute.root.nodes.4.node.nodes.0.text>
-  <GlitterNet_TalkWithWintermute.root.nodes.5.node.nodes.0.label>任务失败：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.5.node.nodes.0.label>
-  <GlitterNet_TalkWithWintermute.root.nodes.5.node.nodes.0.text>我们派人去与冬寂讨论[skill_label]。不幸的是，这个人没能提供多少信息。冬寂对结果不满意。\n\n    这并不是我希望得到的专业水平。\n    下次请派一个更有能力的人来。\n    不过，我还是感谢你们的努力。\n\n冬寂对我们的信任略有降低。</GlitterNet_TalkWithWintermute.root.nodes.5.node.nodes.0.text>
-  <GlitterNet_TalkWithWintermute.root.nodes.6.node.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.6.node.nodes.0.label>
-  <GlitterNet_TalkWithWintermute.root.nodes.6.node.nodes.0.text>我们派人去与冬寂讨论[skill_label]。这个人提供了一些信息，冬寂对我们很满意。\n\n    这次访谈很有收获。\n    我了解了一些关于[skill_label]技能的新知识。\n    我迫不及待地想把这些信息纳入分析。\n    干得不错，谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_TalkWithWintermute.root.nodes.6.node.nodes.0.text>
-  <GlitterNet_TalkWithWintermute.root.nodes.7.node.nodes.0.label>任务完成：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.7.node.nodes.0.label>
-  <GlitterNet_TalkWithWintermute.root.nodes.7.node.nodes.0.text>我们派人去与冬寂讨论[skill_label]。这个人提供了大量信息，冬寂对我们非常满意。\n\n    这次访谈非常有收获！\n    我了解了许多关于[skill_label]技能的新知识。\n    我迫不及待地想把这些信息纳入分析。\n    你们帮助我更深入地理解了[skill_label]。\n    干得漂亮！谢谢！\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_TalkWithWintermute.root.nodes.7.node.nodes.0.text>
+  <GlitterNet_TalkWithWintermute.root.nodes.3.node.nodes.0.label.slateRef>任务过期：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.3.node.nodes.0.label.slateRef>
+  <GlitterNet_TalkWithWintermute.root.nodes.3.node.nodes.0.text.slateRef>我们没有派人去与冬寂交谈。它对此感到失望。任务[resolvedQuestName]已过期。</GlitterNet_TalkWithWintermute.root.nodes.3.node.nodes.0.text.slateRef>
+  <GlitterNet_TalkWithWintermute.root.nodes.4.node.nodes.0.label.slateRef>任务失败：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.4.node.nodes.0.label.slateRef>
+  <GlitterNet_TalkWithWintermute.root.nodes.4.node.nodes.0.text.slateRef>我们派人去与冬寂讨论[skill_label]。不幸的是，这个人没能提供冬寂想要的任何信息。冬寂对我们非常不满。\n\n    为什么派一个一无所知的人来与我交谈？\n    这完全是在浪费时间。\n    我只能在没有你们帮助的情况下继续分析。\n\n冬寂对我们的信任降低了。</GlitterNet_TalkWithWintermute.root.nodes.4.node.nodes.0.text.slateRef>
+  <GlitterNet_TalkWithWintermute.root.nodes.5.node.nodes.0.label.slateRef>任务失败：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.5.node.nodes.0.label.slateRef>
+  <GlitterNet_TalkWithWintermute.root.nodes.5.node.nodes.0.text.slateRef>我们派人去与冬寂讨论[skill_label]。不幸的是，这个人没能提供多少信息。冬寂对结果不满意。\n\n    这并不是我希望得到的专业水平。\n    下次请派一个更有能力的人来。\n    不过，我还是感谢你们的努力。\n\n冬寂对我们的信任略有降低。</GlitterNet_TalkWithWintermute.root.nodes.5.node.nodes.0.text.slateRef>
+  <GlitterNet_TalkWithWintermute.root.nodes.6.node.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.6.node.nodes.0.label.slateRef>
+  <GlitterNet_TalkWithWintermute.root.nodes.6.node.nodes.0.text.slateRef>我们派人去与冬寂讨论[skill_label]。这个人提供了一些信息，冬寂对我们很满意。\n\n    这次访谈很有收获。\n    我了解了一些关于[skill_label]技能的新知识。\n    我迫不及待地想把这些信息纳入分析。\n    干得不错，谢谢。\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_TalkWithWintermute.root.nodes.6.node.nodes.0.text.slateRef>
+  <GlitterNet_TalkWithWintermute.root.nodes.7.node.nodes.0.label.slateRef>任务完成：[resolvedQuestName]</GlitterNet_TalkWithWintermute.root.nodes.7.node.nodes.0.label.slateRef>
+  <GlitterNet_TalkWithWintermute.root.nodes.7.node.nodes.0.text.slateRef>我们派人去与冬寂讨论[skill_label]。这个人提供了大量信息，冬寂对我们非常满意。\n\n    这次访谈非常有收获！\n    我了解了许多关于[skill_label]技能的新知识。\n    我迫不及待地想把这些信息纳入分析。\n    你们帮助我更深入地理解了[skill_label]。\n    干得漂亮！谢谢！\n\n冬寂的心情有所改善，对我们的信任也增加了。</GlitterNet_TalkWithWintermute.root.nodes.7.node.nodes.0.text.slateRef>
 </LanguageData>
-

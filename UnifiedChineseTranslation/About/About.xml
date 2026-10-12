@@ -3,7 +3,7 @@
   <name>本地模组统一汉化 / Unified Chinese Translation</name>
   <author>Local translation for XueWen</author>
   <packageId>local.xuewen.unifiedchinesetranslation</packageId>
-  <modVersion>0.1.1</modVersion>
+  <modVersion>0.1.2</modVersion>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>

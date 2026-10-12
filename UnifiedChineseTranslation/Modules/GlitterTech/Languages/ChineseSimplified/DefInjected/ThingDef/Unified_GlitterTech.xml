@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <HeavyPowerConduit.description>结实且不可燃的重型电缆。</HeavyPowerConduit.description>
-  <Race_OCtank.tools.0.label>正面装甲</Race_OCtank.tools.0.label>
+  <Race_OCtank.tools.front_plate.label>正面装甲</Race_OCtank.tools.front_plate.label>
 </LanguageData>

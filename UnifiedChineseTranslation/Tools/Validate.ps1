@@ -27,15 +27,30 @@ foreach($file in (Get-ChildItem -LiteralPath (Join-Path $root 'Modules') -Recurs
 }
 # Verify migrated local assets except the intentionally modified debug source.
 $repo=Split-Path $root -Parent
+$corrections=Get-Content (Join-Path $root 'PathCorrections.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 foreach($file in (Get-ChildItem -LiteralPath (Join-Path $repo 'GlitterNet_ChineseFix/Languages') -Recurse -File)){
     $base=(Join-Path $repo 'GlitterNet_ChineseFix/Languages')
     $relative=$file.FullName.Substring($base.Length).TrimStart('\')
     $dest=Join-Path (Join-Path $root 'Modules/GlitterNet/Languages') $relative
-    if((Get-FileHash -LiteralPath $dest).Hash -ne (Get-FileHash -LiteralPath $file.FullName).Hash){throw 'GlitterNet migration mismatch'}
+    if($relative -match '^ChineseSimplified\\DefInjected\\QuestScriptDef\\'){
+        $old=[xml](Get-Content $file.FullName -Raw -Encoding UTF8);$new=[xml](Get-Content $dest -Raw -Encoding UTF8)
+        foreach($node in $old.LanguageData.ChildNodes){
+            if($node.NodeType -ne 'Element'){continue}
+            $p=@($corrections | Where-Object {$_.module -eq 'GlitterNet' -and $_.oldKey -eq $node.Name})
+            $key=$node.Name;if($p.Count){$key=$p[0].key}
+            $replacement=$new.SelectSingleNode('/LanguageData/'+$key)
+            if(!$replacement -or $replacement.InnerText -cne $node.InnerText){throw "Migrated quest text changed or missing: $key"}
+        }
+    } elseif((Get-FileHash -LiteralPath $dest).Hash -ne (Get-FileHash -LiteralPath $file.FullName).Hash){throw 'GlitterNet migration mismatch'}
+}
+foreach($p in $corrections){
+    $group='Keyed';if($p.kind -eq 'DefInjected'){$group='DefInjected/'+$p.defType}
+    if(!$translations.ContainsKey($group+':'+$p.key)){throw "Missing corrected path: $($p.key)"}
+    if($translations.ContainsKey('DefInjected/'+$p.oldDefType+':'+$p.oldKey)){throw "Stale bad path: $($p.oldKey)"}
 }
 $source=Join-Path $repo 'CustomInfestationsContinued_ChineseSimplified/Patches/ChineseSimplified.xml'
 $dest=Join-Path $root 'Modules/CustomInfestations/Patches/ChineseSimplified.xml'
 if((Get-FileHash -LiteralPath $source).Hash -ne (Get-FileHash -LiteralPath $dest).Hash){throw 'Infestation migration mismatch'}
 Write-Host "PASS: $($index.modules.Count) conditional modules; $count language entries; no conflicting cross-module keys"
-Write-Host 'PASS: migrated GlitterNet and CustomInfestations language/patch assets unchanged'
+Write-Host "PASS: $($corrections.Count) path corrections present; old bad paths absent; migrated text preserved"
 Write-Host 'Static only; runtime field injection and menu layout still require game verification.'

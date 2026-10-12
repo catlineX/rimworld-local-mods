@@ -107,7 +107,7 @@ namespace Local.XueWen.UnifiedTranslation
                 LoadedLanguage language = LanguageDatabase.activeLanguage;
                 if (language == null) return;
                 var report = new StringBuilder();
-                report.AppendLine("UnifiedChineseTranslation 0.1.1 translation diagnostics");
+                report.AppendLine("UnifiedChineseTranslation 0.1.2 translation diagnostics");
                 report.AppendLine("Language: " + language.folderName);
                 report.AppendLine("Explicit replacements (not suppressed errors): " + Overrides.Count);
                 foreach (string line in Overrides) report.AppendLine(line);

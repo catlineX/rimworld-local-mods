@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <PolarisDropSupplyBeacon.comps.0.useLabel>释放补给包</PolarisDropSupplyBeacon.comps.0.useLabel>
-  <Polarisbloc_CaniculaRifle.tools.0.label>枪托</Polarisbloc_CaniculaRifle.tools.0.label>
-  <Polarisbloc_CaniculaRifle.tools.1.label>枪管</Polarisbloc_CaniculaRifle.tools.1.label>
-  <Polarisbloc_CaniculaSniper.tools.0.label>枪托</Polarisbloc_CaniculaSniper.tools.0.label>
-  <Polarisbloc_CaniculaSniper.tools.1.label>枪管</Polarisbloc_CaniculaSniper.tools.1.label>
-  <PolarisShieldMemoryStick.comps.0.useLabel>解码记忆棒</PolarisShieldMemoryStick.comps.0.useLabel>
+  <PolarisDropSupplyBeacon.comps.CompUsable.useLabel>释放补给包</PolarisDropSupplyBeacon.comps.CompUsable.useLabel>
+  <Polarisbloc_CaniculaRifle.tools.stock.label>枪托</Polarisbloc_CaniculaRifle.tools.stock.label>
+  <Polarisbloc_CaniculaRifle.tools.barrel.label>枪管</Polarisbloc_CaniculaRifle.tools.barrel.label>
+  <Polarisbloc_CaniculaSniper.tools.stock.label>枪托</Polarisbloc_CaniculaSniper.tools.stock.label>
+  <Polarisbloc_CaniculaSniper.tools.barrel.label>枪管</Polarisbloc_CaniculaSniper.tools.barrel.label>
+  <PolarisShieldMemoryStick.comps.CompUsable.useLabel>解码记忆棒</PolarisShieldMemoryStick.comps.CompUsable.useLabel>
 </LanguageData>
