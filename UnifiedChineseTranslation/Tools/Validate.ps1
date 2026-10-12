@@ -15,6 +15,7 @@ foreach($module in $index.modules){
 }
 $translations=@{};$count=0
 foreach($file in (Get-ChildItem -LiteralPath (Join-Path $root 'Modules') -Recurse -File -Filter '*.xml')){
+    if($file.FullName -match '\\Modules\\YokaiVillage\\'){continue}
     $x=New-Object Xml.XmlDocument;$x.Load($file.FullName)
     if($file.FullName -notmatch '[\\/]Languages[\\/]ChineseSimplified[\\/](.+)[\\/][^\\/]+\.xml$'){continue}
     $kind=$Matches[1].Replace('\','/')
@@ -44,6 +45,7 @@ foreach($file in (Get-ChildItem -LiteralPath (Join-Path $repo 'GlitterNet_Chines
     } elseif((Get-FileHash -LiteralPath $dest).Hash -ne (Get-FileHash -LiteralPath $file.FullName).Hash){throw 'GlitterNet migration mismatch'}
 }
 foreach($p in $corrections){
+    if($p.module -eq 'YokaiVillage'){continue}
     $group='Keyed';if($p.kind -eq 'DefInjected'){$group='DefInjected/'+$p.defType}
     if(!$translations.ContainsKey($group+':'+$p.key)){throw "Missing corrected path: $($p.key)"}
     if($translations.ContainsKey('DefInjected/'+$p.oldDefType+':'+$p.oldKey)){throw "Stale bad path: $($p.oldKey)"}
@@ -52,5 +54,10 @@ $source=Join-Path $repo 'CustomInfestationsContinued_ChineseSimplified/Patches/C
 $dest=Join-Path $root 'Modules/CustomInfestations/Patches/ChineseSimplified.xml'
 if((Get-FileHash -LiteralPath $source).Hash -ne (Get-FileHash -LiteralPath $dest).Hash){throw 'Infestation migration mismatch'}
 Write-Host "PASS: $($index.modules.Count) conditional modules; $count language entries; no conflicting cross-module keys"
-Write-Host "PASS: $($corrections.Count) path corrections present; old bad paths absent; migrated text preserved"
+Write-Host "PASS: $(@($corrections | Where-Object {$_.module -ne 'YokaiVillage'}).Count) active path corrections present; old bad paths absent; migrated text preserved"
+if($load.SelectSingleNode('/loadFolders/v1.6/li[text()="Modules/YokaiVillage"]')){throw 'Excluded Yokai module is still routed'}
+$repair=[xml](Get-Content (Join-Path $root 'Repairs/KnownErrors.xml') -Raw -Encoding UTF8)
+if($repair.repairs.entry.Count -ne 483){throw 'Reviewed non-Yokai repair count mismatch'}
+foreach($entry in $repair.repairs.entry){if($entry.key -match '^(Yokai|UniHAR_Yokai)' -or $entry.file -match 'Yokai|Yokaibandage'){throw 'Excluded Yokai repair rule found'}}
+Write-Host 'PASS: 483 reviewed upstream field rules; Yokai translation and repair excluded'
 Write-Host 'Static only; runtime field injection and menu layout still require game verification.'

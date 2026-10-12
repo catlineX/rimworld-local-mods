@@ -25,6 +25,7 @@ namespace Local.XueWen.UnifiedTranslation
                     prefix: new HarmonyMethod(typeof(TranslationLoading), "BeforeDef"));
                 harmony.Patch(AccessTools.Method(typeof(LoadedLanguage), "LoadFromFile_Keyed"),
                     prefix: new HarmonyMethod(typeof(TranslationLoading), "BeforeKeyed"));
+                UpstreamTranslationRepair.Start(content.RootDir,harmony);
             }
             catch (Exception error)
             {
@@ -107,10 +108,12 @@ namespace Local.XueWen.UnifiedTranslation
                 LoadedLanguage language = LanguageDatabase.activeLanguage;
                 if (language == null) return;
                 var report = new StringBuilder();
-                report.AppendLine("UnifiedChineseTranslation 0.1.2 translation diagnostics");
+                report.AppendLine("UnifiedChineseTranslation 0.1.3 translation diagnostics");
                 report.AppendLine("Language: " + language.folderName);
                 report.AppendLine("Explicit replacements (not suppressed errors): " + Overrides.Count);
                 foreach (string line in Overrides) report.AppendLine(line);
+                report.AppendLine("\n=== Upstream translation compatibility decisions ===");
+                foreach(string line in UpstreamTranslationRepair.Decisions) report.AppendLine(line);
                 report.AppendLine("\n=== Language load errors (all active mods) ===");
                 AppendErrors(report, language, "loadErrors");
                 report.AppendLine("\n=== Def injection errors (all active mods) ===");

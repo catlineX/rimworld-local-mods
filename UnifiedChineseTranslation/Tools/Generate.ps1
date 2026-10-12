@@ -31,6 +31,7 @@ function Find-OriginalField($map, $entry) {
 foreach ($file in (Get-ChildItem -LiteralPath (Join-Path $root 'Reviewed') -Filter '*.json' -File)) {
     if ($file.Name -eq 'RetainedEnglish.json') { continue }
     $map = Get-Content -Raw -Encoding UTF8 -LiteralPath $file.FullName | ConvertFrom-Json
+    if($map.directory -eq 'YokaiVillage'){continue} # User explicitly excluded additional Yokai translations.
     if ($map.directory -notmatch '^[A-Za-z0-9_-]+$') { throw 'Unsafe module directory.' }
     $groups = @{}
     foreach ($entry in $map.entries) {

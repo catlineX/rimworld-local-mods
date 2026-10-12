@@ -478,14 +478,6 @@
                         "status":  "reviewed-candidate-texts-static-not-runtime",
                         "entries":  25,
                         "source":  "reviewed-map"
-                    },
-                    {
-                        "directory":  "YokaiVillage",
-                        "packageId":  "yokaimura.1.32",
-                        "name":  "妖怪村",
-                        "status":  "reviewed-candidate-texts-static-not-runtime",
-                        "entries":  86,
-                        "source":  "reviewed-map"
                     }
                 ]
 }

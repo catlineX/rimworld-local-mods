@@ -29,6 +29,14 @@ namespace Verse
     public class StaticConstructorOnStartupAttribute : Attribute {}
     public static class LongEventHandler { public static void ExecuteWhenFinished(Action value) {} }
 }
+namespace Local.XueWen.UnifiedTranslation
+{
+    public static class UpstreamTranslationRepair
+    {
+        public static readonly List<string> Decisions=new List<string>();
+        public static void Start(string root,HarmonyLib.Harmony harmony) {}
+    }
+}
 public static class TranslationLoadingTests
 {
     private static int checks;

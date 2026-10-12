@@ -166,13 +166,17 @@ switch ($Action) {
         $stage=Join-Path (Join-Path $repoRoot '..\work') ('package-'+$entry.name+'-'+[Guid]::NewGuid().ToString('N'))
         [void](New-Item -ItemType Directory -Path $stage -Force)
         $package=Join-Path $stage $entry.name;[void](New-Item -ItemType Directory -Path $package)
-        foreach ($item in @('About','Assemblies','Patches','Defs','Languages','LoadFolders.xml','README.md','LICENSE','LICENSE.md')) {
+        foreach ($item in @('About','Assemblies','Patches','Defs','Languages','Repairs','LoadFolders.xml','README.md','LICENSE','LICENSE.md')) {
             $p=Join-Path $source $item
             if (Test-Path -LiteralPath $p) { Copy-Item -LiteralPath $p -Destination (Join-Path $package $item) -Recurse }
         }
         $modulesDir=Join-Path $source 'Modules'
         if (Test-Path -LiteralPath $modulesDir) {
+            $activeModuleNames=$null
+            $moduleIndex=Join-Path $modulesDir 'index.json'
+            if(Test-Path -LiteralPath $moduleIndex){$activeModuleNames=@((Get-Content $moduleIndex -Raw -Encoding UTF8 | ConvertFrom-Json).modules | ForEach-Object {$_.directory})}
             foreach ($module in (Get-ChildItem -LiteralPath $modulesDir -Directory)) {
+                if($null -ne $activeModuleNames -and $module.Name -notin $activeModuleNames){continue}
                 foreach ($runtimeFolder in @('Languages','Patches','Defs','Assemblies','Textures','Sounds')) {
                     $moduleSource=Join-Path $module.FullName $runtimeFolder
                     if (-not (Test-Path -LiteralPath $moduleSource)) { continue }

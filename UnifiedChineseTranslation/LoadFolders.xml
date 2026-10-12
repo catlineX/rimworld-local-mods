@@ -62,6 +62,5 @@
     <li IfModActive="void.weaponry">Modules/Weaponry</li>
     <li IfModActive="kikohi.whatsforsale">Modules/WhatsForSale</li>
     <li IfModActive="imranfish.xmlextensions">Modules/XmlExtensions</li>
-    <li IfModActive="yokaimura.1.32">Modules/YokaiVillage</li>
   </v1.6>
 </loadFolders>
