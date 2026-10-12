@@ -115,7 +115,7 @@ switch ($Action) {
             $managed=Join-Path $workspace.gamePath 'RimWorldWin64_Data/Managed'
             $output=Scoped-Path $source ('Assemblies/'+$entry.assembly)
             $compileArgs=@('/nologo','/noconfig','/target:library','/optimize+','/nostdlib',('/out:'+$output))
-            foreach ($name in @('mscorlib','System','System.Core','netstandard','Assembly-CSharp','UnityEngine.CoreModule','UnityEngine.IMGUIModule')) {
+            foreach ($name in @('mscorlib','System','System.Core','System.Xml','netstandard','Assembly-CSharp','UnityEngine.CoreModule','UnityEngine.IMGUIModule')) {
                 $compileArgs+=('/reference:'+(Join-Path $managed ($name+'.dll')))
             }
             foreach ($reference in @($entry.additionalReferences)) {
