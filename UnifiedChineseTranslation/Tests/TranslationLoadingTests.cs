@@ -31,6 +31,7 @@ namespace Verse
 }
 namespace Local.XueWen.UnifiedTranslation
 {
+    public static class HarmonyAudit {public static void Append(System.Text.StringBuilder text) {}}
     public static class UpstreamTranslationRepair
     {
         public static readonly List<string> Decisions=new List<string>();

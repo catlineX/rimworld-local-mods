@@ -27,10 +27,10 @@ namespace Verse{
  public static class GenDefDatabase{public static readonly HashSet<string> Defs=new HashSet<string>();public static object GetDefSilentFail(Type t,string n,bool b){return Defs.Contains(n)?new object():null;}}
  public class LoadedLanguage{public string folderName="ChineseSimplified";public ArrayList defInjections=new ArrayList();}
  public class DefInjectionPackage{
- public Type defType;public Hashtable injections=new Hashtable();public DefInjectionPackage(Type t){defType=t;}
+ public Type defType;public Hashtable injections=new Hashtable();public List<string> loadErrors=new List<string>();public DefInjectionPackage(Type t){defType=t;}
  public static readonly HashSet<string> Valid=new HashSet<string>();public static int Validations;
  public bool SetDefFieldAtPath(Type t,string p,object v,Type ft,bool error,string file,bool placeholder,out string n,out string s,out string r,out IEnumerable<string> list){
- if(!placeholder)throw new Exception("Validation attempted to write a Def");Validations++;n=s=r=null;list=null;return Valid.Contains(p);}}
+ if(!placeholder)throw new Exception("Validation attempted to write a Def");Validations++;n=s=r=null;list=null;if(!Valid.Contains(p))loadErrors.Add("Invalid path");return false;}}
 }
 public class TestDef{}
 public class TestInjection{public string path,nonBackCompatiblePath,fileSource="Test.xml",injection="译文";public List<string> fullListInjection;public bool injected;}
@@ -45,6 +45,8 @@ public static class UpstreamRepairTests{
  UpstreamTranslationRepair.BeforeEarly(lang);Check(pack.injections.Contains(old),"defer implied targets");
  UpstreamTranslationRepair.BeforeLate(lang);Check(!pack.injections.Contains(old)&&pack.injections.Contains(next),"verified blueprint rename");
  Check(((TestInjection)pack.injections[next]).injection=="译文","preserve text");
+ Known("StillValid.label");pack.injections["StillValid.label"]=Entry("StillValid.label");Verse.GenDefDatabase.Defs.Add("StillValid");Verse.DefInjectionPackage.Valid.Add("StillValid.label");
+ UpstreamTranslationRepair.BeforeLate(lang);Check(pack.injections.Contains("StillValid.label"),"valid placeholder false return must not deactivate translation");
  Known("Removed.label");pack.injections["Removed.label"]=Entry("Removed.label");
  UpstreamTranslationRepair.BeforeLate(lang);Check(!pack.injections.Contains("Removed.label"),"known absent translation made conditional");
  pack.injections["Unknown.label"]=Entry("Unknown.label");UpstreamTranslationRepair.BeforeLate(lang);Check(pack.injections.Contains("Unknown.label"),"unknown errors remain visible");

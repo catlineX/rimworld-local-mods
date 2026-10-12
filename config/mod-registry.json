@@ -8,7 +8,7 @@
       "installDir": "UnifiedChineseTranslation",
       "kind": "Conditional-modular-Chinese-translation",
       "assembly": "UnifiedChineseTranslation.dll",
-      "sourceFiles": ["Modules/GlitterNet/Source/DebugLabels.cs", "Source/TranslationLoading.cs", "Source/UpstreamTranslationRepair.cs"],
+      "sourceFiles": ["Modules/GlitterNet/Source/DebugLabels.cs", "Source/TranslationLoading.cs", "Source/UpstreamTranslationRepair.cs", "Source/HarmonyAudit.cs"],
       "additionalReferences": ["F:/SteamLibrary/steamapps/workshop/content/294100/2009463077/1.6/Assemblies/0Harmony.dll"],
       "settingsFiles": [],
       "dependencies": ["brrainz.harmony"],

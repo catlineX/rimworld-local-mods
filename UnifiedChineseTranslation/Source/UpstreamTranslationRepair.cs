@@ -22,6 +22,7 @@ namespace Local.XueWen.UnifiedTranslation
         private static readonly FieldInfo Packages=AccessTools.Field(typeof(LoadedLanguage),"defInjections");
         private static readonly FieldInfo TypeField=AccessTools.Field(typeof(DefInjectionPackage),"defType");
         private static readonly FieldInfo Entries=AccessTools.Field(typeof(DefInjectionPackage),"injections");
+        private static readonly FieldInfo Errors=AccessTools.Field(typeof(DefInjectionPackage),"loadErrors");
         private static readonly MethodInfo Check=AccessTools.Method(typeof(DefInjectionPackage),"SetDefFieldAtPath");
 
         public static void Start(string root, Harmony harmony)
@@ -41,7 +42,8 @@ namespace Local.XueWen.UnifiedTranslation
             if(!__instance.folderName.StartsWith("ChineseSimplified",StringComparison.OrdinalIgnoreCase)) return;
             var list=new List<Tuple<VirtualDirectory,ModContentPack,string>>();
             foreach(var tuple in __result)
-                list.Add(Tuple.Create<VirtualDirectory,ModContentPack,string>(new RoutedDirectory(tuple.Item1,null),tuple.Item2,tuple.Item3));
+                list.Add(tuple.Item1.FullPath.Replace('\\','/').Contains("/294100/3056996662/")
+                    ? Tuple.Create<VirtualDirectory,ModContentPack,string>(new RoutedDirectory(tuple.Item1,null),tuple.Item2,tuple.Item3) : tuple);
             __result=list;
         }
         public static void BeforeEarly(LoadedLanguage __instance) { SafeRepair(__instance,false); }
@@ -57,7 +59,10 @@ namespace Local.XueWen.UnifiedTranslation
             // isPlaceholder=true is the game's validation path: no setter is executed.
             var probe=new DefInjectionPackage(type);
             var args=new object[]{type,path,value,value is string ? typeof(string) : typeof(List<string>),true,source,true,null,null,null,null};
-            return (bool)Check.Invoke(probe,args);
+            // The return value means "a value was injected", NOT "the path is valid".
+            // In placeholder mode a valid string path can return false without errors.
+            Check.Invoke(probe,args);
+            return ((ICollection)Errors.GetValue(probe)).Count==0;
         }
         private static object Field(object entry,string name) {return AccessTools.Field(entry.GetType(),name).GetValue(entry);}
         private static void Set(object entry,string name,object value) {AccessTools.Field(entry.GetType(),name).SetValue(entry,value);}
