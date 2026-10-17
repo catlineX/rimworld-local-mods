@@ -25,7 +25,7 @@ namespace Local.XueWen.ChipInspirationFilter
                     throw new InvalidOperationException("Unsupported Polarisbloc chip implementation: Inspire(Pawn) not found.");
 
                 harmony.Patch(target, transpiler: new HarmonyMethod(typeof(ChipFilter), "Transpiler"));
-                Log.Message("[ChipInspirationFilter] v1.1.0 已启用：灵感型战术芯片只允许工作狂热和创造灵感；自然灵感不变。");
+                Log.Message("[ChipInspirationFilter] v1.2.0 已启用：灵感型战术芯片只允许创造灵感；自然灵感不变。");
             }
             catch (Exception exception)
             {
@@ -38,7 +38,6 @@ namespace Local.XueWen.ChipInspirationFilter
     public static class ChipFilter
     {
         public const string ChipDefName = "PolarisCombatChip_Inspiration";
-        public const string WorkInspiration = "Frenzy_Work";
         public const string CreativeInspiration = "Inspired_Creativity";
 
         // Inject only into the chip's private Inspire method, not a global worker.
@@ -69,7 +68,6 @@ namespace Local.XueWen.ChipInspirationFilter
         public static bool ShouldExclude(string sourceHediffDefName, string inspirationDefName)
         {
             return sourceHediffDefName == ChipDefName
-                && inspirationDefName != WorkInspiration
                 && inspirationDefName != CreativeInspiration;
         }
 

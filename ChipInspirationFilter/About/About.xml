@@ -3,12 +3,12 @@
   <name>战术芯片灵感过滤 / Chip Inspiration Filter</name>
   <author>Local mod for XueWen</author>
   <packageId>local.xuewen.chipinspirationfilter</packageId>
-  <modVersion>1.1.0</modVersion>
+  <modVersion>1.2.0</modVersion>
   <supportedVersions><li>1.6</li></supportedVersions>
   <modDependencies>
     <li><packageId>brrainz.harmony</packageId><displayName>Harmony</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl></li>
     <li><packageId>vanya.polarisbloc.corelab.tmp</packageId><displayName>Polarisbloc - Core LAB tmp port</displayName><steamWorkshopUrl>steam://url/CommunityFilePage/3225348593</steamWorkshopUrl></li>
   </modDependencies>
   <loadAfter><li>brrainz.harmony</li><li>vanya.polarisbloc.corelab.tmp</li></loadAfter>
-  <description>天轴灵感型战术芯片（PolarisCombatChip_Inspiration）只允许抽取工作狂热（Frenzy_Work）和创造灵感（Inspired_Creativity）。保留原来的触发间隔、资格检查及两种候选的随机权重。自然心情、灵能及其他模组产生的灵感不受影响。不修改殖民者技能、特性或已有灵感；无新增存档数据。需在天轴核心模组之后加载。</description>
+  <description>天轴灵感型战术芯片（PolarisCombatChip_Inspiration）只允许抽取创造灵感（Inspired_Creativity），不再产生工作狂热或其他灵感。保留原来的触发间隔及资格检查，不满足创造灵感条件时本轮不产生灵感。自然心情、灵能及其他模组产生的灵感不受影响。不修改殖民者技能、特性或已有灵感；无新增存档数据。需在天轴核心模组之后加载。</description>
 </ModMetaData>
